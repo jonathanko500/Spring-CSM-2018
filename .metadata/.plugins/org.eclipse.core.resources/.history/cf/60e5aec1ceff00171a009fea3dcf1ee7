@@ -1,0 +1,27 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		Random generator = new Random();
+		int num = generator.nextInt(25) + 5;
+		String again;
+		boolean pass=true;
+		Scanner input= new Scanner(System.in);
+		while(pass==true){
+			System.out.println(num);
+			System.out.print("Again: ");
+			again=input.nextLine();
+			if(again.equalsIgnoreCase("n"))
+			{
+				pass=false;
+			}
+			
+		}
+		
+	}//end main
+
+}//end class

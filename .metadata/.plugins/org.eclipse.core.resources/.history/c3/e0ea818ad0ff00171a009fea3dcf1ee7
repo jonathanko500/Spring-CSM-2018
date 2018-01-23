@@ -1,0 +1,15 @@
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int num1=4,numb2=7,nmb3=6;
+		printAverage(num1,numb2,nmb3);
+	}//end main
+	public static void printAverage(int num1, int num2, int num3) {
+		double avg;
+
+		avg=(num1+num2+num3)/3;
+		System.out.println(avg);
+		}
+}//end class

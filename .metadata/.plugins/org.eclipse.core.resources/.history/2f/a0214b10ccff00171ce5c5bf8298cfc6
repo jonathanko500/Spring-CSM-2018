@@ -1,0 +1,14 @@
+
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		double d = 5.0,a;
+		int m = 19, n = 2;
+		a=m/d/n;
+		
+		System.out.println(a);
+	}//end main
+
+}//end class

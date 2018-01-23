@@ -1,0 +1,12 @@
+
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int b = 13, c = 4, d = 2,a;
+		a=b/c/d;
+		System.out.println(a);
+	}//end main
+
+}//end class

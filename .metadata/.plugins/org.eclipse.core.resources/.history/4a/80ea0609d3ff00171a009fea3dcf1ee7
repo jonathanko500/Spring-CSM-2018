@@ -1,0 +1,37 @@
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		double bill=54;
+		printBills(bill);
+	}//end main
+	public static void printBills(double dollarAmount)
+	{
+		int twenty=0,tenner=0,fiver=0,one=0;
+		while(dollarAmount>0)
+		{
+			if(dollarAmount>=20)
+			{
+				dollarAmount-=20;
+				twenty++;
+			}
+			else if(dollarAmount>=10)
+			{
+				dollarAmount-=10;
+				tenner++;
+			}
+			else if(dollarAmount>=5)
+			{
+				dollarAmount-=5;
+				fiver++;
+			}
+			else
+			{
+				dollarAmount-=1;
+				one++;
+			}
+		}
+		System.out.println(twenty+" "+tenner+" "+fiver+" "+one);
+	}
+}//end class

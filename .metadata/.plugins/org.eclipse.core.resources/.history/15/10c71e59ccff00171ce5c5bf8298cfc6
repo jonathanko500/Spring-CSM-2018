@@ -1,0 +1,14 @@
+
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int size = 16; 
+		size = size - 3; 
+		size *= 3; 
+		size = size / 4;
+		System.out.println(size);
+	}//end main
+
+}//end class

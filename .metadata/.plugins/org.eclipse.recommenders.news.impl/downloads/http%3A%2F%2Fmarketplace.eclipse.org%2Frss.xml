@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Appium Studio for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/appium-studio-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/appium%20studio%20for%20eclipse%20logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-01-18 02:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-01-22 09:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Experitest%22&quot;&gt;Experitest&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rzamir/listings&quot; title=&quot;ruth zamir&quot;&gt;ruth zamir&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;
+	Easily develop, automate, analyze and debug your tests on physical devices and browsers&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;End-to-end web &amp;amp; mobile test automation from Eclipse&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Perform test development, automation project development, and test execution on remote devices in the Digital Device Lab with a single tool with rich views and editors fully embedded in Eclipse for digital test automation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Immediate visual feedback&lt;/strong&gt;&lt;br /&gt;
+	Easily create robust and maintainable tests with a dynamic device reflection that provides immediate visual feedback on all actions. Project development is further streamlined with code snippets and automatically generated Eclipse framework assets such as properties &amp;amp; configuration files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Powerful object identification&lt;/strong&gt;&lt;br /&gt;
+	Enjoy powerful object identification and management, that identify objects by their native/web properties, including image/OCR and customized UI. Write scripts with drag and drop script editor.&lt;/p&gt;
+&lt;p&gt;
+	&lt;strong&gt;Create stable automation&lt;/strong&gt;&lt;br /&gt;
+	Leverage pre-configured Eclipse project framework assets for mobile including code snippets, properties &amp;amp; configuration files to reduce errors and easily create stable projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Maximize your test coverage rates&lt;/strong&gt;&lt;br /&gt;
+	Achieve high coverage rates by testing outside of your app (SMS, network, settings, Facebook) and 3rd party integrations for complex use cases such as code scanning or fingerprint authentication. Guaranteed rapid version and beta support.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Seamlessly integrate with any testing &amp;amp; CI environment&lt;/strong&gt;&lt;br /&gt;
+	Create Appium, Selenium and SeeTest test automation, and integrate with any Eclipse plug-in such as Python or Ruby. Integrate with any continuous integration environment to trigger continuous testing as part of the CI process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Parallel test execution&lt;/strong&gt;&lt;br /&gt;
+	Intelligent grid execution management allows you to see executions in the real-time view of all executions. Dynamically schedule tests, executions, and distribution. Run multiple CI projects in parallel (multiple applications).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Appium Studio for Eclipse&lt;/strong&gt; allows you to develop and execute tests on remote devices located in the &lt;strong&gt;&lt;a href=&quot;https://experitest.com/mobile-cloud-testing/seetestcloud-online/?utm_source=Eclipse_marketplace&quot; rel=&quot;nofollow&quot;&gt;SaaS Digital Assurance Lab&lt;/a&gt;.&lt;/strong&gt; The Digital Assurance Lab provides access hundreds of browsers &amp;amp; mobile devices (physical / emulated) hosted in Experitest data centers, from anywhere at anytime. &lt;a href=&quot;https://goo.gl/MSFcFb&quot; rel=&quot;nofollow&quot;&gt;Register&lt;/a&gt; to the Digital Assurance lab for &lt;a href=&quot;https://goo.gl/MSFcFb&quot; rel=&quot;nofollow&quot;&gt;free&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;30 day free trial.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 18 Jan 2018 07:59:34 +0000</pubDate>
+ <dc:creator>rzamir</dc:creator>
+ <guid isPermaLink="false">3879315 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/appium-studio-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, and VHDL</title>
+    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-01-22 07:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the &lt;strong&gt;&lt;em&gt;e&lt;/em&gt; language, SystemVerilog, Verilog, VHDL, and mixed language projects&lt;/strong&gt; that also provides &lt;strong&gt;Universal Verification Methodology (UVM) support&lt;/strong&gt;. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;
+		Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;
+		Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;
+		Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;
+		Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+	FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Autocomplete&lt;/li&gt;
+&lt;li&gt;
+		Compilation errors signaled on the fly&lt;/li&gt;
+&lt;li&gt;
+		In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;
+		Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;
+		Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;
+		Hyperlinks that help navigate faster in the source code&lt;/li&gt;
+&lt;li&gt;
+		Semantic search&lt;/li&gt;
+&lt;li&gt;
+		Refactoring&lt;/li&gt;
+&lt;li&gt;
+		Macro expansion&lt;/li&gt;
+&lt;li&gt;
+		Class and structural browsing&lt;/li&gt;
+&lt;li&gt;
+		Trace port connections&lt;/li&gt;
+&lt;li&gt;
+		UML diagrams for inspecting and documenting the architecture&lt;/li&gt;
+&lt;li&gt;
+		Module flow diagrams for inspecting and documenting a module structure&lt;/li&gt;
+&lt;li&gt;
+		Automated documentation extraction&lt;/li&gt;
+&lt;li&gt;
+		UVM support and compliance checking&lt;/li&gt;
+&lt;li&gt;
+		Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;
+		Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
+	RESOURCES &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/Design_and_Verification_Tools_Eclipse_IDE.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT web page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/datasheet/AMIQ_DVT_Datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://www.youtube.com/user/dvteclipse&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/UVM_Support_in_DVT_Eclipse.html&quot; rel=&quot;nofollow&quot;&gt;UVM Support in DVT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://www.dvteclipse.com/DVT_Debugger_Add-On_Module.html&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl#comments</comments>
+  </item>
+  <item>
+    <title>ImageJ Plugin</title>
+    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-01-22 06:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
+&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
+&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
+&lt;p&gt;For more information visit:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;New in 1.51u20:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Cluttered MACOSX menus are now closed (added from opened application windows and frames). Some default added menus are disabled in the Bio7 preferences by default&lt;/li&gt;
+&lt;li&gt;
+		Code completion (template) action now displays the macro documentation and context information when typing&lt;/li&gt;
+&lt;li&gt;
+		Improved code completion layout (context information)&lt;/li&gt;
+&lt;li&gt;
+		Added debug context menu actions to the macro editor&lt;/li&gt;
+&lt;li&gt;
+		Added some other context menu actions, too (&#039;Get Macro Recorder Text&#039;, &#039;Evaluate Line&#039;)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51s24:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Updated ImageJ plugin to version 1.51.s24&lt;/li&gt;
+&lt;li&gt;
+		Code completion (templates) action now displays the macro documentation when typing&lt;/li&gt;
+&lt;li&gt;
+		Code completion context information improved&lt;/li&gt;
+&lt;li&gt;
+		Images from macros are now opened fast (before had a 2s delay because of a missing attribute)&lt;/li&gt;
+&lt;li&gt;
+		MacOSX extra menu disabled (avoids a cluttered menu)&lt;/li&gt;
+&lt;li&gt;
+		Macros can now be executed within an external ImageJ instance in a separate Java process (if enabled in the preference - see screenshot 2 below)&lt;/li&gt;
+&lt;li&gt;
+		Added JavaFX library reference for Java9&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p4 (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Fixed a bug to rename the &#039;Results&#039; table&lt;/li&gt;
+&lt;li&gt;
+		Fixed a key shortcut bug&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p3 (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    Improved the grammar&lt;/li&gt;
+&lt;li&gt;
+		    Added an action to transfer the ImageJ macro recorder text to the selected line in the macro editor (CTRL+SHIFT+R, CMD+SHIFT+R)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Fixed a bug to control dialogs&lt;/li&gt;
+&lt;li&gt;
+		Fixed a Linux code templates bug&lt;/li&gt;
+&lt;li&gt;
+		Added more code completion templates&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
+&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
+&lt;p&gt;The editor has the following features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
+&lt;li&gt;
+		    Toolbar action to execute ImageJ macros&lt;/li&gt;
+&lt;li&gt;
+		    Syntax highlightening&lt;/li&gt;
+&lt;li&gt;
+		    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
+&lt;li&gt;
+		    Code completion (with browser help)&lt;/li&gt;
+&lt;li&gt;
+		    Code templates (add you own templates)&lt;/li&gt;
+&lt;li&gt;
+		    Info popups (text hoover)&lt;/li&gt;
+&lt;li&gt;
+		    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
+&lt;li&gt;
+		    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
+&lt;li&gt;
+		    Code folding&lt;/li&gt;
+&lt;li&gt;
+		    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
+&lt;li&gt;
+		    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
+&lt;li&gt;
+		    Font preferences&lt;/li&gt;
+&lt;li&gt;
+		    Mark occurences (scope independant)&lt;/li&gt;
+&lt;li&gt;
+		    A copy function for this forum&lt;br /&gt;
+		 &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
+&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
+&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
+&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
+ <dc:creator>mmisingnameaoh</dc:creator>
+ <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
+  </item>
+  <item>
+    <title>Spring IDE Roo Support</title>
+    <link>http://marketplace.eclipse.org/content/spring-ide-roo-support</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/spring-roo-logo.png&quot; width=&quot;110&quot; height=&quot;65&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2015-03-27 02:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2018-01-22 01:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pverest/listings&quot; title=&quot;Paul Verest&quot;&gt;Paul Verest&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Spring IDE Roo Support is also available as &quot;Spring IDE - Roo Extention&quot; from Spring Dashboard, however it is slow and has sometimes installation issues like &lt;a href=&quot;https://issuetracker.springsource.com/browse/STS-4096&quot; rel=&quot;nofollow&quot;&gt;https://issuetracker.springsource.com/browse/STS-4096&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Roo is no longer included on STS distributions. The purpose of the entry is to let install it with one drag-and-drop by integrating External Install button.&lt;/p&gt;
+&lt;p&gt;Example of such usage is &lt;a href=&quot;/content/nodeclipse-plugins-list&quot; title=&quot;Nodeclipse Plugins List&quot; rel=&quot;nofollow&quot;&gt;Nodeclipse Plugins List&lt;/a&gt; &lt;a class=&quot;drag&quot; href=&quot;http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1084253&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://with-eclipse.github.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 27 Mar 2015 06:37:03 +0000</pubDate>
+ <dc:creator>pverest</dc:creator>
+ <guid isPermaLink="false">2260064 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/spring-ide-roo-support#comments</comments>
+  </item>
+  <item>
+    <title>Launcher extension</title>
+    <link>http://marketplace.eclipse.org/content/launcher-extension</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/110-80-screen.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2017-11-12 22:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2018-01-21 22:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/psantoskab/listings&quot; title=&quot;Pedro Santos&quot;&gt;Pedro Santos&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Extends Eclipse launching options by adding buttons in the toolbar to launch the preferred launch configuration or the correspondent test for the active Java class.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 13 Nov 2017 03:40:02 +0000</pubDate>
+ <dc:creator>psantoskab</dc:creator>
+ <guid isPermaLink="false">3763013 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/launcher-extension#comments</comments>
+  </item>
+  <item>
+    <title>Sling IDE Tooling</title>
+    <link>http://marketplace.eclipse.org/content/sling-ide-tooling</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sling-logo.png&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-07-21 11:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2018-01-21 15:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Apache%20Software%20Foundation%22&quot;&gt;Apache Software Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rmunteanu/listings&quot; title=&quot;Robert Munteanu&quot;&gt;Robert Munteanu&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Sling IDE tooling for Eclipse allows developers to quickly connect their Eclipse workspace to a Sling server runtime and instantly deploy code and content changes.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 21 Jul 2014 15:00:12 +0000</pubDate>
+ <dc:creator>rmunteanu</dc:creator>
+ <guid isPermaLink="false">1808990 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sling-ide-tooling#comments</comments>
+  </item>
+  <item>
+    <title>Collage Framework and Code Markup Tools</title>
+    <link>http://marketplace.eclipse.org/content/collage-framework-and-code-markup-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/collage-logo-v2_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2012-08-16 20:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2018-01-21 01:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Independent%20software%20developer%22&quot;&gt;Independent software developer&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/abradley/listings&quot; title=&quot;Alex Bradley&quot;&gt;Alex Bradley&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;Add ink annotations and text comments on top of the code in your Eclipse editor. Design your own editor extensions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Collage is a framework that lets you create and edit layers of graphical shapes on top of the code in an Eclipse editor. Collage is based on the powerful Eclipse &lt;a href=&quot;http://www.eclipse.org/gef/&quot; rel=&quot;nofollow&quot;&gt;Graphical Editing Framework&lt;/a&gt;, and its features include the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Your original source code is &lt;strong&gt;not modified&lt;/strong&gt; in any way. Collage data is stored separately in the workspace&#039;s plugin state location.&lt;/li&gt;
+&lt;li&gt;
+		Shapes can be moved, resized and deleted; shape operations can be undone and redone.&lt;/li&gt;
+&lt;li&gt;
+		As in graphics software like Adobe Photoshop or GIMP, layers can be moved above and below other layers and hidden from view. They can also be exported to and imported from XML files.&lt;/li&gt;
+&lt;li&gt;
+		Shape properties can be viewed and edited in the Eclipse Properties view.&lt;/li&gt;
+&lt;li&gt;
+		Shapes are positioned based on code line numbers, so their rendering can be adjusted when code blocks are expanded and collapsed. Collage also attempts to reposition shapes when lines are added to or removed from the code underneath.&lt;/li&gt;
+&lt;li&gt;
+		Developers can contribute new shapes and tools through &lt;a href=&quot;http://code.google.com/a/eclipselabs.org/p/collage/wiki/CollageExtensionPoints&quot; rel=&quot;nofollow&quot;&gt;extension points&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;
+	Code Markup Tools&lt;/h2&gt;
+&lt;p&gt;Have you ever wanted to write or draw on your code - perhaps to comment on problematic areas during a code review, or to plan out a large refactoring, or to figure out how an algorithm is supposed to work? Do you use Eclipse to teach classes or give presentations that involve coding, and wish you had some way to mark up the code on the fly? The Collage Code Markup Tools let you annotate code in your Eclipse editor with ink drawings, text notes and basic geometric shapes (see the included screenshot.)&lt;/p&gt;
+&lt;h2&gt;
+	Documentation&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;http://code.google.com/a/eclipselabs.org/p/collage/wiki/UsingCollage&quot; rel=&quot;nofollow&quot;&gt;A more detailed look at the user interface for Collage and the Code Markup Tools&lt;/a&gt;, with some usage tips&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://code.google.com/a/eclipselabs.org/p/collage/wiki/CollageExtensionPoints&quot; rel=&quot;nofollow&quot;&gt;Brief overview of Collage&#039;s extension points&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;
+	Feedback&lt;/h2&gt;
+&lt;p&gt;Collage is not currently under active development, but email feedback is welcome at &lt;code&gt;a.bradley at alumni dot cs dot ubc dot ca&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Collage has been tested on Eclipse 3.7 (Indigo) and 4.2 (Juno) on Ubuntu Linux 12.04 and Windows 7; on Eclipse 4.2 on Mac OS X; on Eclipse 4.3 (Kepler) on Ubuntu Linux 12.04; and on Eclipse 4.4 (Luna) on Ubuntu Linux 14.04.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update (January 20, 2018): The update site for this plugin has been moved to GitHub Pages and should now be accessible again.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 17 Aug 2012 00:20:33 +0000</pubDate>
+ <dc:creator>abradley</dc:creator>
+ <guid isPermaLink="false">378587 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/collage-framework-and-code-markup-tools#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse TeXlipse</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-texlipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/29240309-c37b1374-7f62-11e7-84cc-0df6ac902188.png&quot; width=&quot;110&quot; height=&quot;29&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2005-03-20 17:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2018-01-20 17:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Eclipse%20TeXlipse%20Project%22&quot;&gt;Eclipse TeXlipse Project&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/kkarlsson/listings&quot; title=&quot;Kimmo Karlsson&quot;&gt;Kimmo Karlsson&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The TeXlipse plugin provides both LaTeX and BibTeX editors, a project creation wizard, and a complete user manual of the editor functions. Additional features include syntax highlighting, document outline, section folding, command completion, cite and ref completion, templates, builder integration, viewer integration with inverse search, and more. The plugin makes it possible for LaTeX documents to be edited and built like normal projects in the IDE, and the viewer support makes it easy to check the outcome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due to namespace changes; please note that if you have 1.5.0 or older installed you must uninstall that before installing this version.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 20 Mar 2005 22:52:04 +0000</pubDate>
+ <dc:creator>kkarlsson</dc:creator>
+ <guid isPermaLink="false">139 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-texlipse#comments</comments>
+  </item>
+  <item>
+    <title>Quality Performer</title>
+    <link>http://marketplace.eclipse.org/content/quality-performer</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ic_launcher.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-01-02 12:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2018-01-20 08:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Sudhasoft%22&quot;&gt;Sudhasoft&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ssudhakarareddy/listings&quot; title=&quot;Sathi Sudhakara Reddy&quot;&gt;Sathi Sudhakara Reddy&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Quality Performer is a Eclipse Plugin, used to improve Code Quality. It analyzes Java source code for Redundant Modifier and resolves the same.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 02 Jan 2018 17:14:55 +0000</pubDate>
+ <dc:creator>ssudhakarareddy</dc:creator>
+ <guid isPermaLink="false">3851861 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/quality-performer#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>http://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-01-19 20:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin is a bash script editor. &lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Outline&lt;/li&gt;
+&lt;li&gt;
+		Quick-Outline (CTRL + o )&lt;/li&gt;
+&lt;li&gt;
+		Open referenced functions by hyperlink&lt;/li&gt;
+&lt;li&gt;
+		Validation&lt;/li&gt;
+&lt;li&gt;
+		Simple code completion (keywords + existing words)&lt;/li&gt;
+&lt;li&gt;
+		Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;
+		Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;
+		Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;
+		Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;
+		Small (&amp;lt;200 kb)&lt;/li&gt;
+&lt;li&gt;
+		Tooltips for keywords (offline description + link to online information)&lt;/li&gt;
+&lt;li&gt;
+		Works on Linux, Windows and Mac out of the box.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tF7sZVIcUv8zOVe2RMiWn-L&quot; rel=&quot;nofollow&quot;&gt;YouTube Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  </channel>
+</rss>

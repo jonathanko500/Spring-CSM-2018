@@ -3,10 +3,27 @@ public class M1
 
 	public static void main(String[] args)
 	{//start main
-		boolean done = false;
-		int x = 11, y = 11;
-		boolean expression = (!done && x<=y);
-		System.out.println(expression);
+		int x=9, y=7;
+
+		if(x < y) {
+
+		if(x %2 == 0) {
+
+		System.out.print(x);
+
+		}
+
+		} else {
+
+		if(y %2 == 0) {
+
+		System.out.print( y );
+
+		}
+
+		}
+
+		System.out.print(x);
 	}//end main
 	
 }//end class

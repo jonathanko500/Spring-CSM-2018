@@ -3,7 +3,11 @@ public class M1
 
 	public static void main(String[] args)
 	{//start main
-		
+		for(int i=6; i>=0; i--) {
+
+			System.out.println(i);
+
+			}
 	}//end main
 	
 }//end class

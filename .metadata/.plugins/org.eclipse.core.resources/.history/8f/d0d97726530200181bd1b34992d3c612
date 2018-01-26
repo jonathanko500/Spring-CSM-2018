@@ -1,0 +1,29 @@
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int x=10;
+		int y=10;
+		if(x>=20)
+		{
+			System.out.println("A");
+			x=30;
+		}
+		else
+		{//start else
+			if(y<20)
+			{
+				System.out.print("B"); 
+			    y = 40;
+			}
+		}//end else
+		System.out.print("C"); 
+		y = 70;
+		if(x<=40)
+		{
+			System.out.print("D");
+		}
+	}//end main
+	
+}//end class

@@ -3,7 +3,11 @@ public class M1
 
 	public static void main(String[] args)
 	{//start main
-		
+		int x = 10; 
+		do { 
+		System.out.println(x); 
+		x--;
+		} while (x > 0);
 	}//end main
 	
 }//end class

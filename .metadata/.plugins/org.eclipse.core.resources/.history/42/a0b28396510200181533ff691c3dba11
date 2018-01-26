@@ -1,0 +1,16 @@
+public class M1
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int number =6; 
+		if(number % 2 ==0 ) {
+
+			 System.out.println("The number is even.");
+			 } else if (number % 3 == 0) {
+
+			 System.out.println("The number is divisible by three.");
+			 }
+	}//end main
+	
+}//end class

@@ -8,6 +8,763 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Geniutec: Eclipse — Still the Best IDE!</title>
+	<guid isPermaLink="false">https://www.genuitec.com/?p=548306</guid>
+	<link>https://www.genuitec.com/eclipse-still-best-ide/</link>
+	<description>&lt;p&gt;As a developer, you’ve probably grown to love using an IDE — but in the modern coding universe of choices, how do you choose the best IDE? While some might try to convince you that the “cool kids” are using IntelliJ, whether you’re looking for your first IDE, or being pressured into switching, here are some reasons […]&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://www.genuitec.com/eclipse-still-best-ide/&quot; rel=&quot;nofollow&quot;&gt;Eclipse — Still the Best IDE!&lt;/a&gt; appeared first on &lt;a href=&quot;https://www.genuitec.com&quot; rel=&quot;nofollow&quot;&gt;Genuitec&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Wed, 31 Jan 2018 07:07:38 +0000</pubDate>
+</item>
+<item>
+	<title>David Bosschaert: Blockchain Smart Contracts are the new Serverless!</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-9210566578097047576.post-2723035785943132788</guid>
+	<link>http://coderthoughts.blogspot.com/2018/01/blockchain-smart-contracts-are-new.html</link>
+	<description>&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;/div&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: right; margin-left: 1em; text-align: right;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-AqbgUS9H8WY/Wm-OGt3a9UI/AAAAAAAAD_k/9HoNVNQsAVADMnuBZ3N0AYyuo5eXD9jRACEwYBhgL/s1600/Michael_Bacina_how-smart-contracts-work.png&quot; style=&quot;clear: right; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;89&quot; src=&quot;https://1.bp.blogspot.com/-AqbgUS9H8WY/Wm-OGt3a9UI/AAAAAAAAD_k/9HoNVNQsAVADMnuBZ3N0AYyuo5eXD9jRACEwYBhgL/s200/Michael_Bacina_how-smart-contracts-work.png&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;Smart Contracts (thanks to Michael Bacina)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;Over the recent past I've been experimenting with Smart Contracts for block chain implementations. Smart Contracts are essentially programs running on the block chain infrastructure. For example Ethereum supports Smart Contracts written in Solidity. EOS is another example of a blockchain that will support smart contracts. I've been looking at EOS an its smart contracts in more detail, here the smart contracts can be written in C/C++ so you don't have to learn a new language for it.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;br /&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: left; margin-right: 1em; text-align: left;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-8TtRjuAJaww/WnDhfzAXmBI/AAAAAAAAEAE/0DLIr0S5amsCsQYbuciOWcuCmczNj3a0wCLcBGAs/s1600/Ethereum.png_1512566634.jpg&quot; style=&quot;clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://3.bp.blogspot.com/-8TtRjuAJaww/WnDhfzAXmBI/AAAAAAAAEAE/0DLIr0S5amsCsQYbuciOWcuCmczNj3a0wCLcBGAs/s200/Ethereum.png_1512566634.jpg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;A CryptoKitty&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;So what can you do with a smart contract? Smart contracts are designed to provide some sort of computation and store the result (immutably) on the blockchain. The computation is a custom program that applies to your domain, so for example you could be renting out holiday accommodation and your website might store the holiday home rental contract including the price, optional extras, insurance etc for a given period of time, after having computed it, on the blockchain. In most cases smart contracts can also handle the payment, so let's say the rental home costs 500 Euro per week, then the equivalent in Ether (ETH) or whatever the current blockchain/crypto is, can be transferred to the owner as part of the smart contract execution.&lt;br /&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;Or, more creatively as has been done on the ethereum network, your contract could compute a unique CryptoKitty for you that is a cute looking creature created just for you to look at and store the result on the blockchain.&lt;br /&gt;&lt;br /&gt;You can even take this a little bit further. As shown with the CryptoKitty the smart contract does not need to have anything to do with transferring money from &lt;i&gt;a&lt;/i&gt; to &lt;i&gt;b&lt;/i&gt; or writing some sort of financial contract. In theory you could use the smart contract to do anything you might be able to use asynchronous computing power for.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;After playing briefly with Solidity, the smart contract language for Ethereum I moved to play a bit more with EOS smart contracts. Why EOS? EOS as a blockchain is still in it's early phase and under heavy development although they do have a test network up and running at this stage. However I find EOS interesting because it has a couple of interesting aspects:&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://eos.io/images/dawn_2.0-logo.png&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://eos.io/images/dawn_2.0-logo.png&quot; width=&quot;133&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;First of all it's quite easy to run a test EOS node on your own machine which allows you as a developer to play with it and understand it in a sandbox type environment.&lt;/li&gt;&lt;li&gt;EOS aims to provide much higher transaction rates than the current major block chains can provide. It promises up to 50000 transactions per second which all of a sudden is big enough to handle amounts of payments similar to major credit card companies like Visa and Mastercard.&lt;/li&gt;&lt;li&gt;Smart contracts on EOS can be written in C/C++ which is really nice, as you don't need to learn a new programming language for it.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div&gt;So let's take a look at how I got my example EOS contract deployed to my own test EOS node.&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Build the EOS code&lt;/h3&gt;I tried this on Ubuntu 16.04. Compile the EOS code base:&lt;br /&gt;&lt;br /&gt;First, clone the EOS code&lt;br /&gt;&lt;span&gt;  ~$ git clone https://github.com/eosio/eos ~/eos&lt;br /&gt;  &lt;/span&gt;&lt;span&gt;~$ &lt;/span&gt;&lt;span&gt;cd eos&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Then build the whole lot:&lt;/div&gt;&lt;div&gt;&lt;span&gt;  ~/eos$ ./build.sh ubuntu full&lt;/span&gt;&lt;br /&gt;This takes a while but once it's finished you should be able to run your EOS node:&lt;br /&gt;&lt;span&gt;  ~/eos/build/programs/eosiod$ ./&lt;/span&gt;&lt;span&gt;eosiod&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;It now exits with an error. You need to set up &lt;span&gt;data-dir/config.ini&lt;/span&gt; as described in the EOS docs: &lt;a href=&quot;https://github.com/EOSIO/eos&quot;&gt;https://github.com/EOSIO/eos&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;At this point your EOS node should be happily up and running. Which is really neat. You've got a EOS block chain node running for development purposes on your local machine!&lt;br /&gt;&lt;br /&gt;&lt;span&gt;~/eos/build/programs/eosiod $ ./eosiod &lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-5ozj96C3noA/Wm-Q9Yn2tpI/AAAAAAAAD_0/rx2h9zXzJMkqNdqew15Hj28OxelKm7OBwCEwYBhgL/s1600/eosnode.jpg&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; height=&quot;130&quot; src=&quot;https://4.bp.blogspot.com/-5ozj96C3noA/Wm-Q9Yn2tpI/AAAAAAAAD_0/rx2h9zXzJMkqNdqew15Hj28OxelKm7OBwCEwYBhgL/s400/eosnode.jpg&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Before you can use your EOS node you need to create a wallet and an account. Since our smart contract will be computing the Fibonacci sequence, I'm going to call the account &lt;b&gt;fibonacci&lt;/b&gt;. The following commands do that for you. They use a demo account &lt;b&gt;inita&lt;/b&gt; that is created in the &lt;span&gt;config.ini&lt;/span&gt; file when its set up as above.&lt;br /&gt;&lt;br /&gt;Here we use the &lt;span&gt;eosioc&lt;/span&gt; program which is a client to the EOS network:&lt;br /&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc wallet create&lt;/span&gt;&lt;br /&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc wallet open&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Import the inita demo key:&lt;br /&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Create two private keys for the fibonacci account:&lt;br /&gt;&lt;div&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc create key&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Private key:###&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Public key: ###&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc create key&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Private key:###&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Public key: ###&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;Create the fibonacci account:&lt;br /&gt;&lt;span&gt;~/eos/build/programs/eosioc $ ./eosioc create account inita fibonacci  {private key1} {private key2}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Create the smart contract&lt;/h3&gt;I created a little testproject called &lt;i&gt;fibonacci&lt;/i&gt; which computes the fibonacci sequence to a certain iteration in the EOS smart contract and stores the result in the EOS database.&lt;br /&gt;&lt;br /&gt;The code can be found in github here: &lt;a href=&quot;https://github.com/coderthoughts/fibonacci&quot;&gt;https://github.com/coderthoughts/fibonacci&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;It exists of two components: an external contract, in the &lt;a href=&quot;https://github.com/coderthoughts/fibonacci/blob/master/fibonacci.abi&quot;&gt;fibonacci.abi file&lt;/a&gt; which defines how the application communicates with the outside world. The actual communication typically happens in JSON:&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &quot;structs&quot;: [{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;      &quot;name&quot;: &quot;compute&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;      &quot;base&quot;: &quot;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;      &quot;fields&quot;: {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        &quot;iterations&quot;: &quot;uint64&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;      }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  },{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;name&quot;: &quot;result&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;base&quot;: &quot;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;fields&quot;: {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;     &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;id&quot;: &quot;name&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;     &lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&quot;value&quot;: &quot;uint64&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  }],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &quot;actions&quot;: [{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;action_name&quot;: &quot;compute&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;type&quot;: &quot;compute&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  }],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &quot;tables&quot;: [{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;table_name&quot;: &quot;results&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;type&quot;: &quot;result&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;index_type&quot;: &quot;i64&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;key_names&quot;: [&quot;id&quot;],&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &quot;key_types&quot;: [&quot;name&quot;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;  }]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;And there is the &lt;a href=&quot;https://github.com/coderthoughts/fibonacci/blob/master/fibonacci.cpp&quot;&gt;fibonacci.cpp file&lt;/a&gt; that contains the source code in C++ of the contract. The main bit of the C++ contract is just the apply() method that gets invoked when the EOS Smart Contract receives a message:&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;    uint64_t fibonacci(uint64_t iterations) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        uint64_t first = 0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        uint64_t second = 1;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        if (iterations == 0)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            return 0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        eosio::print(&quot;1 &quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        for (uint64_t i=1; i &amp;lt; iterations; i++) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            uint64_t res = first + second;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            first = second;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            second = res;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            eosio::print(res, &quot; &quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        return second;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    /// The apply method implements the dispatch of events to this contract&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    void apply(uint64_t code, uint64_t action) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        if (action == N(compute)) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            auto message = eosio::current_message&amp;lt;compute&amp;gt;();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            eosio::print(&quot;Calling fibonacci\n&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            uint64_t num = fibonacci(message.iterations);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            result res(eosio::name(code), num);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            Results::store(res, res.id);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;            eosio::print(&quot;Stored result in database\n&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;There are also specific EOS libraries available, the documentation is here: &lt;a href=&quot;https://eosio.github.io/eos/group__contractdev.html&quot;&gt;https://eosio.github.io/eos/group__contractdev.html&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;h3&gt;Deploy your own smart contract&lt;/h3&gt;An interesting part of the EOS smart contract development lifecycle is that these contract don't get compiled in regular machine language, what C++ compilers normally do, but it gets compiles into a WebAssembly .wast file. This file is some sort of assembler language but then platform independent and this is what EOS uses at runtime. &lt;br /&gt;&lt;br /&gt;Once deployed, you can execute your contract by sending a message to it. The contract executes and can write its output to a database location for later retrieval by a client.&lt;br /&gt;&lt;br /&gt;The easiest way to compile the fibonacci source is to put the files with the other example smart contracts in the EOS codebase, in the &lt;i&gt;contracts &lt;/i&gt;directory. Then you've got everything in the path as the compiler expects it:&lt;br /&gt;&lt;br /&gt;Compile the project:&lt;br /&gt;&lt;span&gt;~/eos/contracts$ ../build/tools/eoscpp -o fibonacci/fibonacci.wast fibonacci/fibonacci.cpp&lt;/span&gt;&lt;br /&gt;Upload the fibonacci smart contract to the EOS node:&lt;br /&gt;&lt;span&gt;~/eos/contracts$ eosioc set contract fibonacci fibonacci/fibonacci.wast fibonacci/fibonacci.abi&lt;/span&gt;&lt;br /&gt;Now we can start executing it. Lets run the fibonacci compute for 8 iterations and store the result:&lt;br /&gt;&lt;span&gt;~/eos/contracts$ eosioc push message fibonacci compute '{&quot;iterations&quot;:8}' -S fibonacci&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;On the EOS demon console you can see some debug output from the smart contract&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&amp;gt; Calling fibonacci&lt;br /&gt;&amp;gt; 1 1 2 3 5 8 13 21 Stored result&lt;/span&gt;&lt;br /&gt;However a real user will obviously never be able to see this. So to obtain the result of the computation, we'll look it up in the EOS database:&lt;br /&gt;&lt;br /&gt;&lt;span&gt;/build/programs/eosioc$ ./eosioc get table  fibonacci fibonacci &lt;/span&gt;&lt;span&gt;results &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&lt;br /&gt;&lt;div&gt;&lt;span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;  &quot;rows&quot;: [{&lt;/div&gt;&lt;div&gt;      &quot;id&quot;: &quot;fibonacci&quot;,&lt;/div&gt;&lt;div&gt;      &quot;value&quot;: 21&lt;/div&gt;&lt;div&gt;    }&lt;/div&gt;&lt;div&gt;  ],&lt;/div&gt;&lt;div&gt;  &quot;more&quot;: false&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/span&gt;&lt;br /&gt;So the result is 21. We've executed our smart contract and obtained the result on the EOS blockchain!&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;h3&gt;Conclusion&lt;/h3&gt;I'm pretty excited by the possibilities of smart contracts with regard to the possibilities that these, once matured, can provide. It becomes similar to what today is labeled 'serverless' computing. Things that are at the moment possible through large providers such as Amazon Lambda and Microsoft Azure Functions will also be provided via block chain networks. One difference is that the computation is not done by a single cloud entity, but rather by a collection of nodes that are run by individuals who have mining machines for that crypto. In my eyes it's still early days and certain things in the contracts can certainly be improved, e.g. the available APIs usable from within the smart contracts are still fairly limited, but that will probably improve over time. The fun thing is: it's pretty easy to get started experimenting and writing smart contracts, even from a simple Linux box, so you can learn and develop your smart contracts while the blockchain teams are working on maturing the infrastructure.&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 30 Jan 2018 21:20:37 +0000</pubDate>
+	<author>noreply@blogger.com (David Bosschaert)</author>
+</item>
+<item>
+	<title>Chris Aniszczyk: Winding Down an Open Source Project</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4182</guid>
+	<link>http://aniszczyk.org/2018/01/30/winding-down-an-open-source-project/</link>
+	<description>&lt;p&gt;For 2018, I’ve made a &lt;strong&gt;commitment to myself to simply WRITE AND SHARE more&lt;/strong&gt;. I used to be really good at cranking out posts but I’ve been so heads down in running and building out open source foundations that I’ve neglected sharing what I’ve learned over the years. I recently wrote a post about the process of starting an open source program for your company:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;wrote about creating an open source program for your company and linked to a bunch of resources from the &lt;a href=&quot;https://twitter.com/todogroup?ref_src=twsrc%5Etfw&quot;&gt;@todogroup&lt;/a&gt; &lt;a href=&quot;https://t.co/nWC5wwjire&quot;&gt;https://t.co/nWC5wwjire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Chris Aniszczyk (@cra) &lt;a href=&quot;https://twitter.com/cra/status/956565395749654529?ref_src=twsrc%5Etfw&quot;&gt;January 25, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Also yesterday we posted a new open source program guide in the &lt;a href=&quot;http://todogroup.org&quot;&gt;TODO Group&lt;/a&gt; about what to do when you unfortunately wind down an open source project:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;new open source program guide: &quot;Shutting Down An Open Source Project&quot; &lt;a href=&quot;https://t.co/vLLpcTrokw&quot;&gt;https://t.co/vLLpcTrokw&lt;/a&gt; &lt;a href=&quot;https://t.co/rVt3jlb7V9&quot;&gt;pic.twitter.com/rVt3jlb7V9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— TODO Group (@todogroup) &lt;a href=&quot;https://twitter.com/todogroup/status/958020764862746624?ref_src=twsrc%5Etfw&quot;&gt;January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;While some open source foundations have well defined project lifecycles with notions of an “attic” or “archive” – many companies who open source projects generally do not.&lt;/p&gt;
+&lt;p&gt;Anyways, I hope these articles are useful to you and you learn something new &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.3/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 30 Jan 2018 14:29:46 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Public Review of Java MVC 1.0 Specification is Now Open</title>
+	<guid isPermaLink="true">http://www.infoq.com/news/2018/01/mvc-1.0-public-review?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/news/2018/01/mvc-1.0-public-review?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Public review of JSR-371, Model-View-Controller (MVC) version 1.0 specification, is now open. The latest features include support for data binding and internationalization. Eclipse Ozark, a full implementation of MVC 1.0, is expected to release version 1.0 in conjunction with the final release of JSR-371. Ivar Grimstad, principal consultant for the Cybercom Group, spoke to InfoQ about MVC 1.0.
+&lt;/p&gt; &lt;i&gt;By Michael Redlich&lt;/i&gt;</description>
+	<pubDate>Mon, 29 Jan 2018 08:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio for Eclipse Oxygen.2</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/11.2.0.ga-for-oxygen.2.html</guid>
+	<link>https://tools.jboss.org/blog/11.2.0.ga-for-oxygen.2.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.2.Final.html&quot;&gt;JBoss Tools 4.5.2&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/oxygen/11.2.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 11.2&lt;/a&gt; for Eclipse Oxygen.2 are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio11&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio11.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.7 (Oxygen) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen2&quot;&gt;Eclipse 4.7.2 Oxygen JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/oxygen/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Our main focus for this release was on adoption of Java9, improvements for container based development and bug fixing.
+      Eclipse Oxygen itself has &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;a lot of new cool stuff&lt;/a&gt; but let me highlight just a few updates in both Eclipse Oxygen and JBoss Tools plugins that I think are worth mentioning.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;spring-boot-applications-support-in-openshift-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#spring-boot-applications-support-in-openshift-server-adapter&quot;&gt;&lt;/a&gt;Spring Boot applications support in OpenShift server adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The OpenShift server adapter allowed hotdeploy and debugging for JEE and NodeJS based applications.
+      It now supports Spring Boot applications with some limitations: the Spring Boot devtools module must be added to your application as it monitors code changes and as the application must be launched in exploded mode, you must use the upstream image (docker.io/fabric8/s2i-java) rather than the downstream image builder fis-java-openshift.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As an example, we’ve provided an OpenShift template that will create an OpenShift application based on the upstream application and a Git repository that added the Spring Boot devtools to the Fabric8 Spring Boot quickstart.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;{
+        &quot;apiVersion&quot;: &quot;v1&quot;,
+        &quot;kind&quot;: &quot;Template&quot;,
+        &quot;metadata&quot;: {
+          &quot;annotations&quot;: {
+            &quot;description&quot;: &quot;Spring-Boot and CXF JAXRS QuickStart. This example demonstrates how you can use Apache CXF JAXRS with Spring Boot on Openshift. The quickstart uses Spring Boot to configure a little application that includes a CXF JAXRS endpoint with Swagger enabled.&quot;,
+            &quot;tags&quot;: &quot;quickstart,java,springboot,fis&quot;,
+            &quot;iconClass&quot;: &quot;icon-jboss&quot;,
+            &quot;version&quot;: &quot;2.0&quot;
+          },
+          &quot;name&quot;: &quot;s2i-spring-boot-cxf-jaxrs&quot;
+        },
+        &quot;labels&quot;: {
+          &quot;template&quot;: &quot;s2i-spring-boot-cxf-jaxrs&quot;
+        },
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;APP_NAME&quot;,
+            &quot;displayName&quot;: &quot;Application Name&quot;,
+            &quot;required&quot;: true,
+            &quot;value&quot;: &quot;s2i-spring-boot-cxf-jaxrs&quot;,
+            &quot;description&quot;: &quot;The name assigned to the application.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;GIT_REPO&quot;,
+            &quot;displayName&quot;: &quot;Git Repository URL&quot;,
+            &quot;required&quot;: true,
+            &quot;value&quot;: &quot;https://github.com/jeffmaury/spring-boot-cxf-jaxrs.git&quot;,
+            &quot;description&quot;: &quot;The URL of the repository with your application source code.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;GIT_REF&quot;,
+            &quot;displayName&quot;: &quot;Git Reference&quot;,
+            &quot;value&quot;: &quot;hotdeploy&quot;,
+            &quot;description&quot;: &quot;Set this to a branch name, tag or other ref of your repository if you are not using the default branch.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;SERVICE_NAME&quot;,
+            &quot;displayName&quot;: &quot;Service Name&quot;,
+            &quot;value&quot;: &quot;cxf-jaxrs&quot;,
+            &quot;description&quot;: &quot;Exposed service name.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;BUILDER_VERSION&quot;,
+            &quot;displayName&quot;: &quot;Builder version&quot;,
+            &quot;value&quot;: &quot;2.0&quot;,
+            &quot;description&quot;: &quot;The version of the FIS S2I builder image to use.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;APP_VERSION&quot;,
+            &quot;displayName&quot;: &quot;Application Version&quot;,
+            &quot;value&quot;: &quot;1.0.0.redhat-000014&quot;,
+            &quot;description&quot;: &quot;The application version.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;MAVEN_ARGS&quot;,
+            &quot;displayName&quot;: &quot;Maven Arguments&quot;,
+            &quot;value&quot;: &quot;package -DskipTests -Dfabric8.skip -e -B&quot;,
+            &quot;description&quot;: &quot;Arguments passed to mvn in the build.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;MAVEN_ARGS_APPEND&quot;,
+            &quot;displayName&quot;: &quot;Extra Maven Arguments&quot;,
+            &quot;description&quot;: &quot;Extra arguments passed to mvn, e.g. for multi-module builds.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;ARTIFACT_DIR&quot;,
+            &quot;displayName&quot;: &quot;Maven build directory&quot;,
+            &quot;description&quot;: &quot;Directory of the artifact to be built, e.g. for multi-module builds.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;IMAGE_STREAM_NAMESPACE&quot;,
+            &quot;displayName&quot;: &quot;Image Stream Namespace&quot;,
+            &quot;value&quot;: &quot;openshift&quot;,
+            &quot;required&quot;: true,
+            &quot;description&quot;: &quot;Namespace in which the Fuse ImageStreams are installed. These ImageStreams are normally installed in the openshift namespace. You should only need to modify this if you&amp;amp;aposve installed the ImageStreams in a different namespace/project.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;BUILD_SECRET&quot;,
+            &quot;displayName&quot;: &quot;Git Build Secret&quot;,
+            &quot;generate&quot;: &quot;expression&quot;,
+            &quot;description&quot;: &quot;The secret needed to trigger a build.&quot;,
+            &quot;from&quot;: &quot;[a-zA-Z0-9]{40}&quot;
+          },
+          {
+            &quot;name&quot;: &quot;CPU_REQUEST&quot;,
+            &quot;displayName&quot;: &quot;CPU request&quot;,
+            &quot;value&quot;: &quot;0.2&quot;,
+            &quot;required&quot;: true,
+            &quot;description&quot;: &quot;The amount of CPU to requests.&quot;
+          },
+          {
+            &quot;name&quot;: &quot;CPU_LIMIT&quot;,
+            &quot;displayName&quot;: &quot;CPU limit&quot;,
+            &quot;value&quot;: &quot;1.0&quot;,
+            &quot;required&quot;: true,
+            &quot;description&quot;: &quot;The amount of CPU the container is limited to use.&quot;
+          }
+        ],
+        &quot;objects&quot;: [
+          {
+            &quot;apiVersion&quot;: &quot;v1&quot;,
+            &quot;kind&quot;: &quot;Route&quot;,
+            &quot;metadata&quot;: {
+              &quot;labels&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;
+              },
+              &quot;name&quot;: &quot;${SERVICE_NAME}-route&quot;
+            },
+            &quot;spec&quot;: {
+              &quot;to&quot;: {
+                &quot;kind&quot;: &quot;Service&quot;,
+                &quot;name&quot;: &quot;${SERVICE_NAME}&quot;
+              }
+            }
+          },
+          {
+            &quot;apiVersion&quot;: &quot;v1&quot;,
+            &quot;kind&quot;: &quot;Service&quot;,
+            &quot;metadata&quot;: {
+              &quot;annotations&quot;: {
+              },
+              &quot;labels&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;
+              },
+              &quot;name&quot;: &quot;${SERVICE_NAME}&quot;
+            },
+            &quot;spec&quot;: {
+              &quot;clusterIP&quot;: &quot;None&quot;,
+              &quot;deprecatedPublicIPs&quot;: [],
+              &quot;ports&quot;: [
+                {
+                  &quot;port&quot;: 9413,
+                  &quot;protocol&quot;: &quot;TCP&quot;,
+                  &quot;targetPort&quot;: 8080
+                }
+              ],
+              &quot;selector&quot;: {
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;
+              }
+            }
+          },
+          {
+            &quot;kind&quot;: &quot;ImageStream&quot;,
+            &quot;apiVersion&quot;: &quot;v1&quot;,
+            &quot;metadata&quot;: {
+              &quot;name&quot;: &quot;${APP_NAME}&quot;,
+              &quot;creationTimestamp&quot;: null,
+              &quot;labels&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;
+              }
+            },
+            &quot;spec&quot;: {},
+            &quot;status&quot;: {
+              &quot;dockerImageRepository&quot;: &quot;&quot;
+            }
+          },
+          {
+            &quot;kind&quot;: &quot;BuildConfig&quot;,
+            &quot;apiVersion&quot;: &quot;v1&quot;,
+            &quot;metadata&quot;: {
+              &quot;name&quot;: &quot;${APP_NAME}&quot;,
+              &quot;creationTimestamp&quot;: null,
+              &quot;labels&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;
+              }
+            },
+            &quot;spec&quot;: {
+              &quot;triggers&quot;: [
+                {
+                  &quot;type&quot;: &quot;GitHub&quot;,
+                  &quot;github&quot;: {
+                    &quot;secret&quot;: &quot;${BUILD_SECRET}&quot;
+                  }
+                },
+                {
+                  &quot;type&quot;: &quot;Generic&quot;,
+                  &quot;generic&quot;: {
+                    &quot;secret&quot;: &quot;${BUILD_SECRET}&quot;
+                  }
+                },
+                {
+                  &quot;type&quot;: &quot;ConfigChange&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;ImageChange&quot;,
+                  &quot;imageChange&quot;: {}
+                }
+              ],
+              &quot;source&quot;: {
+                &quot;type&quot;: &quot;Git&quot;,
+                &quot;git&quot;: {
+                  &quot;uri&quot;: &quot;${GIT_REPO}&quot;,
+                  &quot;ref&quot;: &quot;${GIT_REF}&quot;
+                }
+              },
+              &quot;strategy&quot;: {
+                &quot;type&quot;: &quot;Source&quot;,
+                &quot;sourceStrategy&quot;: {
+                  &quot;from&quot;: {
+                    &quot;kind&quot;: &quot;DockerImage&quot;,
+                    &quot;name&quot;: &quot;fabric8/s2i-java:${BUILDER_VERSION}&quot;
+                  },
+                  &quot;forcePull&quot;: true,
+                  &quot;incremental&quot;: true,
+                  &quot;env&quot;: [
+                    {
+                      &quot;name&quot;: &quot;BUILD_LOGLEVEL&quot;,
+                      &quot;value&quot;: &quot;5&quot;
+                    },
+                    {
+                      &quot;name&quot;: &quot;ARTIFACT_DIR&quot;,
+                      &quot;value&quot;: &quot;${ARTIFACT_DIR}&quot;
+                    },
+                    {
+                      &quot;name&quot;: &quot;MAVEN_ARGS&quot;,
+                      &quot;value&quot;: &quot;${MAVEN_ARGS}&quot;
+                    },
+                    {
+                      &quot;name&quot;: &quot;MAVEN_ARGS_APPEND&quot;,
+                      &quot;value&quot;: &quot;${MAVEN_ARGS_APPEND}&quot;
+                    }
+                  ]
+                }
+              },
+              &quot;output&quot;: {
+                &quot;to&quot;: {
+                  &quot;kind&quot;: &quot;ImageStreamTag&quot;,
+                  &quot;name&quot;: &quot;${APP_NAME}:latest&quot;
+                }
+              },
+              &quot;resources&quot;: {}
+            },
+            &quot;status&quot;: {
+              &quot;lastVersion&quot;: 0
+            }
+          },
+          {
+            &quot;kind&quot;: &quot;DeploymentConfig&quot;,
+            &quot;apiVersion&quot;: &quot;v1&quot;,
+            &quot;metadata&quot;: {
+              &quot;name&quot;: &quot;${APP_NAME}&quot;,
+              &quot;creationTimestamp&quot;: null,
+              &quot;labels&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;
+              }
+            },
+            &quot;spec&quot;: {
+              &quot;strategy&quot;: {
+                &quot;resources&quot;: {}
+              },
+              &quot;triggers&quot;: [
+                {
+                  &quot;type&quot;: &quot;ConfigChange&quot;
+                },
+                {
+                  &quot;type&quot;: &quot;ImageChange&quot;,
+                  &quot;imageChangeParams&quot;: {
+                    &quot;automatic&quot;: true,
+                    &quot;containerNames&quot;: [
+                      &quot;${APP_NAME}&quot;
+                    ],
+                    &quot;from&quot;: {
+                      &quot;kind&quot;: &quot;ImageStreamTag&quot;,
+                      &quot;name&quot;: &quot;${APP_NAME}:latest&quot;
+                    }
+                  }
+                }
+              ],
+              &quot;replicas&quot;: 1,
+              &quot;selector&quot;: {
+                &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                &quot;deploymentconfig&quot;: &quot;${APP_NAME}&quot;,
+                &quot;group&quot;: &quot;quickstarts&quot;,
+                &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                &quot;provider&quot;: &quot;s2i&quot;,
+                &quot;version&quot;: &quot;${APP_VERSION}&quot;
+              },
+              &quot;template&quot;: {
+                &quot;metadata&quot;: {
+                  &quot;creationTimestamp&quot;: null,
+                  &quot;labels&quot;: {
+                    &quot;component&quot;: &quot;${APP_NAME}&quot;,
+                    &quot;deploymentconfig&quot;: &quot;${APP_NAME}&quot;,
+                    &quot;group&quot;: &quot;quickstarts&quot;,
+                    &quot;project&quot;: &quot;${APP_NAME}&quot;,
+                    &quot;provider&quot;: &quot;s2i&quot;,
+                    &quot;version&quot;: &quot;${APP_VERSION}&quot;
+                  }
+                },
+                &quot;spec&quot;: {
+                  &quot;containers&quot;: [
+                    {
+                      &quot;name&quot;: &quot;${APP_NAME}&quot;,
+                      &quot;image&quot;: &quot;library/${APP_NAME}:latest&quot;,
+                      &quot;readinessProbe&quot; : {
+                        &quot;httpGet&quot; : {
+                          &quot;path&quot; : &quot;/health&quot;,
+                          &quot;port&quot; : 8081
+                        },
+                        &quot;initialDelaySeconds&quot; : 10
+                      },
+                      &quot;livenessProbe&quot; : {
+                        &quot;httpGet&quot; : {
+                          &quot;path&quot; : &quot;/health&quot;,
+                          &quot;port&quot; : 8081
+                        },
+                        &quot;initialDelaySeconds&quot; : 180
+                      },
+                      &quot;ports&quot;: [
+                        {
+                          &quot;containerPort&quot;: 8778,
+                          &quot;name&quot;: &quot;jolokia&quot;
+                        }
+                      ],
+                      &quot;env&quot; : [ {
+                        &quot;name&quot; : &quot;KUBERNETES_NAMESPACE&quot;,
+                        &quot;valueFrom&quot; : {
+                          &quot;fieldRef&quot; : {
+                            &quot;fieldPath&quot; : &quot;metadata.namespace&quot;
+                          }
+                        }
+                      } ],
+                      &quot;resources&quot;: {
+                        &quot;requests&quot;: {
+                          &quot;cpu&quot;: &quot;${CPU_REQUEST}&quot;
+                        },
+                        &quot;limits&quot;: {
+                          &quot;cpu&quot;: &quot;${CPU_LIMIT}&quot;
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            &quot;status&quot;: {}
+          }
+        ]
+      }&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can see a demo of the OpenShift server adapter for Spring Boot application here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;videoblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-route-timeouts-and-liveness-probe-for-openshift-server-adapter-debugging-configurations&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-route-timeouts-and-liveness-probe-for-openshift-server-adapter-debugging-configurations&quot;&gt;&lt;/a&gt;Support for route timeouts and liveness probe for OpenShift Server Adapter debugging configurations&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;While debugging your OpenShift deployment, you may face two different issues:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;if you launch your test through a Web browser, then it’s likely that you will access your OpenShift deployment through an OpenShift
+      route. The problem is that, by default, OpenShift routes have a 30 seconds timeout for each request. So if you’re stepping through one
+      of your breakpoints, you will get a timeout error message in the browser window even if you can still debug your OpenShift deployment.
+      And you’re now stuck will the navigation of your OpenShift application.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;if your OpenShift deployment has a liveness probe configured, depending on your virtual machine capabilities or how your debugger is
+      configured, if your stepping into one of your breakpoints, the liveness probe may fail thus OpenShift so OpenShift will restart your
+      container and your debugging session will be destroyed.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So, from now, when the OpenShift server adapter is started in &lt;code&gt;debug&lt;/code&gt; mode, the following action are being performed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;if an OpenShift route is found that is linked to the OpenShift deployment you want to debug, the route timeout will be
+      set or increased to 1 hour. The original or default value will be restored when the OpenShift server adapter will be restarted
+      in &lt;code&gt;run&lt;/code&gt; mode.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;if your OpenShift deployment has a liveness probe configured, the &lt;code&gt;initialDelay&lt;/code&gt; field will be increased to 1 hour if the defined
+      value for this field is lower than 1 hour. If the value of this field is defined to a value greater than 1 hour, it is left intact.
+      The original value will be restored when the OpenShift server adapter will be restarted
+      in &lt;code&gt;run&lt;/code&gt; mode&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;enhanced-command-to-delete-resource-s&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#enhanced-command-to-delete-resource-s&quot;&gt;&lt;/a&gt;Enhanced command to delete resource(s)&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When it comes to delete OpenShift resources, you had two different choices:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;individually delete each resource but as some resources are hidden by the OpenShift explorer, it may become troublesome&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;delete the containing OpenShift project but you are then deleting more resources than required&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There is now a new enhanced command to delete resources. It is available at the OpenShift project level and it will first
+      list all the available OpenShift resources for the selected OpenShift project. You can now select the ones you want to delete
+      and you can also filter the list using a filter that will be applied to the labels for each retrieved OpenShift resource.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;So if you have two different deployments in a single OpenShift project (if you using OpenShift Online Starter for example) or if
+      you have different kind of resources in a single deployment, you can now distinct them.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s see this in action:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In this example, I have deployed an EAP6.4 based application and an EAP7.0 based one. Here is what you  can see from the OpenShift explorer:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new delete resources explorer&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-delete-resources-explorer.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Now, let’s invoke the new delete command on the &lt;em&gt;eap&lt;/em&gt; OpenShift project: right click the OpenShift project and select &lt;strong&gt;Delete Resources…​&lt;/strong&gt;:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new delete resources dialog&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-delete-resources-dialog.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let suppose that we want to delete the EAP6.4 deployement. Enter &lt;em&gt;eap=6.4&lt;/em&gt; in the filter field:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new delete resources dialog1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-delete-resources-dialog1.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Push the &lt;strong&gt;Select All&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new delete resources dialog2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-delete-resources-dialog2.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Close this dialog by pushing the &lt;strong&gt;OK&lt;/strong&gt; button. The resources will be deleted and the OpenShift explorer will be updated accordingly:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new delete resources explorer1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-delete-resources-explorer1.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;server-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#server-tools&quot;&gt;&lt;/a&gt;Server tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;eap-7-1-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#eap-7-1-server-adapter&quot;&gt;&lt;/a&gt;EAP 7.1 Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A server adapter has been added to work with EAP 7.1 and Wildfly 11. It’s based on WildFly 11. This new server adapter includes support for incremental management
+      deployment like it’s upstream WildFly 11 counterpart.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;fuse-7-karaf-based-runtime-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-7-karaf-based-runtime-server-adapter&quot;&gt;&lt;/a&gt;Fuse 7 Karaf-based runtime Server adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Fuse 7 is cooking and preliminary versions are already available on &lt;a href=&quot;http://origin-repository.jboss.org/nexus/content/groups/ea/org/jboss/fuse/jboss-fuse-karaf&quot;&gt;early-access repository&lt;/a&gt;. Fuse Tooling is ready to leverage them so that you can try the upcoming major Fuse version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse 7 Server Adapter&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/Fuse7-ServerAdapter.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Classical functionalities with server adapters are available: automatic redeploy, Java debug, Graphical Camel debug through created JMX connection.
+      Please note:
+      - you can’t retrieve the Fuse 7 Runtime yet directly from Fuse tooling, it is required to download it on your machine and point to it when creating the Server adapter.
+      - the provided templates requires some modifications to have them working with Fuse 7, mainly adapting the bom. Please see work related to it in this &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS-2578&quot;&gt;JIRA task&lt;/a&gt; and its children.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;display-routes-defined-inside-routecontext-in-camel-graphical-editor-design-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#display-routes-defined-inside-routecontext-in-camel-graphical-editor-design-tab&quot;&gt;&lt;/a&gt;Display routes defined inside &quot;routeContext&quot; in Camel Graphical Editor (Design tab)&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&quot;routeContext&quot; tag is a special tag used in Camel to provide the ability to reuse routes and to split them across different files. This is very useful on large projects. See Camel &lt;a href=&quot;http://camel.apache.org/how-do-i-import-routes-from-other-xml-files.html&quot;&gt;documentation&lt;/a&gt; for more information.
+      Since this version, the Design of the routes defined in &quot;routeContext&quot; tags are now displayed.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;usability-improvement-progress-bar-when-changing-the-camel-version&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#usability-improvement-progress-bar-when-changing-the-camel-version&quot;&gt;&lt;/a&gt;Usability improvement: Progress bar when &quot;Changing the Camel version&quot;&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Since Fuse Tooling 10.1.0, it is possible to change the Camel version. In case the Camel version was not cached locally yet and for slow internet connections, this operation can take a while. There is now a progress bar to see the progress.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Switch Camel Version with Progress Bar&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/switchCamelVersionWithProgressBar.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-creating-fuse-ignite-technical-extensions&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-creating-fuse-ignite-technical-extensions&quot;&gt;&lt;/a&gt;Support for creating Fuse Ignite Technical Extensions&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We are happy to announce the addition of support for creating Technical Extension projects for &lt;strong&gt;Fuse Ignite&lt;/strong&gt;*. That includes the creation of the project using the &lt;em&gt;&quot;New Fuse Ignite Extension Project&quot;&lt;/em&gt; wizard as well as support for building the deployable artifact directly from inside the Eclipse environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;em&gt;*&lt;strong&gt;Fuse Ignite&lt;/strong&gt; is a JBoss Fuse feature that provides a web interface for integrating applications. Without writing code, a business expert can use Ignite to connect to applications and optionally operate on data between connections to different applications. In Ignite, a data operation is referred to as a step in an integration.
+      Ignite provides steps for operations such as filtering and mapping data. To operate on data in ways that are not provided by Ignite built-in steps, you can develop an Ignite extension to define one or more custom steps.
+      Fuse Ignite comes as part of &lt;a href=&quot;https://developers.redhat.com/products/fuse/overview/&quot;&gt;Fuse&lt;/a&gt; and &lt;a href=&quot;https://www.redhat.com/en/explore/fuse-online&quot;&gt;Fuse Online&lt;/a&gt;. Please refer to the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_fuse/6.3/html-single/tooling_user_guide/#IgniteExtension&quot;&gt;online documentation&lt;/a&gt; for more information on how to create and configure technical extensions for Fuse Ignite.&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Ignite Technical Extension Wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionWizard.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The provided project template allows you to define an &lt;a href=&quot;http://camel.apache.org&quot;&gt;Apache Camel&lt;/a&gt; route as the base flow of your new technical extension.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Ignite Technical Extension Route&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionRoute.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To configure your new technical extension you can use the JSON file created with the new project.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Ignite Technical Extension Configuration&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionConfig.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;forge-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-tools&quot;&gt;&lt;/a&gt;Forge Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;forge-runtime-updated-to-3-8-1-final&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#forge-runtime-updated-to-3-8-1-final&quot;&gt;&lt;/a&gt;Forge Runtime updated to 3.8.1.Final&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The included Forge runtime is now 3.8.1.Final. Read the official announcement &lt;a href=&quot;http://forge.jboss.org/news/jboss-forge-3.8.1.final-is-here&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;and-more&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#and-more&quot;&gt;&lt;/a&gt;And more…​&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can find more noteworthy updates in on &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.2.Final.html&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.5.2 and Developer Studio 11.2 out we are already working on the next maintenance release for Eclipse Oxygen.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 29 Jan 2018 07:07:14 +0000</pubDate>
+</item>
+<item>
+	<title>Doug Schaefer: What makes a good C++ IDE?</title>
+	<guid isPermaLink="false">https://cdtdoug.ca/tag/eclipse/rss/5a6d3cee3ad93a43a56d3ae4</guid>
+	<link>https://cdtdoug.ca/what-makes-a-good-c-ide/</link>
+	<description>&lt;div class=&quot;kg-card-markdown&quot;&gt;&lt;img alt=&quot;What makes a good C++ IDE?&quot; src=&quot;https://cdtdoug.ca/content/images/2018/01/cdt_screenshot.png&quot; /&gt;&lt;p&gt;When I started working on C code many years ago, I was a big fan of emacs. It didn't have the weird modes that vi did. You just typed and code showed up. emacs has a rich extension system, if you don't mind writing LISP code, and soon we had fancy features such as running builds and navigating through compile errors. There's even a gdb integration that gives you what you need to debug your program. And then along came ctags and we started getting source navigation.&lt;/p&gt;
+&lt;p&gt;But what was good for C started to fade with C++. We also started bringing in code coverage and profiling tools and even modeling and code generation tools. Simple editors like emacs couldn't keep up. We needed much more powerful platforms that provided a richer environment for tools as well as the promise of standard interfaces that allowed us to integrate tools to provide functionality greater than the whole. The IDE was born.&lt;/p&gt;
+&lt;p&gt;But somewhere along the way it seems we failed. We didn't provide enough value that warranted the opinionated structures that IDEs enforce that enable the standard APIs to work. As I've stated many times, we have paid dearly with Eclipse trying to force C/C++ projects into the Eclipse resource system. What is a project in C/C++ world? Are projects the root of a recursive make tree, or the individual nodes that represent executable things and libraries? Neither works well, especially in complex systems embedded systems developers are building.&lt;/p&gt;
+&lt;p&gt;So after years of trying to convert die hards and working hard to support those who want to use our IDEs, we need to take a step back try again. Get back to emacs, or more modern editors like Visual Studio Code, and see how we can bring our users forward again. This time we need to do it in a way that doesn't enforce a paradigm on them yet provides a path back towards the valuable features we can provide through integration.&lt;/p&gt;
+&lt;p&gt;Anyway, that was a long preamble towards the real topic of this post, remembering what made CDT successful and providing at least that first step forward. What is the minimal feature set that meets expectations of today's developers. As I was using Visual Studio Code to hack Visual Studio Code, you get a real sense of what that is. You also get a good sense at what's missing from these editors.&lt;/p&gt;
+&lt;p&gt;First of all is source navigation, being able to control click to find definitions of symbols and to be able to search for references to them. And, of course, along with that comes content assist. I spent most of my early years on CDT figuring out how to do this properly and quickly. For those that remember, the quickly took a long time and in the end exchanging perfect answers for speed was our path to success. To make this work we hand built C and C++ parsers that referenced a symbol database called the index. You also need to know the toolchain and build system to know how the code is built to do a reasonable job at it. Integration with the build system is a must.&lt;/p&gt;
+&lt;p&gt;It's hard to imagine how editors like VS Code can be a good CDT replacement without replicating the magic. I'm not convinced the current front runner clangd and it's use of the clang parser which has perfection as it's number one requirement, will get us there without a lot of hacking. And editors usually don't deal with builds other than to invoke them and give you error navigation to feed it the info it needs.&lt;/p&gt;
+&lt;p&gt;And I'm not even touching on launching where you really need to match build configs with launch configs to make sure launches do what you want. So while editors are all the rage right now because they are lightweight and flexible, users still expect them to more than the editors of old. It will be an interesting challenge for those who go that road to walk that balancing line. If you get it right though, I can imagine a lot of happy users.&lt;/p&gt;
+&lt;/div&gt;</description>
+	<pubDate>Sun, 28 Jan 2018 18:31:34 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Decoding the Eclipse IP Policy: Third Party Dependencies</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5424</guid>
+	<link>https://waynebeaton.wordpress.com/2018/01/26/decoding-the-eclipse-ip-policy-third-party-dependencies/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The term &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Intellectual Property&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (IP) refers to any sort of creative work, be it literature, art, or software. In the realm of open source software, artifacts like source code, documentation, and images are considered intellectual property. Unless otherwise stated, intellectual property is the property of its creator, who may grant permission for others to use that intellectual property by providing a license. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The ease with which software can be copied and combined makes it challenging to know with confidence if content can be used without running into legal issues. Any sort of serious software development effort must be accompanied by a well-defined IP Due Diligence process that can ferret out issues and mitigate the risk of leveraging the work of others. IP Due Diligence is a time consuming process that requires specialized skills and a keen eye for detail.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There are different kinds of content (source code, documentation, images, …) to consider. &lt;/span&gt;&lt;b&gt;&lt;i&gt;Project Code&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is content that is produced and maintained by the open source project committers and contributors. &lt;/span&gt;&lt;b&gt;&lt;i&gt;Third Party Content&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; generally takes the form of libraries (modules, components, …), source files, images, or other forms of IP that are produced and maintained outside of the scope of the open source project. To mitigate the risk associated with adopting open source in products, the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Code&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Third Party Content&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; that it leverages need to be vetted to ensure that the copyrights expressed are correct, licensing is valid and compatible, and other issues have been uncovered and properly investigated.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Foundation has a well-defined &lt;a href=&quot;https://www.eclipse.org/org/documents/Eclipse_IP_Policy.pdf&quot;&gt;IP Policy&lt;/a&gt;, corresponding IP Due Diligence Process, and a dedicated team of professional IP specialists who perform the heavy lifting in the due diligence process. Committers, the software developers who decide what will become &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Code&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and how an Eclipse open source project will leverage &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Third Party Content&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, are responsible for bringing IP issues to the attention of the Eclipse IP Team.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Most of the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Code&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; produced by committers can just be pushed into a project repository without any sort of legal review. However, at least in some cases, the IP Team needs to be engaged to review &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Code&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; that comes from contributors (who are not committers); and there are some cases where even the work of committers needs to be reviewed. I’ll discuss &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Code&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; with more detail in a future post.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The sort of effort that the Eclipse IP Team brings to bear on &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Third Party Content&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; varies depending on the type. The&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/org/documents/Eclipse_Policy_and_Procedure_for_3rd_Party_Dependencies_Final.pdf&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Guidelines for the Review of Third Party Dependencies&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; defines three different types: &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, and &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The simplest form of &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Third Party Content&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is &lt;/span&gt;&lt;b&gt;&lt;i&gt;Prerequisite&lt;/i&gt;&lt;/b&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/i&gt; &lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisites&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; are required by the Eclipse project content to provide core functionality. &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; content is not generally stored in an Eclipse project’s source code repositories, but is likely included in build scripts and referenced as runtime dependencies. Since adopters of Eclipse project content are compelled to adopt the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; content, that content must also be vetted by the IP Team. The vetting requirement applies recursively: the entire transitive closure of a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite’s&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; dependencies needs to reviewed (the dependencies of a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; are themselves &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisites&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;prereq&quot; class=&quot;alignnone size-full wp-image-5429 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/01/prereq.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The transitive closure requirement only applies when an Eclipse project makes a direct reference to &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Third Party Content&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (the Eclipse Project Handbook provides some examples of what constitutes a &lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-third-party&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;direct reference&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;). In the case where an Eclipse project references code from a second Eclipse project that itself references &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisites&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, no further vetting of that chain of &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; content is required (the IP Team will have already vetted it on behalf of the second project team). Eclipse project teams should take care to only reference release versions of other Eclipse projects in their own releases to ensure that the IP process has been completed.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;project&quot; class=&quot;alignnone size-full wp-image-5428 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/01/project.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;When you follow this all the way to the bottom, the entire runtime environment including virtual machines and the operating system are included in the transitive closure of dependencies. Clearly, having the IP team vet virtual machines and operating systems is not a great use of time, and—in the case of closed source operating systems—just not be possible.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse IP process guidelines provide for a notion of &lt;/span&gt;&lt;b&gt;&lt;i&gt;Exempt Prerequisite&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; dependencies, which are not subject to review. According to the guide, content may be considered exempt if it “is pervasive in nature, expected to be already on the user’s machine, and/or an IP review would be either impossible, impractical, or inadvisable.” The Eclipse IP Team does not review the source code associated with an &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;One of the key aspects of an &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is that the user or adopter is typically the one that actually installs the software and so is the one who must agree to the licensing terms. Content that is declared an &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; should never be directly distributed by an Eclipse project or otherwise made available without some explicit action from the consumer. &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisites&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; must be approved by the Eclipse Foundation’s Executive Director.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse IP process guidelines also define the notion of a &lt;/span&gt;&lt;b&gt;&lt;i&gt;Works With Dependency&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (commonly referred to as a “works with”) that applies in two different cases. Third Party Content may be declared a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; when:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;the functionality of Eclipse project content is enhanced by the presence of the software, but is otherwise functional and useful without it; or&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;there are multiple choices and vetting all of them is impractical or impossible.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is, literally, a dependency that the Eclipse &lt;em&gt;Project Code&lt;/em&gt; will &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;work with&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; when it is available. The fundamental requirement is the Eclipse &lt;em&gt;Project Code&lt;/em&gt; must be useful and adoptable without the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. That is, either the &lt;em&gt;Project Code&lt;/em&gt; provides useful functionality without the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; or the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; is a suitable alternative for a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It’s enough to just register the use of &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; without seeking IP Team approval for its dependencies. The consumer is responsible for making that content available and otherwise agreeing to the terms for that content.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;workswith&quot; class=&quot;alignnone size-full wp-image-5432&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/01/workswith2.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As with an &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exempt Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; should never be directly distributed or otherwise made available without some explicit action from the consumer. &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependencies&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; must be approved by the Eclipse project’s &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Project Management Committee&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As an example, if Eclipse &lt;em&gt;Project Code&lt;/em&gt; will make use of a specific database implementation when it is available, but otherwise provides useful functionality when that database is not present, that database may be a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependency&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. If, however, a specific database &lt;strong&gt;must&lt;/strong&gt; be available for the Eclipse &lt;em&gt;Project Code&lt;/em&gt; to provide any sort of core functionality, then that database is likely a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; which must be fully vetted. Or, if the &lt;em&gt;Project Code&lt;/em&gt; must have access to some database, then the IP process requires that at least one specific database be fully vetted as a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prerequisite&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; and other options can be declared as &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Works With Dependencies&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse committers engage the Eclipse IP Process is by filing a&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-cq&quot;&gt; &lt;b&gt;&lt;i&gt;Contribution Questionnaire&lt;/i&gt;&lt;/b&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (which is commonly referred to as a &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;CQ&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;). Committers can find a link to create a CQ on their&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#pmi-project-page&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;project page&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in the Eclipse&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/projects/handbook/#pmi&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Project Management Infrastructure&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (PMI).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As always, if you’re just not sure… &lt;a href=&quot;mailto:emo@eclipse.org&quot;&gt;ask&lt;/a&gt;. We’re here to help.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Fri, 26 Jan 2018 17:41:37 +0000</pubDate>
+</item>
+<item>
+	<title>Roxanne Joncas: IoT Developer Survey 2018</title>
+	<guid isPermaLink="false">https://medium.com/p/a3dd189f7cc8</guid>
+	<link>https://medium.com/@roxanne.iot/iot-developer-survey-2018-a3dd189f7cc8?source=rss-82f8afd3e513------2</link>
+	<description>&lt;figure&gt;&lt;a href=&quot;https://www.surveymonkey.de/r/IOTRJ&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/700/1*3VqkXyWs1NHhfC2yk2iiOQ.png&quot; /&gt;&lt;/a&gt;Complete the survey :)&lt;/figure&gt;&lt;p&gt;The fourth &lt;a href=&quot;https://www.surveymonkey.de/r/IOTRJ&quot;&gt;IoT Developer Survey&lt;/a&gt; is now open and ready to receive your responses! It’s a great resource to find out what’s going on in the world of IoT and to watch it change year to year.&lt;/p&gt;&lt;p&gt;Dear IoT enthusiasts, please take 10 minutes to &lt;a href=&quot;https://www.surveymonkey.de/r/IOTRJ&quot;&gt;complete the survey&lt;/a&gt; all the way to the end :) I’m posting this on a Friday — so I am basically giving you a way to procrastinate!&lt;/p&gt;&lt;p&gt;While you’re at it, look at the results from previous years:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2017&quot;&gt;2017&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2016&quot;&gt;2016&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/IanSkerrett/iot-developer-survey-2015&quot;&gt;2015&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=a3dd189f7cc8&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 26 Jan 2018 14:16:11 +0000</pubDate>
+</item>
+<item>
 	<title>Benjamin Cabe: Eclipse IoT Day is coming to the Bay Area – Submit a talk now!</title>
 	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=3099</guid>
 	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/wBYb_wyG06Q/eclipse-iot-day-coming-bay-area-submit-talk-now</link>
@@ -155,10 +912,7 @@
 &lt;p&gt;Finally in 2018, I expect the developer experience of installing Kubernetes applications improved, including the underlying technology for doing so. For example, the &lt;a href=&quot;https://github.com/kubernetes-incubator/service-catalog&quot;&gt;Service Catalog&lt;/a&gt; work and websites like &lt;a href=&quot;https://kubeapps.com/&quot;&gt;kubeapps.com&lt;/a&gt; showcase what is possible in making it easier for people to install Kubernetes app/integrations, we’ll see this grow significantly in 2018. Also I predict that the Helm community will grow faster than it has before.&lt;/p&gt;
 &lt;h4 style=&quot;text-align: left;&quot;&gt;Diversity and Inclusion&lt;/h4&gt;
 &lt;p&gt;One of my favorite take aways from the conference was the focus on diversity and inclusion within our community:&lt;/p&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
-&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;103 attendees here this week received diversity scholarships! This is the largest investment in diversity for ANY conference EVER — thanks to this incredible committee, &lt;a href=&quot;https://twitter.com/googlecloud?ref_src=twsrc%5Etfw&quot;&gt;@googlecloud&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Azure?ref_src=twsrc%5Etfw&quot;&gt;@Azure&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/awscloud?ref_src=twsrc%5Etfw&quot;&gt;@awscloud&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/twistlockteam?ref_src=twsrc%5Etfw&quot;&gt;@twistlockteam&lt;/a&gt; &lt;img alt=&quot;👏🏼&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.3/72x72/1f44f-1f3fc.png&quot; style=&quot;height: 1em;&quot; /&gt; [LIVE from &lt;a href=&quot;https://twitter.com/hashtag/KubeCon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#KubeCon&lt;/a&gt; + &lt;a href=&quot;https://twitter.com/hashtag/CloudNativeCon?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CloudNativeCon&lt;/a&gt;] &lt;a href=&quot;https://t.co/GtxNCjb1g5&quot;&gt;pic.twitter.com/GtxNCjb1g5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;— CNCF (@CloudNativeFdn) &lt;a href=&quot;https://twitter.com/CloudNativeFdn/status/938435795022745600?ref_src=twsrc%5Etfw&quot;&gt;December 6, 2017&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;https://twitter.com/CloudNativeFdn/status/938435795022745600&lt;/p&gt;
 &lt;p&gt;We (thank you amazing diversity committee) raised $250,000 and helped over 100 diversity scholarship recipients attend KubeCon/CloudNativeCon in Austin. In 2018, I predict and truly hope some other event will match or beat this.&lt;/p&gt;
 &lt;p&gt;Anyways, after a crazy 2017, I can’t wait to grow our communities in 2018.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
@@ -181,291 +935,6 @@
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Now that the collective team has run through this process with JSON-P we will be working to get the remaining eight initial projects pushed out as quickly as possible. Hopefully by the end of this month. Meanwhile, more projects will be proposed and we will be migrating a steady stream of Java EE projects into EE4J.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Exciting times!&lt;/span&gt;&lt;/p&gt;</description>
 	<pubDate>Mon, 15 Jan 2018 16:51:40 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse IoT Day Santa Clara 2018 | Call for Papers</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/m-u4xUFGRYE/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/m-u4xUFGRYE/</link>
-	<description>We're happy to announce the Eclipse IoT Day Santa Clara, taking place May 14, in co-location with IoT World 2018.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/m-u4xUFGRYE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 15 Jan 2018 14:15:00 +0000</pubDate>
-</item>
-<item>
-	<title>itemis: Machine Learning Formatting with Xtext: Part II</title>
-	<guid isPermaLink="true">https://blogs.itemis.com/en/machine-learning-formatting-part-ii</guid>
-	<link>https://blogs.itemis.com/en/machine-learning-formatting-part-ii</link>
-	<description>&lt;p&gt;Hi folks! Some of you might have seen my earlier &lt;a href=&quot;https://hosting.itemis.de/en/machine-learning-formatting-with-xtext&quot;&gt;blogpost&lt;/a&gt; on Machine Learning Formatting. It was more or less meant as an advertiser for the Eclipse Democamp Munich. As promised, here comes the follow up blogpost with more details.&lt;/p&gt;  
-&lt;p&gt;&lt;a href=&quot;https://github.com/antlr/codebuff&quot;&gt;Codebuff&lt;/a&gt; is a project started by &lt;a href=&quot;https://github.com/parrt&quot;&gt;Terrence Parr&lt;/a&gt;. The project aims the problem that writing a codeformatter is hard and will not fit all needs. Therefore people want to customize it in every way since formatting is a very individual thing.&lt;/p&gt; 
-&lt;p&gt;Codebuff tries to format code by taking already formatted examples and learning out of that how to format code based on the same grammar. To do that it needs the corresponding lexer and parser. The lexer is used to get the tokens and the parser to create an abstract syntax tree out of the tokens. Based on that information &lt;span style=&quot;background-color: transparent;&quot;&gt;Codebuff tries to mimics the behavior of a developer. &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Sounds simple, but how does that work?  &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;First of all code consists of tokens.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;tokens.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/tokens.png?t=1515762170520&amp;amp;width=495&amp;amp;name=tokens.png&quot; style=&quot;width: 495px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;495&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;br /&gt;Depending on tokens and the location a developer would normally make a decision to introduce or delete whitespaces. &lt;span&gt;A whitespace could be a simple space, a newline along with an indentation or alignment.&lt;span&gt; Another valid decision could also be to do nothing. &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;To make a decision you need certain criteria. Codebuff works with 21&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;criterias, so called features &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;that are taken into account. The following figure shows the 5 most obvious &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;features&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Bildschirmfoto 2017-12-19 um 16.26.00.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Bildschirmfoto%202017-12-19%20um%2016.26.00.png?t=1515762170520&amp;amp;width=468&amp;amp;name=Bildschirmfoto%202017-12-19%20um%2016.26.00.png&quot; style=&quot;width: 468px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;468&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br /&gt;Based on those 21 &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;features&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; Codebuff analyses the given examples and computes token properties.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;img alt=&quot;Bildschirmfoto 2017-12-21 um 14.56.14.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Bildschirmfoto%202017-12-21%20um%2014.56.14.png?t=1515762170520&amp;amp;width=471&amp;amp;name=Bildschirmfoto%202017-12-21%20um%2014.56.14.png&quot; style=&quot;width: 471px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;471&quot; /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br /&gt;When training is done all token properties are stored as vectors in a matrix along with the whitespace information.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;img alt=&quot;Matrix.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Matrix.png?t=1515762170520&amp;amp;width=265&amp;amp;name=Matrix.png&quot; style=&quot;width: 265px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;265&quot; /&gt; 
-&lt;div&gt;
- &lt;br /&gt; 
- &lt;p&gt;&lt;br /&gt;From this point on we should start to speak about &lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_learning&quot;&gt;machine learning&lt;/a&gt;. What we want to achieve is finding a match in the computed &lt;span&gt;matrix of &lt;/span&gt;token properties and get the whitespace to inject into the given document at a certain position.&lt;/p&gt; 
- &lt;p&gt;First of all we have to compute where to look at in the examples. For that reason we look at our current position in the document and compute the token property (vector) like we did it in the training without storing it to the matrix.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;img alt=&quot;Vector.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Vector.png?t=1515762170520&amp;amp;width=178&amp;amp;name=Vector.png&quot; style=&quot;width: 178px; display: block; margin: 0px auto;&quot; width=&quot;178&quot; /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;span&gt;&lt;br /&gt;Now that we have that vector we need an algorithm to find a match in the matrix and apply the right whitespace to the document.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;img alt=&quot;Format.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Format.png?t=1515762170520&amp;amp;width=470&amp;amp;name=Format.png&quot; style=&quot;display: block; margin-left: auto; margin-right: auto; width: 470px;&quot; width=&quot;470&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br /&gt;For doing that Codebuff uses the simplest machine learning algorithm that exists – the &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm&quot;&gt;K-nearest neighbors algorithm&lt;/a&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;. &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;The algorithm uses a function to compare a token property to the entries of the existing training-matrix. To do that the a constant named k needs to be specified to define how many nearest neighbors should be used. Mostly k is computed once by taking the root of the number of examples in the corpus, but for Codebuff k is fixed to 11.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;img alt=&quot;Bildschirmfoto 2018-01-03 um 16.19.08.png&quot; height=&quot;393&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Bildschirmfoto%202018-01-03%20um%2016.19.08.png?t=1515762170520&amp;amp;width=590&amp;amp;height=393&amp;amp;name=Bildschirmfoto%202018-01-03%20um%2016.19.08.png&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;590&quot; /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;br /&gt;As shown above, experiments with different languages showed that the median error rate is nearly constant from k = 11 on, so taking this as a constant makes sense for performance reasons. &lt;/p&gt; 
- &lt;p&gt;As we now know the value of k, we can start to find most similar token properties to the one we just computed at the location to format.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;img alt=&quot;KNN.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/KNN.png?t=1515762170520&amp;amp;width=481&amp;amp;name=KNN.png&quot; style=&quot;width: 481px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;481&quot; /&gt; &lt;/p&gt; 
- &lt;p&gt;Out of that the algorithm uses a function to weigh the best whitespace. In Codebuff it takes simply the whitespace that appears most often – very simple but efficient. Codebuff's theoretical background is explained in more depth &lt;a href=&quot;https://arxiv.org/pdf/1606.08866v1.pdf&quot;&gt;here&lt;/a&gt; and you can find an entertaining &lt;a href=&quot;https://www.youtube.com/watch?v=Mni2HVGGUdo&quot;&gt;talk by Terence on YouTube&lt;/a&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Mni2HVGGUdo&quot;&gt;.&lt;/a&gt;&lt;/p&gt; 
- &lt;p&gt;Looking at the way Codebuff works you might ask yourself how many example files you need to get good results? The answer is pretty simple: after a lot of experiments the Codebuff guys found out that from 10 example files on the results will not get better nor worst. The next figure shows for some different languages that after 10 files the error rate stays around the same.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;img alt=&quot;Bildschirmfoto 2017-12-21 um 15.18.06.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Bildschirmfoto%202017-12-21%20um%2015.18.06.png?t=1515762170520&amp;amp;width=481&amp;amp;name=Bildschirmfoto%202017-12-21%20um%2015.18.06.png&quot; style=&quot;width: 481px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;481&quot; /&gt;&lt;/p&gt; 
- &lt;h2&gt;&lt;br /&gt;So – what has Codebuff to do with Xtext?&lt;/h2&gt; 
- &lt;p&gt;Now as we know a bit of the theoretical background around Codebuff you may wonder what all that stuff has to do with &lt;a href=&quot;https://www.eclipse.org/Xtext/&quot;&gt;Xtext&lt;/a&gt;.&lt;/p&gt; 
- &lt;p&gt;In Xtext you can create various DSLs for very different domains. For each language you need to specify a formatter. Luckily Xtext comes with two different APIs&lt;span style=&quot;background-color: transparent;&quot;&gt;. The older one relies on tokens only, that means you can define how your DSL should be formatted on a &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;lexical level&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;. The newer API relies on the semantic model in addition. Depending on the state of the abstract syntax tree you can treat things different. Cool – but customization of your formatter is not coming out of the box and we know that formatting is an individual thing. So you would end up in a lot of effort to write a reasonable formatter and make customizations possible. Even when you did your best you will always find a special case that someone wants to treat differently. Codebuff sounds like a nice idea to solve that problem...&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;To marry Xtext and Codebuff together you don't need to do much. Ok – Xtext relies on AntLR 3 and bringing AntLR 4 on the classpath will take you into hell, but there is a pragmatic way around that.&lt;/p&gt; 
- &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-align: center; background-color: transparent;&quot;&gt;DISCLAIMER: From this point on we are talking about a prototype – not ready for production!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; 
- &lt;p&gt;First we wrote a so-called GeneratorFragment. To understand this you would have to understand how Xtext works under the covers, but for now let's just stay with the fact that Xtext generates it's DSL specific infrastructure out of the Xtext grammar and a GeneratorFragment is one piece of the overall generator.&lt;/p&gt; 
- &lt;p&gt;To come back to our issue – the GeneratorFragment needs to generate an AntLR 4 grammar. Out of that we need to generate the AntLR 4 lexer and parser. To do that we need the &lt;a href=&quot;https://github.com/antlr/antlr4/blob/master/tool/src/org/antlr/v4/Tool.java&quot;&gt;AntLR 4 generator&lt;/a&gt; but we are not allowed to bring that stuff on the classpath. Let's assume we managed to do that – how could we compile the generated code without AntLR 4 on the classpath? Even when we managed that we are not allowed to bring Codebuff on the classpath as it carries AntLR 4 under the covers. Even when we managed that – does Codebuff have an API that fits for us? The documentation just deals with a call of a main method with a bunch of parameters....&lt;/p&gt; 
- &lt;p&gt;Ok – step by step.&lt;/p&gt; 
- &lt;h2&gt;1. Generate the grammar&lt;/h2&gt; 
- &lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;The major difference between AntLR 3 and 4 is that AntLR 4 does not allow syntactic predicates anymore since it handles &lt;a href=&quot;https://en.wikipedia.org/wiki/Left_recursion&quot;&gt;left recursion&lt;/a&gt; now directly. AntLR 3 is not able to do that and for that reason grammars need to be left refactored. By doing that, syntactic predicates guide the parser on it's way to get rid of ambiguities and make decisions. The other thing is that the syntax has changed a bit from AntLR 3 to 4. Beside that Codebuff has a special need. Whitespaces and comments need to go to the hidden channel.&lt;/span&gt;&lt;/p&gt; 
- &lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;2. Generate lexer and parser&lt;/span&gt;&lt;/strong&gt;&lt;/h2&gt; 
- &lt;p&gt;To achieve that we are downloading the necessary jar on demand once, like we already do it in Xtext for AntLR 3. To invoke the so called Tool of AntLR 4 we created a URLClassLoader that points to the jar. As Xtext uses AntLR 3 we need to leave the parent classloader empty to avoid confusions. After that we need to use reflection to call the right API.&lt;/p&gt; 
- &lt;p&gt;As a fun fact we observed that the AntLR 4 Tool has two methods to process a grammar and both produce lexer and parser - but they are not equal. After fighting with that situation we found out that the method &lt;code&gt;process&lt;/code&gt; is not the right choice as Codebuff got stuck with that the generated sources. &lt;code&gt;P&lt;span style=&quot;background-color: transparent;&quot;&gt;rocessGrammarsOnCommandLine &lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;produced the right result since it reorders the tokens by calling  &lt;/span&gt;&lt;code&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;sortGrammarByTokenVocab &lt;/span&gt;&lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;and then called &lt;code&gt;process&lt;/code&gt;.&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Of course the generated classes are stored in a separated folder that is no source folder. Otherwise we would end up in compile errors in the project. ;-)&lt;/span&gt;&lt;/p&gt; 
- &lt;h2&gt;&lt;strong&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;3. Compile lexer and parser&lt;/span&gt;&lt;/strong&gt;&lt;/h2&gt; 
- &lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;We cannot simply compile the lexer and parser like the rest of the code since AntLR 4 is not on the classpath. To achieve compiling we used the &lt;/span&gt;&lt;code style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;javax.tools.JavaCompiler &lt;/code&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;directly. To use it we need to bring referenced classes into a special classloader. For this use-case the AntLR 4 jar is enough. After that we need to handle in the files to compile - that's it. &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Of course the compiled class files are stored in a separated folder as well. ;-)&lt;/span&gt;&lt;/p&gt; 
- &lt;h2&gt;&lt;strong&gt;4. Use Codebuff with the compiled classes without bringing it on the classpath&lt;/strong&gt;&lt;/h2&gt; 
- &lt;p&gt;To achieve that we used the same trick as for AntLR 4 and downloaded Codebuff on demand once. So we ended up in two jars, AntLR 4 and Codebuff, a grammar and compiled lexer and parser. Now we need to combine all those things.&lt;/p&gt; 
- &lt;p&gt;Codebuff does not really have an &lt;a href=&quot;https://github.com/antlr/codebuff/blob/master/src/org/antlr/codebuff/Tool.java&quot;&gt;API&lt;/a&gt; to use it somewhere else then the commandline. Normally the &lt;a href=&quot;https://github.com/antlr/codebuff/blob/master/src/org/antlr/codebuff/Tool.java&quot;&gt;Tool&lt;/a&gt; class needs a bunch of information including a destination file.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;img alt=&quot;Bildschirmfoto 2018-01-04 um 10.48.02.png&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Bildschirmfoto%202018-01-04%20um%2010.48.02.png?t=1515762170520&amp;amp;width=640&amp;amp;name=Bildschirmfoto%202018-01-04%20um%2010.48.02.png&quot; style=&quot;width: 640px; display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;640&quot; /&gt;&lt;/p&gt; 
- &lt;p&gt;&lt;br /&gt;The formatter API in Xtext does not write to a file directly. It needs to set the formatted text as a string. Because of that the given approach does not work for use. &lt;span style=&quot;background-color: transparent;&quot;&gt;We digged a bit in the code and yes there is a way that is slightly complicated and as you know we have to do everything through reflection ;-)&lt;/span&gt;&lt;/p&gt; 
- &lt;p&gt;To explain it in a simple way we will just mention the steps without showing the ugly reflective code.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
- &lt;ol&gt; 
-  &lt;li&gt;We need to instantiate a &lt;code&gt;org.antlr.codebuff.misc.LangDescriptor&lt;/code&gt; that holds all necessary information about the language. That includes the folder of the examples, a regex to identify examples, the compiled lexer and parser, the root rule of the grammar, the amount of spaces that make an indentation and the rule for comments.&lt;/li&gt; 
-  &lt;li&gt;&lt;span&gt;We need to load all examples to invoke the train method that fills the matrix with token properties.&lt;/span&gt;&lt;/li&gt; 
-  &lt;li&gt;We need to parse the document that we want to format.&lt;/li&gt; 
-  &lt;li&gt;We need to instantiate the formatter and fill in the necessary information including the training result.&lt;/li&gt; 
-  &lt;li&gt; We need to invoke the formatter to get a string back that represents the formatted document.&lt;/li&gt; 
- &lt;/ol&gt; 
- &lt;p&gt;&lt;br /&gt;Sounds simple but we have to admit that it was pain. If Codebuff would have a more user friendly API, it would have been much simpler – we are planning to create a pullrequest to Codebuff to make it easier.&lt;/p&gt; 
- &lt;p&gt;On Xtext side the story is simple – we need to bind a &lt;code&gt;org.eclipse.xtext.ui.editor.formatting.IContentFormatterFactory&lt;/code&gt; to create our &lt;code&gt;org.eclipse.jface.text.formatter.IContentFormatter&lt;/code&gt; that has only one method that gets the document that holds all necessary information and we can directly set the new formatted text.&lt;/p&gt; 
- &lt;p&gt;The only tricky part that is left is classloading. We need to have Codebuff, AntLR4 and the compiled lexer and parser in a classloader. Of course a URLClassLoader solves the problem as we already downloaded the necessary jars and compiled the lexer and parser.&lt;/p&gt; 
- &lt;p&gt;As a wrap up we can say that Codebuff creates a nice way to get rid of an old problem – but it's not perfect. For the future of Xtext it would be nice to have something like that included. Currently we are looking into alternative approaches and enhancements of the existing Codebuff codebase. Stay tuned.&lt;/p&gt; 
-&lt;/div&gt;  
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fmachine-learning-formatting-part-ii&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 12 Jan 2018 11:12:00 +0000</pubDate>
-	<author>schill@itemis.com (Holger Schill)</author>
-</item>
-<item>
-	<title>Orion: Announcing Orion 17</title>
-	<guid isPermaLink="false">http://planetorion.org/news/?p=910</guid>
-	<link>http://planetorion.org/news/2018/01/announcing-orion-17/</link>
-	<description>&lt;p&gt;We are pleased to announce the seventeenth release of Orion, “Your IDE in the Cloud”. You can run it now at &lt;a href=&quot;https://orionhub.org/&quot;&gt;OrionHub,&lt;/a&gt; from &lt;a href=&quot;https://www.npmjs.com/package/orion&quot;&gt;NPM&lt;/a&gt; or &lt;a href=&quot;http://download.eclipse.org/orion/drops/R-17.0-201801111044/index.html&quot;&gt;download the server&lt;/a&gt; to run your own instance locally.&lt;/p&gt;
-&lt;p&gt;Once again, thank you to all committers and contributors for your hard work this release. There were 86 bugs and enhancements fixed, across 248 commits from 13 authors!&lt;/p&gt;
-&lt;p&gt;This release was focussed entirely on making compatibility, stability and overall quality improvements to the Node.js server.&lt;/p&gt;</description>
-	<pubDate>Thu, 11 Jan 2018 18:52:41 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: German TUV Sud Joins Eclipse openPASS Working Group</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/2K_LU5LxqMs/OpenPASS-WG</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/2K_LU5LxqMs/OpenPASS-WG</link>
-	<description>On Jan 1, 2018 the German TUV Sud has joined as a new member of the Eclipse Foundation &amp;amp; Eclipse openPASS Working Group.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/2K_LU5LxqMs&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 11 Jan 2018 16:10:00 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: SWT Spy – debugging SWT layouts</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=37780</guid>
-	<link>https://eclipsesource.com/blogs/2018/01/10/swt-spy-debugging-swt-layouts/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Do you have to debug an existing SWT view and you are not sure what elements are really on screen? Are you tired of manually coloring composites to find out what’s wrong in your layout?&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It is time to remember an oldie but goodie: The SWT spy!&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It is a fairly old tool, but still very useful, so let us have a quick look.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Spy can augments a running tool and provide valuable information to debug any SWT application. This can be the IDE in case you are a plugin developer or any RCP or Eclipse 4 application. You can get SWT spy from this location:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;http://download.eclipse.org/eclipse/updates/4.7&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Either add it to your target platform or directly install it into your IDE.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In case you install SWT spy into the IDE, you can open it by pressing:&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;SHIFT+CTRL+ALT+F9&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you would like to use SWT spy in a custom application, you need to include the bundle “org.eclipse.tools.layout.spy” into your product. To trigger the spy, there are two options:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you run on the compatibility layer (3.x), the key binding will also work&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;If you are running on Eclipse 4, you can embed the following code to open the SWT spy window:&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;final LayoutSpyDialog popupDialog = new LayoutSpyDialog(shell);
-popupDialog.open();&lt;/pre&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The SWT spy will open as a separate dialog, which is connected to the running application. It allows for the inspection of any SWT element with a focus on layout information. To navigate you can either browse the hierarchy or directly jump to an element. The hierarchy is shown as a list on the left side. By double clicking on an element within the current container you will walk down the SWT widget tree, the button on the top left corner will send you one level up. To jump to a specific element, click the button “Select Control” and hover over any element in the running application. A yellow border will help you with the selection. If you check the option “Show overlay”, SWT spy will draw a yellow border around the currently selected element.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-37781 size-full&quot; height=&quot;393&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/01/image2.jpg&quot; width=&quot;1193&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The text field on the right side shows the layout data of the current parent composite. If you select an element on the left, you see its layout data in the text field below. This is very helpful to debug layouts. Furthermore, you can use existing layouts as a template. The SWT spy directly shows you how to create the layout data for a selected element, e.g.&lt;/span&gt;&lt;/p&gt;
-&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;GridDataFactory.fillDefaults()
-    .grab(true, false)
-    .align(SWT.FILL, SWT.BEGINNING)
-    .minSize(0, 0)
-    .hint(107, SWT.DEFAULT)&lt;/pre&gt;
-&lt;p&gt;&lt;span&gt;During our work on &lt;/span&gt;&lt;a href=&quot;http://emfforms.org&quot;&gt;&lt;span&gt;EMF Forms&lt;/span&gt;&lt;/a&gt;&lt;span&gt;, we often develop or adapt renderers. The goal of EMF Forms is to ease the creation of forms, especially concerning the layout. However, before this can happen, you must first create a renderer which will take care of the layout for you. EMF Forms ships with default layouts, but you might want to adapt them.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;When debugging the layout of a combination of renderers, it is often helpful to visualize all elements, which are on screen. Sometimes, elements are not visible (e.g. composites) or have the same background color as their parent. For this purpose, the SWT spy allows you to color controls. If you check the option “Color controls …”, the spy will assign different background colors to each level in your widgets tree. This looks ugly, but is helpful in finding hidden composites or to see how much space certain elements occupy.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone wp-image-37782 size-full&quot; height=&quot;270&quot; src=&quot;https://eclipsesource.com/wp-content/uploads/2018/01/image1.jpg&quot; width=&quot;735&quot; /&gt;&lt;/p&gt;</description>
-	<pubDate>Wed, 10 Jan 2018 13:28:45 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: RHAMT Eclipse Plugin 4.0.0.Final has been released!</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/windup_4.0.0.ga_release.html</guid>
-	<link>https://tools.jboss.org/blog/windup_4.0.0.ga_release.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We are happy to announce the latest release of the Red Hat Application Migration Toolkit (RHAMT) Eclipse Plugin.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;getting-started&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#getting-started&quot;&gt;&lt;/a&gt;Getting Started&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;It is now available through JBoss Central, and from the update site &lt;a href=&quot;http://download.jboss.org/jbosstools/oxygen/stable/updates/rhamt/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-rhamt&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-rhamt&quot;&gt;&lt;/a&gt;What is RHAMT?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;RHAMT is an automated application migration and assessment tool.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Example ways to RHAMT up your code:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Moving your application from WebLogic to EAP, or WebSphere to EAP&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Version upgrade from Hibernate 3 to Hibernate 4, or EAP 6 to EAP 7&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Change UI technologies from Seam 2 to pure JSF 2.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;An example of how to run the RHAMT CLI:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;code&gt;$ ./rhamt-cli --input /path/to/jee-example-app-1.0.0.ear --output /path/to/output --source weblogic --target eap:7&lt;/code&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The output is a report used to assess and prioritize migration and modernization efforts.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;the-rhamt-eclipse-plugin-what-does-it-do&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#the-rhamt-eclipse-plugin-what-does-it-do&quot;&gt;&lt;/a&gt;The RHAMT Eclipse Plugin - What does it do?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Consider an application migration comprised of thousands of files, with a myriad of small changes, not to mention the tediousness of switching between
-       the report and your IDE. Who wants to be the engineer assigned to that task? :)
-      Instead, this tooling marks the source files containing issues, making it easy to organize, search, and in many cases automatically fix issues using quick fixes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Let me give you a quick walkthrough.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;ruleset-wizard&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#ruleset-wizard&quot;&gt;&lt;/a&gt;Ruleset Wizard&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We now have quickstart template code generators.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Rueset Wizard&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/ruleset_wizard.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;rule-creation-from-code&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#rule-creation-from-code&quot;&gt;&lt;/a&gt;Rule Creation From Code&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We have also added rule generators for selected snippets of code.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Rule Generation From Source&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/type_implements.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;ruleset-graphical-editor&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#ruleset-graphical-editor&quot;&gt;&lt;/a&gt;Ruleset Graphical Editor&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Ruleset navigation and editing is faster and more intuitive thanks to the new graphical editor.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Graphical Editor&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/ruleset_editor.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;ruleset-view&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#ruleset-view&quot;&gt;&lt;/a&gt;Ruleset View&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;We have created a view dedicated to the management of rulesets. Default rulesets shipped with RHAMT can now be opened, edited, and referenced while authoring
-      your own custom rulesets.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Ruleset View&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/ruleset_view.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;run-configuration&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#run-configuration&quot;&gt;&lt;/a&gt;Run Configuration&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Eclipse plugin interacts with the RHAMT CLI process, thereby making it possible to specify command line options and custom rulesets.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Run Configuration&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/run_configuration.gif&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;ruleset-submission&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#ruleset-submission&quot;&gt;&lt;/a&gt;Ruleset Submission&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Lastly, contribute your custom rulesets back to the community from within the IDE.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Ruleset Submission&quot; src=&quot;http://tools.jboss.org/blog/images/rhamt/ruleset_submission.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can find more detailed information &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_application_migration_toolkit/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Our goal is to make the RHAMT tooling easy to use. We look forward to your feedback and comments!&lt;br /&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Have fun!&lt;br /&gt;
-      John Steele&lt;br /&gt;
-      &lt;a href=&quot;https://github.com/johnsteele/&quot;&gt;github/johnsteele&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 10 Jan 2018 07:42:24 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Hazelcast Joins the Eclipse Foundation</title>
-	<guid isPermaLink="true">http://www.infoq.com/news/2018/01/hazelcast-joins-eclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/news/2018/01/hazelcast-joins-eclipse?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Hazelcast, a provider in open source In-Memory Data Grid (IMDG), recently joined the Eclipse Foundation to work with the other members of the Eclipse community to mainly focus on JCache, Eclipse MicroProfile, and EE4J. Greg Luck, CEO at Hazelcast, spoke to InfoQ about Hazelcast joining the Eclipse Foundation.
-&lt;/p&gt; &lt;i&gt;By Michael Redlich&lt;/i&gt;</description>
-	<pubDate>Tue, 09 Jan 2018 14:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: Eclipse Collections 9.1 Released</title>
-	<guid isPermaLink="false">https://medium.com/p/24c413d200ec</guid>
-	<link>https://medium.com/@donraab/eclipse-collections-9-1-released-24c413d200ec?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;New Features, more languages, better symmetry and other improvements&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*ZgPZPNVLMlletjZogDJ76w.png&quot; /&gt;&lt;/figure&gt;&lt;blockquote&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt; is a collections framework for Java. It has optimized List, Set and Map implementations with a rich and fluent API. The library provides additional data structures not found in the JDK like Bags, Multimaps and BiMaps. The framework also provides primitive versions of Lists, Sets, Bags, Stacks and Maps with a rich and fluent API. There is support for both Mutable and Immutable versions of all containers in the library.&lt;/blockquote&gt;&lt;p&gt;The Eclipse Collections community continues to grow. There were ten developers who contributed to the Eclipse Collections 9.1.0 release. I want to thank everyone who made a contribution. If this was your first contribution to an open source project, congratulations and welcome!&lt;/p&gt;&lt;p&gt;The release notes for Eclipse Collections 9.1.0 are here:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/releases/tag/9.1.0&quot;&gt;eclipse/eclipse-collections&lt;/a&gt;&lt;/p&gt;&lt;h4&gt;Multi-language Website&lt;/h4&gt;&lt;p&gt;In addition to code contributions, several developers worked on translating our Eclipse Collections Website to other spoken languages. This is an amazing example of how you can use more than just your coding skills to help open source projects. Thank you to both the contributors and reviewers!&lt;/p&gt;&lt;p&gt;Here are our website links:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/&quot;&gt;English&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/ja/index.html&quot;&gt;Japanese&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/ru/index.html&quot;&gt;Russian&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/pt-br/index.html&quot;&gt;Brazilian Portuguese&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A Chinese translation is in the works, and we will be looking to add other languages in the future. Please feel to submit an issue or pull request if you’d like to work on a translation to a spoken language you are fluent in.&lt;/p&gt;&lt;h4&gt;The Eclipse Collections Katas&lt;/h4&gt;&lt;p&gt;Both of the Eclipse Collections katas are now available in &lt;a href=&quot;https://revealjs.com/#/&quot;&gt;Reveal.js&lt;/a&gt; as of this release.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/company-kata/#/&quot;&gt;Company Kata&lt;/a&gt; (&lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata/blob/master/docs/company-kata/slides.md&quot;&gt;markdown file&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/pet-kata/#/&quot;&gt;Pet Kata&lt;/a&gt; (&lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata/blob/master/docs/pet-kata/slides.md&quot;&gt;markdown file&lt;/a&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We also had our first ever contribution of a live video demonstration of the Eclipse Collections Pet Kata using Eclipse Oxygen presented in Brazilian Portuguese. Great work and thank you Leo!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1TH0tdU_esQ&quot;&gt;https://www.youtube.com/watch?v=1TH0tdU_esQ&lt;/a&gt;&lt;/p&gt;&lt;p&gt;It would be great to have multi-language translations of our katas as well. Our katas are hosted now as simple markdown files which get translated to web based slides using &lt;a href=&quot;https://revealjs.com/#/&quot;&gt;Reveal.js&lt;/a&gt;. Feel free to submit a pull request if you’d like to translate the katas to another spoken language.&lt;/p&gt;&lt;h4&gt;New Collectors&lt;/h4&gt;&lt;p&gt;Several new Collector implementations were added to the Collectors2 utility class in this release. We continue to look to provide good integration between the Streams library and Eclipse Collections. Here’s an example of using the new &lt;em&gt;countBy&lt;/em&gt; Collector with a Stream of String.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void countBy()&lt;br /&gt;{&lt;br /&gt;    Stream&amp;lt;String&amp;gt; stream = Stream.&lt;em&gt;of&lt;/em&gt;(&lt;br /&gt;            &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;tHrEe&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Bag&amp;lt;String&amp;gt; counts =&lt;br /&gt;            stream.collect(&lt;br /&gt;                    Collectors2.&lt;em&gt;countBy&lt;/em&gt;(String::toLowerCase));&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, counts.occurrencesOf(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(2, counts.occurrencesOf(&lt;strong&gt;&quot;two&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(3, counts.occurrencesOf(&lt;strong&gt;&quot;three&quot;&lt;/strong&gt;));&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;You can now consider using the &lt;em&gt;countBy&lt;/em&gt; Collector as an alternative to using the &lt;em&gt;groupingBy&lt;/em&gt; and &lt;em&gt;counting&lt;/em&gt; alternative from the JDK shown below.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void groupingByCounting()&lt;br /&gt;{&lt;br /&gt;    Stream&amp;lt;String&amp;gt; stream = Stream.&lt;em&gt;of&lt;/em&gt;(&lt;br /&gt;            &lt;strong&gt;&quot;One&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Three&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;tHrEe&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Map&amp;lt;String, Long&amp;gt; counts =&lt;br /&gt;            stream.collect(&lt;br /&gt;                    Collectors.&lt;em&gt;groupingBy&lt;/em&gt;(String::toLowerCase,&lt;br /&gt;                            Collectors.&lt;em&gt;counting&lt;/em&gt;()));&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Long.&lt;em&gt;valueOf&lt;/em&gt;(1), counts.get(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Long.&lt;em&gt;valueOf&lt;/em&gt;(2), counts.get(&lt;strong&gt;&quot;two&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(Long.&lt;em&gt;valueOf&lt;/em&gt;(3), counts.get(&lt;strong&gt;&quot;three&quot;&lt;/strong&gt;));&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;There were also Collectors added for &lt;strong&gt;&lt;em&gt;groupByEach&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;groupByUniqueKey &lt;/em&gt;&lt;/strong&gt;on the &lt;strong&gt;&lt;em&gt;Collectors2&lt;/em&gt;&lt;/strong&gt; class in this release.&lt;/p&gt;&lt;h4&gt;&lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; Continues&lt;/h4&gt;&lt;p&gt;You can now use &lt;em&gt;zip&lt;/em&gt; with primitive Lists. There are two varieties of zip for primitive Lists.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Zipping a primitive and an object List.&lt;/li&gt;&lt;/ol&gt;&lt;pre&gt;@Test&lt;br /&gt;public void zipPrimitiveWithObject()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;IntObjectPair&amp;lt;String&amp;gt;&amp;gt; zipped =&lt;br /&gt;            IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3)&lt;br /&gt;                    .zip(Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;one&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    List&amp;lt;IntObjectPair&amp;lt;String&amp;gt;&amp;gt; expected =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(1, &lt;strong&gt;&quot;one&quot;&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(2, &lt;strong&gt;&quot;two&quot;&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(3, &lt;strong&gt;&quot;three&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, zipped);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;2. Zipping two primitive Lists of the same type.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void zipIntToInt()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;IntIntPair&amp;gt; zipped =&lt;br /&gt;            IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3)&lt;br /&gt;                    .zipInt(IntInterval.&lt;em&gt;oneTo&lt;/em&gt;(3).asReversed());&lt;br /&gt;&lt;br /&gt;    List&amp;lt;IntIntPair&amp;gt; expected =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(1, 3),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(2, 2),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(3, 1));&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, zipped);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;There is a zip&amp;lt;Type&amp;gt; method for each primitive type. Here is an example of the &lt;em&gt;zipChar&lt;/em&gt; method available on &lt;em&gt;CharAdapter&lt;/em&gt;, which is an &lt;em&gt;ImmutableCharList&lt;/em&gt;. We can obtain a &lt;em&gt;CharAdapter&lt;/em&gt; now simply by using the new &lt;em&gt;Strings&lt;/em&gt; factory class.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void zipCharToChar()&lt;br /&gt;{&lt;br /&gt;    ImmutableList&amp;lt;CharCharPair&amp;gt; zipped =&lt;br /&gt;            Strings.&lt;em&gt;asChars&lt;/em&gt;(&lt;strong&gt;&quot;hello&quot;&lt;/strong&gt;)&lt;br /&gt;                    .zipChar(Strings.&lt;em&gt;asChars&lt;/em&gt;(&lt;strong&gt;&quot;hello&quot;&lt;/strong&gt;).asReversed());&lt;br /&gt;&lt;br /&gt;    List&amp;lt;CharCharPair&amp;gt; expected =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;strong&gt;'h'&lt;/strong&gt;, &lt;strong&gt;'o'&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;strong&gt;'e'&lt;/strong&gt;, &lt;strong&gt;'l'&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;strong&gt;'l'&lt;/strong&gt;, &lt;strong&gt;'l'&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;strong&gt;'l'&lt;/strong&gt;, &lt;strong&gt;'e'&lt;/strong&gt;),&lt;br /&gt;                    PrimitiveTuples.&lt;em&gt;pair&lt;/em&gt;(&lt;strong&gt;'o'&lt;/strong&gt;, &lt;strong&gt;'h'&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, zipped);&lt;br /&gt;}&lt;/pre&gt;&lt;h4&gt;Abandoning Symmetry for a better design&lt;/h4&gt;&lt;p&gt;Sometimes providing good symmetry may not be the best solution to a problem. There has been a method called &lt;em&gt;zipWithIndex&lt;/em&gt; available on Eclipse Collections object collections for a very long time. &lt;em&gt;ZipWithIndex&lt;/em&gt; was added before we had primitive collections in Eclipse Collections, so its return type unfortunately boxes an Integer for the index. I did not want to add a primitive version of of the same API. Instead, I added a new method to both object and primitive Lists (Symmetry!) called &lt;strong&gt;&lt;em&gt;collectWithIndex&lt;/em&gt;&lt;/strong&gt;. &lt;em&gt;CollectWithIndex&lt;/em&gt; can be used to implement &lt;em&gt;zipWithIndex &lt;/em&gt;by collecting to a &lt;em&gt;ObjectIntPair&lt;/em&gt;.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void whereIsZipWithIndex()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Pair&amp;lt;String, &lt;strong&gt;Integer&lt;/strong&gt;&amp;gt;&amp;gt; original =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;1&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;2&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;3&quot;&lt;/strong&gt;)&lt;br /&gt;                    .zipWithIndex();&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;ObjectIntPair&amp;lt;String&amp;gt;&amp;gt; improved =&lt;br /&gt;            Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;1&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;2&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;3&quot;&lt;/strong&gt;)&lt;br /&gt;                    .collectWithIndex(PrimitiveTuples::&lt;em&gt;pair&lt;/em&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            original.get(0).getTwo().intValue(),&lt;br /&gt;            improved.get(0).getTwo());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            original.get(1).getTwo().intValue(),&lt;br /&gt;            improved.get(1).getTwo());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;br /&gt;            original.get(2).getTwo().intValue(),&lt;br /&gt;            improved.get(2).getTwo());&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;Ideally, &lt;em&gt;zipWithIndex&lt;/em&gt; would have returned &lt;em&gt;ObjectIntPair&lt;/em&gt;, but this type wasn’t available when the API was originally added. Since we don’t like breaking backwards compatibility on existing methods unless there is a very compelling reason to, we’ll probably never change the return type for &lt;em&gt;zipWithIndex&lt;/em&gt;. The &lt;em&gt;collectWithIndex&lt;/em&gt; method can return any type you want, not just a Pair. I believe &lt;em&gt;collectWithIndex&lt;/em&gt; will prove to be a more useful method than &lt;em&gt;zipWithIndex&lt;/em&gt; in the long run.&lt;/p&gt;&lt;h4&gt;And of there is more…&lt;/h4&gt;&lt;p&gt;Have a look at some of the other features listed in the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/releases/tag/9.1.0&quot;&gt;release notes&lt;/a&gt;. We look forward to seeing more contributors to Eclipse Collections in the future.&lt;/p&gt;&lt;p&gt;Happy New Year and have fun using Eclipse Collections 9.1 in your Java projects!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=24c413d200ec&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 05 Jan 2018 19:39:34 +0000</pubDate>
 </item>
 
 </channel>

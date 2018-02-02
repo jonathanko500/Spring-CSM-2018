@@ -6,13 +6,13 @@ public class M2Prac
 	{//start main
 		String[] list = new String[]{"hello","bye"};
 		convertToUpper(list);
-		
 	}//end main
 	public static void convertToUpper(String[] words)
 	{
 		for(int i=0;i<words.length;i++)
 		{
-			System.out.println(words[i].toUpperCase());
+			words[i]=words[i].toUpperCase();
+			System.out.println(words[i]);
 		}
 	}
 }//end class

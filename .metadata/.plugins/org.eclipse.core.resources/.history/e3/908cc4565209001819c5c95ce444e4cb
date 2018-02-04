@@ -1,0 +1,13 @@
+
+public class M2Test {
+
+	public static void main(String[] args) {
+		boolean[] flags = new boolean[10];
+		for(int i = 0;i<flags.length;i++)
+		{
+			flags[i]=true;
+			System.out.println(flags[i]);
+		}
+	}
+
+}

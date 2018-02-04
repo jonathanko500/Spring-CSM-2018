@@ -1,0 +1,12 @@
+
+public class M2Test {
+
+	public static void main(String[] args) {//start main
+		int[] vaules = new int[]{2,3,7,8,9};
+		vaules[3]=vaules[4];
+		vaules[4]=vaules[3];
+		System.out.println(vaules[3]);
+		System.out.println(vaules[4]);
+	}//end main
+
+}

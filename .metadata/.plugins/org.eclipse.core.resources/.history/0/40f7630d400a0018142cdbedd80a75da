@@ -1,0 +1,83 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class M2Test
+{//start class
+	public static void main(String[] args)
+	{//start main
+		String[] names= new String[10];
+		enterName(names);
+		System.out.println("-------------");
+		smallName(names);
+		System.out.println("-------------");
+		numbChar(names);
+		System.out.println("-------------");
+		specific(names);
+		System.out.println("-------------");
+		numbA(names);
+		System.out.println("-------------");
+		replace(names);
+	}//end main
+	public static void enterName(String [] list)
+	{//start method
+		String name;
+		Scanner input = new Scanner(System.in);
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.print("Enter name: ");
+			name=input.nextLine();
+			list[i]=name;
+		}
+	}//end method
+	public static void smallName (String[] list)
+	{//start method
+		ArrayList<String> smallName = new ArrayList<String>();
+		for(int i=0;i<list.length;i++)
+		{
+			smallName.add(list[i].toLowerCase());
+			//delete println
+			System.out.println(smallName.get(i));
+		}
+	}//end method
+	public static void numbChar (String [] list)
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.println(list[i].length());
+		}
+	}//end method
+	public static void specific (String [] list)
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			if(list[i].length()>3)
+			{
+				System.out.println(list[i].charAt(3));
+			}
+			//delete else when finished
+			else
+			{
+				System.out.println("Name is not not longer than 3 char");
+			}
+		}//end loop
+	}//end method
+	public static void numbA (String [] list)
+	{//start method
+		int count=0;
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			if(list[i].charAt(0)=='a'||list[i].charAt(0)=='A')
+			{
+				count++;
+			}
+		}//end loop
+		System.out.println("There are "+ count+ " names that start with A");
+	}//end method
+	public static void replace (String [] list)
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			System.out.println(list[i].replace('e', 'x'));
+		}//end loop
+	}//end method
+}//end class

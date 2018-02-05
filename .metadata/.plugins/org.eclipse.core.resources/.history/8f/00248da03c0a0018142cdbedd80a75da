@@ -1,0 +1,55 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class M2Test
+{
+	public static void main(String[] args)
+	{//start main
+		String[] names= new String[10];
+		enterName(names);
+		System.out.println("-------------");
+		smallName(names);
+		System.out.println("-------------");
+		numbChar(names);
+		System.out.println("-------------");
+		specific(names);
+	}//end main
+	public static void enterName(String [] list)
+	{//start method
+		String name;
+		Scanner input = new Scanner(System.in);
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.print("Enter name: ");
+			name=input.nextLine();
+			list[i]=name;
+		}
+	}//end method
+	public static void smallName (String[] list)
+	{//start method
+		ArrayList<String> smallName = new ArrayList<String>();
+		for(int i=0;i<list.length;i++)
+		{
+			smallName.add(list[i].toLowerCase());
+			//delete println
+			System.out.println(smallName.get(i));
+		}
+	}//end method
+	public static void numbChar (String [] list)
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.println(list[i].length());
+		}
+	}//end method
+	public static void specific (String [] list)
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			if(list[i].length()>3)
+			{
+				System.out.println(list[i].charAt(4));
+			}
+		}//end loop
+	}//end method
+}

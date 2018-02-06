@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+//Jonathan Ko
+//CIS 255 Project 1 Rainfall
+//worked with Kennedy Louie
+public class Rainfall
+{//start class
+	public static void main(String[] args)
+	{//start method
+		double[] Values = new double[12];
+		enter(Values);
+		for(int i=0;i<Values.length;i++)
+		{
+			System.out.println(Values[i]);
+		}
+	}//end method
+	public static void enter (double[] list)
+	{//start method
+		double value;
+		for(int i= 0;i<list.length;i++)
+		{//start for
+			Scanner input = new Scanner(System.in);
+			System.out.print("Enter value: ");
+			value=Double.parseDouble(input.nextLine());
+			while(value<0)
+			{
+				System.out.print("invalid data. Enter value more than 0: ");
+			}
+			list[i]=value;
+		}//end for
+	}//end method
+}//end class

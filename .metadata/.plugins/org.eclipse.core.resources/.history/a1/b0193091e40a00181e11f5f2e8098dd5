@@ -1,0 +1,147 @@
+import java.util.Scanner;
+//Jonathan Ko
+//CIS 255 Project 1 Rainfall
+//worked with Kennedy Louie
+public class Rainfall
+{//start class
+	public static void main(String[] args)
+	{//start main
+		double[] Values = new double[12];
+		String option,choice;
+		boolean again=true;
+		enter(Values);
+		Scanner input = new Scanner(System.in);
+		while(again==true)
+		{//start loop
+			option=menu();
+			System.out.println("");
+			switch(option)
+			{//start switch
+			case "all":
+				printAll(Values);
+				break;
+			case "total":
+				printTotal(Values);
+			case "avg":
+				printAvg(Values);
+				break;
+			//case "max":
+				
+			}//end switch
+			System.out.print("Again? (Y/N): "); 
+			choice=input.nextLine().toLowerCase();
+			if(choice!="y")
+			{
+				again=false;
+			}
+		}//end loop
+	}//end main
+	public static void enter (double[] list)
+	{//start method
+		double value;
+		Scanner input = new Scanner(System.in);
+		for(int i= 0;i<list.length;i++)
+		{//start for
+			System.out.print("Enter amount of rainfall: ");
+			value=Double.parseDouble(input.nextLine());
+			while(value<0)
+			{
+				System.out.print("invalid data. Enter again that is more than 0: ");
+				value=Double.parseDouble(input.nextLine());
+			}
+			list[i]=value;
+		}//end for
+		System.out.println("");
+	}//end method
+	public static String menu()// print max, min+update data
+	{//start method
+		String choice="";
+		Scanner input = new Scanner(System.in);
+		System.out.println("Type \"All\" to see all the data. ");
+		System.out.println("Type \"Total\" for total rainfall for the year.");
+		System.out.println("Type \"Avg\" for average rainfall.");
+		System.out.println("Type \"Max\" to see the month with the most rain.");
+		System.out.println("Type \"Min\" to see the month with the least rain.");
+		System.out.println("Type \"Up\" to update data.");
+		System.out.print("What would you like to do? Enter: ");
+		choice=input.nextLine();
+		choice.toLowerCase();
+		return choice;
+	}//end method
+	public static void printAll (double[] list)//prints all value
+	{//start method
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			switch(i)
+			{//start switch
+			case 0:
+				System.out.print("Jan. ");
+				break;
+			case 1:
+				System.out.print("Feb. ");
+				break;
+			case 2:
+				System.out.print("Mar. ");
+				break;
+			case 3:
+				System.out.print("Apr. ");
+				break;
+			case 4:
+				System.out.print("May. ");
+				break;
+			case 5:
+				System.out.print("Jun. ");
+				break;
+			case 6:
+				System.out.print("Jul. ");
+				break;
+			case 7:
+				System.out.print("Aug. ");
+				break;
+			case 8:
+				System.out.print("Sep. ");
+				break;
+			case 9:
+				System.out.print("Oct. ");
+				break;
+			case 10:
+				System.out.print("Nov. ");
+				break;
+			case 11:
+				System.out.print("Dec. ");
+				break;
+			}//end switch
+			System.out.printf("rainfall is %.2f%n",list[i]);
+		}//end loop
+		System.out.println("");
+	}//end method
+	public static void printTotal(double[] list)//print total rainfall
+	{//start method
+		double total=0;
+		for(int i=0;i<list.length;i++)
+		{
+			total+=list[i];
+		}
+		System.out.printf("The total rainfall is %.2f%n",total);
+		System.out.println("");
+	}//end method
+	public static void printAvg(double[] list)//print avg rainfall
+	{//start method
+		double total=0,avg=0;
+		for(int i=0;i<list.length;i++)
+		{
+			total+=list[i];
+		}
+		avg=total/list.length;
+		System.out.printf("The average rainfall is %.2f%n",avg);
+		System.out.println("");
+	}//end method
+	public static void printMax (double[] list)//print max month rainfall
+	{//start method
+		double max=0;
+		for(int i=0;i<list.length;i++)
+		{
+			
+		}
+	}//end method
+}//end class

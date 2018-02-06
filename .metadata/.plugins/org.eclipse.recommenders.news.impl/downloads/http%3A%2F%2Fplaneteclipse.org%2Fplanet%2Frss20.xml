@@ -8,6 +8,88 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Mike Milinkovich: Introducing the EE.next Working Group</title>
+	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1429</guid>
+	<link>https://mmilinkov.wordpress.com/2018/02/05/introducing-the-ee-next-working-group/</link>
+	<description>&lt;p&gt;As part of our continuing adventures in &lt;a href=&quot;https://mmilinkov.wordpress.com/2018/01/23/ee4j-current-status-and-whats-next/&quot;&gt;migrating Java EE to the Eclipse Foundation&lt;/a&gt; I am pleased to announce that the draft of the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/eclipse_ee_next_charter.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;EE.next Working Group charter&lt;/a&gt;  has now been posted for community review. Comments and feedback are welcomed on the &lt;a href=&quot;mailto:ee4j-community@eclipse.org&quot;&gt;ee4j-community@eclipse.org&lt;/a&gt; mail list. But please please pretty please make sure you read the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/eclipse_ee_next_faq.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;FAQ&lt;/a&gt; (also copied below) before you do.&lt;/p&gt;
+&lt;p&gt;You can think of this EE.next group as the replacement for the Java Community Process for Java EE. It will be the body that the ecosystem can join and participate in at a corporate level. Individuals can also join if they are committers on EE4J projects. EE.next will also be the place where the new specification process will be created and managed, and where specs will be reviewed and approved.&lt;/p&gt;
+&lt;p&gt;Under the &lt;a href=&quot;https://www.eclipse.org/org/workinggroups/industry_wg_process.php&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;process&lt;/a&gt; for establishing Eclipse Foundation working groups, there will now be a community review period lasting a minimum of 30 days.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1&gt;FAQ&lt;/h1&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What is the purpose of a working group?&lt;/h2&gt;
+&lt;p&gt;An Eclipse Foundation working group is a special-purpose consortia of Eclipse Members interested in supporting a technology domain. They are intended to complement the activities of a collection of Eclipse Foundation open source projects. Open source projects are excellent for many things, but they typically do not do a great job with activities such as marketing, branding, specification and compliance processes, and the like.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What is the role of the PMC versus the working group or the working group Steering Committee?&lt;/h2&gt;
+&lt;p&gt;Eclipse Foundation projects are self-governing meritocracies that set their own technical agendas and plans. The Project Management Committee for an Eclipse top-level project oversees the day-to-day activities of its projects through activities such as reviewing and approving plans, accepting new projects, approving releases, managing committer elections, and the like.&lt;/p&gt;
+&lt;p&gt;Working groups and their steering committees are intended to complement the work happening in the open source projects with activities that lead to greater adoption, market presence, and momentum. Specifically the role of the working group is to foster the creation and growth of the ecosystem that surrounds the projects.&lt;/p&gt;
+&lt;p&gt;Working groups do not direct the activities of the projects or their PMC. They are intended to be peer organizations that work in close collaboration with one another.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Who defines and manages technical direction?&lt;/h2&gt;
+&lt;p&gt;The projects manage their technical direction. The PMC may elect to coordinate the activities of multiple projects to facilitate the release of software platforms, for example.&lt;/p&gt;
+&lt;p&gt;Because the creation of roadmaps and long term release plans can require market analysis, requirements gathering, and resource commitments from member companies, the working group may sponsor complementary activities to generate these plans. However, ultimately it is up to the projects to agree to implement these plans or roadmaps. The best way for a working group to influence the direction of the open source projects is to ensure that they have adequate resources. This can take the form of developer contributions, or under the &lt;a href=&quot;https://staging.eclipse.org/org/workinggroups/mfi_program.php&quot;&gt;Member Funded Initiatives programs&lt;/a&gt;, working groups can pool funds to contract developers to implement the features they desire.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Why are there so many levels of membership?&lt;/h2&gt;
+&lt;p&gt;Because the Java EE ecosystem is a big place, and we want to ensure that there are roles for all of the players in it. We see the roles of the various member classes to roughly align as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strategic members are the vendors that deliver Java EE implementations. As such they are typically putting in the largest number of contributors, and are leading many of the projects.&lt;/li&gt;
+&lt;li&gt;Influencer members are the large enterprises that rely upon Java EE today for their mission critical application infrastructure, and who are looking to EE.next to deliver the next generation of cloud native Java. They have made strategic investments in this technology, have a massive skills investment in their developers, and want to protect these investments as well as influence the future of this technology.&lt;/li&gt;
+&lt;li&gt;Participant members are the companies that offer complementary products and services within the Java EE ecosystem. Examples include ISVs which build products on Java EE, or system integrators that use these technologies in delivering solutions to their customers.&lt;/li&gt;
+&lt;li&gt;Committer members are comprised of the committers working on the various EE4J projects who are also members of the Eclipse Foundation. While the &lt;a href=&quot;https://staging.eclipse.org/org/documents/&quot;&gt;Eclipse bylaws&lt;/a&gt; define the criteria for committers to be considered members, in essence any committer members are either a) a committer who is an employee of an EE.next member company or b) any other committer who has explicitly chosen to join as a member. Giving Committer members a role in the working group governance process mimics the governance structure of the Eclipse Foundation itself, where giving committers an explicit voice has been invaluable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class=&quot;h3&quot;&gt;What makes this different from the Java Community Process (JCP)?&lt;/h2&gt;
+&lt;p&gt;The EE.next working group will be the successor organization to the JCP for the family of technologies formerly known as Java EE. It has several features that make it a worthy successor to the JCP:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It is vendor neutral. The JCP was owned and operated first by Sun and later by Oracle. EE.next is designed to be inclusive and diverse, with no organization having any special roles or rights.&lt;/li&gt;
+&lt;li&gt;It has open intellectual property flows. At the JCP, all IP flowed to the Spec Lead, which was typically Oracle. We are still working out the exact details, but the IP rights with EE.next and EE4J will certainly not be controlled by any for-profit entity.&lt;/li&gt;
+&lt;li&gt;It is more agile. This is an opportunity to define a 21st century workflow for creating rapidly evolving Java-based technologies. We will be merging the best practices from open source with what we have learned from over 15 years of JCP experience.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Is the WG steering committee roughly equivalent to the JCP Executive Committee?&lt;/h2&gt;
+&lt;p&gt;No, not really. The JCP EC always had two mixed roles: as a technical body overseeing the specification process, and as an ecosystem governance body promoting Java ME, SE, and EE. In EE.next the Steering Committee will be the overall ecosystem governance body. The EE.next Specification Committee will focus solely on the development and smooth operation of the technical specification process.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;Does a project have to be approved as a spec before it can start?&lt;/h2&gt;
+&lt;p&gt;That is actually a decision which will be made by the EE4J PMC, not the working group. However, it is a goal of the people and organizations working on creating this working group that the Java EE community move to more of a code-first culture. We anticipate and hope that the EE4J PMC will embrace the incubation of technologies under its banner. Once a technology has been successfully implemented and adopted by at least some in the industry, it can then propose that a specification be created for it.&lt;/p&gt;
+&lt;h2 class=&quot;h3&quot;&gt;In addition to the Steering Committee, what other committees exist?&lt;/h2&gt;
+&lt;p&gt;There are four committees comprising the EE.next governance structure – the Steering Committee, the Specification Committee, the Marketing and Brand Committee, and the Enterprise Requirements Committee. A summary of the make-up of each of the committees is in the table below.&lt;/p&gt;
+&lt;table class=&quot;table&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Strategic Member&lt;/th&gt;
+&lt;th&gt;Influencer Member&lt;/th&gt;
+&lt;th&gt;Participant Member&lt;/th&gt;
+&lt;th&gt;Committer Member&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Steering Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Specification Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Marketing Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;td&gt;Elected&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Member of the Enterprise Requirements Committee&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;Appointed&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+	<pubDate>Mon, 05 Feb 2018 19:43:02 +0000</pubDate>
+</item>
+<item>
 	<title>Jeremie Bresson: Use the eclipse-settings-maven-plugin to synchronize prefs files across projects</title>
 	<guid isPermaLink="true">http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</guid>
 	<link>http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</link>
@@ -83,7 +165,7 @@
 &lt;p&gt;— TODO Group (@todogroup) &lt;a href=&quot;https://twitter.com/todogroup/status/958020764862746624?ref_src=twsrc%5Etfw&quot;&gt;January 29, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;While some open source foundations have well defined project lifecycles with notions of an “attic” or “archive” – many companies who open source projects generally do not.&lt;/p&gt;
-&lt;p&gt;Anyways, I hope these articles are useful to you and you learn something new &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.3/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;Anyways, I hope these articles are useful to you and you learn something new &lt;img alt=&quot;🙂&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f642.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
 	<pubDate>Tue, 30 Jan 2018 14:29:46 +0000</pubDate>
 </item>
 <item>
@@ -904,16 +986,6 @@
 &lt;p&gt;Anyone who has seen me speak over the past couple of years has likely heard me express the idea that the “community is the capacity.” The Eclipse Foundation is a 30 person organization that supports a community of hundred of projects, hundreds of members, thousands of committers and contributors, and millions of users. Whenever I take a moment to reflect on what we accomplish together it is breathtaking. The breadth of the technology that we collectively produce is vast, and our community spans the globe. Equally exciting, engagement continues to grow with a variety of industries notably automotive, power, transportation, etc. interested in leveraging the Eclipse Foundation as the place for open, commercial collaboration.&lt;/p&gt;
 &lt;p&gt;I am incredibly optimistic that 2018 is going to be one of the most exciting years we’ve ever had, so please get involved!&lt;/p&gt;</description>
 	<pubDate>Mon, 22 Jan 2018 13:01:45 +0000</pubDate>
-</item>
-<item>
-	<title>PapyrusUML: Papyrus UML support in Hawk</title>
-	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1069</guid>
-	<link>https://papyrusuml.wordpress.com/2018/01/19/papyrus-uml-support-in-hawk/</link>
-	<description>&lt;p&gt;&lt;img align=&quot;right&quot; alt=&quot;mondo project&quot; height=&quot;25%&quot; src=&quot;https://i2.wp.com/api.ning.com/files/ujcza9N5GbJv7*4sWhEl42fjxvc3NEu8iKexmuwI5d7l0xuxOVoUVOT0aFOsqT8nAnFcZncOVdcnt0UFko9J8WJQ-yWFS5EF/MONDOhoriztag.png&quot; width=&quot;25%&quot; /&gt; The &lt;a href=&quot;http://www.mondo-project.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Mondo  Project&lt;/a&gt;‘s &lt;a href=&quot;https://github.com/mondo-project/mondo-hawk&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;mondo-hawk&lt;/a&gt; now supports my models!&lt;/p&gt;
-&lt;p&gt;You can read more about this on their &lt;a href=&quot;https://github.com/mondo-project/mondo-hawk/wiki/Papyrus-UML-support-in-Hawk&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;announcement page&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;Note that they only index my semantic model (i.e., the “.uml” files) and not the diagrams, which makes sense in their context given that diagrams are not semantic elements.&lt;/p&gt;
-&lt;p&gt;Still, this is so cool!&lt;/p&gt;</description>
-	<pubDate>Fri, 19 Jan 2018 15:00:40 +0000</pubDate>
 </item>
 
 </channel>

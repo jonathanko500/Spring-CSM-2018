@@ -8,6 +8,7 @@ public class Rainfall
 	{//start main
 		double[] Values = new double[12];
 		String option,choice;
+		int pass=0;
 		boolean again=true;
 		enter(Values);
 		Scanner input = new Scanner(System.in);
@@ -15,26 +16,42 @@ public class Rainfall
 		{//start loop
 			option=menu();
 			System.out.println("");
-			switch(option)
-			{//start switch
-			case "all":
-				printAll(Values);
-				break;
-			case "total":
-				printTotal(Values);
-				break;
-			case "avg":
-				printAvg(Values);
-				break;
-			case "max":
-				printMax(Values);
-				break;
-			case "min":
-				printMin(Values);
-				break;
-			case "update":
-				Values=update(Values);
-			}//end switch
+			do
+			{//start loop
+				
+				switch(option)
+				{//start switch
+				case "all":
+					printAll(Values);
+					pass=1;
+					break;
+				case "total":
+					printTotal(Values);
+					pass=1;
+					break;
+				case "avg":
+					printAvg(Values);
+					pass=1;
+					break;
+				case "max":
+					printMax(Values);
+					pass=1;
+					break;
+				case "min":
+					printMin(Values);
+					pass=1;
+					break;
+				case "update":
+					Values=update(Values);
+					pass=1;
+					break;
+				default:
+					System.out.print("Invalid data. re-enter: ");
+					option=input.nextLine().toLowerCase();
+					System.out.println("");
+					break;
+				}//end switch
+			}while(pass==0);//end loop
 			System.out.print("Again? (Y/N): ");
 			choice=input.nextLine();
 			System.out.println("");
@@ -42,16 +59,17 @@ public class Rainfall
 			{
 				again=false;
 			}
-			
 		}while(again==true);//end loop
+		System.out.println("Code completed by Jonathan Ko and Kennedy Louie");
 	}//end main
-	public static void enter (double[] list)
+	public static void enter (double[] list)//enter data values
 	{//start method
 		double value;
+		String[] months = new String[] {"January","February","March","April","May","June","July","August","September","October","November","December"};
 		Scanner input = new Scanner(System.in);
 		for(int i= 0;i<list.length;i++)
 		{//start for
-			System.out.print("Enter amount of rainfall: ");
+			System.out.print("Enter amount of rainfall for the month of "+months[i]+": ");
 			value=Double.parseDouble(input.nextLine());
 			while(value<0)
 			{
@@ -71,7 +89,7 @@ public class Rainfall
 		System.out.println("Type \"Avg\" for average rainfall.");
 		System.out.println("Type \"Max\" to see the month with the most rain.");
 		System.out.println("Type \"Min\" to see the month with the least rain.");
-		System.out.println("Type \"Up\" to update data.");
+		System.out.println("Type \"Update\" to update data.");
 		System.out.print("What would you like to do? Enter: ");
 		choice=input.nextLine();
 		choice.toLowerCase();
@@ -256,62 +274,82 @@ public class Rainfall
 		System.out.println("");
 	}//end method
 	public static double[] update (double[] list)//update array
-	{//start method
-		Scanner input = new Scanner(System.in);
-		String month;
-		double amount;
-		int monthNumb=0;
-		System.out.print("Enter which month to change (Enter full month): ");
-		month=input.nextLine().toLowerCase();
-		switch(month)
-		{//start switch
-		case "janurary":
-			monthNumb=0;
-			break;
-		case "feburary":
-			monthNumb=1;
-			break;
-		case "march":
-			monthNumb=2;
-			break;
-		case "april ":
-			monthNumb=3;
-			break;
-		case "may":
-			monthNumb=4;
-			break;
-		case "june":
-			monthNumb=5;
-			break;
-		case "july":
-			monthNumb=6;
-			break;
-		case "august":
-			monthNumb=7;
-			break;
-		case "september":
-			monthNumb=8;
-			break;
-		case "october":
-			monthNumb=9;
-			break;
-		case "november":
-			monthNumb=10;
-			break;
-		case "december":
-			monthNumb=11;
-			break;
-		}//end switch	
-		System.out.print("What is the new amount: ");
-		amount=Double.parseDouble(input.nextLine());
-		while(amount<0)
-		{
-			System.out.print("invalid data. Enter again that is more than 0: ");
-			amount=Double.parseDouble(input.nextLine());
-		}
-		list[monthNumb]=amount;
-		System.out.printf(month+" now has %.2f rainfall.%n",list[monthNumb]);
-		System.out.println("");
-		return list;
-	}//end method
+    {//start method
+        Scanner input = new Scanner(System.in);
+        String month;
+        double amount;
+        int monthNumb=0,pass=0;
+        System.out.print("Enter which month to change (Enter full month): ");
+        month=input.nextLine();
+        month.toLowerCase();
+        do
+        {
+        	switch(month)
+            {//start switch
+            case "janurary":
+                monthNumb=0;
+                break;
+            case "feburary":
+                monthNumb=1;
+                break;
+            case "march":
+                monthNumb=2;
+                break;
+            case "april ":
+                monthNumb=3;
+                break;
+            case "may":
+                monthNumb=4;
+                break;
+            case "june":
+                monthNumb=5;
+                break;
+            case "july":
+                monthNumb=6;
+                break;
+            case "august":
+                monthNumb=7;
+                break;
+            case "september":
+                monthNumb=8;
+                break;
+            case "october":
+                monthNumb=9;
+                break;
+            case "november":
+                monthNumb=10;
+                break;
+            case "december":
+                monthNumb=11;
+                break;
+            default:
+    			System.out.print("Invalid data. re-enter correct month (Enter full month): ");
+    			month=input.nextLine().toLowerCase();
+    			if(month.equalsIgnoreCase("january")||month.equalsIgnoreCase("february")||month.equalsIgnoreCase("march")||month.equalsIgnoreCase("april")||month.equalsIgnoreCase("june")||month.equalsIgnoreCase("july")||month.equalsIgnoreCase("august")||month.equalsIgnoreCase("september")||month.equalsIgnoreCase("october")||month.equalsIgnoreCase("november")||month.equalsIgnoreCase("december"))
+    			{
+    				pass=1;
+    			}
+    			break;
+            }//end switch
+        	pass=1;
+        }while(pass==0);
+        System.out.print("What is the new amount: ");
+        amount=Double.parseDouble(input.nextLine());
+        while(amount<0)
+        {
+            System.out.print("invalid data. Enter again that is more than 0: ");
+            amount=Double.parseDouble(input.nextLine());
+        }
+        for(int i=0;i<list.length;i++)
+        {
+        	if(list[i]==list[monthNumb])
+        	{
+        		list[monthNumb]=amount;
+        	}
+        	
+        }
+        System.out.println("Data has been updated.");
+        System.out.println("");
+        return list;
+    }//end method
 }//end class

@@ -8,6 +8,70 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Wayne Beaton: The Eclipse Committer Election Workflow</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5437</guid>
+	<link>https://waynebeaton.wordpress.com/2018/02/08/the-eclipse-committer-election-workflow/</link>
+	<description>&lt;p&gt;In the world of open source, &lt;em&gt;Committers&lt;/em&gt; are ones who hold they keys. Committers decide what code goes into the code base, they decide how a project builds, and they ultimately decide what gets delivered to the adopter community. With awesome power, comes awesome responsibility, and so it’s no mistake that the &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#2_1_Open_Source_Rules_of_Engagement&quot;&gt;Open Source Rules of Engagement&lt;/a&gt; described by the Eclipse Development Process, puts &lt;em&gt;Meritocracy&lt;/em&gt; on equal footing with &lt;em&gt;Transparency&lt;/em&gt; and &lt;em&gt;Openness&lt;/em&gt;: becoming a committer isn’t necessarily hard, but it does require a demonstration of commitment (committer… commitment… see what I did there?)&lt;/p&gt;
+&lt;p&gt;There’s two ways to become an &lt;em&gt;Eclipse Committer&lt;/em&gt;. The first way is to be listed as an initial committer on a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#starting&quot;&gt;new project proposal&lt;/a&gt;. When projects come to the Eclipse Foundation we need them to actually start with committers, and so we include this as part of the bootstrapping. As part of the process of community vetting a new project proposal, the committers listed are themselves vetted by the community. That’s why we include space for a merit statement for every committer listed on a proposal (in many cases, the merit statement is an implied “these are the people who worked on the code that is being contributed”). In effect, the project proposal process also acts as a committer election that’s open to the entire community.&lt;/p&gt;
+&lt;p&gt;The second way to become a committer is to get voted in via &lt;em&gt;Committer Election&lt;/em&gt;. This starts with a nomination by an existing committer that includes a statement of merit that usually takes the form of a list various contributions that the individual has made to the project. What constitutes a sufficient demonstration of merit varies by project team and PMC. Generally, though, after an individual has made a small number of high quality contributions that demonstrate that they understand how the project works, it’s pretty natural for them to be invited to join the team.&lt;/p&gt;
+&lt;p&gt;There’s actually a third way. In cases where a project is dysfunctional, the project leadership has an option to add and remove committers and project leads. In the rare cases where this option is exercised, it is first discussed in the corresponding &lt;a href=&quot;https://www.eclipse.org/projects/dev_process/#4_6_1_PMC&quot;&gt;Project Management Committee&lt;/a&gt;‘s (PMC) mailing list.&lt;/p&gt;
+&lt;p&gt;Last week, we rolled out some new infrastructure to support &lt;em&gt;Committer Elections&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Every project page in the Project Management Infrastructure (PMI) includes a block of &lt;em&gt;Committer Tools&lt;/em&gt; on the right side of the page. From this block, project committers can perform various actions, including the new &lt;em&gt;Nominate a Committer&lt;/em&gt; action.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_5436&quot;&gt;&lt;img alt=&quot;Screenshot from 2018-02-06 10-34-43&quot; class=&quot;  wp-image-5436 aligncenter&quot; height=&quot;377&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screenshot-from-2018-02-06-10-34-43.png?w=181&amp;amp;h=377&quot; width=&quot;181&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;Committer Tools&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;Clicking this will bring up the nomination form where the existing committer will provide the name and email address of the nominee along with the statement of merit.&lt;/p&gt;
+&lt;div class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_5435&quot;&gt;&lt;img alt=&quot;Screenshot from 2018-02-06 10-35-15&quot; class=&quot;  wp-image-5435 aligncenter&quot; height=&quot;312&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screenshot-from-2018-02-06-10-35-15.png?w=393&amp;amp;h=312&quot; width=&quot;393&quot; /&gt;&lt;p class=&quot;wp-caption-text&quot;&gt;What the committer sees when they nominate a new committer.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;When you click the &lt;em&gt;Nominate&lt;/em&gt; button, the &lt;em&gt;Committer Election&lt;/em&gt; begins by sending a note to the project mailing list inviting existing project committers to vote. Committers visit the election page to cast their vote and—since this is a transparent process—everybody else can watch the election unfold.&lt;/p&gt;
+&lt;p&gt;According to our election rules, an election ends when either everybody votes in the affirmative or seven days has passed. If at the end of the election we have at least three affirmative votes and no negative votes, the vote is considered successful and it passed on to the PMC for approval (note that when a project has fewer than three committers, success is declared if everybody votes in the affirmative). The PMC will validate that the merit statement is sufficient and that the election was executed correctly, and either approve or veto it. PMC-approved elections get passed into the next piece of the workflow: &lt;em&gt;Committer Paperwork&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Regardless of how a developer becomes a committer (by vote, by proposal, or by appointment), they are required to complete legal paperwork before we can grant them write access to project resources. The Eclipse Foundation needs to ensure that all committers with write access to the code, websites, and issue tracking systems understand their role in the intellectual property process; and that we have accurate records of the people who are acting as change agents on the projects. Committers must provide documentation asserting that they have read, understood, and will follow the committer guidelines; and must gain their employers consent to their participation in Eclipse Foundation open source projects.&lt;/p&gt;
+&lt;p&gt;Our &lt;em&gt;Commmitter Paperwork&lt;/em&gt; process is initiated whenever a developer joins us as a new committer, or—since paperwork is tied to a specific employer—when a committer changes employers.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Screen Shot 2018-02-07 at 11.54.35 AM&quot; class=&quot;alignnone size-full wp-image-5438&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/02/screen-shot-2018-02-07-at-11-54-35-am-e1518029639940.png?w=640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The exact nature of the type of paperwork required varies based on the individual’s employment status and the &lt;a href=&quot;https://www.eclipse.org/membership/&quot;&gt;Eclipse Foundation membership&lt;/a&gt; status of their employer. Again, a full discussion of this is out-of-scope for this post, but we need to have either an &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#paperwork-ica&quot;&gt;Individual Committer Agreement&lt;/a&gt; or a &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#paperwork-mca&quot;&gt;Member Committer Agreement&lt;/a&gt; on file for every committer. The workflow guides the new committer through the options.&lt;/p&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;Note that we’ve just gotten approval on an update to the Individual Committer Agreement that eliminates the need for the companion Eclipse Foundation Committer Employer Consent Form. This should make it easier for new committers to get started. We’re &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=530861&quot;&gt;rolling the new version out now&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We owe this great new implementation of this workflow to the tireless efforts of the entire Eclipse IT Team, and especially &lt;a href=&quot;https://www.eclipse.org/user/epoirier&quot;&gt;Eric&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/user/cguindon&quot;&gt;Chris&lt;/a&gt;, and &lt;a href=&quot;https://accounts.eclipse.org/users/mward&quot;&gt;Matt&lt;/a&gt;. Big Thanks!&lt;/p&gt;</description>
+	<pubDate>Thu, 08 Feb 2018 15:30:26 +0000</pubDate>
+</item>
+<item>
+	<title>Chris Aniszczyk: Starting an open source program office?</title>
+	<guid isPermaLink="false">http://aniszczyk.org/?p=4194</guid>
+	<link>http://aniszczyk.org/2018/02/08/starting-an-open-source-program-office/</link>
+	<description>&lt;p&gt;To make good on my new years resolutions of writing more, I recently wrote an &lt;a href=&quot;https://opensource.com/article/18/1/how-start-open-source-program-your-company&quot;&gt;article for opensource.com&lt;/a&gt; on starting an open source program for your company:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;How to start an &lt;a href=&quot;https://twitter.com/hashtag/opensource?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opensource&lt;/a&gt; program in your company: &lt;a href=&quot;https://t.co/OZi3pyxEA5&quot;&gt;https://t.co/OZi3pyxEA5&lt;/a&gt; &lt;a href=&quot;https://t.co/5OYiQG8Vf8&quot;&gt;pic.twitter.com/5OYiQG8Vf8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Open Source Way (@opensourceway) &lt;a href=&quot;https://twitter.com/opensourceway/status/960898646748393472?ref_src=twsrc%5Etfw&quot;&gt;February 6, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Please check it out and let me know if you have any comments. I’d really like to see us build a future where more companies have formal open source programs, that’s a key path towards making open source sustainable for everyone.&lt;/p&gt;</description>
+	<pubDate>Thu, 08 Feb 2018 14:17:12 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Becoming Xtext Co-Project Lead</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/becoming-xtext-co-project-lead</guid>
+	<link>https://blogs.itemis.com/en/becoming-xtext-co-project-lead</link>
+	<description>&lt;p&gt;I started using Xtext more than 10 years ago. Back then it was a small part of the openArchitectureware framework. I began using it heavily after the move to Eclipse and got a power user and supporter in the newsgroups and forum. In 2016 I joined the Xtext Committer team and worked on the framework for about 50% of my time.&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Roughly at the same time &lt;a href=&quot;https://hosting.itemis.de/de/itemis-typefox-xtext&quot;&gt;parts of the Xtext team moved away from itemis&lt;/a&gt;. So the people working on Xtext and their main focus changed. I still think Xtext is a very valuable framework and it deserves more attention than it currently gets. This is why I stepped up to become a co-project lead for the project to ensure it's management is put on wider legs.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;img alt=&quot;whats-new&quot; height=&quot;462&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/whats-new.jpg?t=1517941087956&amp;amp;width=970&amp;amp;height=462&amp;amp;name=whats-new.jpg&quot; style=&quot;width: 970px;&quot; width=&quot;970&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;br /&gt;As Xtext committer and co-project lead my main goals are the following&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Ensure that Xtext and Xtend are actively maintained and will work with future versions of the Eclipse Platform and JDT as well as with future versions of Java itself (for example the Java 9 support we are currently working on).&lt;/li&gt; 
+ &lt;li&gt;Relevant bugs and performance problems keep being addressed and fixed in a reasonable manner and timespan.&lt;/li&gt; 
+ &lt;li&gt;Enable more users to contribute to Xtext.&lt;/li&gt; 
+ &lt;li&gt;Develop new features that make life of our users more easy and keep track with trends and developments inside and outside the Eclipse ecosystem.&lt;/li&gt; 
+ &lt;li&gt;Make sure Xtext in future still will be supported and running smooth in standalone modes such as LSP as well as inside Eclipse IDE.&lt;/li&gt; 
+ &lt;li&gt;Make sure we have regular releases and keep track with the release process that is currently planned for Eclipse platform but we may slow down from the release cadence you are used from the past.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;It is not only the TypeFox guys or &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;our Xtext-Team at itemis&lt;/a&gt; (Karsten, Sebastian, Holger and other colleagues) that drive Xtext. I invite you as Xtext community to actively contribute to the framework: Not only by filing bugs or giving feedback but i warmly welcome everybody who is willing to contribute fixes or features to Xtext. Get in contact with us and let us work together on a great future for Xtext.&lt;/p&gt; 
+&lt;p&gt; &lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fbecoming-xtext-co-project-lead&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 07 Feb 2018 09:07:40 +0000</pubDate>
+	<author>dietrich@itemis.de (Christian Dietrich)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: EE.next working group - community review process</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/s5OSPunAH5k/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/s5OSPunAH5k/</link>
+	<description>Announcing the EE.next working group to support the EE4J projects. Join the review process of the charter.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/s5OSPunAH5k&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 06 Feb 2018 13:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Mike Milinkovich: Introducing the EE.next Working Group</title>
 	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1429</guid>
 	<link>https://mmilinkov.wordpress.com/2018/02/05/introducing-the-ee-next-working-group/</link>
@@ -88,6 +152,221 @@
 &lt;/tbody&gt;
 &lt;/table&gt;</description>
 	<pubDate>Mon, 05 Feb 2018 19:43:02 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: In 5 Minuten zur DSL mit transitiven Importen in Xtext</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/de/in-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext</guid>
+	<link>https://blogs.itemis.com/de/in-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Xtext ermöglicht das Referenzieren von Elementen in DSLs auf mehrere Arten. Eine Möglichkeit sieht den Import von Elementen über Namensräume vor. Dies geschieht über die Verwendung des &lt;/span&gt;&lt;code&gt;ImportedNamespaceAwareLocalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; und erlaubt den &quot;Import&quot; einzelner oder, unter Einsatz von Wildcards (&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.*&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;), aller Elemente eines Namensraumes.&lt;/span&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Es kann aber Sprachen geben, in denen dieses Verhalten nicht gewünscht ist. In diesen Sprachen importiert der Nutzer explizit eine oder mehrere Ressource-Dateien, um auf deren Inhalte zugreifen zu können.&lt;/span&gt;&lt;/p&gt; 
+&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eine einfache DSL mit Import-Verhalten dank Xtext&lt;/span&gt;&lt;/h2&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eine DSL mit einem solchen Import-Verhalten lässt sich mit https://www.itemis.com/en/xtext/ recht einfach erstellen, indem man eine Parser-Regel mit dem speziellen Attributnamen &lt;a href=&quot;https://www.itemis.com/en/xtext/&quot;&gt;Xtext&lt;/a&gt;&lt;/span&gt;&lt;code&gt;importURI&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in die DSL einbaut. Das folgende Beispiel stellt eine einfache DSL dar, die es erlaubt, in beliebigen Ressourcen Namen zu definieren und diese in Grußbotschaften zu verwenden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+generate myDsl &quot;http://www.xtext.org/example/mydsl/MyDsl&quot;
+Model:
+	includes+=Include*
+	names+=Name*
+	greetings+=Greeting*;
+Include:
+	'import' importURI=STRING
+	;
+Name:
+	'def' name=ID
+	;
+Greeting:
+	'Hallo' name=[Name] '!'
+	;&lt;/pre&gt; 
+&lt;br /&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wir möchten Kollegen aus unserer Firma Grußbotschaften schicken. Da die Firma aber groß ist und aus vielen Kollegen besteht, die in unterschiedlichen Bereichen arbeiten, möchten wir für jeden Firmenbereich eine eigene Datei erstellen, die die Namen der jeweiligen Kollegen enthält. Dies erhöht die Übersicht und Wartbarkeit.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Nur durch einen expliziten Import einer Ressource wollen wir die enthaltenen Namensdefinitionen in den Scope aufnehmen. Dabei soll dies möglichst schnell und ressourcenschonend erfolgen.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Der Ansatz ist hierbei, die Verwendung des Index, die das unnötige und (bei großen Modellen) zeitaufwendige Laden von Ressourcen überflüssig macht. Als ersten Schritt müssen wir die Informationen bzgl. der importierten Ressourcen in den Index schreiben. Dazu implementieren wir eine Klasse &lt;/span&gt;&lt;code&gt;MyDslResourceDescriptionStrategy&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, die von &lt;/span&gt;&lt;code&gt;DefaultResourceDescriptionStrategy&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; ableitet. Die Strings mit den URIs, der in der Parser-Regel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Model&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; importierten Ressourcen, werden in einen durch Kommas getrennten String zusammengeführt und unter dem Schlüssel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;includes&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; in der &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;userData&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Map der Objektbeschreibung im Index gespeichert.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl
+
+import com.google.inject.Inject
+import java.util.HashMap
+import org.eclipse.xtext.naming.QualifiedName
+import org.eclipse.xtext.resource.EObjectDescription
+import org.eclipse.xtext.resource.IEObjectDescription
+import org.eclipse.xtext.resource.impl.DefaultResourceDescriptionStrategy
+import org.eclipse.xtext.scoping.impl.ImportUriResolver
+import org.eclipse.xtext.util.IAcceptor
+import org.xtext.example.mydsl.myDsl.Model
+import org.eclipse.emf.ecore.EObject
+
+class MyDslResourceDescriptionStrategy extends DefaultResourceDescriptionStrategy {
+	public static final String INCLUDES = &quot;includes&quot;
+	@Inject
+	ImportUriResolver uriResolver
+
+	override createEObjectDescriptions(EObject eObject, IAcceptor acceptor) {
+		if(eObject instanceof Model) {
+			this.createEObjectDescriptionForModel(eObject, acceptor)
+			return true
+		}
+		else {
+			super.createEObjectDescriptions(eObject, acceptor)
+		}
+	}
+
+	def void createEObjectDescriptionForModel(Model model, IAcceptor acceptor) {
+		val uris = newArrayList()
+		model.includes.forEach[uris.add(uriResolver.apply(it))]
+		val userData = new HashMap&amp;lt;string,string&amp;gt;
+		userData.put(INCLUDES, uris.join(&quot;,&quot;))
+		acceptor.accept(EObjectDescription.create(QualifiedName.create(model.eResource.URI.toString), model, userData))
+	}
+}&lt;/pre&gt; 
+&lt;br /&gt; Um unsere ResourceDescriptionStrategy nutzen zu können, müssen wir sie noch im MyDslRuntimeModule binden. 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl&lt;br /&gt;&lt;br /&gt;import org.eclipse.xtext.resource.IDefaultResourceDescriptionStrategy&lt;br /&gt;import org.eclipse.xtext.scoping.IGlobalScopeProvider&lt;br /&gt;import org.xtext.example.mydsl.scoping.MyDslGlobalScopeProvider&lt;br /&gt;&lt;br /&gt;class MyDslRuntimeModule extends AbstractMyDslRuntimeModule {&lt;br /&gt; def Class&amp;lt;? extends IDefaultResourceDescriptionStrategy&amp;gt; bindIDefaultResourceDescriptionStrategy() {&lt;br /&gt; MyDslResourceDescriptionStrategy&lt;br /&gt; }&lt;br /&gt;}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Bisher haben wir nur Informationen gesammelt und im Index gespeichert. Um sie verwenden zu können, benötigen wir zusätzlich einen eigenen &lt;/span&gt;&lt;code&gt;IGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Dazu implementieren wir eine Klasse &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, die von &lt;/span&gt;&lt;code&gt;ImportUriGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; ableitet, und überschreiben die Methode &lt;/span&gt;&lt;code&gt;getImportedUris(Resource resource)&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. Diese Methode liefert ein &lt;/span&gt;&lt;code&gt;LinkedHashSet&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; zurück, das letztendlich alle URIs enthält, die in der Ressource importiert werden sollen.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das Auslesen der importierten Ressourcen aus dem Index wird von der Methode &lt;/span&gt;&lt;code&gt;collectImportUris&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; erledigt. Die Methode fragt den &lt;/span&gt;&lt;code&gt;IResourceDescription.Manager&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; nach der &lt;/span&gt;&lt;code&gt;IResourceDescription&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; der Ressource. Aus dieser wird für jedes &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Model&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;-Element aus der &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;userData&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; Map der unter dem Schlüssel &lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;includes&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; gespeicherte String mit den URIs der importierten Ressourcen ausgelesen, zerlegt und die einzelnen URIs in einem Set gespeichert.&lt;/span&gt;&lt;/p&gt; 
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl.scoping
+
+import com.google.common.base.Splitter
+import com.google.inject.Inject
+import com.google.inject.Provider
+import java.util.LinkedHashSet
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.EcoreUtil2
+import org.eclipse.xtext.resource.IResourceDescription
+import org.eclipse.xtext.scoping.impl.ImportUriGlobalScopeProvider
+import org.eclipse.xtext.util.IResourceScopeCache
+import org.xtext.example.mydsl.MyDslResourceDescriptionStrategy
+import org.xtext.example.mydsl.myDsl.MyDslPackage
+
+class MyDslGlobalScopeProvider extends ImportUriGlobalScopeProvider {
+	private static final Splitter SPLITTER = Splitter.on(',');
+
+	@Inject
+	IResourceDescription.Manager descriptionManager;
+
+	@Inject
+	IResourceScopeCache cache;
+
+	override protected getImportedUris(Resource resource) {
+		return cache.get(MyDslGlobalScopeProvider.getSimpleName(), resource, new Provider&amp;lt;linkedhashset&amp;gt;() {
+			override get() {
+				val uniqueImportURIs = collectImportUris(resource, new LinkedHashSet(5))
+
+				val uriIter = uniqueImportURIs.iterator()
+				while(uriIter.hasNext()) {
+					if (!EcoreUtil2.isValidUri(resource, uriIter.next()))
+						uriIter.remove()
+				}
+				return uniqueImportURIs
+			}
+
+			def LinkedHashSet collectImportUris(Resource resource, LinkedHashSet uniqueImportURIs) {
+				val resourceDescription = descriptionManager.getResourceDescription(resource)
+				val models = resourceDescription.getExportedObjectsByType(MyDslPackage.Literals.MODEL)
+				
+				models.forEach[
+					val userData = getUserData(MyDslResourceDescriptionStrategy.INCLUDES)
+					if(userData !== null) {
+						SPLITTER.split(userData).forEach[uri |
+							var includedUri = URI.createURI(uri)
+							includedUri = includedUri.resolve(resource.URI)
+							uniqueImportURIs.add(includedUri)
+						]
+					}
+				]
+				return uniqueImportURIs
+			}
+		});
+	}
+}
+&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Um unseren &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; nutzen zu können, müssen wir diesen wiederum im &lt;/span&gt;&lt;code&gt;MyDslRuntimeModule&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; binden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl
+
+import org.eclipse.xtext.resource.IDefaultResourceDescriptionStrategy
+import org.eclipse.xtext.scoping.IGlobalScopeProvider
+import org.xtext.example.mydsl.scoping.MyDslGlobalScopeProvider
+
+class MyDslRuntimeModule extends AbstractMyDslRuntimeModule {
+	def Class bindIDefaultResourceDescriptionStrategy() {
+		MyDslResourceDescriptionStrategy
+	}
+	override Class bindIGlobalScopeProvider() {
+		MyDslGlobalScopeProvider;
+	}
+}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wir starten den Editor für unsere kleine Sprache und beginnen die Modell-Dateien zu erstellen. Dabei haben wir die Idee, die Ressourcen der unterschiedlichen Firmenbereiche nicht einzeln zu importieren, sondern eine Ressource zu erstellen, die alle Importe enthält, und diese dann zu importieren. Dazu erstellen wir folgende Ressourcen:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;Ressourcen-Agile.png&quot; height=&quot;85&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressourcen-Agile.png?t=1517941087956&amp;amp;width=724&amp;amp;height=85&amp;amp;name=Ressourcen-Agile.png&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt; &lt;img alt=&quot;Ressourcen-Xtext.png&quot; height=&quot;84&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressourcen-Xtext.png?t=1517941087956&amp;amp;width=724&amp;amp;height=84&amp;amp;name=Ressourcen-Xtext.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;img alt=&quot;Ressource-Kollegen.png&quot; height=&quot;87&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressource-Kollegen.png?t=1517941087956&amp;amp;width=724&amp;amp;height=87&amp;amp;name=Ressource-Kollegen.png&quot; width=&quot;724&quot; /&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Beim Erstellen der Ressource mit den Grußbotschaften stellen wir fest, dass die Namen nicht aufgelößt werden können.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;Ressource-Greetings.png&quot; height=&quot;200&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Software%20Development/Ressource-Greetings.png?t=1517941087956&amp;amp;width=724&amp;amp;height=200&amp;amp;name=Ressource-Greetings.png&quot; width=&quot;724&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Woran liegt das? Wir haben doch alle importierten Ressourcen in den Index geschrieben.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das ist soweit richtig. Alle direkt importieren Ressourcen werden in den Index geschrieben. Die Importe in einer importierten Ressource jedoch werden ignoriert. Das von uns gewünschte Feature bezeichnet man als transitive Importe. Mit dem Import einer Ressource werden implizit alle von ihr importierten Ressourcen mit importiert.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Um in unserer Sprache transitive Importe zu ermöglichen, müssen wir unseren &lt;/span&gt;&lt;code&gt;MyDslGlobalScopeProvider&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; anpassen. Statt die URI einer importierten Ressource nur in dem Set zu speichern, rufen wir zusätzlich die Methode &lt;/span&gt;&lt;code&gt;collectImportUris&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; auf und übergeben die URI als Parameter, sodass deren importierte Ressourcen ebenfalls verarbeitet werden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;package org.xtext.example.mydsl.scoping
+
+import com.google.common.base.Splitter
+import com.google.inject.Inject
+import com.google.inject.Provider
+import java.util.LinkedHashSet
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.EcoreUtil2
+import org.eclipse.xtext.resource.IResourceDescription
+import org.eclipse.xtext.scoping.impl.ImportUriGlobalScopeProvider
+import org.eclipse.xtext.util.IResourceScopeCache
+import org.xtext.example.mydsl.MyDslResourceDescriptionStrategy
+import org.xtext.example.mydsl.myDsl.MyDslPackage
+
+class MyDslGlobalScopeProvider extends ImportUriGlobalScopeProvider {
+	private static final Splitter SPLITTER = Splitter.on(',');
+
+	@Inject
+	IResourceDescription.Manager descriptionManager;
+
+	@Inject
+	IResourceScopeCache cache;
+
+	override protected getImportedUris(Resource resource) {
+		return cache.get(MyDslGlobalScopeProvider.getSimpleName(), resource, new Provider&amp;lt;linkedhashset&amp;gt;() {
+			override get() {
+				val uniqueImportURIs = collectImportUris(resource, new LinkedHashSet(5))
+
+				val uriIter = uniqueImportURIs.iterator()
+				while(uriIter.hasNext()) {
+					if (!EcoreUtil2.isValidUri(resource, uriIter.next()))
+						uriIter.remove()
+				}
+				return uniqueImportURIs
+			}
+
+			def LinkedHashSet collectImportUris(Resource resource, LinkedHashSet uniqueImportURIs) {
+				val resourceDescription = descriptionManager.getResourceDescription(resource)
+				val models = resourceDescription.getExportedObjectsByType(MyDslPackage.Literals.MODEL)
+				
+				models.forEach[
+					val userData = getUserData(MyDslResourceDescriptionStrategy.INCLUDES)
+					if(userData !== null) {
+						SPLITTER.split(userData).forEach[uri |
+							var includedUri = URI.createURI(uri)
+							includedUri = includedUri.resolve(resource.URI)
+							if(uniqueImportURIs.add(includedUri)) {
+								collectImportUris(resource.getResourceSet().getResource(includedUri, true), uniqueImportURIs)
+							}
+						]
+					}
+				]
+				
+				return uniqueImportURIs
+			}
+		});
+	}
+}&lt;/pre&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wenn wir nach dieser kleinen Anpassung unsere Ressource mit den Grußbotschaften erneut öffnen sehen wir, dass die Namen durch die transitiven Importe aufgelöst werden können.&lt;/span&gt;&lt;/p&gt; 
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Das Beispielprojekt kann &lt;/span&gt;&lt;a href=&quot;https://github.com/itemis/itemis-blog/tree/transitive_imports/sources&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;hier&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; heruntergeladen werden.&lt;/span&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fde%2Fin-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 05 Feb 2018 14:51:00 +0000</pubDate>
+	<author>cwehrheim@itemis.de (Christian Wehrheim)</author>
 </item>
 <item>
 	<title>Jeremie Bresson: Use the eclipse-settings-maven-plugin to synchronize prefs files across projects</title>
@@ -928,64 +1207,6 @@
 &lt;p&gt; &lt;/p&gt;
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/iVIxX4QuH6E&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Thu, 25 Jan 2018 15:28:21 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: Article: JPA 2.2 Brings Some Highly Anticipated Changes</title>
-	<guid isPermaLink="true">http://www.infoq.com/articles/JPA-2.2-Brings-Highly-Anticipated-Changes?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/articles/JPA-2.2-Brings-Highly-Anticipated-Changes?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;https://res.infoq.com/articles/JPA-2.2-Brings-Highly-Anticipated-Changes/en/smallimage/java-logo-1516663617190.jpeg&quot; /&gt;&lt;p&gt;Released this past summer, JPA 2.2 delivered some frequently requested enhancements, especially by providing better alignment with Java 8 features, such as support for the Date and Time API and the retrieval of a query result as a Stream.
-&lt;/p&gt; &lt;i&gt;By Thorben Janssen&lt;/i&gt;</description>
-	<pubDate>Thu, 25 Jan 2018 13:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Launching IoT Developer Survey 2018</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/utBMUYA-QH4/iotdevsurvey2018.php</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/utBMUYA-QH4/iotdevsurvey2018.php</link>
-	<description>We are pleased to launch the fourth annual IoT Developer Survey! Complete the survey today.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/utBMUYA-QH4&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 24 Jan 2018 09:27:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mike Milinkovich: EE4J: Current Status and What’s Next</title>
-	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1424</guid>
-	<link>https://mmilinkov.wordpress.com/2018/01/23/ee4j-current-status-and-whats-next/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There is a lot going on as Java EE continues its migration to the Eclipse Foundation. Since there are so many parallel threads, I thought it would be a good idea to recap where we are, and what is coming up in the next few weeks.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;First off, we are continuing to work on arriving at a new brand name. Last week the PMC provided the Eclipse Foundation with a potential list of names, and we are running trademark reviews to see if we believe that they can be properly secured. Obviously, we need to have a high degree of confidence that we can freely use the name around the world if we are going to use it to replace some as well known as Java EE. Once we have a short list of potentials we will be starting a community vote to help arrive at a final choice.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Secondly, the code is moving from the existing Oracle-led Java EE organization on GitHub into EE4J. The first nine projects which were proposed have all been created and provisioned, and the code is being moved into them as we speak. The next step on this front will be to propose the next round of projects to move next. As I understand it, the Oracle team will be proposing the JSON-B API and JavaMail projects next.&lt;/span&gt;&lt;b&gt; &lt;/b&gt;Soon after will come JAX-B, JAX-WS, JSTL, UEL, JAF, Security, JTA, Enterprise Management, Concurrency, and Common Annotations. &lt;span style=&quot;font-weight: 400;&quot;&gt;Everyone involved strongly believes that a key factor in the success of this entire migration is the rapid creation of a diverse and engaged open source community around this code, so we are moving as rapidly as possible to get these projects up and running. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to demonstrate to the world that these projects are capable of shipping. Therefore the short-term objective is to have the EE4J project ship a Java EE 8-compliant release as quickly as possible: i.e. a Java EE 8 certified release of Eclipse Glassfish and related projects. There are a couple of positive reasons for doing this:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It demonstrates that the EE4J projects are fully functional as open source projects, and that they and the PMC can run through the full process of a release under the auspices of the Eclipse Foundation and the Eclipse Development Process.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;It gets downloadable code that users and adopters can access and run from EE4J as quickly as possible. Creating an ecosystem of developers and companies using this code is important, and the sooner we start the better.&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;A comment on the API projects that are moving over: several have asked on the mailing lists if the fact that the source has moved means that we can start changing the APIs directly in the EE4J projects. The short answer is “please, not quite yet”. There are several reasons for that: &lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We want to focus in the short term on shipping an EE 8 compliant release. So the fewer moving parts while we’re doing that, the better. &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;There is going to be a new spec process that is going to be managing the evolution of these APIs in the future, and it hasn’t been set up yet. &lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As has been discussed in several venues, this new spec process is going to be bootstrapped with some rules around the continued use of the javax namespace. We’re still working on what those rules are. &lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the meantime if you really want to start prototyping some new APIs you are always free to fork the repos on GitHub. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Finally, we are working on establishing an Eclipse Foundation working group to provide a member-driven governance model for the EE4J community. Working groups are consortia which complement the Eclipse open source projects. Community-driven open source projects are great for a lot of things, but don’t do well with business and ecosystem topics such as marketing, developer outreach, branding, specifications, compliance programs, and the like. The first step in creating a working group is to write its core governance charter. We hope to have a draft of that available for review by the end of the month as well. My next blog post will provide some additional information and background on that topic.&lt;/span&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 23 Jan 2018 17:48:29 +0000</pubDate>
-</item>
-<item>
-	<title>InfoQ Eclipse feed: EE4J Code Begins the Journey to Open Source</title>
-	<guid isPermaLink="true">http://www.infoq.com/news/2018/01/EE4JCodeArrives?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
-	<link>http://www.infoq.com/news/2018/01/EE4JCodeArrives?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
-	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Enterprise Java source code is beginning the Open Source journey to the Eclipse EE4J project&lt;/p&gt; &lt;i&gt;By Tim Hodkinson&lt;/i&gt;</description>
-	<pubDate>Mon, 22 Jan 2018 15:40:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mike Milinkovich: Eclipse Community Directions for 2018</title>
-	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1422</guid>
-	<link>https://mmilinkov.wordpress.com/2018/01/22/eclipse-community-directions-for-2018/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As 2018 begins I would like to share a few thoughts on where I think the Eclipse community is heading.  I am looking forward to an incredibly busy year for myself, the staff of the Eclipse Foundation, and our community, because this is going to be a year of tremendous growth and opportunity. I will try to give a brief overview of what I see as some of the exciting things that are going on at the Eclipse Foundation. I am sure that I will miss some, so apologies in advance!&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Of course the big news of the past few months was the&lt;/span&gt;&lt;a href=&quot;https://blogs.oracle.com/theaquarium/opening-up-ee-update&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;announcement by Oracle&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; that Java EE is going to be moving to the Eclipse Foundation. This represents the largest single contribution to the Eclipse community since — well, the original Eclipse IDE project in 2001. It is approximately 35 new projects, hundreds of new committers and contributors, and millions of lines of code. It is and was an incredible endorsement of the Eclipse Foundation’s mission as the leading organization for individuals and companies to collaborate on commercial-friendly open source software. Since the announcement in September, we have created the new Eclipse Enterprise for Java (EE4J) top-level project, and source code is starting to move into the projects. During 2018 our collective mission will be to create a functioning and successful community around this code, pick a new brand to replace Java EE going forward, ship a release compatible with Java EE 8, open source the Java EE TCKs, and establish a new specification process to shape the future of cloud native Java. I feel out of breath just thinking of it.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;But in addition to this Java EE work, it is clear that the Eclipse Foundation is now playing a pivotal role in the future of the Java ecosystem. Projects such as&lt;/span&gt;&lt;a href=&quot;http://microprofile.io/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse MicroProfile&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (microservices for Java),&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/openj9/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse OpenJ9&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (Java virtual machine),&lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/technology.deeplearning4j&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse DeepLearning4J&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (machine learning),&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Collections&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (highly scalable collections),&lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/technology.jnosql&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse JNoSQL&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (NoSQL for Java EE) and&lt;/span&gt;&lt;a href=&quot;http://vertx.io/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Vert.x&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (reactive apps for Java) are leading the next generation of Java innovation.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;From the Eclipse Science community comes&lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/science.xacc&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse XACC&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, which I believe is the world’s first community-led open source project in the new field of quantum computing. Originating from Oak Ridge National Laboratory, XACC is working to integrate quantum processors with the high-performance computing environments that are the backbone of modern scientific computing. It will be exciting to see XACC ship its first release in 2018, and to support its desire to create an open collaboration to shape the next generation of computing hardware and programming paradigms.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse IoT community has been a significant growth area within the Eclipse community over the past couple of years. In 2017 Eclipse IoT grew to over 25 projects, and is attracting a substantial developer and corporate community.. It is also a terrifically ambitious group, with a&lt;/span&gt;&lt;a href=&quot;https://iot.eclipse.org/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20The%20Three%20Software%20Stacks%20Required%20for%20IoT%20Architectures.pdf&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;vision of providing technology stacks&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; that span the smallest of constrained devices, through device gateways, to cloud-scale data collection and management runtimes. Late in 2017 the group published a&lt;/span&gt;&lt;a href=&quot;https://iot.eclipse.org/resources/white-papers/Eclipse%20IoT%20White%20Paper%20-%20Open%20Source%20Software%20for%20Industry%204.0.pdf&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;white paper&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; on the role that open source will play in Industry 4.0, or industrial IoT. This white paper is important because in many ways it sets out the vision for the group, which has been primarily focused on industrial IoT. In 2018 the primary goal for Eclipse IoT is to start shipping these stacks rather than simply projects. In other words, to create cross-project collaborations that provide IoT adopters with more complete solutions rather than individual building blocks. This will go a long way to paving the way for broad industry adoption of these open source IoT technologies.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Finally, a word on developer tools — the Eclipse Foundation’s original franchise. I noticed recently that according to at least&lt;/span&gt;&lt;a href=&quot;http://pypl.github.io/IDE.html&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;one source&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;, the Eclipse IDE is maintaining its position as the #1 IDE in the world, and grew its market share substantially last year. The goal for this year is to continue this trend. In addition, the&lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/che/&quot;&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Che&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; cloud IDE continues to grow its community and adoption. As more and more developers work on cloud native applications, the appeal of a cloud IDE that works where they do is going to grow. Che is well positioned to be the leader in this space and is the only community-led cloud IDE.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Anyone who has seen me speak over the past couple of years has likely heard me express the idea that the “community is the capacity.” The Eclipse Foundation is a 30 person organization that supports a community of hundred of projects, hundreds of members, thousands of committers and contributors, and millions of users. Whenever I take a moment to reflect on what we accomplish together it is breathtaking. The breadth of the technology that we collectively produce is vast, and our community spans the globe. Equally exciting, engagement continues to grow with a variety of industries notably automotive, power, transportation, etc. interested in leveraging the Eclipse Foundation as the place for open, commercial collaboration.&lt;/p&gt;
-&lt;p&gt;I am incredibly optimistic that 2018 is going to be one of the most exciting years we’ve ever had, so please get involved!&lt;/p&gt;</description>
-	<pubDate>Mon, 22 Jan 2018 13:01:45 +0000</pubDate>
 </item>
 
 </channel>

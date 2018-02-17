@@ -1,0 +1,26 @@
+
+public class M4Test {
+
+int num;
+
+public M4Test() {
+
+num = 5;
+
+}
+
+public void doSomething(int num) {
+
+System.out.print(num);
+
+System.out.print(this.num);
+}
+public static void main(String[] args) {
+
+	M4Test myClass = new M4Test();
+
+myClass.doSomething(3);
+
+}
+}
+

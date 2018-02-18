@@ -6,6 +6,155 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Notepad4e</title>
+    <link>http://marketplace.eclipse.org/content/notepad4e</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/note.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-10-08 08:14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2018-02-17 05:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pybigourdan/listings&quot; title=&quot;Pierre-Yves B.&quot;&gt;Pierre-Yves B.&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;Create highly customisable notes in Eclipse and never lose track of your thoughts, ideas or code snippets!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Create as many notes as you like in an Eclipse editor view.&lt;/li&gt;
+&lt;li&gt;
+		Modify the text style (font, colour, bold, italic, underlined, strikeout, etc.).&lt;/li&gt;
+&lt;li&gt;
+		Customise the appearance and functionality of the plugin via its preference page.&lt;/li&gt;
+&lt;li&gt;
+		Create lists of elements.&lt;/li&gt;
+&lt;li&gt;
+		Automatically save the contents of your notes between workspace launches.&lt;/li&gt;
+&lt;li&gt;
+		Use editable shortcuts to boost your productivity.&lt;/li&gt;
+&lt;li&gt;
+		Export notes as text files.&lt;/li&gt;
+&lt;li&gt;
+		Lightweight and user-friendly interface.&lt;/li&gt;
+&lt;li&gt;
+		Source code fully available.&lt;/li&gt;
+&lt;li&gt;
+		Available in English and French.&lt;/li&gt;
+&lt;li&gt;
+		Free, no user tracking, no ads.&lt;/li&gt;
+&lt;li&gt;
+		More to discover and to come in future updates!&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Support the project: star Notepad4e on the marketplace and/or on &lt;strong&gt;&lt;a href=&quot;https://github.com/PyvesB/Notepad4e&quot; rel=&quot;nofollow&quot;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 08 Oct 2016 12:14:08 +0000</pubDate>
+ <dc:creator>pybigourdan</dc:creator>
+ <guid isPermaLink="false">3108021 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/notepad4e#comments</comments>
+  </item>
+  <item>
+    <title>FluentMark</title>
+    <link>http://marketplace.eclipse.org/content/fluentmark</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/FluentMark_Logo110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-12-17 23:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-02-16 22:19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Certiv%20Analytics%22&quot;&gt;Certiv Analytics&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/grosenberg706/listings&quot; title=&quot;Gerald Rosenberg&quot;&gt;Gerald Rosenberg&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 id=&quot;fluentmark&quot;&gt;
+	FluentMark&lt;/h2&gt;
+&lt;p&gt;A full-featured Markdown editing environment for Eclipse.&lt;/p&gt;
+&lt;h2&gt;
+	Features&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;
+		Choice of Markdown converter
+&lt;ul&gt;&lt;li&gt;
+				full support for the &lt;a href=&quot;https://pandoc.org&quot; rel=&quot;nofollow&quot;&gt;Pandoc&lt;/a&gt; converter (preferred)&lt;/li&gt;
+&lt;li&gt;
+				also supports the popular &lt;a href=&quot;https://github.com/russross/blackfriday&quot; rel=&quot;nofollow&quot;&gt;BlackFriday&lt;/a&gt; converter&lt;/li&gt;
+&lt;li&gt;
+				includes several built-in converters: &lt;a href=&quot;https://github.com/jgm/CommonMark&quot; rel=&quot;nofollow&quot;&gt;CommonMark&lt;/a&gt;, &lt;a href=&quot;https://github.com/myabc/markdownj&quot; rel=&quot;nofollow&quot;&gt;MarkdownJ&lt;/a&gt;, &lt;a href=&quot;https://github.com/sirthias/pegdown&quot; rel=&quot;nofollow&quot;&gt;PegDown&lt;/a&gt; and &lt;a href=&quot;https://github.com/rjeschke/txtmark&quot; rel=&quot;nofollow&quot;&gt;TxtMark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;
+		Real-time preview
+&lt;ul&gt;&lt;li&gt;
+				smooth, fully reactively rendered preview -- &lt;strong&gt;&lt;em&gt;New&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+				stylesheet controlled presentation
+&lt;ul&gt;&lt;li&gt;
+						multiple built-in stylesheets&lt;/li&gt;
+&lt;li&gt;
+						user defined stylesheets can be selected from the filesystem&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;
+		LaTex/Math presentation using &lt;a href=&quot;https://www.mathjax.org/&quot; rel=&quot;nofollow&quot;&gt;MathJax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		Code highlighting using &lt;a href=&quot;https://highlightjs.org/&quot; rel=&quot;nofollow&quot;&gt;highlightjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		Graphs presentation using the &lt;a href=&quot;http://www.graphviz.org/&quot; rel=&quot;nofollow&quot;&gt;Graphviz&lt;/a&gt; DOT diagram generator
+&lt;ul&gt;&lt;li&gt;
+				diagram previews are rendered in real-time&lt;/li&gt;
+&lt;li&gt;
+				exported Web and PDF documents include the rendered diagrams as embedded images&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;
+		Spell check with quick-assist correction processor&lt;/li&gt;
+&lt;li&gt;
+		Smart editing behaviors&lt;/li&gt;
+&lt;li&gt;
+		Table editor&lt;/li&gt;
+&lt;li&gt;
+		Text, list and table formatter&lt;/li&gt;
+&lt;li&gt;
+		Intelligent paragraph, list &amp;amp; blank line handling&lt;/li&gt;
+&lt;li&gt;
+		Outline view; supports markdown element DnD&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 18 Dec 2016 04:12:06 +0000</pubDate>
+ <dc:creator>grosenberg706</dc:creator>
+ <guid isPermaLink="false">3217596 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/fluentmark#comments</comments>
+  </item>
+  <item>
+    <title>Bash Editor</title>
+    <link>http://marketplace.eclipse.org/content/bash-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bash-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-07-10 06:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-02-16 20:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin is a bash script editor. &lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		Syntax highlighting&lt;/li&gt;
+&lt;li&gt;
+		Outline&lt;/li&gt;
+&lt;li&gt;
+		Quick-Outline (CTRL + o )&lt;/li&gt;
+&lt;li&gt;
+		Open referenced functions by hyperlink&lt;/li&gt;
+&lt;li&gt;
+		Validation&lt;/li&gt;
+&lt;li&gt;
+		Simple code completion (keywords + existing words)&lt;/li&gt;
+&lt;li&gt;
+		Colors can be customized. Also additional defaults for dark theme exists.&lt;/li&gt;
+&lt;li&gt;
+		Bracket switching + highlighting&lt;/li&gt;
+&lt;li&gt;
+		Block commenting (CTRL+7)&lt;/li&gt;
+&lt;li&gt;
+		Auto bracket closing for []&lt;/li&gt;
+&lt;li&gt;
+		Small (&amp;lt;200 kb)&lt;/li&gt;
+&lt;li&gt;
+		Tooltips for keywords (offline description + link to online information)&lt;/li&gt;
+&lt;li&gt;
+		Works on Linux, Windows and Mac out of the box.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Additional links&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tF7sZVIcUv8zOVe2RMiWn-L&quot; rel=&quot;nofollow&quot;&gt;YouTube Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+		&lt;a href=&quot;https://github.com/de-jcup/eclipse-bash-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 10 Jul 2017 10:27:25 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3536358 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bash-editor#comments</comments>
+  </item>
+  <item>
+    <title>AccuRev Plug-In for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/accurev-plug-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AccuRev.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-01-23 04:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-02-16 20:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Micro%20Focus%20International%22&quot;&gt;Micro Focus International&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/vmuruganhmd/listings&quot; title=&quot;Vignesh Murugan&quot;&gt;Vignesh Murugan&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin has been tested to work with AccuRev 6.0 or higher.  This plugin is free to use with our AccuRev customers and evaluators. It is fully supported and documented.  You can find additional documentation below.  The Installation and Release Notes can be found here: &lt;a href=&quot;https://www.microfocus.com/documentation/accurev/2018.1/eclipse-2018.1-install-release-notes.pdf&quot; rel=&quot;nofollow&quot;&gt;https://www.microfocus.com/documentation/accurev/2018.1/eclipse-2018.1-i...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The User’s Guide can be found here:&lt;a href=&quot;https://www.microfocus.com/documentation/accurev/2018.1/eclipse-2018.1-users_guide-en.pdf&quot; rel=&quot;nofollow&quot;&gt;https://www.microfocus.com/documentation/accurev/2018.1/eclipse-2018.1-u...&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;By downloading, you agree that the AccuRev plugins are subject to the terms and conditions of the applicable EULA for your AccuRev license.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 23 Jan 2018 09:05:45 +0000</pubDate>
+ <dc:creator>vmuruganhmd</dc:creator>
+ <guid isPermaLink="false">3887757 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/accurev-plug-eclipse#comments</comments>
+  </item>
+  <item>
     <title>Red Hat JBoss Developer Studio Integration Stack</title>
     <link>http://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-integration-stack</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/128_jbds_icon_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-05-06 13:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-02-16 10:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%2C%20Inc.%22&quot;&gt;Red Hat, Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jtools/listings&quot; title=&quot;JBoss Tools&quot;&gt;JBoss Tools&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Red Hat JBoss Developer Studio Integration Stack includes &lt;a href=&quot;https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio&quot; rel=&quot;nofollow&quot;&gt;Red Hat JBoss Developer Studio&lt;/a&gt; plus: * BRMS Tooling - Tools related to business processes and rules development - includes support for BPEL, BPMN2, jBPM6 and Drools.  * JBoss Integration and SOA Development - Tools related to the development of Integration and SOA applications - includes support for BPEL, BPMN2, Drools, jBPM6 and KIE.  For a quick overview, see &lt;a href=&quot;https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Developer_Studio_Integration_Stack/index.html&quot; rel=&quot;nofollow&quot;&gt;Integration Stack documentation&lt;/a&gt; . See also: &lt;a href=&quot;http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/&quot; rel=&quot;nofollow&quot;&gt;http://www.redhat.com/products/jbossenterprisemiddleware/developer-studio/&lt;/a&gt; The latest release was built with Eclipse 4.7, but should also work with other Oxygen or Eclipse 4.7.x versions. NOTE: If you encounter problems, please open an &lt;a href=&quot;https://jira.jboss.org/jira/browse/JBTIS&quot; rel=&quot;nofollow&quot;&gt;issue&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
@@ -122,64 +271,6 @@
  <comments>http://marketplace.eclipse.org/content/jsparrow-automatical-java-code-improvement#comments</comments>
   </item>
   <item>
-    <title>FluentMark</title>
-    <link>http://marketplace.eclipse.org/content/fluentmark</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/FluentMark_Logo110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2016-12-17 23:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-02-15 23:17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Certiv%20Analytics%22&quot;&gt;Certiv Analytics&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/grosenberg706/listings&quot; title=&quot;Gerald Rosenberg&quot;&gt;Gerald Rosenberg&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2 id=&quot;fluentmark&quot;&gt;
-	FluentMark&lt;/h2&gt;
-&lt;p&gt;A full-featured Markdown editing environment for Eclipse.&lt;/p&gt;
-&lt;h2&gt;
-	Features&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;
-		Choice of Markdown converter
-&lt;ul&gt;&lt;li&gt;
-				full support for the &lt;a href=&quot;https://pandoc.org&quot; rel=&quot;nofollow&quot;&gt;Pandoc&lt;/a&gt; converter (preferred)&lt;/li&gt;
-&lt;li&gt;
-				also supports the popular &lt;a href=&quot;https://github.com/russross/blackfriday&quot; rel=&quot;nofollow&quot;&gt;BlackFriday&lt;/a&gt; converter&lt;/li&gt;
-&lt;li&gt;
-				includes several built-in converters: &lt;a href=&quot;https://github.com/jgm/CommonMark&quot; rel=&quot;nofollow&quot;&gt;CommonMark&lt;/a&gt;, &lt;a href=&quot;https://github.com/myabc/markdownj&quot; rel=&quot;nofollow&quot;&gt;MarkdownJ&lt;/a&gt;, &lt;a href=&quot;https://github.com/sirthias/pegdown&quot; rel=&quot;nofollow&quot;&gt;PegDown&lt;/a&gt; and &lt;a href=&quot;https://github.com/rjeschke/txtmark&quot; rel=&quot;nofollow&quot;&gt;TxtMark&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;
-		Real-time preview
-&lt;ul&gt;&lt;li&gt;
-				smooth, fully reactively rendered preview -- &lt;strong&gt;&lt;em&gt;New&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;
-				stylesheet controlled presentation
-&lt;ul&gt;&lt;li&gt;
-						multiple built-in stylesheets&lt;/li&gt;
-&lt;li&gt;
-						user defined stylesheets can be selected from the filesystem&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;
-		LaTex/Math presentation using &lt;a href=&quot;https://www.mathjax.org/&quot; rel=&quot;nofollow&quot;&gt;MathJax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		Code highlighting using &lt;a href=&quot;https://highlightjs.org/&quot; rel=&quot;nofollow&quot;&gt;highlightjs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-		Graphs presentation using the &lt;a href=&quot;http://www.graphviz.org/&quot; rel=&quot;nofollow&quot;&gt;Graphviz&lt;/a&gt; DOT diagram generator
-&lt;ul&gt;&lt;li&gt;
-				diagram previews are rendered in real-time&lt;/li&gt;
-&lt;li&gt;
-				exported Web and PDF documents include the rendered diagrams as embedded images&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;
-		Spell check with quick-assist correction processor&lt;/li&gt;
-&lt;li&gt;
-		Smart editing behaviors&lt;/li&gt;
-&lt;li&gt;
-		Table editor&lt;/li&gt;
-&lt;li&gt;
-		Text, list and table formatter&lt;/li&gt;
-&lt;li&gt;
-		Intelligent paragraph, list &amp;amp; blank line handling&lt;/li&gt;
-&lt;li&gt;
-		Outline view; supports markdown element DnD&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sun, 18 Dec 2016 04:12:06 +0000</pubDate>
- <dc:creator>grosenberg706</dc:creator>
- <guid isPermaLink="false">3217596 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/fluentmark#comments</comments>
-  </item>
-  <item>
     <title>Ice Builder for Eclipse</title>
     <link>http://marketplace.eclipse.org/content/ice-builder-eclipse</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/zeroc.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2015-07-22 07:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-02-15 17:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22ZeroC%2C%20Inc.%22&quot;&gt;ZeroC, Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jgeorgety1/listings&quot; title=&quot;Joe George&quot;&gt;Joe George&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Ice Builder for Eclipse is an Eclipse plug-in which manages the compilation of Slice files to Java using slice2java.&lt;/p&gt;
@@ -209,173 +300,6 @@
  <dc:creator>hmcginnis</dc:creator>
  <guid isPermaLink="false">1876552 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/contrast-eclipse#comments</comments>
-  </item>
-  <item>
-    <title>ImageJ Plugin</title>
-    <link>http://marketplace.eclipse.org/content/imagej-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-10-05 06:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-02-14 09:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bio7%22&quot;&gt;Bio7&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnameaoh/listings&quot; title=&quot;Marcel Austenfeld&quot;&gt;Marcel Austenfeld&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin integrates the scientific image application ImageJ in an Eclipse view and is also part of the Bio7 application (&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;ImageJ is an open source image processing program designed for the analysis of scientific multidimensional images. Supported ImageJ images can be opened and analyzed in multiple view tabs.&lt;/p&gt;
-&lt;p&gt;ImageJ Plugins and macros are supported, too and can be installed in the plugins subfolder or the install location defined in the preferences.&lt;/p&gt;
-&lt;p&gt;Furthermore a full featured ImageJ macro editor is available to script image analysis tasks within the Eclipse environment which can be opened together with the ImageJ view in an available ImageJ perspective.&lt;/p&gt;
-&lt;p&gt;For more information visit:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/Bio7/EclipseImageJ1Plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/Bio7/EclipseImageJ1Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://bio7.org&quot; rel=&quot;nofollow&quot;&gt;http://bio7.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ImageJ documentation and websites:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://imagej.net/Welcome&quot; rel=&quot;nofollow&quot;&gt;http://imagej.net/Welcome&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://imagej.nih.gov/ij/docs/guide/146.html&quot; rel=&quot;nofollow&quot;&gt;https://imagej.nih.gov/ij/docs/guide/146.html&lt;/a&gt;&lt;br /&gt;
-	 &lt;/p&gt;
-&lt;p&gt;New in 1.51u54:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Updated to ImageJ 1.51u54&lt;/li&gt;
-&lt;li&gt;
-		Fixed lost keyboard focus for key shortcuts&lt;/li&gt;
-&lt;li&gt;
-		Improved preferences for Swing fonts (to decrease on Retina displays)&lt;/li&gt;
-&lt;li&gt;
-		Several other fixes for MacOSX&lt;/li&gt;
-&lt;li&gt;
-		Added description for increased fonts for MacOSX (see Github page!)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51u20:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Cluttered MACOSX menus are now closed (added from opened application windows and frames). Some default added menus are disabled in the Bio7 preferences by default&lt;/li&gt;
-&lt;li&gt;
-		Code completion (template) action now displays the macro documentation and context information when typing&lt;/li&gt;
-&lt;li&gt;
-		Improved code completion layout (context information)&lt;/li&gt;
-&lt;li&gt;
-		Added debug context menu actions to the macro editor&lt;/li&gt;
-&lt;li&gt;
-		Added some other context menu actions, too (&#039;Get Macro Recorder Text&#039;, &#039;Evaluate Line&#039;)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51s24:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Updated ImageJ plugin to version 1.51.s24&lt;/li&gt;
-&lt;li&gt;
-		Code completion (templates) action now displays the macro documentation when typing&lt;/li&gt;
-&lt;li&gt;
-		Code completion context information improved&lt;/li&gt;
-&lt;li&gt;
-		Images from macros are now opened fast (before had a 2s delay because of a missing attribute)&lt;/li&gt;
-&lt;li&gt;
-		MacOSX extra menu disabled (avoids a cluttered menu)&lt;/li&gt;
-&lt;li&gt;
-		Macros can now be executed within an external ImageJ instance in a separate Java process (if enabled in the preference - see screenshot 2 below)&lt;/li&gt;
-&lt;li&gt;
-		Added JavaFX library reference for Java9&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p4 (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Fixed a bug to rename the &#039;Results&#039; table&lt;/li&gt;
-&lt;li&gt;
-		Fixed a key shortcut bug&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p3 (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		    Improved the grammar&lt;/li&gt;
-&lt;li&gt;
-		    Added an action to transfer the ImageJ macro recorder text to the selected line in the macro editor (CTRL+SHIFT+R, CMD+SHIFT+R)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p (bugfix):&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Fixed a bug to control dialogs&lt;/li&gt;
-&lt;li&gt;
-		Fixed a Linux code templates bug&lt;/li&gt;
-&lt;li&gt;
-		Added more code completion templates&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51p:&lt;/p&gt;
-&lt;p&gt;In this relase a macro editor and ImageJ perspective have been added to the ImageJ plugin. In addition the menu of the ImageJ plugin is now right assigned and the toolbar resizes dynamically.&lt;/p&gt;
-&lt;p&gt;The editor has the following features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		    Dynamic error detection (grammar derived from the ECMA grammar by Bart Kiers)&lt;/li&gt;
-&lt;li&gt;
-		    Toolbar action to execute ImageJ macros&lt;/li&gt;
-&lt;li&gt;
-		    Syntax highlightening&lt;/li&gt;
-&lt;li&gt;
-		    Debugging support (reusing and implementing interfaces and methods from ImageJ - same keyboard shortcuts - see animation below)&lt;/li&gt;
-&lt;li&gt;
-		    Code completion (with browser help)&lt;/li&gt;
-&lt;li&gt;
-		    Code templates (add you own templates)&lt;/li&gt;
-&lt;li&gt;
-		    Info popups (text hoover)&lt;/li&gt;
-&lt;li&gt;
-		    Outline view (var variables, variables, methods and macros)&lt;/li&gt;
-&lt;li&gt;
-		    Automatic closing of braces, parentheses and strings Automatic indention of functions,loops, etc.&lt;/li&gt;
-&lt;li&gt;
-		    Code folding&lt;/li&gt;
-&lt;li&gt;
-		    Code formatting (based on the Eclipse-javascript-formatter by Sebastian Moran)&lt;/li&gt;
-&lt;li&gt;
-		    Resize fonts functions (with Ctrl++ or CMD++, CTRL+- or CMD +-)&lt;/li&gt;
-&lt;li&gt;
-		    Font preferences&lt;/li&gt;
-&lt;li&gt;
-		    Mark occurences (scope independant)&lt;/li&gt;
-&lt;li&gt;
-		    A copy function for this forum&lt;br /&gt;
-		 &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New in 1.51n:&lt;/p&gt;
-&lt;p&gt;* Added a fake editor to register and open standard image files from the Navigator or Project Explorer, etc in the ImageJ view.&lt;/p&gt;
-&lt;p&gt;* Fixed several image conversion bugs&lt;/p&gt;
-&lt;p&gt;* Moved plugin update site to github (if you have an old installation please uninstall the old plugins first before you install from this location!)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 05 Oct 2016 10:59:26 +0000</pubDate>
- <dc:creator>mmisingnameaoh</dc:creator>
- <guid isPermaLink="false">3103502 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/imagej-plugin#comments</comments>
-  </item>
-  <item>
-    <title>IntelliJ IDEA keymap for Eclipse</title>
-    <link>http://marketplace.eclipse.org/content/intellij-idea-keymap-eclipse</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-02-13 15:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-02-14 08:20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jlehnerhki/listings&quot; title=&quot;IntelliJ IDEA Keymap for Eclipse&quot;&gt;IntelliJ IDEA Keymap for Eclipse&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;
-	Provides a new entry to Preferences --&amp;gt; General --&amp;gt; Keys (IntelliJ IDEA)&lt;/h2&gt;
-&lt;p&gt;The supported shortcuts can be seen here &lt;strong&gt;&lt;a href=&quot;https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse&quot; rel=&quot;nofollow&quot;&gt;https://github.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Work in progress, not tested on Linux.&lt;/p&gt;
-&lt;p&gt;Contributions are welcomed. Please provide bug and feature reports via the GitHub page.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Tue, 13 Feb 2018 20:41:19 +0000</pubDate>
- <dc:creator>jlehnerhki</dc:creator>
- <guid isPermaLink="false">3924841 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/intellij-idea-keymap-eclipse#comments</comments>
-  </item>
-  <item>
-    <title>ZK Studio</title>
-    <link>http://marketplace.eclipse.org/content/zk-studio</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/zk-logo2.gif&quot; width=&quot;95&quot; height=&quot;68&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2011-05-29 22:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2018-02-14 04:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Potix%20Corp.%22&quot;&gt;Potix Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/zpotix/listings&quot; title=&quot;ZK Potix&quot;&gt;ZK Potix&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;* NOTE: You have to use [Eclipse for J2EE] version or install [Web Tools Platform (WTP)] first before you install ZK Studio.&lt;/p&gt;
-&lt;p&gt;ZK Studio is a visual integrated development environment providing intuitive tools that span the entire application development lifecycle. Tools are included for UI design, prototyping, development, and deployment when implementing ZK applications.&lt;/p&gt;
-&lt;p&gt;ZK Studio provides content assistance, WYSIWYG visual development, hyperlink navigation, variable highlighting, syntax coloring, and many other exciting features. ZK Studio is the most efficient way to develop ZK-based applications.&lt;/p&gt;
-&lt;p&gt;---&lt;/p&gt;
-&lt;p&gt;Update sites:&lt;/p&gt;
-&lt;p&gt;for eclipse 4.2(Juno): &lt;a href=&quot;http://studio.zkoss.org/resource/plugins/eclipse_4_2/&quot; rel=&quot;nofollow&quot;&gt;http://studio.zkoss.org/resource/plugins/eclipse_4_2/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;for eclipse 3.7(Indigo): &lt;a href=&quot;http://studio.zkoss.org/resource/plugins/eclipse_3_7/&quot; rel=&quot;nofollow&quot;&gt;http://studio.zkoss.org/resource/plugins/eclipse_3_7/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;---&lt;/p&gt;
-&lt;p&gt;Feature Highlights&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Project and page wizards&lt;/li&gt;
-&lt;li&gt;
-		Intelligent editor&lt;/li&gt;
-&lt;li&gt;
-		Content Assist and code completion&lt;/li&gt;
-&lt;li&gt;
-		ZK component palette&lt;/li&gt;
-&lt;li&gt;
-		Automatic update manager&lt;/li&gt;
-&lt;li&gt;
-		ZK Release management&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;---&lt;/p&gt;
-&lt;p&gt;Supported Platforms&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;
-		Eclipse 3.7 - Indigo or later&lt;/li&gt;
-&lt;li&gt;
-		Eclipse 4.2 - Juno or later&lt;/li&gt;
-&lt;li&gt;
-		MyEclipse&lt;/li&gt;
-&lt;li&gt;
-		IBM RAD 7.5&lt;/li&gt;
-&lt;li&gt;
-		Spring Tool Suite 2.5.1&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Ubuntu users (ver. 16.04 or later) please read the following &lt;a href=&quot;http://forum.zkoss.org/question/101311/zk-studio-with-eclipse-neon-and-mars-and-ubuntu-1604-not-working/?answer=101822&quot; rel=&quot;nofollow&quot;&gt;http://forum.zkoss.org/question/101311/zk-studio-with-eclipse-neon-and-m...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Mon, 30 May 2011 02:11:07 +0000</pubDate>
- <dc:creator>zpotix</dc:creator>
- <guid isPermaLink="false">57140 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/zk-studio#comments</comments>
   </item>
   </channel>
 </rss>

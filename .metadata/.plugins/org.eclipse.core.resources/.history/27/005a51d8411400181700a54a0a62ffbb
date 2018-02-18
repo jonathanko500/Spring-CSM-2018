@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+//M4Test
+public class Customer 
+{
+	private String name;
+	private ArrayList<Invoice> invoiceList;
+	public static void main(String[] args)
+	{//start main
+		// TODO Auto-generated method stub
+		
+	}//end main
+	public Customer(String name) 
+	{//start constructor
+		this.name = name;
+		invoiceList = new ArrayList<Invoice>();
+	}//end constructor
+	public Customer(String name, ArrayList<Invoice> arr)
+	{
+		this.name=name;
+		
+	}
+}

@@ -59,9 +59,9 @@ public class Course
 	public String toString()
 	{
 		String x;
-		int y=0;//counter for enrolled students
+		int y=0;
 		for(int i=0;i<roster.length;i++)
-		{//numb of enrolled students
+		{
 			if(roster[i]!=null)
 			{
 				y++;
@@ -69,52 +69,14 @@ public class Course
 		}
 		x=className+" "+y+" "+max+" "+"\n";
 		for(int i=0;i<roster.length;i++)
-		{//prints enrolled students
+		{//adds enrolled students
 			if(roster[i]!=null)
 			{
-				x+=roster[i]+"\n";
+				x+=roster[i];
 			}
 		}
+		x+="Hello";
 		return x;
 	}
-	//other methods
-	public boolean addStudent(student kid)
-	{
-		int x=0;
-		boolean add = true;
-		for(int i=0;i<roster.length;i++)
-		{//start loop
-			if(kid.getTuition()==true)
-			{//student paid or not
-				if(roster[i]==null)
-				{//check for room
-					//add name to roster
-					roster[x]=kid.getFirst()+" "+kid.getLast();
-					add=true;
-				}
-				else
-				{
-					add=false;
-				}
-			}
-			x++;
-		}//end loop
-		return add;
-	}
-	public boolean dropStudent(student kid)
-	{
-		boolean drop=true;
-		for(int i=0;i<roster.length;i++)
-		{//start loop
-			if(roster[i]==kid.getFirst()+" "+kid.getLast())
-			{//check for name in roster
-				roster[i]=null;
-			}
-			else
-			{
-				drop=false;
-			}
-		}
-		return drop;
-	}
+	
 }//end class

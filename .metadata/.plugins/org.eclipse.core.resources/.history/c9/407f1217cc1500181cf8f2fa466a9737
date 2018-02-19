@@ -4,6 +4,9 @@ public class Registration
 {//start class
 	public static void main(String[] args)
 	{//start main
-		
+		Course math = new Course();
+		math.setMax(5);
+		math.setClassName("Calc");
+		System.out.println(math.toString());
 	}//end main
 }//end class

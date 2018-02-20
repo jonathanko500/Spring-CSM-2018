@@ -1,0 +1,28 @@
+import java.util.Scanner;
+//Jonathan Ko and Kennedy Louie
+//project 2
+public class Registration
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variables/scanner
+		Scanner input = new Scanner(System.in);
+		//make class
+		Course class1= new Course();
+		makeClass(class1);
+		//options
+		
+	}//end main
+	public static void makeClass(Course classroom)
+	{
+		Scanner input = new Scanner(System.in);
+		String className;
+		int max;
+		System.out.print("Enter class name: ");
+		className=input.nextLine();
+		System.out.print("Enter max number of students to have in class: ");
+		max=Integer.parseInt(input.nextLine());
+		classroom.setClassName(className);
+		classroom.setMax(max);
+	}
+}//end class

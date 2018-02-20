@@ -53,10 +53,22 @@ public class Course
 	}
 	public int getRosterNumb()
 	{
-		return roster.length;
+		int x=0;
+		for(int i=0;i<roster.length;i++)
+		{
+			if(roster[i]!=null)
+			{
+				x++;
+			}
+		}
+		return x;
 	}
-	//toString
+	public String[] getRoster()
+	{
+		return roster;
+	}
 	public String toString()
+	//toString	public String toString()
 	{
 		String x;
 		int y=0;//counter for enrolled students
@@ -67,7 +79,8 @@ public class Course
 				y++;
 			}
 		}
-		x=className+" "+y+" "+max+" "+"\n";
+		x="Class is called "+className+", there are "+y+" students enrolled, "+max+" is the max number of students this class will take "+"\n";
+		x+="The enrolled students are named:\n";
 		for(int i=0;i<roster.length;i++)
 		{//prints enrolled students
 			if(roster[i]!=null)
@@ -82,6 +95,7 @@ public class Course
 	{
 		int x=0;
 		boolean add = true;
+		String name=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
 			if(kid.getTuition()==true)
@@ -89,12 +103,13 @@ public class Course
 				if(roster[i]==null)
 				{//check for room
 					//add name to roster
-					roster[x]=kid.getFirst()+" "+kid.getLast();
+					enroll(kid);
 					add=true;
 				}
 				else
 				{
 					add=false;
+					System.out.println("Tuition was not paid. Student can not be enrolled.");
 				}
 			}
 			x++;
@@ -116,5 +131,14 @@ public class Course
 			}
 		}
 		return drop;
+	}
+	public void enroll(student kid)
+	{
+		int x=0;
+		String name=kid.getFirst()+" "+kid.getLast();
+		for(int i=0;i<roster.length;i++)
+		{
+			roster[x]=name;
+		}
 	}
 }//end class

@@ -1,0 +1,72 @@
+import java.util.Random;
+import java.util.Scanner;
+//Jonathan Ko and Kennedy Louie
+//project 2
+public class Registration
+{//start class
+	public static void main(String[] args)
+	{//start main
+		//declare variables/scanner
+		Scanner input = new Scanner(System.in);
+		String options;
+		//make class
+		Course class1= new Course();
+		makeClass(class1);
+		System.out.println("");
+		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\"): ");
+		options=input.nextLine().toLowerCase();
+		//options
+		switch(options)
+		{//start switch
+		case "a":
+			add(class1);
+			break;
+		case "d":
+			break;
+		case "v":
+			break;
+		default:
+		}//end witch
+		System.out.println(class1.toString());
+		
+		
+	}//end main
+	public static void makeClass(Course classroom)
+	{
+		Scanner input = new Scanner(System.in);
+		String className;
+		int max;
+		System.out.print("Enter class name: ");
+		className=input.nextLine();
+		System.out.print("Enter max number of students to have in class: ");
+		max=Integer.parseInt(input.nextLine());
+		classroom.setClassName(className);
+		classroom.setMax(max);
+	}
+	public static void add(Course room)
+	{
+		String first,end,ID,choice;
+		boolean enroll;
+		int x,y;
+		Random rand = new Random();
+		x=rand.nextInt(999);
+		y=rand.nextInt(9999);
+		Scanner input = new Scanner(System.in);
+		student kid = new student();
+		//make the student
+		System.out.print("What is the student's first name: ");
+		first=input.nextLine();
+		System.out.print("What is the student's last name: ");
+		end=input.nextLine();
+		ID=x+"-"+y;
+		System.out.print("Is tuition paid? (yes/no): ");
+		choice=input.nextLine();
+		kid.setFirst(first);
+		kid.setLast(end);
+		kid.setID(ID);
+		kid.setTuition(choice);
+		room.addStudent(kid);
+		room.enroll(kid);
+		System.out.println(room.getRosterNumb());
+	}
+}//end class

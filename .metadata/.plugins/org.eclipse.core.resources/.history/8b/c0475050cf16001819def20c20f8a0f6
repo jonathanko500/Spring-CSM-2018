@@ -9,7 +9,7 @@ public class Registration
 		//declare variables/scanner
 		Scanner input = new Scanner(System.in);
 		String options;
-		int again=0;
+		boolean again=true;
 		//make class
 		Course class1= new Course();
 		student child = new student();
@@ -17,42 +17,33 @@ public class Registration
 		System.out.println("");
 		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\") or stop (\"s\"): ");
 		options=input.nextLine().toLowerCase();
-		System.out.println("");
 		//options
 		do
-		{//start loop
+		{
 			switch(options)
 			{//start switch
 			case "a":
-				//add student
 				child=makeKid();
 				class1.addStudent(child);
 				System.out.println(class1.toString());
 				break;
 			case "d":
-				//drop student
 				break;
 			case "v":
-				//view class info
 				System.out.println(class1.toString());
 				break;
 			case "s":
-				//stop loop
-				again++;
+				again=false;
 				break;
 			default:
-				//check for invalid data
 				System.out.println("Invalid data.");
 				System.out.println("");
 				break;
 			}//end switch
-			if(again==0)
-			{
-				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
-				options=input.nextLine().toLowerCase();
-			}
-		}while(again==0);//end loop
-		System.out.println("Code made by Jonathan Ko and Kennedy Louie");
+			System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
+			options=input.nextLine().toLowerCase();
+		}while(again==true);
+		
 	}//end main
 	public static void makeClass(Course classroom)
 	{

@@ -17,31 +17,25 @@ public class Registration
 		System.out.println("");
 		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\") or stop (\"s\"): ");
 		options=input.nextLine().toLowerCase();
-		System.out.println("");
 		//options
 		do
-		{//start loop
+		{
 			switch(options)
 			{//start switch
 			case "a":
-				//add student
 				child=makeKid();
 				class1.addStudent(child);
 				System.out.println(class1.toString());
 				break;
 			case "d":
-				//drop student
 				break;
 			case "v":
-				//view class info
 				System.out.println(class1.toString());
 				break;
 			case "s":
-				//stop loop
 				again++;
 				break;
 			default:
-				//check for invalid data
 				System.out.println("Invalid data.");
 				System.out.println("");
 				break;
@@ -51,8 +45,9 @@ public class Registration
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
 				options=input.nextLine().toLowerCase();
 			}
-		}while(again==0);//end loop
-		System.out.println("Code made by Jonathan Ko and Kennedy Louie");
+			
+		}while(again==0);
+		
 	}//end main
 	public static void makeClass(Course classroom)
 	{

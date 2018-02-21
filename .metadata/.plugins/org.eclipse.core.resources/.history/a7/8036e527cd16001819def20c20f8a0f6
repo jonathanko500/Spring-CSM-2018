@@ -6,7 +6,7 @@ public class Course
 {//start class
 	private String className;
 	private int max;
-	private student[] roster = new student[max];
+	private String[] roster = new String[max];
 	//constructors
 	public Course()
 	{
@@ -63,7 +63,7 @@ public class Course
 		}
 		return x;
 	}
-	public student[] getRoster()
+	public String[] getRoster()
 	{
 		return roster;
 	}
@@ -94,7 +94,8 @@ public class Course
 	public boolean addStudent(student kid)
 	{
 		int x=0;
-		boolean add=true;
+		boolean add = true;
+		String name=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
 			if(kid.getTuition()==true)
@@ -102,7 +103,7 @@ public class Course
 				if(roster[i]==null)
 				{//check for room
 					//add name to roster
-					roster[x]=kid;
+					enroll(kid);
 					add=true;
 				}
 				else
@@ -118,10 +119,9 @@ public class Course
 	public boolean dropStudent(student kid)
 	{
 		boolean drop=true;
-		String x=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
-			if(roster[i].equals(x))
+			if(roster[i]==kid.getFirst()+" "+kid.getLast())
 			{//check for name in roster
 				roster[i]=null;
 			}
@@ -132,5 +132,13 @@ public class Course
 		}
 		return drop;
 	}
-	
+	public void enroll(student kid)
+	{
+		int x=0;
+		String name=kid.getFirst()+" "+kid.getLast();
+		for(int i=0;i<roster.length;i++)
+		{
+			roster[x]=name;
+		}
+	}
 }//end class

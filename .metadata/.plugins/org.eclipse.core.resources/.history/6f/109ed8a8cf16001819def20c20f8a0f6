@@ -17,7 +17,6 @@ public class Registration
 		System.out.println("");
 		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\") or stop (\"s\"): ");
 		options=input.nextLine().toLowerCase();
-		System.out.println("");
 		//options
 		do
 		{//start loop

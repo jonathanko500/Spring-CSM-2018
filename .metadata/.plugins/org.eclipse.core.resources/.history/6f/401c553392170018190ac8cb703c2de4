@@ -93,19 +93,21 @@ public class Registration
 		System.out.println("");
 		return kid1;
 	}
-	public static void add (boolean able,student kid,Course room)//count numb of enrolled students
+	public static void add (boolean able,student kid,Course room)
 	{
-		student[] classRoom = new student[room.getMax()];
-		classRoom=room.getRoster();
-		int x=0;
-		for(int i=0;i<classRoom.length;i++)
-		{//count numb of enrooled student
-			if(classRoom[i]==null)
-			{
-				x++;
+		int y=0;
+		if(able==false)
+		{//check if able to add to roster
+			System.out.println("Student is unable to be added to class.");
+		}
+		else
+		{
+			for(int i=0;i<room.getRoster().length;i++)
+			{//looks for the avaliable space
+				room.getRoster()[i]=kid;
+				y++;
+				System.out.println(y);
 			}
 		}
-		room.setNumbStud(x);
-		System.out.println(room.getNumbStud());
 	}
 }//end class

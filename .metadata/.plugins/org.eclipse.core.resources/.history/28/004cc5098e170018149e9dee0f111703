@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Course 
 {//start class
 	private String className;
-	private int max,numbStud;
+	private int max;
 	private student[] roster = new student[max];
 	//constructors
 	public Course()
@@ -41,10 +41,6 @@ public class Course
 		}
 		
 	}
-	public void setNumbStud(int num)
-	{
-		numbStud=num;
-	}
 	//getter
 	public String getClassName()
 	{
@@ -54,19 +50,35 @@ public class Course
 	{
 		return max;
 	}
+	public int getRosterNumb()
+	{
+		int x=0;
+		for(int i=0;i<roster.length;i++)
+		{
+			if(roster[i]!=null)
+			{
+				x++;
+			}
+		}
+		return x;
+	}
 	public student[] getRoster()
 	{
 		return roster;
 	}
-	public int getNumbStud()
-	{
-		return numbStud;
-	}
-	//toString
 	public String toString()
+	//toString	public String toString()
 	{
 		String x;
-		x="Class is called "+className+", there are "+numbStud+" students enrolled, "+max+" is the max number of students this class will take "+"\n";
+		int y=0;//counter for enrolled students
+		for(int i=0;i<roster.length;i++)
+		{//numb of enrolled students
+			if(roster[i]==null)
+			{
+				y++;
+			}
+		}
+		x="Class is called "+className+", there are "+y+" students enrolled, "+max+" is the max number of students this class will take "+"\n";
 		x+="The enrolled students are named:\n";
 		for(int i=0;i<roster.length;i++)
 		{//prints enrolled students
@@ -80,24 +92,22 @@ public class Course
 	//other methods
 	public boolean addStudent(student kid) 
 	{
-		boolean add=true;
 		for(int i=0;i<roster.length;i++)
 		{//looks through roster
 			if(kid.getTuition()==true)
 			{//tuition paid or not
 				if(roster[i]==null)
 				{
-					roster[i]=kid;
-					add=true;
+					return true;
 				}
 			}
 			else
 			{
 				
-				add=false;
+				return false;
 			}
-		}//end loop
-		return add;
+		}
+		return true;
 	}
 	public boolean dropStudent(student kid)
 	{
@@ -116,5 +126,21 @@ public class Course
 		}
 		return drop;
 	}
-	
+	public void add (boolean able,student kid)
+	{
+		int x=0;
+		if(able==true)
+		{//check if able to add to roster
+			for(int i=0;i<roster.length;i++)
+			{//looks for the avaliable space
+				roster[i]=kid;
+				x++;
+				System.out.println(x);
+			}
+		}
+		else
+		{
+			System.out.println("Student is unable to be added to class.");
+		}
+	}
 }//end class

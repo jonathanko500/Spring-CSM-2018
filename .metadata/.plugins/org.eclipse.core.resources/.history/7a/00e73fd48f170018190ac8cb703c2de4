@@ -28,7 +28,7 @@ public class Registration
 				//add student
 				child=makeKid();
 				pass=class1.addStudent(child);
-				add(pass,child,class1);
+				add(pass, child,class1);
 				System.out.println(class1.toString());
 				break;
 			case "d":
@@ -52,7 +52,6 @@ public class Registration
 			{
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
 				options=input.nextLine().toLowerCase();
-				System.out.println("");
 			}
 		}while(again==0);//end loop
 		System.out.println("Code made by Jonathan Ko and Kennedy Louie");
@@ -88,24 +87,29 @@ public class Registration
 		ID=x+"-"+y;
 		System.out.print("Was the tuition paid? (yes or no): ");
 		choice=input.nextLine();
-		student kid1 = new student (begin,end,ID,choice);
-		System.out.println(kid1.toString());
+		kid.setFirst(begin);
+		kid.setLast(end);
+		kid.setID(ID);
+		kid.setTuition(choice);
+		System.out.println(kid.toString());
 		System.out.println("");
-		return kid1;
+		return kid;
 	}
-	public static void add (boolean able,student kid,Course room)//count numb of enrolled students
+	public static void add (boolean able,student kid,Course room)
 	{
-		student[] classRoom = new student[room.getMax()];
-		classRoom=room.getRoster();
 		int x=0;
-		for(int i=0;i<classRoom.length;i++)
-		{//count numb of enrooled student
-			if(classRoom[i]==null)
-			{
+		if(able==true)
+		{//check if able to add to roster
+			for(int i=0;i<room.getRoster().length;i++)
+			{//looks for the avaliable space
+				room.getRoster()[i]=kid;
 				x++;
+				System.out.println(x);
 			}
 		}
-		room.setNumbStud(x);
-		System.out.println(room.getNumbStud());
+		else
+		{
+			System.out.println("Student is unable to be added to class.");
+		}
 	}
 }//end class

@@ -93,7 +93,7 @@ public class Registration
 		System.out.println("");
 		return kid1;
 	}
-	public static void add (boolean able,student kid,Course room)//count numb of enrolled students
+	public static void add (boolean able,student kid,Course room)
 	{
 		student[] classRoom = new student[room.getMax()];
 		classRoom=room.getRoster();

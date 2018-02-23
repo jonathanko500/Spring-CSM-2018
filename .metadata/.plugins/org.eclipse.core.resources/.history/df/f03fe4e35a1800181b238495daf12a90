@@ -4,20 +4,18 @@ import java.util.Scanner;
 public class Course 
 {//start class
 	private String className;
-	private int max;
-	private student[] roster = new student[0];
+	private int max,numbStud;
+	private student[] roster = new student[max];
 	//constructors
 	public Course()
 	{
 		className="";
 		max=0;
-		student[] roster = new student[max];
 	}
 	public Course(String name,int numb)
 	{
 		className=name;
 		max=numb;
-		student[] roster = new student[max];
 	}
 	//setter
 	public void setClassName(String name)
@@ -43,9 +41,9 @@ public class Course
 		}
 		
 	}
-	public void setRoster(int num)
+	public void setNumbStud(int num)
 	{
-		student[] roster = new student[num];
+		numbStud=num;
 	}
 	//getter
 	public String getClassName()
@@ -60,19 +58,15 @@ public class Course
 	{
 		return roster;
 	}
+	public int getNumbStud()
+	{
+		return numbStud;
+	}
 	//toString
 	public String toString()
 	{
 		String x;
-		int y=0;
-		for(int i=0;i<roster.length;i++)
-		{
-			if(roster[i]!=null)
-			{//numb of enrolled students
-				y++;
-			}
-		}
-		x="Class is called "+className+", there are "+y+" students enrolled, "+max+" is the max number of students this class will take "+"\n";
+		x="Class is called "+className+", there are "+numbStud+" students enrolled, "+max+" is the max number of students this class will take "+"\n";
 		x+="The enrolled students are named:\n";
 		for(int i=0;i<roster.length;i++)
 		{//prints enrolled students
@@ -86,33 +80,32 @@ public class Course
 	//other methods
 	public boolean addStudent(student kid) 
 	{
-		student[] roster = new student[getMax()];
-		boolean add= false;
-		if(kid.getTuition()==true)
-		{//check if tuition is true
-			for(int i=0;i<roster.length;i++)
-			{//look through roster
+		boolean add=true;
+		for(int i=0;i<roster.length;i++)
+		{//looks through roster
+			if(kid.getTuition()==true)
+			{//tuition paid or not
 				if(roster[i]==null)
-				{// (roster = null) = space for kid
+				{
 					roster[i]=kid;
-					//i=roster.length;
 					add=true;
 				}
-				
 			}
-		}
-		else
-		{
-			System.out.println("Student can not be addded.");
-		}
+			else
+			{
+				
+				add=false;
+			}
+		}//end loop
 		return add;
 	}
 	public boolean dropStudent(student kid)
 	{
 		boolean drop=true;
+		String x=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
-			if(roster[i].equals(kid))
+			if(roster[i].equals(x))
 			{//check for name in roster
 				roster[i]=null;
 			}

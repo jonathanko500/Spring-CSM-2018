@@ -28,7 +28,7 @@ public class Registration
 				//add student
 				child=makeKid();
 				pass=class1.addStudent(child);
-				System.out.println(class1.toString());
+				class1.toString();
 				break;
 			case "d":
 				//drop student
@@ -48,7 +48,6 @@ public class Registration
 				System.out.println("");
 				break;
 			}//end switch
-			
 			if(again==0)
 			{
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");

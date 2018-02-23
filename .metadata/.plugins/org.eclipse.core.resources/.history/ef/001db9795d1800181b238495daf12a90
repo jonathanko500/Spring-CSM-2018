@@ -86,8 +86,7 @@ public class Course
 	//other methods
 	public boolean addStudent(student kid) 
 	{
-		student[] roster = new student[getMax()];
-		boolean add= false;
+		boolean add= true;
 		if(kid.getTuition()==true)
 		{//check if tuition is true
 			for(int i=0;i<roster.length;i++)
@@ -95,7 +94,7 @@ public class Course
 				if(roster[i]==null)
 				{// (roster = null) = space for kid
 					roster[i]=kid;
-					//i=roster.length;
+					i=roster.length;
 					add=true;
 				}
 				
@@ -103,16 +102,17 @@ public class Course
 		}
 		else
 		{
-			System.out.println("Student can not be addded.");
+			add=false;
 		}
 		return add;
 	}
 	public boolean dropStudent(student kid)
 	{
 		boolean drop=true;
+		String x=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
-			if(roster[i].equals(kid))
+			if(roster[i].equals(x))
 			{//check for name in roster
 				roster[i]=null;
 			}

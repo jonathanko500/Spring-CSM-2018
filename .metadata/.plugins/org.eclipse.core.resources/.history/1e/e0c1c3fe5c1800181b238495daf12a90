@@ -14,7 +14,7 @@ public class Registration
 		//make class
 		Course class1= new Course();
 		student child = new student();
-		class1=makeClass(class1);
+		makeClass(class1);
 		System.out.println("");
 		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\") or stop (\"s\"): ");
 		options=input.nextLine().toLowerCase();
@@ -28,14 +28,17 @@ public class Registration
 				//add student
 				child=makeKid();
 				pass=class1.addStudent(child);
-				System.out.println(class1.toString());
+				System.out.println("");
+				for(int i=0;i<class1.getRoster().length;i++)
+				{
+					System.out.println(class1.getRoster());
+				}
 				break;
 			case "d":
 				//drop student
 				break;
 			case "v":
 				//view class info
-				class1.dropStudent(child);
 				System.out.println(class1.toString());
 				break;
 			case "s":
@@ -48,7 +51,6 @@ public class Registration
 				System.out.println("");
 				break;
 			}//end switch
-			
 			if(again==0)
 			{
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
@@ -58,7 +60,7 @@ public class Registration
 		}while(again==0);//end loop
 		System.out.println("Code made by Jonathan Ko and Kennedy Louie");
 	}//end main
-	public static Course makeClass(Course classroom)
+	public static void makeClass(Course classroom)
 	{
 		Scanner input = new Scanner(System.in);
 		String className;
@@ -67,8 +69,9 @@ public class Registration
 		className=input.nextLine();
 		System.out.print("Enter max number of students to have in class: ");
 		max=Integer.parseInt(input.nextLine());
-		Course room = new Course(className,max);
-		return room;
+		classroom.setClassName(className);
+		classroom.setMax(max);
+		classroom.setRoster(max);
 	}
 	public static student makeKid()
 	{

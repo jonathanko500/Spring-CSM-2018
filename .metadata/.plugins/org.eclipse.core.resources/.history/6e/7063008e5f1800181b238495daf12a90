@@ -86,7 +86,7 @@ public class Course
 	//other methods
 	public boolean addStudent(student kid) 
 	{
-		student[] roster = new student[getMax()];
+		student[] roster = new student[max];
 		boolean add= false;
 		if(kid.getTuition()==true)
 		{//check if tuition is true
@@ -110,9 +110,10 @@ public class Course
 	public boolean dropStudent(student kid)
 	{
 		boolean drop=true;
+		String x=kid.getFirst()+" "+kid.getLast();
 		for(int i=0;i<roster.length;i++)
 		{//start loop
-			if(roster[i].equals(kid))
+			if(roster[i].equals(x))
 			{//check for name in roster
 				roster[i]=null;
 			}

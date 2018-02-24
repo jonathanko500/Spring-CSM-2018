@@ -49,6 +49,7 @@ public class Registration
 				System.out.println("");
 				break;
 			}//end switch
+			
 			if(again==0)
 			{
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");

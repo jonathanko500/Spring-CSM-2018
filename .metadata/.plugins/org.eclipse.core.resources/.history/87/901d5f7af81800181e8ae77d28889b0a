@@ -9,29 +9,56 @@ public class Registration
 		//declare variables/scanner
 		Scanner input = new Scanner(System.in);
 		String options;
+		boolean pass;
+		int again=0;
 		//make class
 		Course class1= new Course();
 		student child = new student();
-		makeClass(class1);
+		class1=makeClass();
 		System.out.println("");
-		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\"): ");
+		System.out.print("Would you like to add (\"a\"), drop (\"d\"), or view class info (\"v\") or stop (\"s\"): ");
 		options=input.nextLine().toLowerCase();
+		System.out.println("");
 		//options
-		switch(options)
-		{//start switch
-		case "a":
-			child=makeKid();
-			break;
-		case "d":
-			break;
-		case "v":
-			System.out.println(class1.toString());
-			break;
-		default:
-		}//end switch
-		
+		do
+		{//start loop
+			switch(options)
+			{//start switch
+			case "a":
+				//add student
+				child=makeKid();
+				pass=class1.addStudent(child);
+				System.out.println(class1.toString());
+				break;
+			case "d":
+				//drop student
+				break;
+			case "v":
+				//view class info
+				class1.dropStudent(child);
+				System.out.println(class1.toString());
+				break;
+			case "s":
+				//stop loop
+				again++;
+				break;
+			default:
+				//check for invalid data
+				System.out.println("Invalid data.");
+				System.out.println("");
+				break;
+			}//end switch
+			
+			if(again==0)
+			{
+				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
+				options=input.nextLine().toLowerCase();
+				System.out.println("");
+			}
+		}while(again==0);//end loop
+		System.out.println("Code made by Jonathan Ko and Kennedy Louie");
 	}//end main
-	public static void makeClass(Course classroom)
+	public static Course makeClass()
 	{
 		Scanner input = new Scanner(System.in);
 		String className;
@@ -40,15 +67,14 @@ public class Registration
 		className=input.nextLine();
 		System.out.print("Enter max number of students to have in class: ");
 		max=Integer.parseInt(input.nextLine());
-		classroom.setClassName(className);
-		classroom.setMax(max);
+		Course room = new Course(className,max);
+		return room;
 	}
 	public static student makeKid()
 	{
 		//variables
 		Scanner input = new Scanner(System.in);
 		Random rand = new Random();
-		student kid = new student();
 		int x,y;
 		x=rand.nextInt(999);
 		y=rand.nextInt(9999);
@@ -62,15 +88,9 @@ public class Registration
 		ID=x+"-"+y;
 		System.out.print("Was the tuition paid? (yes or no): ");
 		choice=input.nextLine();
-		kid.setFirst(begin);
-		kid.setLast(end);
-		kid.setID(ID);
-		kid.setTuition(choice);
+		student kid = new student (begin,end,ID,choice);
+		System.out.println(kid.toString());
 		System.out.println("");
 		return kid;
-	}
-	public static void addKid(student kid)
-	{
-		
 	}
 }//end class

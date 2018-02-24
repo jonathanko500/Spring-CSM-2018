@@ -8,6 +8,13 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Donald Raab: Help Wanted!</title>
+	<guid isPermaLink="false">https://medium.com/p/b1acf25d8c8d</guid>
+	<link>https://medium.com/@donraab/help-wanted-b1acf25d8c8d?source=rss-df39b86e9f04------2</link>
+	<description>&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*VwIjHSmFHQpYCQuDQEL7XA.png&quot; /&gt;Contribute to an open source project!&lt;/figure&gt;&lt;p&gt;Shhhh! I’m going to tell you a secret. It’s something that for a few people might just change their software development lives in unexpected and exciting ways.&lt;/p&gt;&lt;h4&gt;Contribute to an open source project!&lt;/h4&gt;&lt;p&gt;That’s not the secret though. I realize many of you have probably already thought of contributing to an open source project but were unsure how to get started.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;I can help you get started and it might be easier than you expect.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;That’s the secret.&lt;/p&gt;&lt;p&gt;There is a project called &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections &lt;/a&gt;which is managed at the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.collections&quot;&gt;Eclipse Foundation&lt;/a&gt; and is open for contributions from anyone. As open source libraries go, Eclipse Collections has a relatively low barrier of entry. Eclipse Collections is a library of Java data structures and algorithms.&lt;/p&gt;&lt;p&gt;If you’d like to get started, here are some suggestions that might help you break through the initial barrier of contributing to an open source project. Not all contributions are made through code.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Try out the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata&quot;&gt;Eclipse Collections Kata&lt;/a&gt;s — this will help you understand what Eclipse Collection is all about. Once you understand Eclipse Collections, you may want to use it in your projects. If you use it in your projects, you may discover something that is missing that you would like to suggest and contribute. This is the best kind of code contribution to make to a project. Eclipse Collections evolved from a single class called Iterate over the past 12+ years because folks like myself and &lt;a href=&quot;https://medium.com/u/4285d8a2ca86&quot;&gt;Nikhil&lt;/a&gt; and &lt;a href=&quot;https://medium.com/u/82b613b921f6&quot;&gt;Craig&lt;/a&gt; and &lt;a href=&quot;https://medium.com/u/18b43cac5e00&quot;&gt;Hiroshi&lt;/a&gt; and many others added things that they wanted in the framework.&lt;/li&gt;&lt;li&gt;If you use and like Eclipse Collections you can… &lt;strong&gt;a)&lt;/strong&gt; give a talk on it perhaps at a Java User Group meet-up &lt;strong&gt;b)&lt;/strong&gt; teach the katas to developers you know or at a Java User Group meet-up &lt;strong&gt;c)&lt;/strong&gt; write about it in a blog or article. This can help people discover that Eclipse Collections exists. This is an amazing contribution and can help introduce you to the growing community of Java developers!&lt;/li&gt;&lt;li&gt;If you are ready to try your hand at contributing code, the best place to start is the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;Contribution Guide&lt;/a&gt; in Eclipse Collections.&lt;/li&gt;&lt;li&gt;What will you need to get started? &lt;strong&gt;1)&lt;/strong&gt; GitHub Account &lt;strong&gt;2)&lt;/strong&gt; Sign Eclipse Foundation Contributor Agreement electronically &lt;strong&gt;3)&lt;/strong&gt; Git Client &lt;strong&gt;4) &lt;/strong&gt;JDK 8 &lt;strong&gt;5)&lt;/strong&gt; Maven &lt;strong&gt;6)&lt;/strong&gt; a Java IDE (the committers for Eclipse Collections use the latest version of IntelliJ Community Edition). The instructions in the contribution guide can help you on some of these things.&lt;/li&gt;&lt;li&gt;Something to work on. This could come from the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues&quot;&gt;issue log&lt;/a&gt; or may be something you would like added based on a use case that hasn’t been addressed before.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;What types of things can you work on that are low cost?&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Documentation — You could add or update something in the Reference Guide which is in a &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/docs/guide.md&quot;&gt;Markdown file&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Test Coverage — If you find missing test coverage, adding test cases is a noble and much appreciated addition to any project.&lt;/li&gt;&lt;li&gt;Static Utility — Static utility methods are isolated, easy to test and can be a great place to start experimenting with new API ideas.&lt;/li&gt;&lt;li&gt;Bug Fixes — This is a great contribution which will include some investigation, a little coding (hopefully) in the library and maybe some additional testing to make sure the bug never comes back.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Beyond these low cost, low complexity options there is a table that shows the cost and complexity of different things that can be contributed to Eclipse Collections. &lt;a href=&quot;https://medium.com/u/4285d8a2ca86&quot;&gt;Nikhil&lt;/a&gt; and I gave a talk on a Eclipse Foundation virtual meet-up which is now on &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;a href=&quot;https://medium.com/media/2ab2cb59ae47379914362745e7bbc2ee/href&quot;&gt;https://medium.com/media/2ab2cb59ae47379914362745e7bbc2ee/href&lt;/a&gt;&lt;p&gt;The talk included the following table that we displayed from our slide content.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*-VEtsFPSrTA2f01sylzvrA.png&quot; /&gt;&lt;/figure&gt;&lt;p&gt;&lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design/#/4&quot;&gt;API Deep Dive: Designing Eclipse Collections&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As you gain more experience and confidence, you might want to tackle problems with increasing levels of complexity. All of the infrastructural skills you learn while contributing to Eclipse Collections will help you on any open source project you want to contribute to in the future.&lt;/p&gt;&lt;h4&gt;Help is wanted and available&lt;/h4&gt;&lt;p&gt;Not only will you be helping an open source project by contributing, but there are committers on the project who will help you grow and learn as a developer by providing feedback on any issues and pull requests you submit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=b1acf25d8c8d&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 23 Feb 2018 19:56:40 +0000</pubDate>
+</item>
+<item>
 	<title>Melanie Bats: Modeling tools go up to the cloud</title>
 	<guid isPermaLink="true">http://melb.enix.org/2018/02/22/up-to-the-cloud/</guid>
 	<link>http://melb.enix.org/2018/02/22/up-to-the-cloud/</link>
@@ -280,6 +287,14 @@ Up, and up, and up&lt;/p&gt;
       &lt;/div&gt;
       &lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Mon, 19 Feb 2018 14:13:29 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon France 2018: Is your JUG an EclipseCon France partner?</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3672 at https://www.eclipsecon.org/france2018</guid>
+	<link>https://www.eclipsecon.org/france2018/news/your-jug-eclipsecon-france-partner</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JUG partners are helping to spread the word about EclipseCon France. Find out more about the program on the &lt;a href=&quot;https://www.eclipsecon.org/france2018/jugs&quot;&gt;JUG partner page&lt;/a&gt;. And, welcome our first partners from Nantes, Paris, Toulouse and Bordeaux!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/your-jug-eclipsecon-france-partner&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Duke360x360.png?itok=v85YbLha&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 19 Feb 2018 11:36:44 +0000</pubDate>
 </item>
 <item>
 	<title>Melanie Bats: CheConf18</title>
@@ -965,44 +980,6 @@ class MyDslGlobalScopeProvider extends ImportUriGlobalScopeProvider {
 &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fde%2Fin-5-minuten-zur-dsl-mit-transitiven-importen-in-xtext&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 05 Feb 2018 14:51:00 +0000</pubDate>
 	<author>cwehrheim@itemis.de (Christian Wehrheim)</author>
-</item>
-<item>
-	<title>Jeremie Bresson: Use the eclipse-settings-maven-plugin to synchronize prefs files across projects</title>
-	<guid isPermaLink="true">http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</guid>
-	<link>http://jmini.github.io/blog/2018/2018-02-05_eclipse-settings-maven-plugin.html</link>
-	<description>&lt;div class=&quot;paragraph&quot;&gt; 
- &lt;p&gt;The question « &lt;em&gt;Should the meta files related to an IDE be committed in the git repository?&lt;/em&gt; » is a never-ending fight. According to &lt;a href=&quot;https://twitter.com/apupier&quot;&gt;Aurelien Pupier&lt;/a&gt;, the answer to this question is YES (&lt;a href=&quot;https://www.eclipsecon.org/europe2015/comment/628.html&quot;&gt;Talk&lt;/a&gt; from 2015 - &lt;a href=&quot;https://www.slideshare.net/AurelienPupier/committing-ide-meta-files-misconceptions-misunderstandings-and-solutions&quot;&gt;slides&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=J5RzSbpNLM4&quot;&gt;video&lt;/a&gt;). I totally agree with him, because settings files like &lt;code&gt;org.eclipse.core.resources.prefs&lt;/code&gt;, &lt;code&gt;org.eclipse.jdt.core.prefs&lt;/code&gt;, &lt;code&gt;org.eclipse.jdt.ui.prefs&lt;/code&gt; or &lt;code&gt;org.eclipse.m2e.core.prefs&lt;/code&gt; can contain valuable configuration information that will be shared between all Eclipse IDE users working on the project: code formatting rules, save actions, automated code cleanup tasks, compiler settings…&lt;/p&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;imageblock&quot;&gt; 
- &lt;div class=&quot;content&quot;&gt; 
-  &lt;img alt=&quot;Enable project specific settings&quot; src=&quot;http://jmini.github.io/blog/2018/2018-02-05_enable_project_specific_settings.png&quot; /&gt; 
- &lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;paragraph&quot;&gt; 
- &lt;p&gt;Even today a lot of people still prefer not to have the IDE metadata files in their git Repository. This means that every coworker needs to configure his IDE and more important everybody needs to keep the configuration in sync with the team over the time.&lt;/p&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;paragraph&quot;&gt; 
- &lt;p&gt;In both cases (having the settings files in your repo or not), the &lt;a href=&quot;https://github.com/BSI-Business-Systems-Integration-AG/eclipse-settings-maven-plugin&quot;&gt;eclipse-settings-maven-plugin&lt;/a&gt; can be interesting for you. The idea is to use maven in order to replicate the same prefs files across multiple maven modules. This way you can distribute the prefs file if they are missing in the git repository. An other use case is the distribution accros multiple teams (for example at organization level).&lt;/p&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;paragraph&quot;&gt; 
- &lt;p&gt;The source for the settings file is a simple maven artifact located in a maven repository. With a single maven command, you can synchronize the prefs files.&lt;/p&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;imageblock&quot;&gt; 
- &lt;div class=&quot;content&quot;&gt; 
-  &lt;img alt=&quot;Using eclipse-settings-maven-plugin to copy prefs files&quot; src=&quot;http://jmini.github.io/blog/2018/2018-02-05_sync_eclipse-settings.png&quot; /&gt; 
- &lt;/div&gt; 
-&lt;/div&gt; 
-&lt;div class=&quot;paragraph&quot;&gt; 
- &lt;p&gt;If you wants to see how the setup looks like, you can refer to my &lt;a href=&quot;https://jmini.github.io/sync-eclipse-settings-example/&quot;&gt;sync-eclipse-settings-example&lt;/a&gt; page and the associated GitHub project. I have updated it in order to use the latest version published last week by my former colleagues at BSI Business Systems Integration AG.&lt;/p&gt; 
-&lt;/div&gt;</description>
-	<pubDate>Sun, 04 Feb 2018 23:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Last Week to Submit for FOSS4G NA 2018!</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/djLr8W3gbZQ/cfp</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/djLr8W3gbZQ/cfp</link>
-	<description>Submissions close Feb 8, so propose your talk now for FOSS4G NA 2018, May 14-16 in St. Louis&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/djLr8W3gbZQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 02 Feb 2018 13:30:00 +0000</pubDate>
 </item>
 
 </channel>

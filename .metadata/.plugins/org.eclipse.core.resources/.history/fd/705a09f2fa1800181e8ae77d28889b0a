@@ -94,7 +94,7 @@ public class Course
 				if(roster[i]==null)
 				{// (roster = null) = space for kid
 					roster[i].equals(kid);
-					i=roster.length;
+					//i=roster.length;
 					add=true;
 				}
 				

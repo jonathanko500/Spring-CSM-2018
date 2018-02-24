@@ -93,8 +93,8 @@ public class Course
 			{//look through roster
 				if(roster[i]==null)
 				{// (roster = null) = space for kid
-					roster[i].equals(kid);
-					i=roster.length;
+					roster[i]=kid;
+					//i=roster.length;
 					add=true;
 				}
 				

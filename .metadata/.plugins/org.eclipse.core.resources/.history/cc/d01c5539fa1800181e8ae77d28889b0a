@@ -67,7 +67,6 @@ public class student
 	{
 		return tuition;
 	}
-	
 	//toString
 	public String toString()
 	{

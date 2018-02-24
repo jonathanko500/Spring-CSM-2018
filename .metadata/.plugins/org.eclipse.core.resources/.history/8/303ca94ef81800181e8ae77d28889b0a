@@ -86,15 +86,16 @@ public class Course
 	//other methods
 	public boolean addStudent(student kid) 
 	{
-		boolean add = false;
+		student[] roster = new student[getMax()];
+		boolean add= false;
 		if(kid.getTuition()==true)
 		{//check if tuition is true
 			for(int i=0;i<roster.length;i++)
 			{//look through roster
 				if(roster[i]==null)
 				{// (roster = null) = space for kid
-					roster[i].equals(kid);
-					i=roster.length;
+					roster[i]=kid;
+					//i=roster.length;
 					add=true;
 				}
 				
@@ -117,7 +118,6 @@ public class Course
 			}
 			else
 			{
-				System.out.println("This student is not in the roster.");
 				drop=false;
 			}
 		}

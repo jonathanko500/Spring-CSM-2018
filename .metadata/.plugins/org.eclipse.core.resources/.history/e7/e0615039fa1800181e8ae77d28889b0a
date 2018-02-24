@@ -8,7 +8,7 @@ public class Registration
 	{//start main
 		//declare variables/scanner
 		Scanner input = new Scanner(System.in);
-		String options,choice;
+		String options;
 		boolean pass;
 		int again=0;
 		//make class
@@ -32,11 +32,10 @@ public class Registration
 				break;
 			case "d":
 				//drop student
-				child=getKid(child);
-				class1.dropStudent(child);
 				break;
 			case "v":
 				//view class info
+				class1.dropStudent(child);
 				System.out.println(class1.toString());
 				break;
 			case "s":
@@ -49,6 +48,7 @@ public class Registration
 				System.out.println("");
 				break;
 			}//end switch
+			
 			if(again==0)
 			{
 				System.out.print("Would you like to add (\"a\"), drop (\"d\"), view class info (\"v\") or stop (\"s\"): ");
@@ -97,28 +97,5 @@ public class Registration
 		System.out.println(kid.toString());
 		System.out.println("");
 		return kid;
-	}
-	public static student getKid(student child)
-	{
-		student choice= new student();
-		String z;
-		int y=0;
-		Scanner input= new Scanner(System.in);
-		System.out.print("Who would you like to drop? ");
-		z=input.nextLine();
-		while(y==0)
-		{
-			if(z==child.getFirst()+" "+child.getLast())
-			{
-				choice=child;
-				y++;
-			}
-			else
-			{
-				System.out.print("Re-enter name: ");
-				z=input.nextLine();
-			}
-		}
-		return choice;
 	}
 }//end class

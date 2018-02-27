@@ -5,5 +5,4 @@ public class M5Prac {
 		// TODO Auto-generated method stub
 
 	}
-
 }

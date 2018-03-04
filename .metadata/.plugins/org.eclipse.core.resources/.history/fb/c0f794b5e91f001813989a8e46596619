@@ -8,11 +8,14 @@ public class M6Test {
 		//make array
 		Person[] list = new Person[5];
 		//fill array
+		makePPL(list);
+		/*
 		list[0]=new Person("Andy");
 		list[1]=new Instructor("Max","Chemistry");
 		list[2]=new Person("Thomas");
 		list[3]=new Instructor("Kennedy","Math");
 		list[4]=new Instructor("Andy","Math");
+		*/
 		//print array
 		for(int i=0;i<list.length;i++)
 		{
@@ -34,5 +37,30 @@ public class M6Test {
 			}
 		}//end loop
 		System.out.println("There are "+count+" math teachers.");
+	}//end class
+	public static void makePPL(Person[] list)
+	{//start class
+		Scanner input = new Scanner(System.in);
+		String answer,name,sub;
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			System.out.print("Are you an instructor? (Y/N): ");
+			answer=input.nextLine().toUpperCase();
+			switch(answer)
+			{//start switch
+			case"Y":
+				System.out.print("What is your name: ");
+				name=input.nextLine();
+				System.out.print("What subject do you teach: ");
+				sub=input.nextLine();
+				list[i]=new Instructor(name,sub);
+				break;
+			case"N":
+				System.out.print("What is your name: ");
+				name=input.nextLine();
+				list[i]=new Person(name);
+				break;
+			}//end switch
+		}//end loop
 	}//end class
 }

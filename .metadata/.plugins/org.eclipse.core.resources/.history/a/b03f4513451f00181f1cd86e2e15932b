@@ -1,0 +1,14 @@
+
+public class M6Test {
+
+	public static void main(String[] args) {
+		Figure f = new Figure();
+		f.display();
+		Figure f2 = new Rectangle();
+		f2.display();
+		Figure f3 = new Box();
+		f3.display();
+
+	}
+
+}

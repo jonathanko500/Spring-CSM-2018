@@ -1,0 +1,34 @@
+//project 3
+//class for project 3 
+public class SaveAcct extends BankAcct
+{//start class
+	private double rate;
+	//constructors
+	public SaveAcct()
+	{
+		super();
+		rate=0.0;
+	}
+	public SaveAcct(String aName,String numb,double money,double per)
+	{
+		super(aName,numb,money);
+		this.rate=per;
+	}
+	//setter
+	public void setRate(double per)
+	{
+		rate=per;
+	}
+	//getter
+	public double getRate()
+	{
+		return rate;
+	}
+	@Override
+	public String toString()
+	{
+		String x="";
+		x+=super.toString()+" the intrest rate is "+rate+"%";
+		return x;
+	}
+}//end class

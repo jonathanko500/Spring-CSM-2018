@@ -5,8 +5,8 @@ public class Shape
 
 	public static void main(String[] args)
 	{//start main
-		PolyShape shape = new Rectangle();
-		System.out.println(shape.toString());
+		// TODO Auto-generated method stub
+
 	}//end main
 
 }//end class

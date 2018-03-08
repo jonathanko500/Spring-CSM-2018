@@ -1,0 +1,14 @@
+//project 3
+//code by Jonathan Ko and Kennedy Louie
+public class Shape 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		PolyShape shape = new PolyShape();
+		System.out.println(shape.getNumSides());
+		System.out.println(shape.getPerimeter());
+		System.out.println(shape.getSideLengths());
+	}//end main
+
+}//end class

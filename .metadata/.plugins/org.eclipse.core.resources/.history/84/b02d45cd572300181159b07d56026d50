@@ -5,7 +5,6 @@ public class Shape
 
 	public static void main(String[] args)
 	{//start main
-		int[] size = new int[4];
 		PolyShape shape = new Rectangle();
 		System.out.println(shape.toString());
 	}//end main

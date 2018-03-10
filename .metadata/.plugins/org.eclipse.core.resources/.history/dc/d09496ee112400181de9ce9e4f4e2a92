@@ -2,12 +2,12 @@ import java.util.Arrays;
 //project 3
 public class Quadrilateral extends PolyShape
 {//start class
+	private int[] limit=new int[4];
 	private int limitSide=4;
-	private int[] limit = new int[4];
 	public Quadrilateral () {
 		super ();
 	}
-	public Quadrilateral (int ... sideLength) {
+	public Quadrilateral (int []sideLength) {
 		super (sideLength);
 	}
 	@Override

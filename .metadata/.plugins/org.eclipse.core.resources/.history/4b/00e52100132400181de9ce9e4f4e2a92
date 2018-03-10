@@ -5,7 +5,8 @@ public class Shape
 
 	public static void main(String[] args)
 	{//start main
-		int[] list = new int[]{1,2,3,4,5,6};
+		int[] list = new int[]{1,2,3,4,5};
+		int x=0;
 		/*
 		PolyShape shape = new PolyShape(list);
 		System.out.println(shape.toString());//polygon
@@ -21,4 +22,5 @@ public class Shape
 			System.out.println(shape2.getSideLengths()[i]);
 		}
 	}//end main
+
 }//end class

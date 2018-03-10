@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class Quadrilateral extends PolyShape
 {//start class
 	private int limitSide=4;
-	private int[] limit = new int[4];
 	public Quadrilateral () {
 		super ();
 	}

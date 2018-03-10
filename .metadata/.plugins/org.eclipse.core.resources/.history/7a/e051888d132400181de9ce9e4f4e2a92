@@ -11,6 +11,15 @@ public class Quadrilateral extends PolyShape
 		super (sideLength);
 	}
 	@Override
+	public int[] getSideLengths() {
+		for(int i=0;i<limit.length;i++)
+		{
+			limit[i]=getSideLengths()[i];
+		}
+		
+		return limit;
+	}
+	@Override
 	public String toString () {
 		String s = "I am a shape with " + limitSide + " sides of length: ";
 		for(int length : getSideLengths()) 

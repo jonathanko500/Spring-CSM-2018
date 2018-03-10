@@ -1,0 +1,15 @@
+//project 3
+//code by Jonathan Ko and Kennedy Louie
+public class Shape 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		
+		PolyShape shape = new PolyShape(new int[]{1,2,3,4});
+		System.out.println(shape.toString());
+		PolyShape shape2 = new Quadrilateral(new int[]{1,2,3,4});
+		System.out.println(shape2.toString());
+	}//end main
+
+}//end class

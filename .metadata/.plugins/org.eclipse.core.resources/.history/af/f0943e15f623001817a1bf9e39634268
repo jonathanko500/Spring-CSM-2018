@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+//project 3
+public class Quadrilateral extends PolyShape
+{//start class
+	public Quadrilateral () {
+		super ();
+	}
+	public Quadrilateral (int [] sideLength) {
+		super (sideLength);
+	}
+	@Override
+	public String toString () {
+		String x = "I am a shape with " + getNumSides() + " sides of length: ";
+		for(int length : getSideLengths()) 
+			x += length + " ";
+		x += "\nI am a Quadrilateral.";
+		return x;
+	}
+}//end class

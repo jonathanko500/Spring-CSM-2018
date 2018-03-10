@@ -1,0 +1,26 @@
+//project 3
+public class Quadrilateral extends PolyShape
+{//start class
+	//private int quad;
+	public Quadrilateral () {
+		super ();
+		//quad = 4;
+	}
+
+	public Quadrilateral (int [] sideLength) {
+		super (sideLength);
+		//this.quad = quad;
+	}
+	/*
+	public void setQuad (int quad) {
+		if (quad == getSideLengths().length)
+		{
+			this.quad = quad;
+		}
+	}
+	
+	public int getQuad () {
+		return quad;
+	}
+	*/
+}//end class

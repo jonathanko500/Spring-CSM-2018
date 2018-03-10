@@ -30,7 +30,7 @@ public class PolyShape {
 		String s = "I am a shape with " + numSides + " sides of length: ";
 		for(int length : sideLengths) 
 			s += length + " ";
-		s += "\nI am a polygon.";
+		s += "\nI am a polygon. ";
 		return s;
 	}
 }

@@ -19,7 +19,7 @@ public class Rectangle extends Quadrilateral
 		return x;
 	}
 	//methods
-	public boolean trueRec()//check to see if it is a real rectangle
+	public boolean trueRec()
 	{
 		if(getSideLengths()[0]==getSideLengths()[2]&&getSideLengths()[1]==getSideLengths()[3])
 		{

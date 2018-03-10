@@ -1,0 +1,17 @@
+//project 3
+//code by Jonathan Ko and Kennedy Louie
+public class Shape 
+{//start class
+
+	public static void main(String[] args)
+	{//start main
+		int[] list = new int[]{2,2,2,2,5,6};
+		int[] list2 = new int[]{3,2,3,2,5,6};
+		Square shape = new Square(list);
+		System.out.println(shape.trueSquare());
+		System.out.println(shape.getArea());
+		Rectangle shape2 = new Rectangle(list2);
+		System.out.println(shape2.trueRec());
+		System.out.println(shape2.getArea());
+	}//end main
+}//end class

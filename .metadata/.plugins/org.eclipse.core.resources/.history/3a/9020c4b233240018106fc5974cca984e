@@ -29,21 +29,4 @@ public class Square extends Quadrilateral
 			}
 			return x;
 		}
-		public boolean trueSquare()
-		{
-			int x=0;
-			boolean pass=true;
-			for(int i=0;i<getSideLengths().length;i++)
-			{
-				if(getSideLengths()[x]==getSideLengths()[i])
-				{
-					pass=true;
-				}
-				else
-				{
-					pass= false;
-				}
-			}
-			return pass;
-		}
 }//end class

@@ -31,19 +31,20 @@ public class Square extends Quadrilateral
 		}
 		public boolean trueSquare()
 		{
-			int x=0;
-			boolean pass=true;
-			for(int i=0;i<getSideLengths().length;i++)
+			if(getSideLengths()[0]==getSideLengths()[1])
 			{
-				if(getSideLengths()[x]==getSideLengths()[i])
+				if(getSideLengths()[0]==getSideLengths()[2])
 				{
-					pass=true;
+					if(getSideLengths()[0]==getSideLengths()[3])
+					{
+						return true;
+					}
 				}
-				else
-				{
-					pass= false;
-				}
+				
 			}
-			return pass;
+			else
+			{
+				return false;
+			}
 		}
 }//end class

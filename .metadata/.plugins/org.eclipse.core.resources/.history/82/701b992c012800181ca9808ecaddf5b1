@@ -1,0 +1,10 @@
+
+public class MidPrac
+{
+	public static void main(String[] args)
+	{
+		String aString ="Midterms stress me out";
+		String bString = aString.substring((aString.length()/2)-2,15);
+		System.out.println(bString);
+	}
+}

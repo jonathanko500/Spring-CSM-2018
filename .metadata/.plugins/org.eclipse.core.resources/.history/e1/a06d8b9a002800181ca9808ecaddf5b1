@@ -1,0 +1,12 @@
+
+public class MidPrac
+{
+
+	public static void main(String[] args)
+	{
+		String aString ="Java is great";
+		String bString = aString.toUpperCase();
+		System.out.println(bString);
+	}
+
+}

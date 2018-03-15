@@ -8,6 +8,157 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Donald Raab: EC by Example: Filtering</title>
+	<guid isPermaLink="false">https://medium.com/p/4f14b906f718</guid>
+	<link>https://medium.com/@donraab/ec-by-example-filtering-4f14b906f718?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Learn how to filter a collection using &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/715/1*7C5g4RO3BSiqF-sYmUkyMA.png&quot; /&gt;&lt;/figure&gt;&lt;h3&gt;Filtering: Include or Exclude?&lt;/h3&gt;&lt;p&gt;If you have a singe method named filter, how do you know if it is supposed to be an inclusive or exclusive filter? In &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt;, there are two filtering methods named &lt;em&gt;select&lt;/em&gt; and &lt;em&gt;reject&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/620/1*fvYTX5UYIjrRwx4Ptf48VQ.png&quot; /&gt;&lt;/figure&gt;&lt;h3&gt;Filtering an Object List&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void filteringUsingSelectAndReject()&lt;br /&gt;{&lt;br /&gt;    ExecutorService executor = Executors.&lt;em&gt;newWorkStealingPool&lt;/em&gt;();&lt;/pre&gt;&lt;pre&gt;    MutableList&amp;lt;Integer&amp;gt; mList = &lt;em&gt;mList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; iList = &lt;em&gt;iList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Predicate&amp;lt;Integer&amp;gt; evens = i -&amp;gt; i % 2 == 0;&lt;/pre&gt;&lt;pre&gt;    MutableList&amp;lt;Integer&amp;gt; evensMutable = mList.select(evens);&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; evensImmutable = iList.select(evens);&lt;/pre&gt;&lt;pre&gt;    LazyIterable&amp;lt;Integer&amp;gt; evensLazy = mList.asLazy().select(evens);&lt;/pre&gt;&lt;pre&gt;    ParallelListIterable&amp;lt;Integer&amp;gt; evensParallel =&lt;br /&gt;            mList.asParallel(executor, 2).select(evens);&lt;br /&gt;&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; expectedEvens = &lt;em&gt;iList&lt;/em&gt;(2, 4);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens, evensMutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens, evensImmutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens, evensLazy.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens, evensParallel.toList());&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; oddsMutable = mList.reject(evens);&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; oddsImmutable = iList.reject(evens);&lt;/pre&gt;&lt;pre&gt;    LazyIterable&amp;lt;Integer&amp;gt; oddsLazy = mList.asLazy().reject(evens);&lt;/pre&gt;&lt;pre&gt;    ParallelListIterable&amp;lt;Integer&amp;gt; oddsParallel =&lt;br /&gt;            mList.asParallel(executor, 2).reject(evens);&lt;br /&gt;&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; expectedOdds = &lt;em&gt;iList&lt;/em&gt;(1, 3, 5);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds, oddsMutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds, oddsImmutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds, oddsLazy.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds, oddsParallel.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Filtering a primitive List&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void filteringPrimitivesUsingSelectAndReject()&lt;br /&gt;{&lt;br /&gt;    MutableIntList mList = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;    ImmutableIntList iList = IntLists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;/pre&gt;&lt;pre&gt;    IntPredicate evens = i -&amp;gt; i % 2 == 0;&lt;br /&gt;&lt;br /&gt;    MutableIntList evensMutable = mList.select(evens);&lt;br /&gt;    ImmutableIntList evensImmutable = iList.select(evens);&lt;/pre&gt;&lt;pre&gt;    LazyIntIterable evensLazy = mList.asLazy().select(evens);&lt;br /&gt;&lt;br /&gt;    MutableIntList expectedEvens = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(2, 4);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens, evensMutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens,  evensImmutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedEvens,  evensLazy.toList());&lt;br /&gt;&lt;br /&gt;    MutableIntList oddsMutable = mList.reject(evens);&lt;br /&gt;    ImmutableIntList oddsImmutable = iList.reject(evens);&lt;/pre&gt;&lt;pre&gt;    LazyIntIterable oddsLazy = mList.asLazy().reject(evens);&lt;br /&gt;&lt;br /&gt;    MutableIntList expectedOdds = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 3, 5);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds, oddsMutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds,  oddsImmutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expectedOdds,  oddsLazy.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;What other types support Select and Reject?&lt;/h3&gt;&lt;p&gt;The &lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; is strong with &lt;em&gt;select&lt;/em&gt; and &lt;em&gt;reject&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*IiWKcjSQPI_7ErSFbKuoOQ.png&quot; /&gt;Select and Reject is available across many types and concerns&lt;/figure&gt;&lt;h3&gt;Possible to filter both inclusively and exclusively in one iteration?&lt;/h3&gt;&lt;p&gt;Yes. There is a method called &lt;em&gt;partition&lt;/em&gt;. I will show &lt;em&gt;partition&lt;/em&gt; in the next blog in this series.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#select-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Select&lt;/a&gt; (&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#select-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Eager&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/LazyIterable.html#select-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Lazy&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ParallelListIterable.html#select-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Parallel&lt;/a&gt;) — filters &lt;strong&gt;&lt;em&gt;including&lt;/em&gt;&lt;/strong&gt; elements that match a condition&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#reject-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Reject&lt;/a&gt; (&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#reject-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Eager&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/LazyIterable.html#reject-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Lazy&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ParallelListIterable.html#reject-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;Parallel&lt;/a&gt;) — filters &lt;strong&gt;&lt;em&gt;excluding&lt;/em&gt;&lt;/strong&gt; elements that match a condition&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — Creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#iList-T-T-T-T-T-&quot;&gt;iList&lt;/a&gt; — Creates an ImmutableList&lt;/li&gt;&lt;li&gt;IntLists.mutable.&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/factory/list/primitive/MutableIntListFactory.html#with-int...-&quot;&gt;with&lt;/a&gt; — Creates a MutableIntList&lt;/li&gt;&lt;li&gt;IntLists.immutable.&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/factory/list/primitive/ImmutableIntListFactory.html#with-int...-&quot;&gt;with&lt;/a&gt; — Creates an ImmutableIntList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#asLazy--&quot;&gt;asLazy&lt;/a&gt; — Returns a LazyIterable or LazyIntIterable&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ListIterable.html#asParallel-java.util.concurrent.ExecutorService-int-&quot;&gt;asParallel&lt;/a&gt; — Returns a ParallelIterable&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#toList--&quot;&gt;toList&lt;/a&gt; — Converts the target Iterable into a MutableList&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=4f14b906f718&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 15 Mar 2018 00:26:54 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: Taking a (Tu)Leap!</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1071</guid>
+	<link>https://papyrusuml.wordpress.com/2018/03/14/taking-a-tuleap/</link>
+	<description>&lt;p&gt;&lt;img align=&quot;right&quot; alt=&quot;TuleapIcon&quot; height=&quot;25%&quot; src=&quot;https://www.tuleap.org/assets/img/logo-tuleap-flat-orange-white.svg&quot; width=&quot;25%&quot; /&gt; Thanks to &lt;a href=&quot;https://www.eclipse.org/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse&lt;/a&gt;, my &lt;a href=&quot;https://www.polarsys.org/papyrus-ic&quot;&gt;industry consortium&lt;/a&gt; is taking a leap into &lt;a href=&quot;https://www.enalean.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Enalean’s&lt;/a&gt; &lt;a href=&quot;https://www.tuleap.org/what-is-tuleap&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Tuleap&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Here are the three projects (communities) that have been created along with their descriptions, taken from each project:&lt;/p&gt;
+&lt;table border=&quot;1&quot; cellpadding=&quot;2&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus-IC&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic-product&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus-IC-Product&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic-steering&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus-IC Steering&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;This project is the Papyrus IC’s way of openly managing the Papyrus projects and products This is our way of informing the Papyrus community about what we are doing and, in return, to get feedback from the Papyrus community. This is a source of information for the community and by the community — this is your community!&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt; This project is where the Papyrus product line management lives. This is where we do the nitty-gritty work so that you can enjoy our fabulous Papyrus-based products. Unfortunately, most of what we do here can be boring, day-to-day stuff, and we want our developers, designers, and managers to keep their focus, so we keep them in a quiet, private area.&lt;br /&gt;
+But don’t worry, any significant news, decision, development, etc. Will be made available in the &lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus IC project&lt;/a&gt;!&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;This project is to help the Papyrus Industry Consortium’s Steering community to manage the consortium projects, products, and assets. This project is private to protect confidential information (e.g., user and supplier confidential information, financial information)&lt;br /&gt;
+But don’t worry, Steering committee information for public consumption will be provided in the &lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus-IC project&lt;/a&gt;!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;My minions are still working at the governance of the projects and at transferring information from the Papyrus IC Steering into the other projects (especially to &lt;strong&gt;&lt;a href=&quot;https://tuleap.eclipse.org/projects/papyrus-ic&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Papyrus-IC&lt;/a&gt;)&lt;/strong&gt;, so please be patient with them!&lt;/p&gt;
+		&lt;div class=&quot;wpcnt&quot;&gt;
+			&lt;div class=&quot;wpa wpmrec&quot;&gt;
+				&lt;span class=&quot;wpa-about&quot;&gt;Advertisements&lt;/span&gt;
+				&lt;div class=&quot;u&quot;&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-right: 5px; margin-top: 0px;&quot;&gt;
+		&lt;div id=&quot;atatags-26942-5aa9722e1dd12&quot;&gt;
+			
+		&lt;/div&gt;&lt;/div&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-top: 0px;&quot;&gt;
+		&lt;div id=&quot;atatags-114160-5aa9722e1dd4b&quot;&gt;
+			
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+						&lt;div id=&quot;crt-2145738645&quot; style=&quot;width: 300px; height: 250px; display: none !important;&quot;&gt;&lt;/div&gt;
+		&amp;amp;b		&lt;div id=&quot;crt-968313356&quot; style=&quot;width: 300px; height: 250px; display: none !important;&quot;&gt;&lt;/div&gt;
+		&amp;amp;b
+			&lt;/div&gt;
+		&lt;/div&gt;</description>
+	<pubDate>Wed, 14 Mar 2018 13:09:19 +0000</pubDate>
+</item>
+<item>
+	<title>Vincent Zurczak: Testing Eclipse’s User Workflows: from OOMPH to Subversive, m2e and WTP</title>
+	<guid isPermaLink="false">http://vzurczak.wordpress.com/?p=722</guid>
+	<link>https://vzurczak.wordpress.com/2018/03/13/testing-eclipses-user-workflows-from-oomph-to-subversive-m2e-and-wtp/</link>
+	<description>&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;p&gt;Few months ago, I worked on automating the tests of user workflows that involve Eclipse tooling. The client organization has more than a hundred of developers and they all use common frameworks based on JEE. They all use the same tools, from source version control to m2e and WTP. Eclipse being their IDE since quite a long time, they decided, some years ago, to automate the installation of Eclipse with preconfigured tools and predefined preferences. They did create their own solution. When OOMPH was released and became Eclipse’s official installer, they quickly dropped their project and adopted OOMPH.&lt;/p&gt;
+&lt;p&gt;From an OOMPH’s point of view, this organization has its own catalog and custom setup tasks. Unlike what the installer usually shows, there is only one distribution. Everything works behind a proxy. Non-composite p2 repositories are proxyfied by Nexus. All the composite p2 repositories (such as official Eclips’s ones) are mirrored by using &lt;a href=&quot;https://blog.philipphauer.de/offline-copy-mirror-eclipse-p2-repository&quot;&gt;Eclipse in command-line&lt;/a&gt;. The installer shows a single product, but in different versions (e.g. Neon, Oxygen…). It also provides several projects: several JDKs, several versions of Tomcat, several versions of Maven, several Eclipse tools, etc. We can really say this organization uses all the features OOMPH provides.&lt;/p&gt;
+&lt;p&gt;Here is a global overview of what is shown to users.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://vzurczak.files.wordpress.com/2018/03/dev1.png&quot;&gt;&lt;img alt=&quot;First screen in Eclipse's installer&quot; class=&quot;aligncenter size-medium wp-image-727&quot; height=&quot;207&quot; src=&quot;https://vzurczak.files.wordpress.com/2018/03/dev1.png?w=300&amp;amp;h=207&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://vzurczak.files.wordpress.com/2018/03/dev2.png&quot;&gt;&lt;img alt=&quot;Second screen in Eclipse's installer&quot; class=&quot;aligncenter size-medium wp-image-726&quot; height=&quot;226&quot; src=&quot;https://vzurczak.files.wordpress.com/2018/03/dev2.png?w=300&amp;amp;h=226&quot; width=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So, this organization is mostly a group of Eclipse users. Their developments are quite limited. Their focus is about delivering valid Eclipse distributions to their members and verify everything work correctly in their environment. Given this context, my job was to automate things: update sites creation (easy with Tycho), prepare the installer for the internal environement and automate tests that launch the installer, make a real installation, start the newly installed Eclipse, make it execute several actions a real developer would do and verify everything works correctly inside this (restrained / controlled) environment.&lt;/p&gt;
+&lt;p&gt;Let’s take a look at the various parts.&lt;/p&gt;
+&lt;h2&gt;Automating the creation of Custom Installers&lt;/h2&gt;
+&lt;p&gt;This part is not very complicated.&lt;br /&gt;
+I created &lt;a href=&quot;https://github.com/vincent-zurczak/customized-oomph-installer&quot;&gt;a project on GitHub&lt;/a&gt; that shows how it works. Basically, we have a Maven module that invokes ANT. The ANT script downloads the official installer binaries from &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse.org&lt;/a&gt;. It verifies the checksum, unwrap their content, update the &lt;strong&gt;eclipse-inst.ini&lt;/strong&gt; file, adds predefined preferences (related to the proxy) and rebuilds a package for users. To prevent downloading binaries everytime, we use a local cache (as a directory). If a binary already exists, we verify its checksum against the value provided by &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse.org&lt;/a&gt;. If it succeeds, it means our cache is valid against Eclipse repositories. Otherwise, it may indicate the cache is invalid and that a newer version was released. In such a situation, we indicate the user he (or she) should retry and/or delete the cache before giving it another try.&lt;/p&gt;
+&lt;p&gt;Since all of this a Maven project, it is possible to deploy these installers on a Maven repository.&lt;/p&gt;
+&lt;h2&gt;Automating OOMPH tests with SWT Bot&lt;/h2&gt;
+&lt;p&gt;OOMPH is a SWT application.&lt;br /&gt;
+So, testing it automatically immediately made sense thanks to SWT Bot. Testing with SWT Bot implies deploying it in the tested application. Fortunately, OOMPH is also a RCP application. It means we can install things with p2. That was the first thing to do. And since I enjoy the Maven + ANT combo, I wrote &lt;a href=&quot;https://github.com/vincent-zurczak/integration-tests-with-swt-bot/blob/master/tests-execution/tests-execution-installer/ant/library.xml&quot;&gt;an ANT script&lt;/a&gt; for this (inspired from the one available on Eclipse’s wiki – but much more simple). I also made the tasks reusable so that it can also deploy the bundle with the tests to run.&lt;/p&gt;
+&lt;p&gt;The next step was writing a SWT Bot test and run it against the installer.&lt;br /&gt;
+The first test was very basic. The real job was launching it. When one wants to run SWT Bot tests, it launches a custom application that itself launches Eclipse. Unfortunately, the usual &lt;strong&gt;org.eclipse.swtbot.eclipse.junit.headless.swtbottestapplication&lt;/strong&gt; application did not work. There are checks in it about the workbench. And even if OOMPH is a RCP and has SWT widgets, it does not have any workbench. This is why I created &lt;a href=&quot;https://github.com/vincent-zurczak/integration-tests-with-swt-bot/blob/master/test-plugins/net.vzurczak.eclipse.tests.installer/src/net/vzurczak/eclipse/tests/installer/setup/CustomSwtBotApplication.java&quot;&gt;a custom application&lt;/a&gt; I embedded with my SWT Bot test. Once there, everything was ready.&lt;/p&gt;
+&lt;p&gt;1 – I have a bundle with SWT Bots tests. With a feature. With an update site (that can remain local, no need to deploy it anywhere).&lt;br /&gt;
+2 – I have an ANT script that can install SWT Bot and my test bundle in OOMPH.&lt;br /&gt;
+3 – I have &lt;a href=&quot;https://github.com/vincent-zurczak/integration-tests-with-swt-bot/blob/master/tests-execution/tests-execution-installer/ant/build.test.installer.xml&quot;&gt;an ANT script&lt;/a&gt; that can launch my custom SWT Bot application and executes my tests in OOMPH.&lt;/p&gt;
+&lt;p&gt;It works. The skeleton for &lt;a href=&quot;https://github.com/vincent-zurczak/integration-tests-with-swt-bot&quot;&gt;the project is available on Github&lt;/a&gt;.&lt;br /&gt;
+Otherwise, the shape and the Maven and ANT settings are the same. I only simplified the tests executed for OOMPH (they would not be meaningful for this article). The main test we wrote deploys Eclipse, but also downloads and unzip specific versions of Maven and Tomcat. Obviously, the catalog is made in such a way that installing these components also updates the preferences so that m2e and WTP can use them.&lt;/p&gt;
+&lt;p&gt;Notice there are settings in the ANT script that delete user directories (OOMPH puts some resources and information in cache). To make tests reliable, it is better to delete them. This can be annoying if you have other Eclipse installations on your machine. In the end, such tests aim at being executed on a separate infrastructure, e.g. in continuous integration.&lt;/p&gt;
+&lt;h2&gt;Configuring Eclipse for SWT Bot&lt;/h2&gt;
+&lt;p&gt;Once the tests for the installer have run, we have a new Eclipse installation.&lt;br /&gt;
+And we have other tests to run in it. Just like what we did for OOMPH, we have to install SWT Bot in it. The p2 director will help us once again.&lt;/p&gt;
+&lt;p&gt;Notice we make this step separated from the execution of the tests themselves.&lt;br /&gt;
+Testing OOMPH is quite easy. But the tests written for the IDE are much more complicated and we need to be able to re-run them. So, the configuration of the new Eclipse installation is apart from the tests execution.&lt;/p&gt;
+&lt;h2&gt;Writing and Running Tests for Eclipse&lt;/h2&gt;
+&lt;p&gt;In the same manner than for OOMPH, we have a custom plug-in that contains our tests for Eclipse. There is also a feature. and the (same) local update site. This plug-in is deployed along with SWT Bot. Launching the test is almost the same thing than for OOMPH, except there is a workbench here. We can rely on the usual SWT Bot application for Eclipse.&lt;/p&gt;
+&lt;p&gt;What is more unusual is the kind of test we run here.&lt;br /&gt;
+I will give you an example. We have a test that…&lt;/p&gt;
+&lt;p&gt;1. … waits for OOMPH to intialize the workspace (based on the projects selected during the setup – this step is common to all our tests).&lt;br /&gt;
+2. … opens the SVN perspective&lt;br /&gt;
+3. … declares a new repository&lt;br /&gt;
+4. … checks out the last revision&lt;br /&gt;
+5. … lets m2eclipse import the projects (it is a multi-module project and m2e uses a custom settings.xml)&lt;br /&gt;
+6. … applies a Maven profile on it&lt;br /&gt;
+7. … waits for m2eclipse to download (many) artifacts from the organization’s Nexus&lt;br /&gt;
+8. … waits for the compilation to complete&lt;br /&gt;
+9. … verifies there is no error on the project&lt;br /&gt;
+10. … deploys it on the Tomcat server that was installed by OOMPH (through WTP – &lt;strong&gt;Run as &amp;gt; Run on Server&lt;/strong&gt; )&lt;br /&gt;
+11. … waits for it to be deployed&lt;br /&gt;
+12. … connects to the new web application (using a POST request)&lt;br /&gt;
+13. … verifies the content of the page is valid.&lt;/p&gt;
+&lt;p&gt;This test takes about 5 minutes to run. It implies Eclipse tools, pre-packaged ones too, but also environment solutions (Nexus, SVN server, etc). Unlike what SWT Bot tests usually do, we make integration tests with an environment that is hardly reproductable. It is not just more complex, it must also acknowledge some situations like timeouts or slowlyness. And as usual, there may be glitches in the user interface. As an example, projects resources that are managed by SVN have revision numbers and commit’s author names as a suffix. So, you cannot search resources by full label (hence the &lt;em&gt;TestUtils.findPartialLabel&lt;/em&gt; methods). Another example is that when one expands nodes in the SVN hierarchy, it may take some time for the child resources to by retrieved. Etc.&lt;/p&gt;
+&lt;p&gt;But what was the most complicated was developing these tests.&lt;/p&gt;
+&lt;h2&gt;Iterative Development of these Tests&lt;/h2&gt;
+&lt;p&gt;Usually, SWT Bot tests are developed and tested from the developer’s workspace: right click on the test class, &lt;strong&gt;Run as &amp;gt; SWT Bot test&lt;/strong&gt;. It opens a new workbench and the test runs. That was not possible here. The Eclipse into which the tests must run is supposed to have been configured by OOMPH. You cannot compile the Maven project if you do not have the right settings.xml. You cannot deploy on Tomcat if it has not been declared in the server preferences. And you cannot set these preferences in the test itself because it is part of its job to verify OOMPH did it correctly! Again, it is not unit testing but integration testing. You cannot break the chain.&lt;/p&gt;
+&lt;p&gt;This is why each test is defined in its own Maven profile.&lt;br /&gt;
+To run scenario 1, we execute…&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;mvn clean verify -P scenario1&lt;/pre&gt;
+&lt;p&gt;We also added a profile that recompiles the SWT Bot tests and upgrade the plug-in in the Eclipse installation (the p2 directory can install and uninstall units at once). Therefore, if I modified a test, I can recompile, redeploy and run it by typing in…&lt;/p&gt;
+&lt;pre class=&quot;brush: plain; title: ; notranslate&quot;&gt;mvn clean verify -P recompile-ide-tests -P scenario1&lt;/pre&gt;
+&lt;p&gt;This is far from being perfect, but it made the developement much less painful than going through the full chain on every change.&lt;br /&gt;
+I wished I could have duplicated preferences from the current workspace when I run tests from Eclipse (even if it is clear other problems would have arisen). We had 4 important scenarios, and each one is managed separately, in the code and in the Maven configuration.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Let’s start with the personal feedback.&lt;br /&gt;
+I must confess this project was challenging, despite a solid experience with Maven, Tycho and SWT Bot. The OOMPH part was not that hard (I only had to dig in SWT Bot and platform’s code). Testing the IDE itself, with all the involved components and the environment, was more complicated.&lt;/p&gt;
+&lt;p&gt;Now, the real question is: what is worth the effort?&lt;br /&gt;
+The answer is globally yes. The good parts are these tests can be run in a continuous integration workflow. That was the idea at the beginning. Even if it is not done (yet), that could (should) be a next step. I have spent quite some time to make these tests robust. I must have run them about a thousand times, if not more. And still sometimes, one can fail due to an environment glitch. This is also why we adopted the profile-per-scenario approach, to ease the construction of a build matrix and be able to validate scenarios separately and/or in parallel. It is also obvious that these tests run faster than by hand. An experienced tester spends about two hours to verify these scenarios manually. A novice will spend a day. Running the automated tests takes at most 30 minutes, provided you can read the docs and execute 5 succeeding Maven commands. And these tests can be declined over several user environments. So, this is globally positive.&lt;/p&gt;
+&lt;p&gt;Now, there are few drawbacks. We did not go to the continuous integration. For the moment, releases will keep on being managed on-demand / on-schedule (so few times a year). In addition, everything that was done was for Linux systems. There would be minor adaptations to test the process on Windows (mainly, do not launch the same installer). We also found out minor differences between Eclipse versions. SWT Bot intensively uses labels. However, there are labels and buttons that have changed, as an example, between Neon and Oxygen. So, our tests do not work on every Eclipse version. The problem would remain if we tested by hand. Eventually, and unlike what it seems when you read them, the written tests remain complex to maintain. So, short and mid-term benefits might be counter-balanced by a new degree of complexity (easy to use, not so easy to upgrade). Tests by hand take time but remain understandable and manageable by many persons. Writting or updating SWT Bot tests require people to be well-trained and patient (did I mention I run IDE tests at least a thousand times?). Besides, having automated tests does not prevent from tracking tests on &lt;a&gt;TestLink&lt;/a&gt;. So, manual tests remain documented and maintained. In fact, not all the tests have been automated, only the main and most painful ones.&lt;/p&gt;
+&lt;p&gt;Anyway, as usual, progress is made up of several steps. This work was one of them. I hope those facing the same issues will find help in this article and in the associated code samples.&lt;/p&gt;</description>
+	<pubDate>Tue, 13 Mar 2018 18:23:36 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: Google Summer of Code 2018</title>
+	<guid isPermaLink="true">http://vertx.io/blog/google-summer-of-code-2018</guid>
+	<link>http://vertx.io/blog/google-summer-of-code-2018</link>
+	<description>&lt;article&gt;&lt;p&gt;It’s this time of year again!
+&lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; 2018 submission period has just started!&lt;/p&gt;
+&lt;h2 id=&quot;submit-through-the-eclipse-organization&quot;&gt;Submit through the Eclipse organization&lt;/h2&gt;
+&lt;p&gt;This year, the Eclipse Vert.x project participates through the &lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/6364590460370944/&quot;&gt;Eclipse organization&lt;/a&gt;.
+Make sure to review our &lt;a href=&quot;https://wiki.eclipse.org/Google_Summer_of_Code_2018_Ideas#Eclipse_Vert.x&quot;&gt;GSoC 2018 ideas&lt;/a&gt; and to submit before March, 27!&lt;/p&gt;
+&lt;h2 id=&quot;assessment-application&quot;&gt;Assessment application&lt;/h2&gt;
+&lt;p&gt;As we did before, we ask candidates to &lt;a href=&quot;https://github.com/tsegismont/vertx-gsoc-2018-qotd&quot;&gt;implement a simple Vert.x application&lt;/a&gt;.
+This helps us make sure candidates have a basic understanding of asynchronous programming and the Vert.x toolkit.
+&lt;strong&gt;But submit your proposal even if not done with the assessment application!&lt;/strong&gt;
+Google will not extend the submission period but we can continue reviewing assessments while evaluating the submitted proposals.&lt;/p&gt;
+&lt;h2 id=&quot;questions-&quot;&gt;Questions?&lt;/h2&gt;
+&lt;p&gt;If you have questions, feel free to ask possible mentors via email or on our &lt;a href=&quot;http://vertx.io/community&quot;&gt;community channels&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All the details for this year (and ideas from past years) can be found on the &lt;a href=&quot;http://vertx.io/gsoc&quot;&gt;Vert.x GSoC page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Looking forward to your proposals!&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Last call for EclipseCon France submissions</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/cm9GR8xNOvQ/cfp</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/cm9GR8xNOvQ/cfp</link>
+	<description>Deadline to propose a talk is Monday, March 19. Get your talk in now for your chance to be part of a great program!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/cm9GR8xNOvQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 12 Mar 2018 21:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation supports EU funded Brain-IoT Project</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/R3tcGxMA3Ak/20180312-brainiot.php</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/R3tcGxMA3Ak/20180312-brainiot.php</link>
+	<description>Eclipse Foundation Europe Selected to Provide Open Source Community Building Expertise for EU funded IoT Research Project&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/R3tcGxMA3Ak&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 12 Mar 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Holger Voormann: Hello OpenJ9 on Windows, I didn’t expect you so soon!</title>
 	<guid isPermaLink="false">http://eclipsehowl.wordpress.com/?p=1376</guid>
 	<link>https://eclipsehowl.wordpress.com/2018/03/09/hello-openj9-on-windows-i-didnt-expect-you-so-soon/</link>
@@ -405,303 +556,6 @@ C:\path\to\jdk-9+181\bin\javaw.exe&lt;/code&gt;&lt;/p&gt;
 	<link>https://medium.com/@donraab/help-wanted-b1acf25d8c8d?source=rss-df39b86e9f04------2</link>
 	<description>&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*Rp2ZAp0GMnbnuIubHOrxeA.png&quot; /&gt;Contribute to an open source project!&lt;/figure&gt;&lt;p&gt;Shhhh! I’m going to tell you a secret. It’s something that for a few people might just change their software development lives in unexpected and exciting ways.&lt;/p&gt;&lt;h4&gt;Contribute to an open source project!&lt;/h4&gt;&lt;p&gt;That’s not the secret though. I realize many of you have probably already thought of contributing to an open source project but were unsure how to get started.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;I can help you get started and it might be easier than you expect.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;That’s the secret.&lt;/p&gt;&lt;p&gt;There is a project called &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections &lt;/a&gt;which is managed at the &lt;a href=&quot;https://projects.eclipse.org/projects/technology.collections&quot;&gt;Eclipse Foundation&lt;/a&gt; and is open for contributions from anyone. As open source libraries go, Eclipse Collections has a relatively low barrier of entry. Eclipse Collections is a library of Java data structures and algorithms.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I am not a lawyer, and cannot dispense legal advice. I won’t be able to help you determine what you will be able or allowed to do given your personal situation. You will need to determine whether you are allowed to do something, and what if any approvals and process you need to follow from your employer if you are employed by someone else given their policies, procedures, agreements, etc. for contributing to FOSS projects. If you are unsure of what you are able to do, I would suggest not getting started until you clarify that and are 150% comfortable. Contact the &lt;a href=&quot;https://www.eclipse.org/legal/&quot;&gt;Eclipse Foundation&lt;/a&gt; if you want to understand the legal and governance rules over projects managed at the Foundation. The folks at the Eclipse Foundation are very helpful.&lt;/p&gt;&lt;p&gt;If you’d like to get started and are sure you are able to given your personal situation, here are some suggestions that might help you break through the initial barrier of contributing to an open source project. Not all contributions need to be made through code.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Try out the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata&quot;&gt;Eclipse Collections Kata&lt;/a&gt;s — this will help you understand what Eclipse Collection is all about. Once you understand Eclipse Collections, you may want to use it in your projects. If you use it in your projects, you may discover something that is missing that you would like to suggest and contribute. This is the best kind of code contribution to make to a project. Here you are helping yourself provide the functionality that you need. Eclipse Collections evolved from a single class called Iterate over the past 12+ years because folks like myself and &lt;a href=&quot;https://medium.com/u/4285d8a2ca86&quot;&gt;Nikhil&lt;/a&gt; and &lt;a href=&quot;https://medium.com/u/82b613b921f6&quot;&gt;Craig&lt;/a&gt; and &lt;a href=&quot;https://medium.com/u/18b43cac5e00&quot;&gt;Hiroshi&lt;/a&gt; and many others added things that they needed or wanted in the framework.&lt;/li&gt;&lt;li&gt;If you use and like Eclipse Collections you can also contribute to the community in many different ways. For instance you could… &lt;strong&gt;a)&lt;/strong&gt; give a talk on Eclipse Collections perhaps at a Java User Group meet-up &lt;strong&gt;b)&lt;/strong&gt; teach the katas to developers you know or at a Java User Group meet-up &lt;strong&gt;c)&lt;/strong&gt; write about it in a blog or article. This can help people discover that Eclipse Collections exists. This is an amazing contribution and can help introduce you to the growing community of Java developers!&lt;/li&gt;&lt;li&gt;If you are ready to try your hand at contributing code, the best place to start is the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;Contribution Guide&lt;/a&gt; in Eclipse Collections.&lt;/li&gt;&lt;li&gt;What will you need to get started? &lt;strong&gt;1)&lt;/strong&gt; GitHub Account &lt;strong&gt;2)&lt;/strong&gt; Read, Understand and Sign Eclipse Foundation Contributor Agreement electronically &lt;strong&gt;3)&lt;/strong&gt; Git Client &lt;strong&gt;4) &lt;/strong&gt;JDK 8 &lt;strong&gt;5)&lt;/strong&gt; Maven &lt;strong&gt;6)&lt;/strong&gt; a Java IDE. The instructions in the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;contribution guide&lt;/a&gt; can help you on some of these things.&lt;/li&gt;&lt;li&gt;Find something you’d like to work on. This could come from the &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues&quot;&gt;issue log&lt;/a&gt; or may be something you would like added based on a use case you have that hasn’t been addressed before.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;What types of things can you work on that are potentially low cost?&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Documentation — You could add or update something in the Reference Guide which is in this &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/docs/guide.md&quot;&gt;Markdown file&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Test Coverage — If you find missing test coverage, adding test cases is a noble and much appreciated addition to any project.&lt;/li&gt;&lt;li&gt;Static Utility — Static utility methods are isolated, easy to test and can be a great place to start experimenting with new API ideas.&lt;/li&gt;&lt;li&gt;Bug Fixes — This is a great contribution which will include some investigation, a little coding in the library and maybe some additional testing to make sure the bug never comes back.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Beyond these low cost, low complexity options there is a table that shows the cost and complexity of different things that can be contributed to Eclipse Collections. &lt;a href=&quot;https://medium.com/u/4285d8a2ca86&quot;&gt;Nikhil&lt;/a&gt; and I gave a talk on a Eclipse Foundation virtual meet-up which is now on &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;a href=&quot;https://medium.com/media/2ab2cb59ae47379914362745e7bbc2ee/href&quot;&gt;https://medium.com/media/2ab2cb59ae47379914362745e7bbc2ee/href&lt;/a&gt;&lt;p&gt;The talk included the following table that we displayed from our slide content.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*-VEtsFPSrTA2f01sylzvrA.png&quot; /&gt;&lt;/figure&gt;&lt;p&gt;&lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design/#/4&quot;&gt;API Deep Dive: Designing Eclipse Collections&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As you gain more experience and confidence, you might want to tackle problems with increasing levels of complexity. All of the infrastructural skills you learn while contributing to Eclipse Collections will help you on any open source project you want to contribute to in the future.&lt;/p&gt;&lt;h4&gt;Help is wanted and available&lt;/h4&gt;&lt;p&gt;Not only will you be helping an open source project and community by contributing, but there are committers on the project who will help you grow and learn as a developer by providing feedback on any issues and pull requests you submit. I always look forward to code reviews and feedback from the community of Eclipse Collections project leads, committers and contributors. I have learned so much over the years from all of them. They continue to help me grow as a professional software developer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=b1acf25d8c8d&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Fri, 23 Feb 2018 19:56:40 +0000</pubDate>
-</item>
-<item>
-	<title>Melanie Bats: Modeling tools go up to the cloud</title>
-	<guid isPermaLink="true">http://melb.enix.org/2018/02/22/up-to-the-cloud/</guid>
-	<link>http://melb.enix.org/2018/02/22/up-to-the-cloud/</link>
-	<description>&lt;p&gt;TLDR; at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt;, we have done the first steps to &lt;strong&gt;bring Sirius to the web&lt;/strong&gt;. Today we are ready to work with you to bring &lt;strong&gt;your own modeling tool up to the cloud&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you are curious about details, this is the longer story…&lt;/p&gt;
-
-&lt;p&gt;As you know, at Obeo, we have been working on modeling tools for a long time now, and we therefore have a lot of experience developing graphical tools. Obeo is a key player in the Modeling ecosystem: we are involved in open source through numerous Eclipse projects: &lt;a href=&quot;https://www.eclipse.org/sirius/&quot;&gt;Sirius&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/acceleo/&quot;&gt;Acceleo&lt;/a&gt;, EMF/GMF, &lt;a href=&quot;https://www.eclipse.org/ecoretools/&quot;&gt;EcoreTools&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/emf/compare/&quot;&gt;EMF Compare&lt;/a&gt;…
-One of our great success is Sirius: a framework to easily and quickly create a modeling workbench dedicated to your domain.&lt;/p&gt;
-
-&lt;p&gt;Today, Sirius relies on the Eclipse platform, consequently the graphical modelers based on it are desktop applications.&lt;/p&gt;
-
-&lt;p&gt;You know that &lt;strong&gt;Desktop&lt;/strong&gt; vs &lt;strong&gt;Web&lt;/strong&gt; applications are in war since time immemorial…&lt;/p&gt;
-
-&lt;p&gt;In the past, we already won some battles, by mixing both approaches, switching from one to another. 
-For instance, our Enterprise Architecture solution &lt;a href=&quot;https://www.obeosmartea.com/en/solution&quot;&gt;Obeo SmartEA&lt;/a&gt;, provides :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;light client experience to explore a model,
-&lt;img alt=&quot;Explore model with light client&quot; src=&quot;https://www.obeosmartea.com/images/my_gallery/10-details-page.png&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;and a rich application to edit it.
-&lt;img alt=&quot;Edit model with rich application&quot; src=&quot;https://www.obeosmartea.com/images/my_gallery/05-graphical-modeling-workbench.png&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Since December, you already know that we are working to reconcile the two worlds… For Sirius 6, we are developing a new solution to &lt;strong&gt;use Sirius definition with HTML Renderer within Eclipse workbenches&lt;/strong&gt;. We will use an hybrid model to be able to get the best of both worlds and make them coexist in the same rich application. In collaboration with Thales, we are prototyping what would be a &lt;a href=&quot;http://www.polarsys.org/capella/&quot;&gt;Capella&lt;/a&gt; graphical modeler using the dynamic visualisation capabilities offered by &lt;a href=&quot;https://github.com/theia-ide/sprotty&quot;&gt;Sprotty&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/elk/&quot;&gt;Eclipse Layout Kernel&lt;/a&gt;. I really appreciate that the &lt;a href=&quot;https://typefox.io/&quot;&gt;TypeFox&lt;/a&gt; guys lent us a hand about that, this was truly in the open source spirit!&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;HTML renderer within Sirius workbenches&quot; src=&quot;http://melb.enix.org/img/dear-santa/HTMLRendererInSirius.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am really happy to announce that now we are going one step further: we are making Sirius evolve to &lt;strong&gt;bring modeling tools up to the cloud&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt=&quot;Up&quot; src=&quot;http://static.alfabetajuega.com/abj_public_files/multimedia/imagenes/201501/95918.alfabetajuega-up-10012015.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Modeling tools based on Sirius today look like this. You have a graphical editor with a palette to manage elements.
-&lt;img alt=&quot;Modeling tool today&quot; src=&quot;http://melb.enix.org/img/up-to-the-cloud/Today.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Modeling tools based on Sirius tomorrow could look like this. You still have a graphical editor with a palette to manage elements.
-&lt;img alt=&quot;Modeling tool tomorrow&quot; src=&quot;http://melb.enix.org/img/up-to-the-cloud/Tomorrow.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The main difference is that tomorrow Sirius applications will be based on web technologies, and therefore the graphical modelers will be cloud applications. With a cloud application :&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;you &lt;strong&gt;no&lt;/strong&gt; longer &lt;strong&gt;need to install&lt;/strong&gt; it, it simply do not require any installation process,&lt;/li&gt;
-  &lt;li&gt;it does not occupy extra space on your hard drive,&lt;/li&gt;
-  &lt;li&gt;your graphical workbench is &lt;strong&gt;easy to access&lt;/strong&gt; from any browser and you can use it from any device,&lt;/li&gt;
-  &lt;li&gt;it adapts to the workload increase.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is still a long way to go.
-&lt;img alt=&quot;Path to go&quot; src=&quot;http://melb.enix.org/img/up-to-the-cloud/Architecture.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As said before, today our modeling tools are based on Eclipse RCP technologies.
-We are working on a new architecture to make this work in a client/server world. 
-Sirius will be split in different pieces providing services to clients rendering the modeling tool in the browser.&lt;/p&gt;
-
-&lt;p&gt;To bring those technologies further to the web, from day 1 we were convinced that we needed a standard communication protocol.
-A few months ago, an impressive community effort was started around the Language Server Protocol to ease the integration of languages to textual editors. 
-We found that inspiring and that’s why we decided to start working on a &lt;a href=&quot;https://github.com/ObeoNetwork/GraphicalServerProtocol&quot;&gt;Graphical Server Protocol&lt;/a&gt;.
-This initiative defines the protocol between an editor or an IDE and a graphical server that provides graphical features like tools, mappings, layout, layers…
-We based our work on what was done by Typefox in Sprotty.&lt;/p&gt;
-
-&lt;p&gt;I am glad to reveal our &lt;a href=&quot;https://www.youtube.com/watch?v=cOxQtBwKhow&quot;&gt;first prototypes&lt;/a&gt; of Sirius exposing its services through the Graphical Server Protocol to render diagrams specified in a browser.
-Today we can take any existing graphical workbench specified with Sirius and render it in a browser. Not only we render the graphical elements but also we interpret at runtime the creation tools available in the palette according to the one defined in the Sirius specification. And as we can see on the following video, it is possible to create new model elements thanks to those tools from the palette.&lt;/p&gt;
-
-
-&lt;p&gt;In the next &lt;a href=&quot;https://www.youtube.com/watch?v=S1cyefHKOjU&quot;&gt;video&lt;/a&gt;, just by updating the Sirius specification as usual, you can see in the browser how the elements are rendered and you can work on the look and feel of your modeler iteratively.
-Here at the beginning all the edges and labels are black. One can update the Sirius specification to set the men labels and edges in blue. Immediately when the configuration is saved you see that the colors changed in the browser.&lt;/p&gt;
-
-
-&lt;p&gt;A diagram can provide different layers. This &lt;a href=&quot;https://www.youtube.com/watch?v=Pms9pvdzxCY&quot;&gt;demo&lt;/a&gt; shows the capability to enable/disable layers.
-It will filter accordingly the graphical elements visible in the diagram and the tools available in the palette. 
-You see that the layout is automatically recalculated every time a layer is enabled to provide a smart layout for the diagram at all times.&lt;/p&gt;
-
-
-&lt;p&gt;I believe that both desktop and web applications will continue to coexist for a long time.
-While both desktop and web applications have their pros and cons, what is important is that the application fits users needs. Users don’t care whether your app is native or web based as long as it does the job properly.
-We do not give up one world for another, we are making what is needed to get the best of the two worlds.&lt;/p&gt;
-
-&lt;p&gt;That’s why we are really excited by the fact that Eclipse Che decided to replace its GWT IDE by a new one relying on modern technologies: &lt;a href=&quot;https://github.com/theia-ide/theia&quot;&gt;Theia&lt;/a&gt;. Pursuing the same line as Eclipse RCP, Theia is an open framework that allows users to compose their own applications. I believe that this extensibility model should foster the emergence of a new ecosystem.Thanks to the extensibility offered by Theia, we can envision in the future the development of modeling tools for both desktop and web applications equally and even going further by integrating such tools to cloud frameworks such as Che.
-&lt;img alt=&quot;Mockup of Sirius based modeler integrated in Che&quot; src=&quot;http://melb.enix.org/img/up-to-the-cloud/SiriusInChe.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the expectation of the modeling community is to be able to simplify deployment, that’s one of our initial goal by going to cloud based applications.&lt;/p&gt;
-
-&lt;p&gt;As you saw in our videos, we are making Sirius evolve to bring modeling tools to the cloud.&lt;/p&gt;
-
-&lt;p&gt;We need you to go beyond.&lt;/p&gt;
-
-&lt;p&gt;As open source is in our DNA, most of these changes will be contributed to Sirius. The actual Sirius project will evolve to a client/server architecture.
-Let’s work together to bring your tooling to this new platform !&lt;/p&gt;
-
-&lt;p&gt;We would also like to invite all of you to participate to the Graphical Server Protocol initiative to make this an open collaboration providing a common protocol for graphical editors.&lt;/p&gt;
-
-&lt;p&gt;Finally remember that we are available to work with other organizations to bring modeling tools to the Web, including integration with web &amp;amp; cloud tooling such as Theia &amp;amp; Che.&lt;/p&gt;
-
-&lt;p&gt;Contact us, join us, support us!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We’re gonna get it, get it together
-I know, we’re gonna get it, get it together and flow
-We’re gonna get it, get it together and go
-Up, and up, and up&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/BPNTC7uZYrI&quot;&gt;Coldplay up &amp;amp; up&lt;/a&gt;&lt;/p&gt;</description>
-	<pubDate>Thu, 22 Feb 2018 10:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse Newsletter | Boot &amp; Build Eclipse Projects</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/bCrdt0F33Sc/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/bCrdt0F33Sc/</link>
-	<description>Featuring articles about Spring Tools, Gradle plugin (Buildship), Dirigible cloud platform, and EMF Parsley.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/bCrdt0F33Sc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 22 Feb 2018 08:51:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Countdown: 2 weeks | Complete IoT Developer Survey</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/iqMjTYobxp8/eclipseorg</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/iqMjTYobxp8/eclipseorg</link>
-	<description>Take 10 minutes to complete the fourth annual IoT Developer survey!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/iqMjTYobxp8&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 20 Feb 2018 09:27:00 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: Integration Tooling for Eclipse Oxygen</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/integration-stack-4.5.2.Final.html</guid>
-	<link>https://tools.jboss.org/blog/integration-stack-4.5.2.Final.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;strong&gt;Try our complete Eclipse Oxygen and Red Hat JBoss Developer Studio 11 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;jbosstools jbdevstudio blog header&quot; src=&quot;https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.5.2.Final / Developer Studio Integration Stack 11.2.0.GA&lt;/strong&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;admonitionblock note&quot;&gt;
-      &lt;table&gt;
-      &lt;tbody&gt;&lt;tr&gt;
-      &lt;td class=&quot;icon&quot;&gt;
-      &lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
-      &lt;/td&gt;
-      &lt;td class=&quot;content&quot;&gt;
-      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.5 and Developer Studio 11.
-      &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/tbody&gt;&lt;/table&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-s-new-for-this-release&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-new-for-this-release&quot;&gt;&lt;/a&gt;What’s new for this release?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;This release provides full Teiid Designer tooling support for JBoss Data Virtualization 6.4 runtime.  It provides an updated BPMN2 Modeler and jBPM/Drools for our Business Process Modeling friends.  It also provides full synchronization with Devstudio 11.2.0.GA, JBoss Tools 4.5.2.Final and Eclipse Oxygen.2.  Please note that SwitchYard is deprecated in this release.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;released-tooling-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#released-tooling-highlights&quot;&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;jboss-business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-business-process-and-rules-development&quot;&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;bpmn2-modeler-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#bpmn2-modeler-known-issues&quot;&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#bpmn2_1_4_2_final&quot;&gt;BPMN2 1.4.2.Final Known Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;drools-jbpm6-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#drools-jbpm6-known-issues&quot;&gt;&lt;/a&gt;Drools/jBPM6 Known Issues&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#drools_7_5_0_final&quot;&gt;Drools 7.5.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;switchyard-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#switchyard-highlights&quot;&gt;&lt;/a&gt;SwitchYard Highlights&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#switchyard_2_4_1_final&quot;&gt;SwitchYard 2.4.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;data-virtualization-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#data-virtualization-highlights&quot;&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;teiid-designer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#teiid-designer&quot;&gt;&lt;/a&gt;Teiid Designer&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/11.2.0_release_notes_and_known_issues/resolved_issues#teiid_designer_11_1_1_final&quot;&gt;Teiid Designer 11.1.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 11.2.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-s-an-integration-stack&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-an-integration-stack&quot;&gt;&lt;/a&gt;What’s an Integration Stack?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It’s where DataVirt Tooling, SOA tooling and BRMS tooling are aggregated.  The following frameworks are supported:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;jboss-business-process-and-rules-development-2&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-business-process-and-rules-development-2&quot;&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpel.html&quot;&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpmn2.html&quot;&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/drools.html&quot;&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/jbpm.html&quot;&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;jboss-data-virtualization-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-data-virtualization-development&quot;&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/teiiddesigner.html&quot;&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;jboss-integration-and-soa-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-integration-and-soa-development&quot;&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS and SwitchYard to Red Hat JBoss Fuse and Fuse Fabric containers.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;ulist&quot;&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;All of the Business Process and Rules Development plugins plus SwitchYard. Switchyard is deprecated as of this release.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/fusetools.html&quot;&gt;Fuse Tooling&lt;/a&gt; has moved out of the Integration Stack to be a core part of JBoss Tools and Developer Studio.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;the-jboss-tools-website-features-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#the-jboss-tools-website-features-tab&quot;&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Don’t miss the &lt;a href=&quot;https://tools.jboss.org/features&quot;&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href=&quot;https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=11.2.0&quot;&gt;stand-alone installer&lt;/a&gt; or through our &lt;a href=&quot;http://tools.jboss.org/downloads/overview.html&quot;&gt;JBoss Tools Download Site&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/11.2/html/installation_guide/&quot;&gt;Integration Stack Installation Guide&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;&lt;em&gt;Let us know how it goes!&lt;/em&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Paul Leacu.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Mon, 19 Feb 2018 14:13:29 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon France 2018: Is your JUG an EclipseCon France partner?</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3672 at https://www.eclipsecon.org/france2018</guid>
-	<link>https://www.eclipsecon.org/france2018/news/your-jug-eclipsecon-france-partner</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JUG partners are helping to spread the word about EclipseCon France. Find out more about the program on the &lt;a href=&quot;https://www.eclipsecon.org/france2018/jugs&quot;&gt;JUG partner page&lt;/a&gt;. And, welcome our first partners from Nantes, Paris, Toulouse and Bordeaux!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/your-jug-eclipsecon-france-partner&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Duke360x360.png?itok=v85YbLha&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Mon, 19 Feb 2018 11:36:44 +0000</pubDate>
-</item>
-<item>
-	<title>Melanie Bats: CheConf18</title>
-	<guid isPermaLink="true">http://melb.enix.org/2018/02/16/che-conf/</guid>
-	<link>http://melb.enix.org/2018/02/16/che-conf/</link>
-	<description>&lt;p&gt;A small post to announce that I will be speaking at &lt;a href=&quot;https://www.eclipse.org/che/checonf18/index.html&quot;&gt;CheConf18&lt;/a&gt;, a one day conference dedicated to &lt;a href=&quot;https://eclipse.org/che/&quot;&gt;Eclipse Che&lt;/a&gt; an extensible cloud development platform. I am really excited to participate to this event! I will co speak with Stevan Le Meur, Che maintainer from RedHat about &lt;strong&gt;Building Extensibility and Community for Che&lt;/strong&gt;. During our session, you’ll get a preview of the work we prototyped at &lt;a href=&quot;https://www.obeo.fr/en&quot;&gt;Obeo&lt;/a&gt; to bring the modeling stack to the web and what class of tools one can envision.&lt;/p&gt;
-
-&lt;p&gt;Perhaps you hadn’t hear about CheConf so far ? No problem: it’s not too late to participate. Indeed, there’s no need to negotiate with your boss, no need to book a flight and an hotel: this conference happens entirely online and is free!&lt;/p&gt;
-
-&lt;p&gt;You just need to &lt;a href=&quot;https://visitor.r20.constantcontact.com/d.jsp?llr=7kv7dn9ab&amp;amp;p=oi&amp;amp;m=1127869207900&amp;amp;sit=dqf8xmplb&amp;amp;f=ab2389bc-9888-4ff7-978e-f922c1210d52&quot;&gt;subscribe&lt;/a&gt; on the web site, and you’ll be able to join the conference when you want.
-Have a look at the great &lt;a href=&quot;https://www.eclipse.org/che/checonf18/sessions.html&quot;&gt;schedule&lt;/a&gt;.
-And do not forget our session &lt;strong&gt;Wednesday February 21, 2018 17:30-18:00 Paris Time&lt;/strong&gt; or &lt;strong&gt;wherever you are&lt;/strong&gt; in the world!&lt;/p&gt;
-
-&lt;p&gt;Stay tuned!&lt;/p&gt;</description>
-	<pubDate>Fri, 16 Feb 2018 12:00:00 +0000</pubDate>
 </item>
 
 </channel>

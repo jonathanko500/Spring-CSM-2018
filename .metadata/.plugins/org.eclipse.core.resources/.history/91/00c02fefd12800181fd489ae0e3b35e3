@@ -1,0 +1,63 @@
+import java.util.Random;
+
+public class MIdterm
+{//start class
+
+	public static void main(String[] args)
+	{
+		School place = new School("CSM",0);
+		System.out.println(place.toString());
+	}
+	public static boolean isPositiveAndMultipleThree(int x)
+	{//start method
+		if(x>0)
+		{//start
+			if(x%3==0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}//end
+		else
+		{
+			return false;
+		}
+	}//end method
+	public static boolean isPositiveAndMultipleThree(int x,int y)
+	{//start method
+		if(x>0 && y>0)
+		{//start
+			if(x%3==0 && y%3==0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}//end
+		else
+		{//start 
+			return false;
+		}//end
+	}//end method
+	public static int countWordsThatContainChar(String[] list,char x)
+	{//start 
+		int y=0;
+		for(int i=0;i<list.length;i++)
+		{//start loop
+			for(int j=0;j<list[i].length();j++)
+			{//start loop
+				if(list[i].charAt(j)==x)
+				{
+					y++;
+				}
+			}//end loop
+		}//end loop
+		return y;
+	}//end .
+	
+}//end class

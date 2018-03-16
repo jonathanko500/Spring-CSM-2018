@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class MIdterm
+{
+
+	public static void main(String[] args)
+	{
+		Random generator = new Random();
+
+		int randomNumber = generator.nextInt(11) + 2;
+		System.out.println(randomNumber);
+
+	}
+
+}

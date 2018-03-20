@@ -4,7 +4,6 @@ public class MIdterm
 {//start class
 	public static void main(String[] args)
 	{
-		/*
 		School[] prison = new School[5];
 		prison[0] =new School("Meadows",5);
 		prison[1] =new HighSchool("Mills",500,true);
@@ -28,7 +27,6 @@ public class MIdterm
 			}
 		}//end loop
 		System.out.println("There are "+x+" special highschools.");
-		*/
 	}
 	public static boolean isPositiveAndMultipleThree(int x)
 	{//start method

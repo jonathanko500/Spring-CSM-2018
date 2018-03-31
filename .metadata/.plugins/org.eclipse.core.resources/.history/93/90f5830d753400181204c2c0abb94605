@@ -1,0 +1,10 @@
+
+public class P4A 
+{//start class
+	public static void main(String[] args)
+	{//start main
+		Payment pay = new Payment();
+		pay.setAmount(53.2);
+		System.out.println(pay.toString());
+	}//end main
+}//end class

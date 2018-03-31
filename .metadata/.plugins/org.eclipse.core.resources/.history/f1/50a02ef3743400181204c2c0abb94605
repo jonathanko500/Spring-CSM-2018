@@ -42,15 +42,7 @@ public class Payment
 	@Override
 	public String toString()
 	{
-		String x;
-		if(date.equalsIgnoreCase("No date"))
-		{
-			x="There is no payment. ";
-		}
-		else
-		{
-			x="You are paying $"+amount+" on "+date+".";
-		}
+		String x="You are paying $"+amount+" on "+date;
 		return x;
 	}
 }//end class

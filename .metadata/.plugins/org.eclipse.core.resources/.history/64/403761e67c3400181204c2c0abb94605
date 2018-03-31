@@ -43,13 +43,13 @@ public class Payment
 	public String toString()
 	{
 		String x;
-		if(date.equalsIgnoreCase("No date"))
+		if(amount==0||date.equalsIgnoreCase("No date"))
 		{
 			x="There is no payment. ";
 		}
 		else
 		{
-			x="You are paying $"+amount+" on "+date+".";
+			x="You are paying $"+amount+" on "+date;
 		}
 		return x;
 	}

@@ -49,7 +49,7 @@ public class Payment
 		}
 		else
 		{
-			x="You are paying $"+amount+" on "+date+".";
+			x="You are paying $"+amount+" on "+date+". ";
 		}
 		return x;
 	}

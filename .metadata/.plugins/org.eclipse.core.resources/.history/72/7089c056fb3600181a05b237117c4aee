@@ -1,4 +1,4 @@
-//class for P4B
+
 public abstract class Animal
 {//stat class
 	private String name;
@@ -31,12 +31,13 @@ public abstract class Animal
 		}
 		else
 		{
-			x="I am an animal with a name of "+name+". ";
+			x="My name is "+name+". ";
 		}
 		return x;
 	}
 	//methods
-	public abstract boolean isWarmBlooded();
-	public abstract boolean canLiveOnLand();
-	
+	public boolean isWarmBlooded()
+	{
+		return true;
+	}
 }//end class

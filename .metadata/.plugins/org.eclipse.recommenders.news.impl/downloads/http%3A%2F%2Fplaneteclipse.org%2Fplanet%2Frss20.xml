@@ -8,6 +8,13 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: EclipseCon France 2018 Program Announced</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/MU3P8PQbswc/accepted</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/MU3P8PQbswc/accepted</link>
+	<description>See the list of accepted sessions, and register now for the lowest price. We'll see you June 13 - 14 in Toulouse.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/MU3P8PQbswc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 03 Apr 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Eclipse Announcements: Voting for the Jakarta EE logo is now open!</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/c7bkDM79IuE/viewform</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/c7bkDM79IuE/viewform</link>
@@ -668,28 +675,6 @@ Google will not extend the submission period but we can continue reviewing asses
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/R3tcGxMA3Ak/20180312-brainiot.php</link>
 	<description>Eclipse Foundation Europe Selected to Provide Open Source Community Building Expertise for EU funded IoT Research Project&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/R3tcGxMA3Ak&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 12 Mar 2018 14:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Holger Voormann: Hello OpenJ9 on Windows, I didn’t expect you so soon!</title>
-	<guid isPermaLink="false">http://eclipsehowl.wordpress.com/?p=1376</guid>
-	<link>https://eclipsehowl.wordpress.com/2018/03/09/hello-openj9-on-windows-i-didnt-expect-you-so-soon/</link>
-	<description>&lt;p&gt;Faster startup time, lower memory footprint and higher application throughput only by replacing the Java virtual machine (VM)? That sounds too good to be true. So far there has been no real alternative to &lt;a href=&quot;http://openjdk.java.net/groups/hotspot/&quot;&gt;Oracle’s Java HotSpot VM&lt;/a&gt; on Windows. With &lt;a href=&quot;http://www.eclipse.org/openj9/&quot;&gt;Eclipse OpenJ9&lt;/a&gt;, which emerged from open-sourcing IBM’s J9 VM, there is now the alternative that promises exactly this.&lt;/p&gt;
-&lt;p&gt;At the end of January the first OpenJDK 9 with Eclipse OpenJ9 nightly builds for Windows were published, but they &lt;a href=&quot;https://twitter.com/howlger/status/955471550140026880&quot;&gt;were not very stable at that time&lt;/a&gt;. This week I tested the &lt;a href=&quot;https://adoptopenjdk.net/nightly.html?variant=openjdk9-openj9&quot;&gt;nightly builds&lt;/a&gt; again to run the Eclipse IDE and I was pleasantly surprised: OpenJ9 ran without crashing. Here are my results: the &lt;strong&gt;start time&lt;/strong&gt; of the &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2&quot;&gt;Eclipse Oxygen.2 Java IDE&lt;/a&gt; &lt;strong&gt;improves with OpenJ9 from 20&lt;/strong&gt; to 17 seconds, with some tuning (see below) even &lt;strong&gt;to 12 seconds&lt;/strong&gt; compared to the Java 9 JDK with Oracle’s HotSpot VM on my more than six-year-old laptop. Also the Windows Task Manager shows &lt;strong&gt;less memory&lt;/strong&gt; used by the Eclipse IDE and tasks like compiling a large project are a &lt;strong&gt;bit faster&lt;/strong&gt; with OpenJ9.&lt;/p&gt;
-&lt;p&gt;To start the Eclipse IDE with OpenJ9, in &lt;code&gt;eclipse.ini&lt;/code&gt; add the following two lines above &lt;code&gt;-vmargs&lt;/code&gt;:&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;code&gt;-vm&lt;br /&gt;
-C:\path\to\jdk-9+181\bin\javaw.exe&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Embedding the JDK into an Eclipse installation directory as &lt;code&gt;jre&lt;/code&gt; subdirectory does not yet work, but as long as you do not start the Eclipse IDE from the command line from another directory you can use &lt;code&gt;-vm&lt;/code&gt; with &lt;code&gt;jre\bin\javaw.exe&lt;/code&gt;. To further improve the startup time, add the following two lines below &lt;code&gt;-vmargs&lt;/code&gt;:&lt;/p&gt;
-&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;code&gt;-Xtune:virtualized&lt;br /&gt;
--Xshareclasses:cacheDir=C:\path\to\shareclasses&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_config.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-1380 size-full&quot; height=&quot;353&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_config.png?w=450&amp;amp;h=353&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The cloning of a GitHub repository fails due to missing certificate authority (CA) certificates. You can fix this OpenJDK 9 issue by replacing the &lt;code&gt;lib\security&lt;/code&gt; directory (which contains the &lt;code&gt;cacerts&lt;/code&gt; file) with the same directory of an &lt;a href=&quot;http://jdk.java.net/10/&quot;&gt;OpenJDK 10 early access build&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_git_clone_fail.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-1381 size-full&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_git_clone_fail.png?w=450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In the Eclipse IDE that is running on OpenJDK the standard basic text font defaults (for reasons I don’t know) to &lt;em&gt;Courier New&lt;/em&gt; 10 instead of &lt;em&gt;Consolas&lt;/em&gt; 10. You can change this in &lt;em&gt;Window &amp;gt; Preferences: General &amp;gt; Appearance &amp;gt; Colors and Fonts&lt;/em&gt; by selecting &lt;em&gt;Basic &amp;gt; Text Font&lt;/em&gt; and pressing &lt;em&gt;Edit…&lt;/em&gt; (if you like, you can also use &lt;em&gt;&lt;a href=&quot;https://github.com/adobe-fonts/source-code-pro&quot;&gt;Source Code Pro&lt;/a&gt;&lt;/em&gt; 9 like the &lt;a href=&quot;https://marketplace.eclipse.org/content/clean-sheet&quot;&gt;Clean Sheet&lt;/a&gt; theme does).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_default_text_font.png&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter wp-image-1382 size-full&quot; src=&quot;https://eclipsehowl.files.wordpress.com/2018/03/openj9_default_text_font.png?w=450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I have not noticed so far any further differences between the Eclipse IDE running on Oracle’s JDK 9 and the Eclipse IDE running on the current OpenJDK 9 with OpenJ9 nightly build. Debugging and hot code replace works as expected.&lt;/p&gt;
-&lt;p&gt;Many thanks to the &lt;a href=&quot;https://github.com/eclipse/openj9/graphs/contributors&quot;&gt;OpenJ9 team&lt;/a&gt;! I look forward to the final release. It’s great to have two good open source Java virtual machines for Windows. Who knows, but with only one of the two, neither of the two might be open source today.&lt;/p&gt;
-&lt;p&gt;PS: If the Eclipse IDE still starts too slowly for you, have a look at a &lt;a href=&quot;http://www.eclipse.org/downloads/index-developer.php?photon&quot;&gt;developer build of the upcoming Eclipse Photon IDE&lt;/a&gt;. &lt;img alt=&quot;😉&quot; class=&quot;wp-smiley&quot; src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f609.png&quot; style=&quot;height: 1em;&quot; /&gt;&lt;/p&gt;</description>
-	<pubDate>Fri, 09 Mar 2018 14:30:42 +0000</pubDate>
 </item>
 
 </channel>

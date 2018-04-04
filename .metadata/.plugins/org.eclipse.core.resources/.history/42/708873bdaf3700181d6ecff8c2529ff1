@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+public class M9Test 
+{//start main
+	public static void main(String[] args)
+	{//start main
+		int count=0;
+		try {
+			Scanner fileScan = new Scanner(new FileReader(new File("numbers.txt")));
+			while(fileScan.hasNextLine())
+			{
+				String oneLine = fileScan.nextLine();
+				Scanner lineScan = new Scanner(oneLine);
+				//lineScan.findInLine("2");
+				if(lineScan.findInLine("2") == "2")
+				{
+					count++;
+				}
+				PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("output.txt")));
+				output.println("The file contains "+count+" zeros.");
+				output.close();
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}//end main
+}//end class

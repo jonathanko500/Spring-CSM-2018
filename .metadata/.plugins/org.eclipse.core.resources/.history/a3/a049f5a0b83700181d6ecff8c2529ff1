@@ -25,7 +25,7 @@ public class M9Test
 	{//start class
 		if(existingNames.contains(userName))
 		{
-			System.out.print("Name exists already.");
+			
 		}
 		else
 		{

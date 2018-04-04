@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+public class M9Test 
+{//start main
+	public static void main(String[] args)
+	{//start main
+		int numb;
+		Scanner input = new Scanner(System.in);
+		String outputFile="NumbList.txt";
+		PrintWriter outputWriter = null;
+		try
+		{
+			FileWriter fw = new FileWriter(outputFile);
+			BufferedWriter bw = new BufferedWriter(fw);
+			outputWriter = new PrintWriter(bw);
+			
+			
+		}
+		catch (IOException a)
+		{
+			System.out.print(a.getMessage());
+		}
+		finally
+		{
+			if(outputWriter != null)
+			{
+				outputWriter.close();
+			}
+		}
+	}//end main
+}//end class

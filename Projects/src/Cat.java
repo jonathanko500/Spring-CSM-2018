@@ -1,5 +1,5 @@
 //class for P4B
-public class Cat extends Animal
+public class Cat extends Animal implements Adoptable
 {//start class
 	//constructor
 	public Cat()
@@ -9,10 +9,6 @@ public class Cat extends Animal
 	public Cat(String name)
 	{
 		super(name);
-	}
-	@Override
-	public boolean isWarmBlooded() {
-		return true;
 	}
 	@Override
 	public String toString()
@@ -29,7 +25,12 @@ public class Cat extends Animal
 		return x;
 	}
 	@Override
-	public boolean canLiveOnLand() {
+	public boolean isWarmBlooded() {
 		return true;
+	}
+	@Override
+	public String getHomeCareInstructions() {
+		String x="Feed the cat. Give a cat a bed, scratch post and a box with cat litter.";
+		return x;
 	}
 }//end class

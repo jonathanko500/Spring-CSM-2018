@@ -1,5 +1,5 @@
 //class for P4B
-public class Bat extends Animal
+public class Bat extends Animal implements Flyable
 {//start class
 	private double FlightSpeed;
 	//constructor
@@ -19,13 +19,10 @@ public class Bat extends Animal
 		this.FlightSpeed=speed;
 	}
 	//getter
-	public double getFlightSpeed()
-	{
-		return FlightSpeed;
-	}
 	@Override
-	public boolean isWarmBlooded() {
-		return true;
+	public double getFlightSpeed() {
+		// TODO Auto-generated method stub
+		return FlightSpeed;
 	}
 	@Override
 	public String toString()
@@ -42,7 +39,8 @@ public class Bat extends Animal
 		return x;
 	}
 	@Override
-	public boolean canLiveOnLand() {
+	public boolean isWarmBlooded() {
 		return true;
 	}
+	
 }//end class

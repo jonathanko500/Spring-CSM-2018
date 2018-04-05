@@ -1,5 +1,5 @@
 //class for P4B
-public class Fish extends Animal
+public class Fish extends Animal implements Adoptable, WaterLiveable
 {//start class
 	//constructors
 	public Fish()
@@ -9,15 +9,6 @@ public class Fish extends Animal
 	public Fish(String name)
 	{
 		super(name);
-	}
-	//override abstract method
-	@Override
-	public boolean isWarmBlooded() {
-		return false;
-	}
-	@Override
-	public boolean canLiveOnLand() {
-		return false;
 	}
 	@Override
 	public String toString()
@@ -32,5 +23,18 @@ public class Fish extends Animal
 			x+="I am a fish. ";
 		}
 		return x;
+	}
+	@Override
+	public String getHomeCareInstructions() {
+		String x="Put the fish in a clean fishbowl. Feed the fish. Keep the water clean.";
+		return x;
+	}
+	@Override
+	public boolean canLiveOnLand() {
+		return false;
+	}
+	@Override
+	public boolean isWarmBlooded() {
+		return false;
 	}
 }//end class

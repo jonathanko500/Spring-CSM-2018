@@ -1,5 +1,5 @@
 //class for P4B
-public abstract class Animal
+public abstract class Animal implements Mammal
 {//stat class
 	private String name;
 	//constructors
@@ -35,8 +35,5 @@ public abstract class Animal
 		}
 		return x;
 	}
-	//methods
-	public abstract boolean isWarmBlooded();
-	public abstract boolean canLiveOnLand();
 	
 }//end class

@@ -1,5 +1,5 @@
 //class for P4B
-public class Whale extends Animal
+public class Whale extends Animal implements WaterLiveable
 {
 	//constructor
 	public Whale()
@@ -9,14 +9,6 @@ public class Whale extends Animal
 	public Whale(String name)
 	{
 		super(name);
-	}
-	@Override
-	public boolean isWarmBlooded() {
-		return true;
-	}
-	@Override
-	public boolean canLiveOnLand() {
-		return false;
 	}
 	@Override
 	public String toString()
@@ -31,5 +23,13 @@ public class Whale extends Animal
 			x+="I am a whale. ";
 		}
 		return x;
+	}
+	@Override
+	public boolean isWarmBlooded() {
+		return true;
+	}
+	@Override
+	public boolean canLiveOnLand() {
+		return false;
 	}
 }//end class

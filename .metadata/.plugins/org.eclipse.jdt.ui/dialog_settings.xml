@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\Ko Family\Downloads" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Program Files\Java\jdk1.8.0_161" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="ProblemSeveritiesConfigurationBlock">
 		<item value="false" key="expanded2"/>
 		<item value="false" key="expanded1"/>
@@ -23,7 +23,7 @@
 		<item value="true" key="create_unimplemented"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="4" key="index"/>
+		<item value="3" key="index"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
@@ -37,7 +37,7 @@
 		<item value="11" key="INCLUDE_MASK"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="3" key="pageIndex"/>
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

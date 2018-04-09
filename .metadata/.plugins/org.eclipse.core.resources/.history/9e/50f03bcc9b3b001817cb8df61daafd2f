@@ -1,9 +1,8 @@
 import javafx.application.*;
 import javafx.event.*;
-import javafx.geometry.*;
-import javafx.scene.*;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.*;
@@ -17,8 +16,6 @@ public class M10PracQues extends Application
 	public void start(Stage prim)
 	{
 		VBox primBox= new VBox();
-		primBox.setAlignment(Pos.CENTER);
-		primBox.setSpacing(70);
 		//qutoes
 		num1="\"You must pay the penalty\" said by Daffy Duck";
 		num2="\"I tawt I taw a puddy tat!\" said by Tweety Bird";
@@ -54,10 +51,6 @@ public class M10PracQues extends Application
 		radioButtonBox.setAlignment(Pos.CENTER);
 		radioButtonBox.setSpacing(20);
 		primBox.getChildren().add(radioButtonBox);
-		//pic
-		Image pic = new Image("dog1.jpg",300,300,true,true);
-		ImageView picView = new ImageView(pic);
-		primBox.getChildren().add(picView);
 		//display background
 		Scene scene = new Scene(primBox,750,750,Color.WHITE);
 		prim.setTitle("GUI Image");
@@ -66,26 +59,7 @@ public class M10PracQues extends Application
 	}
 	private void handleTxt(ActionEvent event)
 	{
-		if(choice1.isSelected())
-		{
-			option.setText(num1);
-		}
-		else if(choice2.isSelected())
-		{
-			option.setText(num2);
-		}
-		else if(choice3.isSelected())
-		{
-			option.setText(num3);
-		}
-		else if(choice4.isSelected())
-		{
-			option.setText(num4);
-		}
-		else if(choice5.isSelected())
-		{
-			option.setText(num5);
-		}
+		
 	}
 	
 	public static void main(String[] args)

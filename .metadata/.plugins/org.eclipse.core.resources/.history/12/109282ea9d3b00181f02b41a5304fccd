@@ -63,6 +63,8 @@ public class M10PracQues extends Application
 		prim.setTitle("GUI Image");
 		prim.setScene(scene);
 		prim.show();
+		prim.setScene(scene);
+		prim.show();
 	}
 	private void handleTxt(ActionEvent event)
 	{

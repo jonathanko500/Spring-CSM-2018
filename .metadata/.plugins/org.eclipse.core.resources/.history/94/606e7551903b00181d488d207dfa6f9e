@@ -1,0 +1,20 @@
+import javafx.application.*;
+import javafx.scene.layout.*;
+import javafx.stage.*;
+public class M10PracQues extends Application
+{//start class
+	private String num1,num2,num3,num4,num5;
+	public void start(Stage prim)
+	{
+		VBox primBox= new VBox();
+		
+		num1="\"To be or not to be\"";
+		
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("\"To be or not to be\"");
+
+	}
+
+}//end class

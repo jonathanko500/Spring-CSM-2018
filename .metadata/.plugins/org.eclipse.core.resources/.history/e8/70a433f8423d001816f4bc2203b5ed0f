@@ -30,7 +30,7 @@ public class M10Test extends Application {
 		//text field
 		
 		//display everything
-		Scene scene = new Scene(pane,200,200);
+		Scene scene = new Scene(pane,100,100);
 		
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("M10Test");

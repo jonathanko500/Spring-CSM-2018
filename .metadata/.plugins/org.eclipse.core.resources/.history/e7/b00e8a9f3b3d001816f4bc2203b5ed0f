@@ -1,0 +1,26 @@
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+
+ 
+public class M10Test extends Application {
+	private Text nameText;
+	public void start(Stage primaryStage) 
+	{
+		nameText=new Text("Jonathan Ko");
+		nameText.setFont(Font.font("Times New Roman",30));
+		nameText.setFill(Color.INDIGO);
+		
+        Pane pane = new StackPane(nameText);
+        primaryStage.setScene(new Scene(pane, 300, 300));
+        primaryStage.show();
+		
+	}
+	
+    public static void main(String[] args) {
+        launch(args);
+    }
+}

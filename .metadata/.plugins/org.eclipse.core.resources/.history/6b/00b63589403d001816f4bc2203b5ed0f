@@ -14,7 +14,7 @@ public class M10Test extends Application {
 	
 	private Button plusButton,minusButton;
 	private Text resultText;
-	private TextField inputNumber1TextField, inputNumber2TextField,inputTextField,outputTextField;
+	private TextField inputNumber1TextField, inputNumber2TextField;
 
 	public void start(Stage primaryStage) 
 	{
@@ -29,8 +29,9 @@ public class M10Test extends Application {
 		
 		//text field
 		
+		
 		//display everything
-		Scene scene = new Scene(pane,200,200);
+		Scene scene = new Scene(pane,400,400);
 		
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("M10Test");
@@ -50,12 +51,6 @@ public class M10Test extends Application {
 			z=x-y;
 		}
 		resultText.setText(Integer.toString(z));
-	}
-	private void handleAction(ActionEvent event)
-	{
-		String user=inputTextField.getText();
-		inputTextField.clear();
-		outputTextField.setText(user);
 	}
 	public static void main(String[] args) {
         launch(args);

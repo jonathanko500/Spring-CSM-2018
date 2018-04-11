@@ -1,0 +1,42 @@
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+
+ 
+public class M10Test extends Application {
+	private Text nameText;
+	public void start(Stage primaryStage) 
+	{
+		nameText=new Text("Jonathan Ko");
+		nameText.setFont(Font.font("Times New Roman",30));
+		nameText.setFill(Color.INDIGO);
+		/*
+		Text text = new Text("“I had heard the old Indian legend about the red fern. How a little Indian boy and "
+        		+ "\ngirl were lost in a blizzard and had frozen to death. In the spring, when they were found, a "
+        		+ "\nbeautiful red fern had grown up between their two bodies. The story went on to say that only an angel could plant "
+        		+ "\nthe seeds of a red fern, and that they never died; where one grew, that spot was sacred.” ");
+        text.setFont(Font.font("Helvetica", 20));
+        text.setFill(Color.PURPLE);
+        
+        Text text2 = new Text(" \n\n\n\n\n -Wilson Rawls, Where the Red Fern Grows");
+        text2.setFont(Font.font("Times New Roman", 20));
+        text2.setFill(Color.RED);
+        */
+        
+        Pane pane = new StackPane(nameText);
+        primaryStage.setScene(new Scene(pane, 100, 100));
+        primaryStage.show();
+		/*
+		Pane pane = new StackPane(nameText);
+		primaryStage.setScene(new Scene(pane,300,300));
+		primaryStage.close();
+		*/
+	}
+	
+    public static void main(String[] args) {
+        launch(args);
+    }
+}

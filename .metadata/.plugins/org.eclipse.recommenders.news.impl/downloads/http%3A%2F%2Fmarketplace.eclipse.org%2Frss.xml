@@ -6,287 +6,38 @@
     <language>en</language>
      <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, and VHDL</title>
-    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 16:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the &lt;strong&gt;&lt;em&gt;e&lt;/em&gt; language, SystemVerilog, Verilog, VHDL, and mixed language projects&lt;/strong&gt; that also provides &lt;strong&gt;Universal Verification Methodology (UVM) support&lt;/strong&gt;. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
-&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
-&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
-&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
-&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;
-FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Autocomplete&lt;/li&gt;
-&lt;li&gt;Compilation errors signaled on the fly&lt;/li&gt;
-&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
-&lt;li&gt;Customizable code and project templates&lt;/li&gt;
-&lt;li&gt;Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
-&lt;li&gt;Hyperlinks that help navigate faster in the source code&lt;/li&gt;
-&lt;li&gt;Semantic search&lt;/li&gt;
-&lt;li&gt;Refactoring&lt;/li&gt;
-&lt;li&gt;Macro expansion&lt;/li&gt;
-&lt;li&gt;Class and structural browsing&lt;/li&gt;
-&lt;li&gt;Trace port connections&lt;/li&gt;
-&lt;li&gt;UML diagrams for inspecting and documenting the architecture&lt;/li&gt;
-&lt;li&gt;Module flow diagrams for inspecting and documenting a module structure&lt;/li&gt;
-&lt;li&gt;Automated documentation extraction&lt;/li&gt;
-&lt;li&gt;UVM support and compliance checking&lt;/li&gt;
-&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
-&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
-RESOURCES &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/Design_and_Verification_Tools_Eclipse_IDE.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT web page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/datasheet/AMIQ_DVT_Datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/dvteclipse&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/UVM_Support_in_DVT_Eclipse.html&quot; rel=&quot;nofollow&quot;&gt;UVM Support in DVT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dvteclipse.com/DVT_Debugger_Add-On_Module.html&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Module&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
- <dc:creator>emisingname6ia</dc:creator>
- <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-and-vhdl#comments</comments>
-  </item>
-  <item>
-    <title>Spark Builder Generator</title>
-    <link>http://marketplace.eclipse.org/content/spark-builder-generator</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/sparkbuildergeneratoricon.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2016-10-23 07:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 16:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/hsparkwpb/listings&quot; title=&quot;Helo Spark&quot;&gt;Helo Spark&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Generates a builder according to the GoF pattern for Java domain objects.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;Generates a builder with custom name patterns&lt;/li&gt;
-&lt;li&gt;Can generate &lt;a href=&quot;http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java&quot; rel=&quot;nofollow&quot;&gt;staged builder&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Capable of regenerating the builder&lt;/li&gt;
-&lt;li&gt;Compatible with most version of Eclipse&lt;/li&gt;
-&lt;li&gt;Highly configurable, check the plugin&#039;s preferences page&lt;/li&gt;
-&lt;li&gt;Capable of generate builder methods for visible fields in superclass&lt;/li&gt;
-&lt;li&gt;Encourages and supports null-safe programming practices&lt;/li&gt;
-&lt;li&gt;Open source (with very permissible MIT license)&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;strong&gt;Usage&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;To invoke the generation have a Java file active and press either the icon on the toolbar (the hammer) or Ctrl+Shift+B.&lt;br /&gt;
-You can click the small arrow next to the main icon to generate a different builder type (like staged builder), if you usually generate a certain kind of builder, set the default builder in the preferences page.&lt;br /&gt;
-You can set the preferences under: &lt;strong&gt;&lt;em&gt;Window-&amp;gt;Preferences-&amp;gt;Java-&amp;gt;Spark Builder Generator&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Example result:&lt;/strong&gt;&lt;/h2&gt;
-&lt;pre&gt;
-  public class Clazz {
-        private Integer firstField;
-        private Long secondField;
-        @Generated(&quot;SparkTools&quot;)
-        private Clazz(Builder builder) {
-            this.firstField = builder.firstField;
-            this.secondField = builder.secondField;
-        }
-        /**
-         * Creates builder to build {@link Clazz}.
-         * @return created builder
-         */
-        @Generated(&quot;SparkTools&quot;)
-        public static Builder builder() {
-            return new Builder();
-        }
-        /**
-         * Builder to build {@link Clazz}.
-         */
-        @Generated(&quot;SparkTools&quot;)
-        public static class Builder {
-            private Integer firstField;
-            private Long secondField;
-
-            private Builder() {
-            }
-
-            /**
-            * Builder method for firstField parameter.
-            * @return builder
-            */
-            @Nonnull
-            public Builder withFirstField(@Nonnull Integer firstField) {
-                this.firstField = firstField;
-                return this;
-            }
-
-            /**
-            * Builder method for secondField parameter.
-            * @return builder
-            */
-            @Nonnull
-            public Builder withSecondField(@Nonnull Long secondField) {
-                this.secondField = secondField;
-                return this;
-            }
-
-            /**
-            * Builder method of the builder.
-            * @return built class
-            */
-            @Nonnull
-            public Clazz build() {
-                return new Clazz(this);
-            }
-        }
-    }
-&lt;/pre&gt;&lt;h2&gt;&lt;strong&gt;Release notes&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;0.0.5&lt;/strong&gt; Added handling for code style prefix and suffix, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/5&quot; rel=&quot;nofollow&quot;&gt;Github issue 5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.6&lt;/strong&gt; Added staged builder support., see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/4&quot; rel=&quot;nofollow&quot;&gt;Github issue 4&lt;/a&gt; Staged builder allows you to verify that all of the mandatory fields are set at compile time.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.7&lt;/strong&gt; Option to add visible fields from superclasses to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/7&quot; rel=&quot;nofollow&quot;&gt;Github issue 7&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.8&lt;/strong&gt; Fixed regression bug that was introduced in 0.0.7. While collection visible fields from superclasses, under some Eclipse configurations IllegalArgumentException occurred during java.lang.Object parsing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.9&lt;/strong&gt; Added option to generate builder to selected class (in case of nested classes, or multiple classes in a single file), see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/10&quot; rel=&quot;nofollow&quot;&gt;Github issue 10&lt;/a&gt; Improvements to previous Builder class removing logic&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.10&lt;/strong&gt; Added the option to select which fields are generated in the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/8&quot; rel=&quot;nofollow&quot;&gt;Github issue 8&lt;/a&gt;&lt;br /&gt;
-Fixed a small bug that deleted the previous builder when pressing the cancel button on the staging builder generator dialog Added MIT license file to plugin&#039;s site.xml, so it will show up on installation&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.11 &lt;/strong&gt;Initialize Optional value to Optional.empty() to follow nullsafe programming practices&lt;br /&gt;
-Initialize Collections with empty collections via java.util.Collections class&lt;br /&gt;
-Various bugfixes related to overriding previous builder&lt;br /&gt;
-Logging improvement&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.12&lt;/strong&gt; Generate @param tag to the builder&#039;s &quot;with&quot; methods, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/28&quot; rel=&quot;nofollow&quot;&gt;Github issue 28&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.13&lt;/strong&gt; Add fields from superclass&#039; constructor to the builder, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/30&quot; rel=&quot;nofollow&quot;&gt;Github issue 30&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.14 &lt;/strong&gt;Add the ability to create a builder based on an already existing instance, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/33&quot; rel=&quot;nofollow&quot;&gt;Github issue 33&lt;/a&gt;&lt;br /&gt;
-Dialog UX update&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;0.0.15 &lt;/strong&gt;Add builder fields for private fields in superclass that have setters, see &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator/issues/35&quot; rel=&quot;nofollow&quot;&gt;Github issue 35&lt;/a&gt;&lt;br /&gt;
- &lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;Troubleshooting installation failure&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Here are some common reasons installation fails, and steps to resolve&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Connection timeout&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is a temporary problem, while accessing the update site. The server most of the times will be available again in a couple of minutes.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;You may try the FTP download site (see below)&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;&lt;em&gt;For any other failure please contact me in the comments or Github.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Installing via FTP update site&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In your Eclipse go to:&lt;/p&gt;
-&lt;p&gt;Help-&amp;gt;Install new software-&amp;gt;Copy and paste the following URI:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&quot; rel=&quot;nofollow&quot;&gt;ftp://helospark.com:21/eclipse_plugin/SparkBuilderGeneratorPlugin/&lt;/a&gt;&lt;br /&gt;
-Select the latest version (should be under SparkTools category) and install.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Installing from backup&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In case both FTP and HTTPS update sites are unavailable, you can install jar file from Mediafire backup:&lt;br /&gt;&lt;a href=&quot;http://www.mediafire.com/file/4975om2k54mb7ii/com.helospark.SparkBuilderGenerator_0.0.14.201802181419.jar&quot; rel=&quot;nofollow&quot;&gt;Latest backup&lt;/a&gt; (entire update site: &lt;a href=&quot;http://www.mediafire.com/folder/ya4g0y69b24vu/plugins&quot; rel=&quot;nofollow&quot;&gt;www.mediafire.com/folder/ya4g0y69b24vu/plugins&lt;/a&gt;)&lt;br /&gt;
-Locate the jar file, you wish to install (probably the latest), and copy it to your Eclipse&#039;s dropin folder.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;Additional information:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;For feature request, bug reports please use the GitHub page: &lt;a href=&quot;https://github.com/helospark/SparkBuilderGenerator&quot; rel=&quot;nofollow&quot;&gt;https://github.com/helospark/SparkBuilderGenerator&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sun, 23 Oct 2016 11:09:34 +0000</pubDate>
- <dc:creator>hsparkwpb</dc:creator>
- <guid isPermaLink="false">3130970 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/spark-builder-generator#comments</comments>
-  </item>
-  <item>
-    <title>Bytecode Visualizer</title>
-    <link>http://marketplace.eclipse.org/content/bytecode-visualizer</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/20090123-bytecode-visualizer-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2008-04-14 09:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 11:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Dr.%20Garbage%20Community%22&quot;&gt;Dr. Garbage Community&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/salekseev/listings&quot; title=&quot;Sergej Alekseev&quot;&gt;Sergej Alekseev&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Bytecode Visualizer is a tool used for visualizing and debugging Java byte code. Features Overview: Bytecode Viewer&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Signatures of classes, fields and methods rendered as in java source&lt;/li&gt;
-&lt;li&gt;The opcodes of instructions represented by their mnemonics as specified in The Java Virtual Machine Specification&lt;/li&gt;
-&lt;li&gt;Comments making it easy to understand the instructions and their parameters&lt;/li&gt;
-&lt;li&gt;Easy-to-follow scope of exception handlers&lt;/li&gt;
-&lt;li&gt;Line Number Table and Local Variable Table as a comment&lt;/li&gt;
-&lt;li&gt;Two tabs for easy switching between bytecode and source code&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Control Flow Graph is drawn alongside of the bytecode, which helps to understand the execution paths of the given method. Class File Outline is both ways synchronized with the Bytecode Viewer: by clicking the method in outline, the viewer scrolls to the given method and vice versa. Bytecode Debugger for Instruction-by-Instruction debugging.&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Breakpoints can be set by double clicking the left ruler of&lt;/li&gt;
-&lt;li&gt;Works even for classes without Line Number Table&lt;/li&gt;
-&lt;li&gt;Single Instruction Step is unique to this product&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.drgarbage.com/operand-stack-viewer.html&quot; rel=&quot;nofollow&quot;&gt;Operand Stack Viewer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.drgarbage.com/class-file-editor.html&quot; rel=&quot;nofollow&quot;&gt;Class File Editor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.drgarbage.com/class-file-compare.html&quot; rel=&quot;nofollow&quot;&gt;Class File Compare&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;New Features in 4.3.3&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.drgarbage.com/read-class-from-jvm.html&quot; rel=&quot;nofollow&quot;&gt;Debugging classes generated at run time&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Mon, 14 Apr 2008 13:35:08 +0000</pubDate>
- <dc:creator>salekseev</dc:creator>
- <guid isPermaLink="false">678 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/bytecode-visualizer#comments</comments>
-  </item>
-  <item>
-    <title>pxDoc</title>
-    <link>http://marketplace.eclipse.org/content/pxdoc</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pxDoc-logo-3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-05 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pragmatic%20Modeling%22&quot;&gt;Pragmatic Modeling&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rbernarddv2/listings&quot; title=&quot;Romain Bernard&quot;&gt;Romain Bernard&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Generate Word documents from Java&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;A highly extensible framework, fully integrated in Eclipse.&lt;/li&gt;
-&lt;li&gt;A very simple language to generate high quality Word documents&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;With only 30 keywords, generating Word documents has never been so easy&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;EFFICIENT&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Easy to learn and implement&lt;/li&gt;
-&lt;li&gt;Easy to maintain&lt;/li&gt;
-&lt;li&gt;Opened to any data that can be accessed through Java (db, files, services, etc.)&lt;/li&gt;
-&lt;li&gt;Document generators can be implemented independently of any particular stylesheet (dotx), and the actual stylesheet can eventually be choosen by the end user at runtime !&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;PRAGMATIC&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Re-use your corporate Word templates, stylesheets and macros&lt;/li&gt;
-&lt;li&gt;Design complex table with automatic vertical merge capability&lt;/li&gt;
-&lt;li&gt;Specify &quot;manual parts&quot; that will not be erased when re-generating the document&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;POWERFUL&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;A powerful engine integrated with the Java world:&lt;/li&gt;
-&lt;li&gt;Fully integrated in Eclipse (auto-completion, correction, debugging...)&lt;/li&gt;
-&lt;li&gt;its engine can create thousands of pages and documents in seconds&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;HIGHLY EXTENSIBLE&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Enablers available for Eclipse, EMF, Xtext, Capella (others to come soon)&lt;/li&gt;
-&lt;li&gt;Implement your own enablers, diagram providers, language renderers for your specific environment&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 05 Apr 2018 12:18:36 +0000</pubDate>
- <dc:creator>rbernarddv2</dc:creator>
- <guid isPermaLink="false">4014155 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/pxdoc#comments</comments>
-  </item>
-  <item>
-    <title>Groovy Development Tools</title>
-    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven support for the &lt;a href=&quot;http://groovy-lang.org/&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support for Groovy including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
-&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability. If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
-&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://marketplace.eclipse.org/content/spring-tools-aka-spring-ide-and-spring-tool-suite&quot; rel=&quot;nofollow&quot;&gt;Spring Tool Suite&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
- <dc:creator>aclement</dc:creator>
- <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
-  </item>
-  <item>
-    <title>Excelsior JET</title>
-    <link>http://marketplace.eclipse.org/content/excelsior-jet</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/zzzzz_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2009-06-29 10:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Excelsior%20LLC%22&quot;&gt;Excelsior LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ellc6e8/listings&quot; title=&quot;Excelsior LLC&quot;&gt;Excelsior LLC&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Excelsior JET, a certified Java SE 7 JVM with an Ahead-Of-Time (AOT) compiler and installation toolkit, provides specific support for Eclipse RCP with a focus on code and data protection.&lt;/p&gt;
-&lt;p&gt;It enables developers to export Eclipse RCP applications in native code form and avoid the distribution of the easy-to-hack jar files altogether:&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;Benefits&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;Protect Intellectual Property by preventing bytecode decompilation and hiding sensitive data&lt;/li&gt;
-&lt;li&gt;Meet security requirements for safety-critical industries such as Transport, Energy, Healthcare, Defense, and others&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-- create time limited demos&lt;br /&gt;
-			- author application installers&lt;br /&gt;
-			- deploy without dependency on the JRE
-
-
-
-&lt;h3&gt;Ease of Use&lt;/h3&gt;
-&lt;p&gt;With this &lt;strong&gt;&lt;a href=&quot;http://www.excelsior-usa.com/rcp-plugin.html&quot; rel=&quot;nofollow&quot;&gt;Eclipse plug-in&lt;/a&gt;&lt;/strong&gt;, you may protect your Eclipse RCP product and create an install package in a few mouse clicks.&lt;/p&gt;
-&lt;p align=&quot;CENTER&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;Resources&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsior-usa.com/pdf/ProtectRCP-whitepaper.pdf&quot; rel=&quot;nofollow&quot;&gt;Whitepaper&lt;/a&gt;&lt;/strong&gt;: Two Ways of Securing Eclipse RCP Applications (obfuscation vs. native pre-compilation.)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/solutions/protect-eclipse-rcp-applications#casestudies&quot; rel=&quot;nofollow&quot;&gt;Case studies&lt;/a&gt;&lt;/strong&gt;: RCP developers share their experience with Excelsior JET.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/tutorials/eclipse-rcp&quot; rel=&quot;nofollow&quot;&gt;Video tutorial&lt;/a&gt;&lt;/strong&gt;: standalone tools providing the advanced features of Excelsior JET, such as Startup Optimizer, Java Runtime Slim-Down, installer branding, and others.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/solutions/protect-eclipse-rcp-applications&quot; rel=&quot;nofollow&quot;&gt;Excelsior JET for Eclipse RCP page&lt;/a&gt;&lt;/strong&gt;: product information, sample applications, etc.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Mon, 29 Jun 2009 14:47:32 +0000</pubDate>
- <dc:creator>ellc6e8</dc:creator>
- <guid isPermaLink="false">964 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/excelsior-jet#comments</comments>
-  </item>
-  <item>
-    <title>Feature Explorer View</title>
-    <link>http://marketplace.eclipse.org/content/feature-explorer-view</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/remainlogo2.png&quot; width=&quot;97&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2010-12-04 16:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Remain%20Software%22&quot;&gt;Remain Software&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/wjongman/listings&quot; title=&quot;Wim Jongman&quot;&gt;Wim Jongman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This view explores Features. It enables you to quickly search your target platform to find the feature where the plugin you need is located.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Sat, 04 Dec 2010 21:36:43 +0000</pubDate>
- <dc:creator>wjongman</dc:creator>
- <guid isPermaLink="false">22937 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/feature-explorer-view#comments</comments>
-  </item>
-  <item>
     <title>Reuseware</title>
     <link>http://marketplace.eclipse.org/content/reuseware</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/reuseware_logo_marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2011-04-28 10:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DevBoost%20GmbH%22&quot;&gt;DevBoost GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jjohannes/listings&quot; title=&quot;Jendrik Johannes&quot;&gt;Jendrik Johannes&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Reuseware is a software composition framework founded on the concepts of Invasive Software Composition (ISC) for developing new software modularization techniques and integrating them into software languages. The tooling of Reuseware is integrated with Eclipse and the Eclipse Modeling Framework and thus supports arbitrary software languages that are defined by Ecore metamodels. &lt;/p&gt;
-&lt;p&gt; Reuseware supports the latest advances in ISC research which include support for universal ISC, graph fragments and model-driven development with multi-dimensional separation of concerns (for related publications visit &lt;a href=&quot;http://reuseware.org/index.php/Reuseware_Publications&quot; rel=&quot;nofollow&quot;&gt;http://reuseware.org/index.php/Reuseware_Publications&lt;/a&gt;). Reuseware is part of the Dresden Open Software Toolbox (DropsBox). It can be combined with other DropsBox tools such as EMFText (emftext.org) to define modularization support for textual DSLs or JaMoPP (jamopp.org) to develop new modularization concepts for Java. Furthermore, it integrates well with other Eclipse-based tools such as graphical and textual editors.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/reuseware_logo_marketplace.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2011-04-28 10:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 14:03&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22DevBoost%20GmbH%22&quot;&gt;DevBoost GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jjohannes/listings&quot; title=&quot;Jendrik Johannes&quot;&gt;Jendrik Johannes&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Reuseware is a software composition framework founded on the concepts of Invasive Software Composition (ISC) for developing new software modularization techniques and integrating them into software languages. The tooling of Reuseware is integrated with Eclipse and the Eclipse Modeling Framework and thus supports arbitrary software languages that are defined by Ecore metamodels. Reuseware supports the latest advances in ISC research which include support for universal ISC, graph fragments and model-driven development with multi-dimensional separation of concerns (for related publications visit &lt;a href=&quot;http://reuseware.org/index.php/Reuseware_Publications&quot; rel=&quot;nofollow&quot;&gt;http://reuseware.org/index.php/Reuseware_Publications&lt;/a&gt;). Reuseware is part of the Dresden Open Software Toolbox (DropsBox). It can be combined with other DropsBox tools such as EMFText (emftext.org) to define modularization support for textual DSLs or JaMoPP (jamopp.org) to develop new modularization concepts for Java. Furthermore, it integrates well with other Eclipse-based tools such as graphical and textual editors.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
      <pubDate>Thu, 28 Apr 2011 14:38:57 +0000</pubDate>
  <dc:creator>jjohannes</dc:creator>
  <guid isPermaLink="false">49150 at http://marketplace.eclipse.org</guid>
  <comments>http://marketplace.eclipse.org/content/reuseware#comments</comments>
   </item>
   <item>
+    <title>ATL</title>
+    <link>http://marketplace.eclipse.org/content/atl</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_ATL.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-10-18 10:12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 14:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/omisingnameuel/listings&quot; title=&quot;Obeo Team&quot;&gt;Obeo Team&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;ATL (ATL Transformation Language) is a model transformation language and toolkit. In the field of Model-Driven Engineering (MDE), ATL provides ways to produce a set of target models from a set of source models. It can used to provide bridge between standards and tools, to refactor models, to refine conceptual models into a more detail view, to verify consistency among rules, ...&lt;br /&gt;
+Developed on top of the Eclipse platform, the ATL Integrated Development Environment (IDE) provides a number of standard development tools (syntax highlighting, debugger, etc.) that aim to ease the development of ATL transformations.&lt;br /&gt;
+The ATL syntax allows users to easily specify transformations in a declarative way, without the need to know Eclipse API.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 18 Oct 2006 14:12:51 +0000</pubDate>
+ <dc:creator>omisingnameuel</dc:creator>
+ <guid isPermaLink="false">275 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/atl#comments</comments>
+  </item>
+  <item>
+    <title>Feature Explorer View</title>
+    <link>http://marketplace.eclipse.org/content/feature-explorer-view</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/remainlogo2.png&quot; width=&quot;97&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2010-12-04 16:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 14:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Remain%20Software%22&quot;&gt;Remain Software&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/wjongman/listings&quot; title=&quot;Wim Jongman&quot;&gt;Wim Jongman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This view explores Features. It enables you to quickly search your target platform to find the feature where the plugin you need is located.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Dec 2010 21:36:43 +0000</pubDate>
+ <dc:creator>wjongman</dc:creator>
+ <guid isPermaLink="false">22937 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/feature-explorer-view#comments</comments>
+  </item>
+  <item>
     <title>MoRE Player - PL/I</title>
     <link>http://marketplace.eclipse.org/content/more-player-pli</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/MoRE_Player_PLI_cmyk_trans_110x80_emp.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2011-10-05 05:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 10:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Interactive%20Objects%20Software%20GmbH%22&quot;&gt;Interactive Objects Software GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/igmbh/listings&quot; title=&quot;Interactive Objects Software GmbH&quot;&gt;Interactive Objects Software GmbH&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interactive Objects Software presents &lt;a href=&quot;http://www.interactive-objects.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=103&amp;amp;Itemid=69&amp;amp;lang=en&quot; rel=&quot;nofollow&quot;&gt;&quot;MoRE Player - PL/I&quot;&lt;/a&gt;, the first product within our new product-line &quot;MoRE Players&quot;. &quot;MoRE Player - PL/I&quot; is an Eclipse-Plugin for the programming language PL/I and addresses application developers, software engineers, and system analysts looking for tool-based support for their work with PL/I.&lt;/p&gt;
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/MoRE_Player_PLI_cmyk_trans_110x80_emp.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2011-10-05 05:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 13:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Interactive%20Objects%20Software%20GmbH%22&quot;&gt;Interactive Objects Software GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/igmbh/listings&quot; title=&quot;Interactive Objects Software GmbH&quot;&gt;Interactive Objects Software GmbH&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Interactive Objects Software presents &lt;a href=&quot;http://www.interactive-objects.com/index.php?option=com_content&amp;amp;view=article&amp;amp;id=103&amp;amp;Itemid=69&amp;amp;lang=en&quot; rel=&quot;nofollow&quot;&gt;&quot;MoRE Player - PL/I&quot;&lt;/a&gt;, the first product within our new product-line &quot;MoRE Players&quot;. &quot;MoRE Player - PL/I&quot; is an Eclipse-Plugin for the programming language PL/I and addresses application developers, software engineers, and system analysts looking for tool-based support for their work with PL/I.&lt;/p&gt;
 &lt;p&gt;The modularity of our &quot;MoRE Solution&quot; enables us to offer this product-line independently, which optimally supports typical tasks during development and analysis of PL/I systems. Read more about our whole &quot;MoRE Solution&quot; at &lt;a href=&quot;http://www.interactive-objects.com&quot; rel=&quot;nofollow&quot;&gt;www.interactive-objects.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 
@@ -325,21 +76,132 @@ Typecast search for declarations, references and occurences of PL/I elements lea
  <comments>http://marketplace.eclipse.org/content/more-player-pli#comments</comments>
   </item>
   <item>
-    <title>Teamscale Eclipse Plugin</title>
-    <link>http://marketplace.eclipse.org/content/teamscale-eclipse-plugin</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_114.png&quot; width=&quot;110&quot; height=&quot;25&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2015-02-12 10:16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-12 07:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22CQSE%20GmbH%22&quot;&gt;CQSE GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tkinnen/listings&quot; title=&quot;Thomas Kinnen&quot;&gt;Thomas Kinnen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Teamscale Eclipse Plugin allows for seamless integration of quality defects found by the Teamscale software quality analysis server. &lt;strong&gt;&lt;em&gt;Note: An existing Teamscale Server is necessary to use this plugin!&lt;/em&gt;&lt;/strong&gt; Teamscale analyzes your source code incrementally with every commit, providing feedback on the quality of your code in near real-time. This plugin has the following features:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Auto-detect which branch is being used (git &amp;amp; svn) and display all data accordingly&lt;/li&gt;
-&lt;li&gt;Display defects in the Findings view&lt;/li&gt;
-&lt;li&gt;Allow comparison of clones using the clone compare editor&lt;/li&gt;
-&lt;li&gt;Display findings next to your code&lt;/li&gt;
-&lt;li&gt;Blacklist findings&lt;/li&gt;
-&lt;li&gt;Use baselines to only display defects that are new&lt;/li&gt;
-&lt;li&gt;Show test coverage from Teamscale server&lt;/li&gt;
+    <title>Excelsior JET</title>
+    <link>http://marketplace.eclipse.org/content/excelsior-jet</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/zzzzz_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2009-06-29 10:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 13:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Excelsior%20LLC%22&quot;&gt;Excelsior LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ellc6e8/listings&quot; title=&quot;Excelsior LLC&quot;&gt;Excelsior LLC&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Excelsior JET, a certified Java SE 7 JVM with an Ahead-Of-Time (AOT) compiler and installation toolkit, provides specific support for Eclipse RCP with a focus on code and data protection.&lt;/p&gt;
+&lt;p&gt;It enables developers to export Eclipse RCP applications in native code form and avoid the distribution of the easy-to-hack jar files altogether:&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Protect Intellectual Property by preventing bytecode decompilation and hiding sensitive data&lt;/li&gt;
+&lt;li&gt;Meet security requirements for safety-critical industries such as Transport, Energy, Healthcare, Defense, and others&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+- create time limited demos&lt;br /&gt;
+			- author application installers&lt;br /&gt;
+			- deploy without dependency on the JRE
+
+
+
+&lt;h3&gt;Ease of Use&lt;/h3&gt;
+&lt;p&gt;With this &lt;strong&gt;&lt;a href=&quot;http://www.excelsior-usa.com/rcp-plugin.html&quot; rel=&quot;nofollow&quot;&gt;Eclipse plug-in&lt;/a&gt;&lt;/strong&gt;, you may protect your Eclipse RCP product and create an install package in a few mouse clicks.&lt;/p&gt;
+&lt;p align=&quot;CENTER&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsior-usa.com/pdf/ProtectRCP-whitepaper.pdf&quot; rel=&quot;nofollow&quot;&gt;Whitepaper&lt;/a&gt;&lt;/strong&gt;: Two Ways of Securing Eclipse RCP Applications (obfuscation vs. native pre-compilation.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/solutions/protect-eclipse-rcp-applications#casestudies&quot; rel=&quot;nofollow&quot;&gt;Case studies&lt;/a&gt;&lt;/strong&gt;: RCP developers share their experience with Excelsior JET.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/tutorials/eclipse-rcp&quot; rel=&quot;nofollow&quot;&gt;Video tutorial&lt;/a&gt;&lt;/strong&gt;: standalone tools providing the advanced features of Excelsior JET, such as Startup Optimizer, Java Runtime Slim-Down, installer branding, and others.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.excelsiorjet.com/solutions/protect-eclipse-rcp-applications&quot; rel=&quot;nofollow&quot;&gt;Excelsior JET for Eclipse RCP page&lt;/a&gt;&lt;/strong&gt;: product information, sample applications, etc.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 29 Jun 2009 14:47:32 +0000</pubDate>
+ <dc:creator>ellc6e8</dc:creator>
+ <guid isPermaLink="false">964 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/excelsior-jet#comments</comments>
+  </item>
+  <item>
+    <title>JBizMo</title>
+    <link>http://marketplace.eclipse.org/content/jbizmo</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/LogoSmall.png&quot; width=&quot;97&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2013-07-29 02:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 12:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Martin%20Ganserer%22&quot;&gt;Martin Ganserer&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingname84v/listings&quot; title=&quot;Martin Ganserer&quot;&gt;Martin Ganserer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;JBizMo supports building of JavaFX, Eclipse RCP, Eclipse RAP, Swing, JSF (Primefaces) and Vaadin applications. The generated applications can run in a stand-alone mode or they can be deployed on a Java EE server (JBoss 8, GlassFish 4). Alternatively, the Spring platform is also supported! JBizMo applications use JPA in order to access the target database. The plug-in contains a graphical editor for designing the domain model. Test the generated application by model GUI tests based on Selenium. &lt;strong&gt;Please note that Java 8 is required!&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 29 Jul 2013 06:09:04 +0000</pubDate>
+ <dc:creator>mmisingname84v</dc:creator>
+ <guid isPermaLink="false">1052413 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jbizmo#comments</comments>
+  </item>
+  <item>
+    <title>Devit-JDT</title>
+    <link>http://marketplace.eclipse.org/content/devit-jdt</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2016-05-12 10:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 11:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Devit%22&quot;&gt;Devit&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lxbzmy/listings&quot; title=&quot;Lei XiaoBao&quot;&gt;Lei XiaoBao&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;目前包含两个功能：&lt;/p&gt;
+&lt;p&gt;1. 增强的spell check engine，可以检查类名、方法名、变量名中存在的单词拼写错误。&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;可以拆分驼峰命名的字符串；&lt;/li&gt;
+&lt;li&gt;可以检查package声明的最后一段&lt;/li&gt;
+&lt;li&gt;可以检查类名，&lt;/li&gt;
+&lt;li&gt;可以检查方法名，回跳过@override的方法&lt;/li&gt;
+&lt;li&gt;检查变量声明的部分&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;2. 4个java 代码 模板通过代码提示快捷键来展开（alt+/,ctrl+space）&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;newlist template &lt;/li&gt;
+&lt;li&gt;newlist : List V = new ArrayList(10); &lt;/li&gt;
+&lt;li&gt;newmap: Map map = new HashMap(10); &lt;/li&gt;
+&lt;li&gt;newset: Set set = new HashSet(10);&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;安装提示：插件安装完毕后需要在spell设置页面切换成：“Default spelling enging path”&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enchanted spell check support camelcased java variable method name &lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;split camel case&lt;/li&gt;
+&lt;li&gt;ONLY check declaration position of package ,class ,method ,variable&lt;/li&gt;
+&lt;li&gt;ignore @Override&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 12 May 2016 14:31:10 +0000</pubDate>
+ <dc:creator>lxbzmy</dc:creator>
+ <guid isPermaLink="false">2882418 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/devit-jdt#comments</comments>
+  </item>
+  <item>
+    <title>Telosys Code Generator</title>
+    <link>http://marketplace.eclipse.org/content/telosys-code-generator</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/icon_256.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2011-12-01 08:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 06:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Telosys%22&quot;&gt;Telosys&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lmisingnamei8x/listings&quot; title=&quot;Laurent Guérin&quot;&gt;Laurent Guérin&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The &quot;Telosys&quot; plugin is designed to generated any kind of code (Java, PHP, JavaScript, Python, Scala, etc) for any kind of framework (Spring, AngularJS, JPA, CodeIgniter, etc...)&lt;/p&gt;
+&lt;p&gt;
+It works with 2 kinds of models: database model (created from a database schema) and DSL model (specific model designed from scratch and based on text files).&lt;/p&gt;
+&lt;p&gt;
+It uses customizable templates to generate the code (templates syntax is based on Velocity)&lt;/p&gt;
+&lt;p&gt;
+Telosys provides scaffolding capabilities, it&#039;s possible to generate CRUD screens or REST backend in a few minutes.&lt;/p&gt;
+&lt;p&gt;
+And everything is Open Source (code and templates).&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.telosys.org&quot; rel=&quot;nofollow&quot;&gt;http://www.telosys.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/telosys&quot; rel=&quot;nofollow&quot;&gt;https://twitter.com/telosys&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 01 Dec 2011 13:50:41 +0000</pubDate>
+ <dc:creator>lmisingnamei8x</dc:creator>
+ <guid isPermaLink="false">162307 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/telosys-code-generator#comments</comments>
+  </item>
+  <item>
+    <title>pxDoc</title>
+    <link>http://marketplace.eclipse.org/content/pxdoc</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pxDoc-logo-3.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2018-04-05 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 05:36&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pragmatic%20Modeling%22&quot;&gt;Pragmatic Modeling&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/rbernarddv2/listings&quot; title=&quot;Romain Bernard&quot;&gt;Romain Bernard&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Generate Word documents from Java.&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;A highly extensible framework, fully integrated in Eclipse.&lt;/li&gt;
+&lt;li&gt;A very simple language to generate high quality Word documents&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;With only 30 keywords, generating Word documents has never been so easy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EFFICIENT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Easy to learn and implement&lt;/li&gt;
+&lt;li&gt;Easy to maintain&lt;/li&gt;
+&lt;li&gt;Opened to any data that can be accessed through Java (db, files, services, etc.)&lt;/li&gt;
+&lt;li&gt;Document generators can be implemented independently of any particular stylesheet (dotx), and the actual stylesheet can eventually be choosen by the end user at runtime !&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;PRAGMATIC&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Re-use your corporate Word templates, stylesheets and macros&lt;/li&gt;
+&lt;li&gt;Design complex table with automatic vertical merge capability&lt;/li&gt;
+&lt;li&gt;Specify &quot;manual parts&quot; that will not be erased when re-generating the document&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;POWERFUL&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;A powerful engine integrated with the Java world:&lt;/li&gt;
+&lt;li&gt;Fully integrated in Eclipse (auto-completion, correction, debugging...)&lt;/li&gt;
+&lt;li&gt;its engine can create thousands of pages and documents in seconds&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;br /&gt;&lt;strong&gt;HIGHLY EXTENSIBLE&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Enablers available for Eclipse, EMF, Xtext, Capella (others to come soon)&lt;/li&gt;
+&lt;li&gt;Implement your own enablers, diagram providers, language renderers for your specific environment&lt;/li&gt;
 &lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
-     <pubDate>Thu, 12 Feb 2015 15:16:07 +0000</pubDate>
- <dc:creator>tkinnen</dc:creator>
- <guid isPermaLink="false">2188950 at http://marketplace.eclipse.org</guid>
- <comments>http://marketplace.eclipse.org/content/teamscale-eclipse-plugin#comments</comments>
+     <pubDate>Thu, 05 Apr 2018 12:18:36 +0000</pubDate>
+ <dc:creator>rbernarddv2</dc:creator>
+ <guid isPermaLink="false">4014155 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/pxdoc#comments</comments>
+  </item>
+  <item>
+    <title>Varlink Editor</title>
+    <link>http://marketplace.eclipse.org/content/varlink-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/varlink_market.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-01-09 08:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2018-04-13 03:23&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jreimann/listings&quot; title=&quot;Jens Reimann&quot;&gt;Jens Reimann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Varlink editor provides an Xtext based grammar and editor for editing &lt;a href=&quot;http://varlink.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Varlink files&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Also see: &lt;a href=&quot;http://varlink.org&quot; rel=&quot;nofollow&quot;&gt;http://varlink.org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 09 Jan 2018 13:21:47 +0000</pubDate>
+ <dc:creator>jreimann</dc:creator>
+ <guid isPermaLink="false">3863413 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/varlink-editor#comments</comments>
   </item>
   </channel>
 </rss>

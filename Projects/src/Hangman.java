@@ -5,10 +5,11 @@ public class Hangman {
 
 	public static void main(String[] args)// throws FileNotFoundException 
 	{
+		
 		ArrayList<String> word = new ArrayList<String>();
 		System.out.println(readDic(word));
-		guessWord(readDic(word));
-		
+		String blank = new String(new char[readDic(word).length()]).replace("\0", "-");
+		guessWord(readDic(word),blank);
 
 	}
 	public static String readDic(ArrayList list) 
@@ -38,41 +39,42 @@ public class Hangman {
 		z=rand.nextInt(list.size());
 		return (String) list.get(z);
 	}//end method
-	public static void guessWord(String word)
-	{//start method
+	public static void guessWord(String word,String blank)
+	{//method
 		Scanner input = new Scanner(System.in);
-		String guess;
-		int numbGuess=7;
-		System.out.println("The word you need to guess is "+word.length()+" letters long.");
-		System.out.println("You have "+numbGuess+" guesses to figure out the word.");
-		/*
-		System.out.print("This is your word: ");
-		for(int i=0;i<word.length();i++)
-		{
-			System.out.println("");
-			
-		}
-		*/
-		//guesses
-		System.out.print("What is your guess: ");
-		guess=input.nextLine();
-		for(int i=0;i<6;i++)
-		{
-			if(word.contains(guess))
+		int count=1;
+		String guess,newWord;
+		System.out.println("This is your word: "+blank);
+		System.out.println("You have 7 seven tires to guess the word.");
+		while(count<=7)
+		{//loop
+			System.out.print("Your guess is: ");
+			guess=input.nextLine();
+			newWord=newWord(guess,word,blank);
+			if(word.equals(newWord))
 			{
-				System.out.println("That is a CORRECT guess.");
-				System.out.println("");
+				count++;
 			}
 			else
 			{
-				System.out.println("That is a WRONG guess.");
-				System.out.println("");
+				blank=newWord;
 			}
-			numbGuess--;
-			System.out.println("You have "+numbGuess+" guesses left.");
-			System.out.print("What is your next guess: ");
-			guess=input.nextLine();
+			if(blank.equals(word))
+			{
+				System.out.println("Correct! You win! The word was " + word);
+			}
+		}//loop
+	}//method
+	public static String newWord(String guess,String word,String blank)
+	{
+		String x = null;
+		for(int i =0;i<word.length();i++)
+		{
+			if(word.charAt(i)==guess.charAt(0))
+			{
+				
+			}
 		}
-		
-	}//end method
+		return x;
+	}
 }

@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class M12Test
+{
+
+	public static void main(String[] args)
+	{
+		LinkedList<Integer> q = new LinkedList<Integer>();
+		q.offer(4);
+
+		q.offer(2);
+
+		q.offer(7);
+
+		System.out.println(q.poll(  ) );  // d1
+
+		q.offer(1);
+
+		q.offer(3);
+
+		System.out.println(q.poll(  ));   // d2
+
+		System.out.println(q.poll(  ));   // d3
+
+		q.offer(5);
+
+		q.offer(8);
+		System.out.println("///////////");
+		for(int i=0;i<q.size();i++)
+		{
+			System.out.println(q.get(i));
+		}
+	}
+
+}

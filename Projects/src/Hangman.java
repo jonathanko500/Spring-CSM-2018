@@ -9,7 +9,6 @@ public class Hangman {
 	{
 		ArrayList<String> dic = new ArrayList<String>();
 		word = getWord(dic);
-		blank=blankWord(getWord(dic));
 		hang();
 	}
 	public static String getWord(ArrayList list) 
@@ -23,7 +22,7 @@ public class Hangman {
 		catch (FileNotFoundException e)
 		{
 			e.printStackTrace();
-			System.out.println("There is not file.");
+			System.out.println("There is no file.");
 		}
 		finally
 		{
@@ -53,17 +52,21 @@ public class Hangman {
 	{//start
 		Scanner input = new Scanner(System.in);
 		String letter;
-		System.out.println(word);
-		System.out.println("You need to guess this word: "+blank);
+		blank=blankWord(word);
+		System.out.println("You need to guess this word: "+blankWord(word));
 		System.out.println("You have 7 tries to guess the word.");
 		while(count<7)
 		{
-			
+			System.out.println("");
 			System.out.println(blank);
 			System.out.print("What is your guess: ");
 			letter=input.nextLine();
 			attempt(letter);
-			
+		}
+		if(blank.contains("*"))
+		{
+			System.out.println("");
+			System.out.println("The word is "+word);
 		}
 	}//end
 	public static void attempt(String guess)
@@ -99,5 +102,6 @@ public class Hangman {
 			System.out.println("You guess correctly. The word is indeed "+word+"!");
 			count=8;
 		}
+		
 	}//end
 }

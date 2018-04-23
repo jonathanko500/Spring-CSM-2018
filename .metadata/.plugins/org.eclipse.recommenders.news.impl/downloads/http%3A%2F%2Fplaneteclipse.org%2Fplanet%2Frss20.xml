@@ -8,6 +8,154 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>EclipseCon France 2018: Interview: Making EMF Intelligent with AI</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3881 at https://www.eclipsecon.org/france2018</guid>
+	<link>https://www.eclipsecon.org/france2018/news/interview-making-emf-intelligent-ai</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;Niranjan Babu's talk &lt;a href=&quot;https://www.eclipsecon.org/france2018/session/making-emf-intelligent-ai&quot;&gt;Making EMF Intelligent with AI&lt;/a&gt; was chosen as an early bird selection. Read this brief Q&amp;amp;A with Niranjan to find out more about the I-EMF project.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: How did you begin with the idea of combining AI with EMF?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A: &lt;/strong&gt;EMF is used extensively as a modeling framework in the automotive world and the entire world is moving towards model driven development. These modeling frameworks are thus critical in determining the efficiency of software development. I thought the best way to improve efficiency is to make these models intelligent. That is when machine learning came into picture and I decided to combine machine learning with EMF.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/interview-making-emf-intelligent-ai&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/niranjan.jpg?itok=Fw7l_4Ve&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 08:55:31 +0000</pubDate>
+</item>
+<item>
+	<title>InfoQ Eclipse feed: Eclipse Photon Nears Release</title>
+	<guid isPermaLink="true">http://www.infoq.com/news/2018/04/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</guid>
+	<link>http://www.infoq.com/news/2018/04/eclipse-photon?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
+	<description>&lt;img src=&quot;http://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Eclipse Photon, the seventeenth annual release of the Eclipse Project, will be released in June, but we’re keeping an eye on all the new and noteworthy features in each pre-release milestone. Milestone 6 (M6) offers noteworthy features for the Eclipse Platform, Java Development Tools (JDT), Plug-in Development Environment (PDE), Equinox sub-project, and for JDT and Eclipse Platform developers.&lt;/p&gt; &lt;i&gt;By Kesha Williams&lt;/i&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 05:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: EC by Example: FlatCollect</title>
+	<guid isPermaLink="false">https://medium.com/p/3efe24e43da2</guid>
+	<link>https://medium.com/@donraab/ec-by-example-flatcollect-3efe24e43da2?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Learn how to flatten a collection of collections into a single collection using the &lt;em&gt;flatCollect&lt;/em&gt; method in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*D0U-Qv3YU3K3eg7uIQN-3g.png&quot; /&gt;Organize a collection of collections into a single collection&lt;/figure&gt;&lt;h3&gt;What is FlatCollect?&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;flatCollect&lt;/em&gt; is a special form of &lt;em&gt;collect&lt;/em&gt;, where the output of the &lt;em&gt;Function&lt;/em&gt; provided to the method must always be some &lt;em&gt;Iterable&lt;/em&gt; type. The purpose of flatCollect is to provide a transformation by flattening a collection of collections. This method is similar in function to &lt;em&gt;flatMap&lt;/em&gt; in Java Streams. The primary difference is that the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatCollect&lt;/em&gt; must return an &lt;em&gt;Iterable&lt;/em&gt;, while the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatMap&lt;/em&gt; must return a &lt;em&gt;Stream&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/640/1*borarfXLzhw3z0qJdYYhaw.png&quot; /&gt;Creating Intervals from Integers and flattening them to a List&lt;/figure&gt;&lt;h3&gt;FlatCollecting a List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(5, 4, 3, 2, 1);&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; result = list.&lt;strong&gt;flatCollect&lt;/strong&gt;(Interval::&lt;em&gt;oneTo&lt;/em&gt;);&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; expected = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            1, 2, 3, 4, 5,&lt;br /&gt;            1, 2, 3, 4,&lt;br /&gt;            1, 2, 3,&lt;br /&gt;            1, 2,&lt;br /&gt;            1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collection Pipelines&lt;/h3&gt;&lt;p&gt;Martin Fowler describes the Collection Pipeline pattern &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/&quot;&gt;here&lt;/a&gt;. Here is an example of &lt;em&gt;flatCollect&lt;/em&gt; used in a collection pipeline to find all of the methods that contain “flat” in their name for a List of classes. Here I used a overloaded form of &lt;em&gt;flatCollect&lt;/em&gt; which takes a target collection as an argument.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; result = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; expected =&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;The method &lt;em&gt;getMethods&lt;/em&gt; on class returns an array, so in the Function I pass to flatCollect, I convert the array to a &lt;em&gt;List&lt;/em&gt;. If &lt;em&gt;getMethods&lt;/em&gt; had returned a List or some other Iterable type, I could have simply used &lt;em&gt;flatCollect&lt;/em&gt; passing Class::&lt;em&gt;getMethods&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Here’s the same example using Java 10 with Local-variable Type Inference.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava10()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    var resultSet = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    var expected =&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, resultSet);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;&lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; Strikes Again&lt;/h3&gt;&lt;p&gt;While there exists a method named &lt;em&gt;collectWith&lt;/em&gt; which is a form of &lt;em&gt;collect&lt;/em&gt; that takes a &lt;em&gt;Function2&lt;/em&gt;, there currently is no method named &lt;em&gt;flatCollectWith&lt;/em&gt; which also takes a &lt;em&gt;Function2&lt;/em&gt;. I discovered the lack of flatCollectWith (again) this week. I have submitted an &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues/504&quot;&gt;issue&lt;/a&gt; for this feature and began working on it over the weekend. I expect to have the &lt;em&gt;flatCollectWith&lt;/em&gt; implementation tested and completed over the next week or two.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#flatCollect-org.eclipse.collections.api.block.function.Function-&quot;&gt;flatCollect&lt;/a&gt;— transforms elements of a source collection to a new collection by flattening collections in the source collection to a single collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mSet--&quot;&gt;mSet&lt;/a&gt; — creates a MutableSet&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/list/Interval.html#oneTo-int-&quot;&gt;Interval.oneTo(int)&lt;/a&gt; — creates an Interval starting from 1 to the specified value&lt;/li&gt;&lt;li&gt;var — Local variable Type Inference included in Java 10 (&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;JEP 286&lt;/a&gt;)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Refer to my previous blogs in the EC by Example series for examples of &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-collect-262a46030c49&quot;&gt;collect&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-filtering-4f14b906f718&quot;&gt;select&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=3efe24e43da2&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 05:08:51 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: Eclipse Vert.x RabbitMQ client gets a new consumer API!</title>
+	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-rabbitmq-client-gets-a-new-consumer-api</guid>
+	<link>https://vertx.io/blog/eclipse-vert-x-rabbitmq-client-gets-a-new-consumer-api</link>
+	<description>&lt;article&gt;&lt;p&gt;In Eclipse Vert.x 3.6.0 the RabbitMQ client will get a new consumer API. In this post we are going to show
+the improvements since the previous API and how easy it is to use now.&lt;/p&gt;
+&lt;p&gt;Before digging into the new API let’s find out what were the limitations of the actual one:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The API uses the event bus in such limiting the control of the consumer over the RabbitMQ queue.&lt;/li&gt;
+&lt;li&gt;The message API is based on &lt;code&gt;JsonObject&lt;/code&gt; which does not provide a typed API&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;the-new-api-at-a-glance&quot;&gt;The new API at a glance&lt;/h2&gt;
+&lt;p&gt;Here is how simple queue consumption looks like with the new API:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;RabbitMQClient client = RabbitMQClient.create(vertx, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; RabbitMQOptions());
+
+client.basicConsumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my.queue&quot;&lt;/span&gt;, res -&amp;gt; {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (res.succeeded()) {
+    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;RabbitMQ consumer created !&quot;&lt;/span&gt;);
+    RabbitMQConsumer mqConsumer = res.result();
+    mqConsumer.handler((RabbitMQMessage message) -&amp;gt; {
+        System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got message: &quot;&lt;/span&gt; + message.body().toString());
+    });
+  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+    &lt;span class=&quot;hljs-comment&quot;&gt;// Oups something went wrong&lt;/span&gt;
+    res.cause().printStackTrace();
+  }
+});&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Now to create a queue you simply call the &lt;code&gt;basicConsumer&lt;/code&gt; method and you obtain asynchronously
+a &lt;code&gt;RabbitMQConsumer&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then you need to provide a handler called for each message consumed via &lt;em&gt;RabbitMQConsumer#handler&lt;/em&gt; which
+is the idiomatic way to consumer stream in Vert.x&lt;/p&gt;
+&lt;p&gt;You may also note that when we a message arrives, it has the type of &lt;code&gt;RabbitMQMessage&lt;/code&gt;, this is a typed
+message representation.&lt;/p&gt;
+&lt;p&gt;Since &lt;code&gt;RabbitMQConsumer&lt;/code&gt; is a stream, you also allowed to &lt;code&gt;pause&lt;/code&gt; and &lt;code&gt;resume&lt;/code&gt; the stream, subscribe to the
+end event, get notified when an exception occurs.&lt;/p&gt;
+&lt;p&gt;In addition, you can cancel the subscription by calling &lt;code&gt;RabbitMQConsumer#cancel&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&quot;backpressure&quot;&gt;Backpressure&lt;/h2&gt;
+&lt;p&gt;Sometimes you can have more incoming messages than you can handle.&lt;/p&gt;
+&lt;p&gt;The new consumer API allows you to control this and lets you store arrived messages in the internal queue
+before they are delivered to the application. Indeed, you can configure the queue size.&lt;/p&gt;
+&lt;p&gt;Here is how you can limit the internal queue size:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Limit to max 300 messages&lt;/span&gt;
+QueueOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; QueueOptions()
+  .setMaxInternalQueueSize(&lt;span class=&quot;hljs-number&quot;&gt;300&lt;/span&gt;);
+
+RabbitMQClient client = RabbitMQClient.create(vertx, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; RabbitMQOptions());
+
+client.basicConsumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my.queue&quot;&lt;/span&gt;, options, res -&amp;gt; {
+  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (res.succeeded()) {
+    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;RabbitMQ consumer created !&quot;&lt;/span&gt;);
+    RabbitMQConsumer mqConsumer = res.result();
+    mqConsumer.handler((RabbitMQMessage message) -&amp;gt; {
+      System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got message: &quot;&lt;/span&gt; + message.body().toString());
+    });
+  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+    res.cause().printStackTrace();
+  }
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When the intenral queue queue capacity is exceeded, the new message will be simply dropped.&lt;/p&gt;
+&lt;p&gt;An alternative option is to drop the oldest message in the queue.&lt;/p&gt;
+&lt;p&gt;In order to achieve this, you should specify the behavior by calling &lt;code&gt;QueueOptions#setKeepMostRecent&lt;/code&gt; method.&lt;/p&gt;
+&lt;h2 id=&quot;finally&quot;&gt;Finally&lt;/h2&gt;
+&lt;p&gt;The new Vert.x RabbitMQ client consumer API is way more idiomatic and modern way to consume messages from a queue.&lt;/p&gt;
+&lt;p&gt;This API is going to provided in the 3.6.0 release, while the old will be deprecated.&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed reading this article. See you soon on our &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;Gitter channel&lt;/a&gt;!&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Nikhil Nanivadekar: India Java User Group Tour 2018</title>
+	<guid isPermaLink="false">https://medium.com/p/ecdd10e2543d</guid>
+	<link>https://medium.com/@nikhilnanivadekar/india-java-user-group-tour-2018-ecdd10e2543d?source=rss-4285d8a2ca86------2</link>
+	<description>&lt;p&gt;After 27+ hours of travel I just reached Pune, my home town. I am excited for my India Java User Group Tour 2018. I will be presenting on Java 10, Java 9, Eclipse Collections, Spark and more!&lt;/p&gt;&lt;p&gt;It is a quick pit stop in Pune before I head over to Chennai for my first JUG meet-up in #INDJUG tour. Abstracts for all my talks are available at the end of this blog. Join me at one of these cities:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/MadrasJUG/events/248758532/&quot;&gt;&lt;strong&gt;Chennai JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Saturday, April 21&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Delhi-NCR-JUG/events/249660682/&quot;&gt;&lt;strong&gt;Delhi-NCR JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Sunday, April 22&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/BangaloreOpenJUG/events/248526846/&quot;&gt;&lt;strong&gt;Bengaluru JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Wednesday, April 25&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/jughyderabad/events/247346390&quot;&gt;&lt;strong&gt;Hyderabad JUG&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;:&lt;/strong&gt; Sunday, April 29&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kerala JUG (Thiruvananthapuram):&lt;/strong&gt; Saturday, May 5&lt;/p&gt;&lt;p&gt;Thank you to &lt;a href=&quot;https://twitter.com/MadrasJUG&quot;&gt;@MadrasJUG&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/DelhiJUG&quot;&gt;@DelhiJUG&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bangalorejug&quot;&gt;@bangalorejug&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/JUGHYD&quot;&gt;@JUGHYD&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KeralaJUG&quot;&gt;@KeralaJUG&lt;/a&gt; for hosting me in each city.&lt;/p&gt;&lt;p&gt;I’ll be tweeting using the #INDJUG so if you can’t make it, you can still follow my adventures through India.&lt;/p&gt;&lt;p&gt;Hope to see you at one of the stops!&lt;/p&gt;&lt;a href=&quot;https://medium.com/media/1965d4579fd3e295b79002ad7b50a1f5/href&quot;&gt;https://medium.com/media/1965d4579fd3e295b79002ad7b50a1f5/href&lt;/a&gt;&lt;p&gt;&lt;strong&gt;Abstracts&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;How to make your project Java-10 compatible:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Java 10 was recently released and was the first release with the new Java release cadence. However, one can’t simply upgrade their projects from Java 8 to Java 10. It first should be upgraded to Java 9, due to the numerous changes that might potentially break existing applications. This session is a case study of making a third-party Java Collections library (Eclipse Collections) first Java 9 compatible and then with relative ease Java 10 compatible. The audience will see an overview of all the steps taken and the evolution of the final product which is Java 10 compatible. Attending this session will put you in the driver’s seat when you will be required to upgrade your application to use JDK 10.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Getting Started with Spark:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Data analytics and machine learning have become mainstream in recent years. With the amount of data available, distributed computing has become a necessity. Apache Spark is one of the forerunners in distributed computing domain. In this hands-on session, the audience will learn about the background and basic concepts of Apache Spark. The speaker will build a reference implementation live and introduce new concepts along the way.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Collections.compare(JDK, Apache, Eclipse, Guava…):&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Collections are a staple in any programming language: the need to collect, sort, or iterate over values is needed by nearly all developers. The Java language introduced the Collections framework long ago. It has plenty to offer, but many find it lacking: the number of collection libraries as active open source projects demonstrates the need for something else. This session does a holistic comparison of the most-common collections (pun intended!) frameworks, what they have to offer, and what you should consider for your next project. It also shows common programmer use cases; how each library handles them; and the impact on memory, processing power, and ease of use/coding. Come and let us help you choose the right bag for your tricks!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;API Deep Dive: Designing Eclipse Collections&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;When designing an API, its authors have to consider many aspects: style, naming, scope, and implementation details are among these aspects. They have a direct impact on the resulting code, and its implementation can go in many different directions. How do you choose the best route to go? How do you maintain symmetry? How do you guarantee consistency and performance across the framework? Last but not the least, what is the complexity associated with adding a new API? Come take a look behind the curtains of a widely used API that has many years of development and that you can contribute to.&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=ecdd10e2543d&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 20 Apr 2018 00:13:55 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF Photon supports Bndtools</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-593600413053983449</guid>
+	<link>http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-bndtools.html</link>
+	<description>A &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-osgi-r7.html&quot;&gt;second&lt;/a&gt; major enhancement for &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project&quot;&gt;ECF&lt;/a&gt; Photon is adding support for using &lt;a href=&quot;http://bndtools.org/&quot;&gt;Bndtools&lt;/a&gt; to develop and test OSGi Remote Services.   Bndtools is increasingly popular for developing OSGi-based applications and frameworks, and we've added support for Bndtools Workspace, Project, and Run Descriptor templates for developing and testing remote services.&lt;br /&gt;&lt;br /&gt;Initial documentation is available at &lt;a href=&quot;https://wiki.eclipse.org/Bndtools_Support_for_Remote_Services_Development&quot;&gt;Bndtools Support for Remote Services Development&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Note that these templates and the RSA impl may change slightly before ECF Photon, and new/additional templates will be added to (e.g.) support other &lt;a href=&quot;https://wiki.eclipse.org/Distribution_Providers&quot;&gt;distribution&lt;/a&gt; and &lt;a href=&quot;https://wiki.eclipse.org/Discovery_Providers&quot;&gt;discovery&lt;/a&gt; providers.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Thu, 19 Apr 2018 21:39:12 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Obeo Team: What’s Coming in Sirius 6.0?</title>
+	<guid isPermaLink="true">https://blog.obeo.fr/what-is-coming-in-sirius-6-0</guid>
+	<link>https://blog.obeo.fr/what-is-coming-in-sirius-6-0</link>
+	<description>The next major version of Sirius , version 6.0, will be released on June 27, 2018 as part of the Eclipse Photon Simultaneous Release, with a corresponding version of Obeo Designer Community Edition soon after. Many of the new features for this release are already available for testing in milestone versions, and now is the right time to test them and give us feedback: there’s still time to make adj...</description>
+	<pubDate>Thu, 19 Apr 2018 12:59:22 +0000</pubDate>
+	<author>pierre-charles.david@obeo.fr (Pierre-Charles David)</author>
+</item>
+<item>
+	<title>EclipseCon France 2018: Who, what, when, where at EclipseCon France?</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3878 at https://www.eclipsecon.org/france2018</guid>
+	<link>https://www.eclipsecon.org/france2018/news/who-what-when-where-eclipsecon-france</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The schedule is now published, so you can work on your plan for the week! Thank you again for all the great submissions that make up &lt;a href=&quot;https://www.eclipsecon.org/france2018/conference/schedule/session/2018-06-13&quot; target=&quot;_blank&quot;&gt;this fantastic program&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are even more choices this year, since Wednesday has five concurrent talks all day with a special focus on Jakarta EE and Eclipse MicroProfile.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more about &lt;a href=&quot;https://www.eclipsecon.org/france2018/unconference&quot; target=&quot;_blank&quot;&gt;the Unconference on June 12&lt;/a&gt;. We'll see you soon in Toulouse!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/who-what-when-where-eclipsecon-france&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/2session.jpg?itok=d0N8H2E2&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 19 Apr 2018 06:19:44 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: EclipseCon France 2018 – Sessions</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1088</guid>
+	<link>https://papyrusuml.wordpress.com/2018/04/18/eclipsecon-france-2018-sessions/</link>
+	<description>&lt;p&gt;The sessions lineup for EclipseCon France 2018 have been published! If you plan on attending, I have a couple of suggestions for you!&lt;/p&gt;
+&lt;p&gt;First, a session about me (of course) and more love for my toolsmiths:&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/session/papyrus-platform&quot;&gt;Papyrus as a Platform&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;by Philip Langer (EclipseSource Services GmbH).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Model-based engineering tools are most successful, if they are as domain-specific as possible, reflecting the specific needs of the domain and its users. Thus, not only a domain-specific modeling language, but also a specialized modeling environment is required that takes the domain users’ background, their roles, and currently used infrastructure into account. Often, the domain-specific modeling languages have a considerable overlap with UML though.&lt;/p&gt;
+&lt;p&gt;The second session is not directly focused on me, but it is very relevant to using me as a platform for domain-specific tools (and again, more love for my toolsmiths):&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/session/comparison-and-merge-use-cases-practice-emf-compare&quot;&gt;Comparison and merge use-cases from practice with EMF Compare&lt;/a&gt;&lt;/h2&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;by Laurent Delaigue (Obeo) and Philip Langer (EclipseSource Services GmbH)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever needed to compare and merge heterogeneous domain-specific models (with both textual and graphical syntaxes)? Or maybe you needed to review changes on graphical models? We did.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Did I miss a presentation? If so, &lt;a href=&quot;https://papyrusuml.wordpress.com/contact-us/&quot;&gt;let me know&lt;/a&gt;!&lt;/p&gt;</description>
+	<pubDate>Wed, 18 Apr 2018 15:05:58 +0000</pubDate>
+</item>
+<item>
 	<title>Eclipse Announcements: IoT Developer Survey 2018 | Results are in!</title>
 	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/1COMKF1x4u8/key-trends-iot-developer-survey-2018</guid>
 	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/1COMKF1x4u8/key-trends-iot-developer-survey-2018</link>
@@ -75,7 +223,7 @@
 &lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-data.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: Types of IoT Data&quot; class=&quot;aligncenter wp-image-3164 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-data-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Keeping that in mind, it is interesting to look at the landscape of databases and data stores used for IoT applications. While time series data is the most common form of data that IoT applications collect, &lt;b&gt;traditional relational databases&lt;/b&gt; (namely, MySQL, with a clear leading position at 44.6%) &lt;b&gt;are still widely used&lt;/b&gt;. It is likely reflecting the importance of storing all kinds of device metadata or legacy enterprise data in addition to sensor data.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-databases.png&quot;&gt;&lt;img alt=&quot;IoT Developer Survey 2018: IoT Databases&quot; class=&quot;aligncenter wp-image-3163 size-large&quot; height=&quot;267&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/IoT-developer-survey-2018-databases-1024x576.png&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With regards to time series databases, &lt;b&gt;MongoDB&lt;/b&gt; (29.8%) &lt;b&gt;and InfluxDB&lt;/b&gt; (15.7%) &lt;b&gt;seem to be the two platforms of choice for storing IoT time series data&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;With regards to NoSQL and time series databases, &lt;b&gt;MongoDB&lt;/b&gt; (29.8%) &lt;b&gt;and InfluxDB&lt;/b&gt; (15.7%) &lt;b&gt;seem to be the two platforms of choice for storing non-relational IoT data (e.g time series)&lt;/b&gt;.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;&lt;img alt=&quot;📎&quot; class=&quot;wp-smiley&quot; src=&quot;https://s.w.org/images/core/emoji/2.4/72x72/1f4ce.png&quot; style=&quot;height: 1em;&quot; /&gt; &lt;strong&gt;93% of databases used in IoT are open source.  &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fwp.me%2Fp6qsqk-OO&amp;amp;via=kartben&amp;amp;text=93%25%20of%20databases%20used%20in%20%23IoT%20are%20%23opensource%20according%20to%20%23IoT%20Developer%20Survey.&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;alignnone size-full wp-image-3195&quot; height=&quot;20&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2018/04/birdy_button.png&quot; width=&quot;20&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;It is worth highlighting that&lt;b&gt; an astounding majority (93%) of the databases used for IoT are open source&lt;/b&gt;, with Amazon DynamoDB (6.9%) being the only notable exception. With something as critical and sensitive as IoT data, it seems that solution developers tend to favor technology that is not only easy and free to access, but more importantly that allows them to really “own” their data.&lt;/p&gt;
 &lt;h1&gt;Linux remains the undisputed IoT operating system&lt;/h1&gt;
@@ -250,586 +398,6 @@ We hope you will be the next one!&lt;/p&gt;
 	<link>https://medium.com/@donraab/ec-by-example-short-circuiting-methods-e60121bc5a?source=rss-df39b86e9f04------2</link>
 	<description>&lt;p&gt;Learn the methods in &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt; that short-circuit and return a result as soon as a condition is met.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*8p2hKb-HxKcpR_2ZPMw2Gw.png&quot; /&gt;Short-circuiting methods won’t leave you stuck in a loop for longer than necessary&lt;/figure&gt;&lt;h3&gt;What are the short-circuiting methods?&lt;/h3&gt;&lt;p&gt;The short-circuiting methods in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt; all take a &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/block/predicate/Predicate.html&quot;&gt;Predicate&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/block/predicate/Predicate2.html&quot;&gt;Predicate2&lt;/a&gt; as a parameter. We refer to them as short-circuiting methods because as soon as the condition is met for a particular algorithm, the loop is broken out of and a result is immediately returned.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/760/1*5DauoMhyfI_SN2G1A1WJhw.png&quot; /&gt;“the”::equals is the method reference equivalent of string -&amp;gt; “the”.equals(string)&lt;/figure&gt;&lt;p&gt;The &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/docs/guide.md#-short-circuit-patterns&quot;&gt;short-circuiting methods in Eclipse Collections&lt;/a&gt; are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detect-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detect&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWith&lt;/a&gt; — returns the first object that the predicate matches or null if none match&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectIfNone-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectIfNone&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWithIfNone-org.eclipse.collections.api.block.predicate.Predicate2-P-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectWithIfNone&lt;/a&gt; — returns the first object that the predicate matches or returns the result of evaluating the Function0&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectOptional-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectOptional&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWithOptional-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWithOptional&lt;/a&gt; — returns an Optional with the first object that the predicate matches or Optional.empty()&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/ordered/OrderedIterable.html#detectIndex-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectIndex&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/ordered/ReversibleIterable.html#detectLastIndex-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectLastIndex&lt;/a&gt; (Ordered Only) — returns the index of the first or last object that the predicate matches or -1 if none match&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#anySatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;anySatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#anySatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;anySatisfyWith&lt;/a&gt; — returns true if the predicate matches any object&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#allSatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;allSatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#allSatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;allSatisfyWith&lt;/a&gt; — returns true if the predicate matches all of the objects&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#noneSatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;noneSatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#noneSatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;noneSatisfyWith&lt;/a&gt; — returns true if the predicate doesn’t match any of the objects&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The methods that include the suffix “With” all take Predicate2, while the other methods take a Predicate.&lt;/p&gt;&lt;p&gt;All of the examples in this blog are written using the Java 10 Local-Variable Type Inference feature (aka var).&lt;/p&gt;&lt;h3&gt;A few forms of detect&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void detect()&lt;br /&gt;{&lt;br /&gt;    var mutableList = &lt;br /&gt;        &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;);&lt;br /&gt;    var immutableList = &lt;br /&gt;        &lt;em&gt;iList&lt;/em&gt;(&lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    var the1 =&lt;br /&gt;        mutableList.detect(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var the2 =&lt;br /&gt;        immutableList.detectIfNone(&lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;::equals, () -&amp;gt; &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the1, the2);&lt;br /&gt;&lt;br /&gt;    var the3 =&lt;br /&gt;        mutableList.detectWith(Object::equals, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;    var the4 =&lt;br /&gt;        immutableList.detectWithIfNone(Object::equals, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;br /&gt;            () -&amp;gt; &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the3, the4);&lt;br /&gt;&lt;br /&gt;    var the5 =&lt;br /&gt;        mutableList.detectOptional(s -&amp;gt; s.endsWith(&lt;strong&gt;&quot;e&quot;&lt;/strong&gt;));&lt;br /&gt;    var the6 =&lt;br /&gt;        immutableList.detectWithOptional(String::startsWith, &lt;strong&gt;&quot;t&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the5.get(), the6.get());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Detecting the first and last index&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void detectIndex()&lt;br /&gt;{&lt;br /&gt;    var mutableList = &lt;br /&gt;        &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;);&lt;br /&gt;    var immutableList = &lt;br /&gt;        &lt;em&gt;iList&lt;/em&gt;(&lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    var the1 = mutableList.detectIndex(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var the2 = immutableList.detectIndex(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(0, the1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, the2);&lt;br /&gt;&lt;br /&gt;    var fox = mutableList.detectLastIndex(&lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var dog = immutableList.detectLastIndex(&lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(3, fox);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(3, dog);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Examples of Any/All/NoneSatisfy&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void anyAllNoneSatisfy()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.anySatisfy(s -&amp;gt; s.endsWith(&lt;strong&gt;&quot;e&quot;&lt;/strong&gt;)));&lt;br /&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.anySatisfyWith(String::endsWith, &lt;strong&gt;&quot;z&quot;&lt;/strong&gt;));&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.allSatisfyWith(String::endsWith, &lt;strong&gt;&quot;e&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.allSatisfy(s -&amp;gt; !s.isEmpty()));&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.noneSatisfyWith(String::endsWith, &lt;strong&gt;&quot;x&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.noneSatisfy(String::isEmpty));&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Try out short-circuiting methods in the EC Katas&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata&quot;&gt;eclipse/eclipse-collections-kata&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Here’s a few solutions demonstrating short-circuiting methods in Exercise #2 of the Eclipse Collections Pet Kata.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*7F1YTGDrtu4Z5hNMzieVyw.png&quot; /&gt;Examples of anySatisfyWith, allSatisfy and detectWith from the Pet Kata&lt;/figure&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=e60121bc5a&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 09 Apr 2018 05:54:49 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Eclipse Vert.x metrics now with Micrometer.io</title>
-	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-metrics-now-with-micrometer-io</guid>
-	<link>https://vertx.io/blog/eclipse-vert-x-metrics-now-with-micrometer-io</link>
-	<description>&lt;article&gt;&lt;p&gt;Vert.x has already been providing metrics for some time, through the &lt;a href=&quot;https://vertx.io/docs/vertx-dropwizard-metrics/java/&quot;&gt;vertx-dropwizard-metrics&lt;/a&gt; and &lt;a href=&quot;https://vertx.io/docs/vertx-hawkular-metrics/java/&quot;&gt;vertx-hawkular-metrics&lt;/a&gt; modules. Both of them implement a service provider interface (SPI) to collect the Vert.x metrics and make them available to their respective backends.&lt;/p&gt;
-&lt;p&gt;A new module, &lt;a href=&quot;https://vertx.io/docs/vertx-micrometer-metrics/java/&quot;&gt;vertx-micrometer-metrics&lt;/a&gt;, is now added to the family. It implements the same SPI, which means that it is able to provide the same metrics.
-&lt;a href=&quot;http://micrometer.io/&quot;&gt;&lt;em&gt;Micrometer.io&lt;/em&gt;&lt;/a&gt; is a pretty new metrics library, quite comparable to &lt;em&gt;dropwizard metrics&lt;/em&gt; in that it collects metrics in a local, in-memory registry and is able to store them in various backends such as &lt;em&gt;Graphite&lt;/em&gt; or &lt;em&gt;InfluxDB&lt;/em&gt;. It has several advantages as we will see below.&lt;/p&gt;
-&lt;h2 id=&quot;tell-me-more-about-micrometer&quot;&gt;Tell me more about Micrometer&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://micrometer.io/&quot;&gt;&lt;em&gt;Micrometer.io&lt;/em&gt;&lt;/a&gt; describes itself as a a vendor-neutral application metrics facade.
-It provides a well designed API, in Java, to define &lt;em&gt;gauges&lt;/em&gt;, &lt;em&gt;counters&lt;/em&gt;, &lt;em&gt;timers&lt;/em&gt; and &lt;em&gt;distribution summaries&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Among the available backends, Micrometer natively supports &lt;em&gt;Graphite&lt;/em&gt;, &lt;em&gt;InfluxDB&lt;/em&gt;, &lt;em&gt;JMX&lt;/em&gt;, &lt;em&gt;Prometheus&lt;/em&gt; and &lt;a href=&quot;http://micrometer.io/docs&quot;&gt;several others&lt;/a&gt;. Prometheus is very popular in the Kubernetes and microservices ecosystems, so its support by Micrometer was a strong motivation for implementing it in Vert.x.&lt;/p&gt;
-&lt;p&gt;For the the moment, our implementation in Vert.x supports &lt;em&gt;Prometheus&lt;/em&gt;, &lt;em&gt;InfluxDB&lt;/em&gt; and &lt;em&gt;JMX&lt;/em&gt;. More should quickly come in the near future.&lt;/p&gt;
-&lt;h3 id=&quot;dimensionality&quot;&gt;Dimensionality&lt;/h3&gt;
-&lt;p&gt;Another interesting aspect in Micrometer is that it handles metrics &lt;em&gt;dimensionality&lt;/em&gt;: metrics can be associated with a set of key/value pairs (sometimes refered as &lt;em&gt;tags&lt;/em&gt;, sometimes as &lt;em&gt;labels&lt;/em&gt;). Every value brings a new dimension to the metric, so that in Prometheus or any other backend that supports dimensionality, we can query for datapoints of one or several dimensions, or query for datapoints aggregated over several dimensions.&lt;/p&gt;
-&lt;p&gt;  &lt;em&gt;Example: our metric &lt;code&gt;vertx_http_server_connections&lt;/code&gt; accepts labels &lt;code&gt;local&lt;/code&gt; and &lt;code&gt;remote&lt;/code&gt;, that are used to store addresses on HTTP connections&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block note&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;content&quot;&gt; Prometheus is used in the following examples, but equivalent queries can be performed with &lt;em&gt;InfluxDB&lt;/em&gt;.&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;In Prometheus, the query &lt;code&gt;vertx_http_server_connections&lt;/code&gt; will return as many timeseries as there are combinations of &lt;code&gt;local&lt;/code&gt; and &lt;code&gt;remote&lt;/code&gt; values. Example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;vertx_http_server_connections{&lt;span class=&quot;hljs-variable&quot;&gt;local=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.0.0:8080&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-variable&quot;&gt;remote=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;1.1.1.1&quot;&lt;/span&gt;}
-vertx_http_server_connections{&lt;span class=&quot;hljs-variable&quot;&gt;local=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.0.0:8080&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-variable&quot;&gt;remote=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;2.2.2.2&quot;&lt;/span&gt;}
-vertx_http_server_connections{&lt;span class=&quot;hljs-variable&quot;&gt;local=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;0.0.0.0:8080&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-variable&quot;&gt;remote=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;3.3.3.3&quot;&lt;/span&gt;}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To query on a single dimension, we must provide the labels:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;vertx_http_server_connections{local=&quot;0.0.0.0:8080&quot;,remote=&quot;1.1.1.1&quot;}&lt;/code&gt;. It will return a single timeseries.&lt;/p&gt;
-&lt;p&gt;To get an aggregate, Prometheus (PromQL) provides several &lt;a href=&quot;https://prometheus.io/docs/prometheus/latest/querying/operators/#aggregation-operators&quot;&gt;aggregation operators&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sum(vertx_http_server_connections)&lt;/code&gt; will return the sum across all dimensions.&lt;/p&gt;
-&lt;h2 id=&quot;so-what-are-the-vert-x-metrics-&quot;&gt;So what are the Vert.x metrics?&lt;/h2&gt;
-&lt;p&gt;People already familiar with the existing metrics modules (&lt;em&gt;dropwizard&lt;/em&gt; or &lt;em&gt;hawkular&lt;/em&gt;) will not be too disoriented. They are roughly the same. The main difference is where previously, some metric names could have a variable part within - such as &lt;code&gt;vertx.eventbus.handlers.myaddress&lt;/code&gt; - here we take advantage of dimensionality and we will have &lt;code&gt;vertx_eventbus_handlers{address=&quot;myaddress&quot;}&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Some other metrics are no longer useful, for instance the dropwizard’s &lt;code&gt;vertx.eventbus.messages.pending&lt;/code&gt;, &lt;code&gt;vertx.eventbus.messages.pending-local&lt;/code&gt; and &lt;code&gt;vertx.eventbus.messages.pending-remote&lt;/code&gt; are now just &lt;code&gt;vertx_eventbus_pending{side=local}&lt;/code&gt; and &lt;code&gt;vertx_eventbus_pending{side=remote}&lt;/code&gt; in micrometer. The sum of them can easily be computed at query time.&lt;/p&gt;
-&lt;p&gt;The metrics provided by Vert.x are dispatched into eight big families:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Net client&lt;/strong&gt;: distribution summaries of bytes sent and received, number of connections, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Net server&lt;/strong&gt;: distribution summaries of bytes sent and received, number of connections, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;HTTP client&lt;/strong&gt;: counter of requests, response times, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;HTTP server&lt;/strong&gt;: counter of requests, processing times, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Event bus&lt;/strong&gt;: counter of handlers, messages sent and received, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Pool&lt;/strong&gt;: for worker pools and some datasource pools, queue size and waiting time, processing time, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Verticles&lt;/strong&gt;: number of verticles deployed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The full list of collected metrics is &lt;a href=&quot;https://vertx.io/docs/vertx-micrometer-metrics/java/#_vert_x_core_tools_metrics&quot;&gt;available here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;getting-started&quot;&gt;Getting started&lt;/h2&gt;
-&lt;p&gt;This section will guide you through a quick setup to run a Vert.x application with Micrometer. The code examples used here are taken from the &lt;code&gt;micrometer-metrics-example&lt;/code&gt; in &lt;code&gt;vertx-examples&lt;/code&gt; repository, in Java, using &lt;em&gt;maven&lt;/em&gt;. But the same could be done with other Vert.x supported languages, as well as &lt;em&gt;gradle&lt;/em&gt; instead of &lt;em&gt;maven&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;maven-configuration&quot;&gt;Maven configuration&lt;/h3&gt;
-&lt;p&gt;The configuration and the maven imports will vary according to the backend storage that will be used. For maven, the common part is always:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.vertx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;vertx-micrometer-metrics&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;3.5.1&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Then, to report to InfluxDB:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.micrometer&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;micrometer-registry-influx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;1.0.0&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Or Prometheus:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.micrometer&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;micrometer-registry-prometheus&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;1.0.0&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.vertx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;vertx-web&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;3.5.1&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Remark that, since Prometheus pulls metrics from their source, they must be exposed on an HTTP endpoint. That’s why &lt;code&gt;vertx-web&lt;/code&gt; is imported here. It is not &lt;em&gt;absolutely&lt;/em&gt; necessary (it’s possible to get the metrics registry content and expose it in any other way) but it’s probably the easiest way to do.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Or JMX:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.micrometer&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;micrometer-registry-jmx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;1.0.0&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;admonition-block note&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;admonition-icon&quot;&gt;&lt;i class=&quot;admonition-icon fa fa-comment&quot;&gt;&lt;/i&gt;&lt;/td&gt;&lt;td class=&quot;content&quot;&gt;&lt;span class=&quot;title&quot;&gt;Note &lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;content&quot;&gt; At the moment, it is not possible to report metrics to several backends at the same time. &lt;a href=&quot;https://github.com/vert-x3/vertx-micrometer-metrics/issues/16&quot;&gt;It might be soon implemented&lt;/a&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;h3 id=&quot;setting-up-vert-x-options&quot;&gt;Setting up Vert.x options&lt;/h3&gt;
-&lt;p&gt;A &lt;code&gt;MicrometerMetricsOptions&lt;/code&gt; object must be created and passed to &lt;code&gt;VertxOptions&lt;/code&gt;, with one backend configured (though having no backend is possible: you would get metrics sent to a default Micrometer registry, but without any persistent storage).&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;InfluxDB example:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Default InfluxDB options will push metrics to localhost:8086, db &quot;default&quot;&lt;/span&gt;
-MicrometerMetricsOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; MicrometerMetricsOptions()
-  .setInfluxDbOptions(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxInfluxDbOptions().setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;))
-  .setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;);
-Vertx vertx = Vertx.vertx(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxOptions().setMetricsOptions(options));
-&lt;span class=&quot;hljs-comment&quot;&gt;// Then deploy verticles with this vertx instance&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Prometheus example:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Deploy with embedded server: prometheus metrics will be automatically exposed,&lt;/span&gt;
-&lt;span class=&quot;hljs-comment&quot;&gt;// independently from any other HTTP server defined&lt;/span&gt;
-MicrometerMetricsOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; MicrometerMetricsOptions()
-  .setPrometheusOptions(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxPrometheusOptions()
-    .setStartEmbeddedServer(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;)
-    .setEmbeddedServerOptions(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; HttpServerOptions().setPort(&lt;span class=&quot;hljs-number&quot;&gt;8081&lt;/span&gt;))
-    .setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;))
-  .setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;);
-Vertx vertx = Vertx.vertx(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxOptions().setMetricsOptions(options));
-&lt;span class=&quot;hljs-comment&quot;&gt;// Then deploy verticles with this vertx instance&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Or Prometheus with the &lt;code&gt;/metrics&lt;/code&gt; endpoint bound to an existing HTTP server:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Deploy without embedded server: we need to &quot;manually&quot; expose the prometheus metrics&lt;/span&gt;
-MicrometerMetricsOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; MicrometerMetricsOptions()
-  .setPrometheusOptions(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxPrometheusOptions().setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;))
-  .setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;);
-Vertx vertx = Vertx.vertx(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxOptions().setMetricsOptions(options));
-
-Router router = Router.router(vertx);
-PrometheusMeterRegistry registry = (PrometheusMeterRegistry) BackendRegistries.getDefaultNow();
-&lt;span class=&quot;hljs-comment&quot;&gt;// Setup a route for metrics&lt;/span&gt;
-router.route(&lt;span class=&quot;hljs-string&quot;&gt;&quot;/metrics&quot;&lt;/span&gt;).handler(ctx -&amp;gt; {
-  String response = registry.scrape();
-  ctx.response().end(response);
-});
-vertx.createHttpServer().requestHandler(router::accept).listen(&lt;span class=&quot;hljs-number&quot;&gt;8080&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JMX example:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Default JMX options will publish MBeans under domain &quot;metrics&quot;&lt;/span&gt;
-MicrometerMetricsOptions options = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; MicrometerMetricsOptions()
-  .setJmxMetricsOptions(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxJmxMetricsOptions().setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;))
-  .setEnabled(&lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;);
-Vertx vertx = Vertx.vertx(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; VertxOptions().setMetricsOptions(options));
-&lt;span class=&quot;hljs-comment&quot;&gt;// Then deploy verticles with this vertx instance&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;setup-the-backend-server&quot;&gt;Setup the backend server&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/&quot;&gt;InfluxDB&lt;/a&gt;, by default, is expected to run on &lt;code&gt;localhost:8086&lt;/code&gt; without authentication, database “default”. It is configurable in &lt;code&gt;VertxInfluxDbOptions&lt;/code&gt;.
-If you don’t have a running instance of InfluxDB, the shortest way to start is certainly with docker, just run:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;docker run -p &lt;span class=&quot;hljs-number&quot;&gt;8086&lt;/span&gt;:&lt;span class=&quot;hljs-number&quot;&gt;8086&lt;/span&gt; influxdb&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://prometheus.io/docs/prometheus/latest/getting_started/&quot;&gt;Prometheus&lt;/a&gt; needs some configuration since it pulls metrics from the sources. Once it is installed, configure the scrape endpoints in &lt;code&gt;prometheus.yml&lt;/code&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;-&lt;span class=&quot;ruby&quot;&gt; &lt;span class=&quot;hljs-symbol&quot;&gt;job_name:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;'vertx-8081'&lt;/span&gt;
-&lt;/span&gt;  static_configs:
-    -&lt;span class=&quot;ruby&quot;&gt; &lt;span class=&quot;hljs-symbol&quot;&gt;targets:&lt;/span&gt; [&lt;span class=&quot;hljs-string&quot;&gt;'localhost:8081'&lt;/span&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or, when using &lt;code&gt;/metrics&lt;/code&gt; endpoint bound to an existing HTTP server:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;-&lt;span class=&quot;ruby&quot;&gt; &lt;span class=&quot;hljs-symbol&quot;&gt;job_name:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;'vertx-8080'&lt;/span&gt;
-&lt;/span&gt;  static_configs:
-    -&lt;span class=&quot;ruby&quot;&gt; &lt;span class=&quot;hljs-symbol&quot;&gt;targets:&lt;/span&gt; [&lt;span class=&quot;hljs-string&quot;&gt;'localhost:8080'&lt;/span&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For JMX there is nothing special to configure.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;collecting-vert-x-metrics&quot;&gt;Collecting Vert.x metrics&lt;/h3&gt;
-&lt;p&gt;From now on, all Vert.x metrics will be collected and sent to the configured backend. In our Vert.x example, we setup an HTTP server metrics:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;Router router = Router.router(vertx);
-router.get(&lt;span class=&quot;hljs-string&quot;&gt;&quot;/&quot;&lt;/span&gt;).handler(ctx -&amp;gt; {
-  ctx.response().end(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello Micrometer from HTTP!&quot;&lt;/span&gt;);
-});
-vertx.createHttpServer().requestHandler(router::accept).listen(&lt;span class=&quot;hljs-number&quot;&gt;8080&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; And some event bus ping-pong:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Producer side&lt;/span&gt;
-vertx.setPeriodic(&lt;span class=&quot;hljs-number&quot;&gt;1000&lt;/span&gt;, x -&amp;gt; {
-  vertx.eventBus().send(&lt;span class=&quot;hljs-string&quot;&gt;&quot;greeting&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello Micrometer from event bus!&quot;&lt;/span&gt;);
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Consumer side&lt;/span&gt;
-vertx.eventBus().consumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;greeting&quot;&lt;/span&gt;, message -&amp;gt; {
-  String greeting = message.body();
-  System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Received: &quot;&lt;/span&gt; + greeting);
-  message.reply(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Hello back!&quot;&lt;/span&gt;);
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To trigger some activity on the HTTP server, we can write a small bash script:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;hljs-literal&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;do&lt;/span&gt; curl http://localhost:&lt;span class=&quot;hljs-number&quot;&gt;8080&lt;/span&gt;/
-    sleep .&lt;span class=&quot;hljs-number&quot;&gt;8&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;viewing-the-results&quot;&gt;Viewing the results&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://grafana.com/&quot;&gt;Grafana&lt;/a&gt; can be used to display the InfluxDB and Prometheus metrics. The &lt;code&gt;vertx-examples&lt;/code&gt; repository contains two dashboards for that: &lt;a href=&quot;https://github.com/vert-x3/vertx-examples/blob/master/micrometer-metrics-examples/grafana/Vertx-InfluxDB.json&quot;&gt;for InfluxDB&lt;/a&gt; and &lt;a href=&quot;https://github.com/vert-x3/vertx-examples/blob/master/micrometer-metrics-examples/grafana/Vertx-Prometheus.json&quot;&gt;for Prometheus&lt;/a&gt;.&lt;/p&gt;
-&lt;h5 id=&quot;http-server-metrics&quot;&gt;HTTP server metrics&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&quot;HTTP server metrics&quot; src=&quot;https://raw.githubusercontent.com/jotak/vertx-examples/micrometer-example/micrometer-metrics-examples/grafana/http-server-metrics.png&quot; /&gt;&lt;/p&gt;
-&lt;h5 id=&quot;event-bus-metrics&quot;&gt;Event bus metrics&lt;/h5&gt;
-&lt;p&gt;&lt;img alt=&quot;Event bus metrics&quot; src=&quot;https://raw.githubusercontent.com/jotak/vertx-examples/micrometer-example/micrometer-metrics-examples/grafana/eventbus-metrics.png&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;going-further&quot;&gt;Going further&lt;/h2&gt;
-&lt;p&gt;We’ve seen the basic setup. There is a good bunch of options available, detailed &lt;a href=&quot;https://vertx.io/docs/vertx-micrometer-metrics/java/&quot;&gt;in the documentation&lt;/a&gt;: how to disable some metrics domains, how to filter or rearrange labels, how to export metrics snapshots to Json objects, how to add JVM or processor instrumentation, etc.&lt;/p&gt;
-&lt;p&gt;Before we finish, there is one important point that we can cover here: defining custom metrics.
-Because the module gives you access to its Micrometer registry, you can add your custom metrics there.&lt;/p&gt;
-&lt;p&gt;Getting the default registry is straightforward:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;MeterRegistry registry = BackendRegistries.getDefaultNow();&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you have plain access to the &lt;a href=&quot;https://micrometer.io/docs/concepts&quot;&gt;Micrometer API&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;For instance, here is how you can track the execution time of a piece of code that is regularly called:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;MeterRegistry registry = BackendRegistries.getDefaultNow();
-Timer timer = Timer
-  .builder(&lt;span class=&quot;hljs-string&quot;&gt;&quot;my.timer&quot;&lt;/span&gt;)
-  .description(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Time tracker for my extremely sophisticated algorithm&quot;&lt;/span&gt;)
-  .register(registry);
-
-vertx.setPeriodic(&lt;span class=&quot;hljs-number&quot;&gt;1000&lt;/span&gt;, l -&amp;gt; {
-  timer.record(() -&amp;gt; myExtremelySophisticatedAlgorithm());
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Since it is using the same registry, there is no extra backend configuration to do.&lt;/p&gt;
-&lt;h2 id=&quot;what-s-next-&quot;&gt;What’s next?&lt;/h2&gt;
-&lt;p&gt;The &lt;code&gt;vertx-micrometer-metrics&lt;/code&gt; module will continue to be improved, with already two planned enhancements:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-micrometer-metrics/issues/15&quot;&gt;Adding more backends&lt;/a&gt;, like Graphite.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-micrometer-metrics/issues/16&quot;&gt;Allow to configure several backends&lt;/a&gt;, and not only one at the same time.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Would you miss any feature, please &lt;a href=&quot;https://github.com/vert-x3/vertx-micrometer-metrics/issues&quot;&gt;ask on GitHub&lt;/a&gt;. Contributions and bug fixes are also welcome!&lt;/p&gt;
-&lt;p&gt;Now is time to enter the Metrics.&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: EC by Example: Collect</title>
-	<guid isPermaLink="false">https://medium.com/p/262a46030c49</guid>
-	<link>https://medium.com/@donraab/ec-by-example-collect-262a46030c49?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;Learn how to transform a collection using the &lt;em&gt;collect&lt;/em&gt; method in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*xqyPm6cMl0LVrKLVSXOIhA.png&quot; /&gt;The Golden Gate Bridge from Fort Point&lt;/figure&gt;&lt;h3&gt;What is Collect?&lt;/h3&gt;&lt;p&gt;The method named &lt;em&gt;collect&lt;/em&gt; in Eclipse Collections takes a Function as a parameter, applies that function to each element in a collection, and returns a the resulting collection. This method is the equivalent of the method named &lt;em&gt;map&lt;/em&gt; on the &lt;em&gt;java.util.Stream&lt;/em&gt; class in the JDK.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/688/1*EJE8uUaDf-zm8aM9afdf4w.png&quot; /&gt;Calling collect on a List with a Function&lt;/figure&gt;&lt;p&gt;The method &lt;em&gt;collect&lt;/em&gt; in Eclipse Collections derives its name from the Smalltalk method named &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/#op-catalog&quot;&gt;&lt;em&gt;collect&lt;/em&gt;&lt;/a&gt;. The method &lt;em&gt;collect&lt;/em&gt; will return the same collection type as the source collection (where feasible), but the value type contained in the collection may be different. The method &lt;em&gt;collect&lt;/em&gt; in Eclipse Collections should not be confused with the method &lt;em&gt;collect&lt;/em&gt; on &lt;em&gt;java.util.Stream&lt;/em&gt; which takes a &lt;em&gt;Collector&lt;/em&gt;. The method collect on &lt;em&gt;Stream&lt;/em&gt; is a more general &lt;a href=&quot;https://www.ibm.com/developerworks/library/j-java-streams-2-brian-goetz/&quot;&gt;mutable reduction&lt;/a&gt; which may return any type. The method &lt;em&gt;collect&lt;/em&gt; on &lt;em&gt;java.util.Stream&lt;/em&gt; does not appear on &lt;em&gt;java.util.Collection &lt;/em&gt;or any of its extensions. So while there is a conceptual naming collision, there is no overloading of the methods to cause extra confusion.&lt;/p&gt;&lt;h3&gt;Collecting from a List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void collectingFromAListJava8()&lt;br /&gt;{&lt;br /&gt;    ExecutorService executor = Executors.&lt;em&gt;newWorkStealingPool&lt;/em&gt;();&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; mList = &lt;em&gt;mList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; iList = &lt;em&gt;iList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Function&amp;lt;Integer, Integer&amp;gt; squared = i -&amp;gt; i * i;&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; mutable = mList.collect(squared);&lt;br /&gt;&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; immutable = iList.collect(squared);&lt;br /&gt;&lt;br /&gt;    LazyIterable&amp;lt;Integer&amp;gt; lazy = mList.asLazy().collect(squared);&lt;br /&gt;&lt;br /&gt;    ParallelListIterable&amp;lt;Integer&amp;gt; parallel =&lt;br /&gt;            mList.asParallel(executor, 2).collect(squared);&lt;br /&gt;&lt;br /&gt;    ImmutableList&amp;lt;Integer&amp;gt; expected = &lt;em&gt;iList&lt;/em&gt;(1, 4, 9, 16, 25);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, mutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, immutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, parallel.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collecting from a List (Java 10)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void collectingFromAListJava10()&lt;br /&gt;{&lt;br /&gt;    var executor = Executors.&lt;em&gt;newWorkStealingPool&lt;/em&gt;();&lt;br /&gt;&lt;br /&gt;    var mutableList = &lt;em&gt;mList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;    var immutableList = &lt;em&gt;iList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Function&amp;lt;Integer, Integer&amp;gt; squared = i -&amp;gt; i * i;&lt;br /&gt;&lt;br /&gt;    var mutable = mutableList.collect(squared);&lt;br /&gt;&lt;br /&gt;    var immutable = immutableList.collect(squared);&lt;br /&gt;&lt;br /&gt;    var lazy = mutableList.asLazy().collect(squared);&lt;br /&gt;&lt;br /&gt;    var parallel = &lt;br /&gt;            mutableList.asParallel(executor, 2).collect(squared);&lt;br /&gt;&lt;br /&gt;    var expected = &lt;em&gt;iList&lt;/em&gt;(1, 4, 9, 16, 25);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, mutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, immutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, parallel.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;Notice that Function cannot be replaced with var. This is because a lambda must be assigned to some type.&lt;/p&gt;&lt;h3&gt;Collecting from a primitive List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void collectingFromAPrimitiveListJava8()&lt;br /&gt;{&lt;br /&gt;    MutableIntList mList = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;    ImmutableIntList iList = IntLists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    IntToIntFunction squared = i -&amp;gt; i * i;&lt;br /&gt;&lt;br /&gt;    MutableIntList mutable =&lt;br /&gt;            mList.collectInt(squared, new IntArrayList());&lt;br /&gt;&lt;br /&gt;    ImmutableIntList immutable =&lt;br /&gt;            iList.collectInt(squared, new IntArrayList())&lt;br /&gt;                    .toImmutable();&lt;br /&gt;&lt;br /&gt;    LazyIntIterable lazy =&lt;br /&gt;            mList.asLazy().collectInt(squared);&lt;br /&gt;&lt;br /&gt;    MutableIntList expected =&lt;br /&gt;            IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 4, 9, 16, 25);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, mutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, immutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collecting from a primitive List (Java 10)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void collectingFromAPrimitiveListJava10()&lt;br /&gt;{&lt;br /&gt;    var mutableIntList = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;    var immutableIntList = IntLists.&lt;strong&gt;&lt;em&gt;immutable&lt;/em&gt;&lt;/strong&gt;.with(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    IntToIntFunction squared = i -&amp;gt; i * i;&lt;br /&gt;&lt;br /&gt;    var mutable =&lt;br /&gt;            mutableIntList.collectInt(squared, new IntArrayList());&lt;br /&gt;&lt;br /&gt;    var immutable =&lt;br /&gt;            immutableIntList.collectInt(squared, new IntArrayList())&lt;br /&gt;                    .toImmutable();&lt;br /&gt;&lt;br /&gt;    var lazy = mutableIntList.asLazy().collectInt(squared);&lt;br /&gt;&lt;br /&gt;    var expected = IntLists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(1, 4, 9, 16, 25);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, mutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, immutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;Notice that IntToIntFunction cannot be replaced with var. This is because a lambda must be assigned to some type.&lt;/p&gt;&lt;h3&gt;Is it possible to collect selectively?&lt;/h3&gt;&lt;p&gt;There is a method named &lt;em&gt;collectIf&lt;/em&gt; which applies a &lt;em&gt;Predicate&lt;/em&gt; first to each element, and then applies a &lt;em&gt;Function&lt;/em&gt; to each element where the &lt;em&gt;Predicate&lt;/em&gt; returned true. This method is a fused form of &lt;em&gt;select&lt;/em&gt; and &lt;em&gt;collect&lt;/em&gt;. It is also possible to just call &lt;em&gt;select&lt;/em&gt; followed by &lt;em&gt;collect&lt;/em&gt; either eagerly, lazily or in parallel.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void collectingSelectively()&lt;br /&gt;{&lt;br /&gt;    var executor = Executors.&lt;em&gt;newWorkStealingPool&lt;/em&gt;();&lt;br /&gt;&lt;br /&gt;    var mutableList = &lt;em&gt;mList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;    var immutableList = &lt;em&gt;iList&lt;/em&gt;(1, 2, 3, 4, 5);&lt;br /&gt;&lt;br /&gt;    Function&amp;lt;Integer, Integer&amp;gt; squared = i -&amp;gt; i * i;&lt;br /&gt;    Predicate&amp;lt;Integer&amp;gt; evens = i -&amp;gt; i % 2 ==0;&lt;br /&gt;&lt;br /&gt;    var mutable = mutableList.collectIf(evens, squared);&lt;br /&gt;&lt;br /&gt;    var immutable = immutableList.collectIf(evens, squared);&lt;br /&gt;&lt;br /&gt;    var lazy1 =&lt;br /&gt;            mutableList.asLazy().collectIf(evens, squared);&lt;br /&gt;    var lazy2 =&lt;br /&gt;            mutableList.asLazy().select(evens).collect(squared);&lt;br /&gt;&lt;br /&gt;    var parallel1 =&lt;br /&gt;            mutableList.asParallel(executor, 2)&lt;br /&gt;                    .collectIf(evens, squared);&lt;br /&gt;&lt;br /&gt;    var parallel2 =&lt;br /&gt;            mutableList.asParallel(executor, 2)&lt;br /&gt;                    .select(evens).collect(squared);&lt;br /&gt;&lt;br /&gt;    var expected = &lt;em&gt;iList&lt;/em&gt;(4, 16);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, mutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, immutable);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy1.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, lazy2.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, parallel1.toList());&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, parallel2.toList());&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;Notice that Function and Predicate cannot be replaced with var. This is because a lambda must be assigned to some type.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#collect-org.eclipse.collections.api.block.function.Function-&quot;&gt;Collect&lt;/a&gt; (&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#collect-org.eclipse.collections.api.block.function.Function-&quot;&gt;Eager&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/LazyIterable.html#collect-org.eclipse.collections.api.block.function.Function-&quot;&gt;Lazy&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ParallelListIterable.html#collect-org.eclipse.collections.api.block.function.Function-&quot;&gt;Parallel&lt;/a&gt;) — transforms elements of a source collection to a new collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#collectIf-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function-&quot;&gt;CollectIf&lt;/a&gt; (&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#collectIf-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function-&quot;&gt;Eager&lt;/a&gt;, &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/LazyIterable.html#collectIf-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function-&quot;&gt;Lazy&lt;/a&gt; and &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ParallelListIterable.html#collectIf-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function-&quot;&gt;Parallel&lt;/a&gt;) — transforms the elements of a source collection which satisfy a given predicate to a new collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — Creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#iList-T-T-T-T-T-&quot;&gt;iList&lt;/a&gt; — Creates an ImmutableList&lt;/li&gt;&lt;li&gt;IntLists.mutable.&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/factory/list/primitive/MutableIntListFactory.html#with-int...-&quot;&gt;with&lt;/a&gt; — Creates a MutableIntList&lt;/li&gt;&lt;li&gt;IntLists.immutable.&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/factory/list/primitive/ImmutableIntListFactory.html#with-int...-&quot;&gt;with&lt;/a&gt; — Creates an ImmutableIntList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#asLazy--&quot;&gt;asLazy&lt;/a&gt; — Returns a LazyIterable or LazyIntIterable&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/ListIterable.html#asParallel-java.util.concurrent.ExecutorService-int-&quot;&gt;asParallel&lt;/a&gt; — Returns a ParallelIterable&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#toList--&quot;&gt;toList&lt;/a&gt; — Converts the target Iterable into a MutableList&lt;/li&gt;&lt;li&gt;var — Local variable Type Inference included in Java 10 (&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;JEP 286&lt;/a&gt;)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=262a46030c49&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 05 Apr 2018 08:05:11 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon France 2018: Check out the program!</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3848 at https://www.eclipsecon.org/france2018</guid>
-	<link>https://www.eclipsecon.org/france2018/news/check-out-program</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The &lt;a href=&quot;https://www.eclipsecon.org/france2018/program/sessions/accepted&quot; target=&quot;_blank&quot;&gt;list version of the program&lt;/a&gt; is ready. We had a record number of submissions, and we also have a record number of talks with the addition of another room on Wednesday.&lt;/p&gt;
-
-&lt;p&gt;Thanks to the community for submitting, and to &lt;a href=&quot;https://www.eclipsecon.org/france2018/about-pc&quot; target=&quot;_blank&quot;&gt;the program committee&lt;/a&gt; for choosing the best EclipseCon France program ever.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/check-out-program&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/laptop_stickers.jpg?itok=YXUG_MBO&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 04 Apr 2018 14:49:09 +0000</pubDate>
-</item>
-<item>
-	<title>itemis: New Project Wizard: einfach mit Xtext 2.14 generieren</title>
-	<guid isPermaLink="true">https://blogs.itemis.com/en/new-project-wizard-einfach-mit-xtext-2-14-generieren</guid>
-	<link>https://blogs.itemis.com/en/new-project-wizard-einfach-mit-xtext-2-14-generieren</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wer DSLs mit Eclipse &lt;/span&gt;&lt;a href=&quot;https://github.com/eclipse/xtext&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Xtext&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; umsetzt, profitiert davon, dass die notwendige Infrastruktur automatisiert aus der Grammatik erzeugt wird. Mit minimalem Aufwand entsteht somit eine Umgebung, in der alles gegeben ist, um direkt mit der eigenen DSL durchzustarten. Eine Grammatik und zwei Knöpfe später startet man voller Vorfreude Eclipse und fragt sich zunächst, welche Art von Projekt zu erstellen ist. Diese Frage beantwortet Xtext bisher nicht und der Entwickler hat die Wahl. &lt;/span&gt;&lt;/p&gt;  
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ist das Projekt erzeugt, stellt sich nun die Frage, wie die brandneue DSL genutzt werden kann... Wie war nochmal die Dateiendung? Ist das jetzt eine Textdatei? Gibt es keinen Wizard? Oh, ein Beispiel wäre super! Aber wo finde ich das? &lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;Wer kennt diese Situation nicht?&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bisher war das Erstellen eines Wizards Handarbeit – immer wieder. Dabei sind die Anforderungen an Wizards kein Hexenwerk und die Umsetzung auch nicht. Was man sich wünscht, ist ein Wizard der eindeutig zeigt, wie ein spezielles Projekt für unsere DSL zu erzeugen ist, das im besten Fall sogar bereits Beispiele enthält. Das lässt sich doch generieren, oder? Klar! Und in &lt;/span&gt;&lt;a href=&quot;https://projects.eclipse.org/projects/modeling.tmf.xtext&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Xtext 2.14&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; haben wir genau diese Möglichkeit geschaffen.&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Auch wenn diese Version erst mit Eclipse Photon im Juni 2018 erscheinen wird, möchten wir hier gerne schon mal einen kleinen Einblick ermöglichen.&lt;/span&gt;&lt;/p&gt; 
-&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Erzeugen des Wizards&lt;/span&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Direkt nach dem Anlegen eines neuen Xtext-Projektes enthält das Projekt eine &lt;code&gt;mwe2&lt;/code&gt;-Datei, die definiert, was generiert wird. Diese enthält den folgenden Abschnitt:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;language = StandardLanguage {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    name = &quot;org.xtext.example.mydsl.MyDsl&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    fileExtensions = &quot;mydsl&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    serializer = {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        generateStub = false&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    validator = {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        // composedCheck =&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;&quot;org.eclipse.xtext.validation.NamesAreUniqueValidator&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; }&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Um den Wizard zu generieren, ist dieser Abschnitt um ein &lt;a href=&quot;https://github.com/eclipse/xtext-core/blob/master/org.eclipse.xtext.xtext.generator/src/org/eclipse/xtext/xtext/generator/ui/projectWizard/TemplateProjectWizardFragment.xtend&quot;&gt;&lt;code&gt;TemplateProjectWizardFragment&lt;/code&gt;&lt;/a&gt; für den Wizard zu erweitern.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;language = StandardLanguage {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    name = &quot;org.xtext.example.mydsl.MyDsl&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    fileExtensions = &quot;mydsl&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    serializer = {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        generateStub = false&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    validator = {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        // composedCheck =&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;&quot;org.eclipse.xtext.validation.NamesAreUniqueValidator&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    &lt;/span&gt;&lt;strong&gt;newTemplateProjectWizardForEclipse = {&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;strong&gt;        generate = true&lt;/strong&gt;&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;strong&gt;    }&lt;/strong&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wenn nun die Generierung wie üblich über &lt;code&gt;Run As -&amp;gt; MWE2 Workflow&lt;/code&gt; angestoßen wird, dann werden nicht nur der Editor, die Autocompletion usw. generiert, sondern eben auch alle notwendigen Extensions für den Wizard.&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Im UI-Projekt der Sprache wird ein Package &lt;/span&gt;&lt;code&gt;wizard&lt;/code&gt; generiert, das vor allem eine Datei &lt;code&gt;MyDslProjectTemplateProvider.xtend&lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; enthält (wobei der Name der Datei von dem Namen der Sprache abhängt). In dieser Datei wird der Inhalt des Wizards definiert. Weitere Konfigurationen sind normalerweise nicht nötig.&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;Wenn man nach der Generierung direkt den Runtime-Workspace öffnet, ist es möglich, neue Projekte anzulegen, indem der neue Wizard geöffnet wird – zum Beispiel über das Hauptmenü über&lt;code&gt; File -&amp;gt; New -&amp;gt; Project&lt;/code&gt;. Hier gibt es eine Kategorie &lt;code&gt;MyDsl&lt;/code&gt; mit einem &lt;code&gt;MyDsl Project&lt;/code&gt; (wiederum vom Namen der Spache abhängig). &lt;br /&gt;Sollten diese Namen unpassend sein, lässt sich das natürlich mit Standard-Eclipse-Mitteln in der &lt;code&gt;plugin.xml&lt;/code&gt; anpassen. Für diejenigen, die den Wizard in ihre bestehende Sprache einbauen möchten und schon verzweifelt nach den neuen Einträgen in der &lt;code&gt;plugin.xml&lt;/code&gt; suchen noch ein Tipp: Xtext generiert nach dem ersten Generatorlauf nicht mehr direkt in die &lt;code&gt;plugin.xml&lt;/code&gt; sondern in die &lt;code&gt;plugin.xml_gen&lt;/code&gt; und das Zusammenführen ist Handarbeit.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;OpenNewProjectWizard&quot; height=&quot;423&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/OpenNewProjectWizard.png?t=1522852283713&amp;amp;width=602&amp;amp;height=423&amp;amp;name=OpenNewProjectWizard.png&quot; style=&quot;width: 602px; margin-top: 0px; margin-bottom: 0px;&quot; width=&quot;602&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Auf der ersten Seite lässt sich wie üblich ein Projektname und eine Location festlegen.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;NewProjectWizardSeite1&quot; height=&quot;423&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/NewProjectWizardSeite1.png?t=1522852283713&amp;amp;width=597&amp;amp;height=423&amp;amp;name=NewProjectWizardSeite1.png&quot; style=&quot;width: 597px; margin-top: 0px; margin-bottom: 0px;&quot; width=&quot;597&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Die zweite Seite bietet eine Auswahl mit allen definierten Templates an, aus der der Benutzer auswählen kann. Per default wird lediglich ein “Hello World”-Template zur Verfügung gestellt.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;NewProjectWizardTemplateSelection&quot; height=&quot;423&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/NewProjectWizardTemplateSelection.png?t=1522852283713&amp;amp;width=597&amp;amp;height=423&amp;amp;name=NewProjectWizardTemplateSelection.png&quot; style=&quot;width: 597px; margin-top: 0px; margin-bottom: 0px;&quot; width=&quot;597&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Die folgende, optionale Seite bietet Möglichkeiten, das Template zu konfigurieren. Das ist im Falle des “Hello World”-Beispiels natürlich auch nur als solches zu verstehen.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;NewProjectWizardTemplateConfiguration&quot; height=&quot;424&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/NewProjectWizardTemplateConfiguration.png?t=1522852283713&amp;amp;width=599&amp;amp;height=424&amp;amp;name=NewProjectWizardTemplateConfiguration.png&quot; style=&quot;width: 599px; margin-top: 0px; margin-bottom: 0px;&quot; width=&quot;599&quot; /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wird der Wizard mit “Finish” beendet, wird ein Projekt erzeugt, dem bereits die Xtext-Nature zugewiesen wurde und das ein “Hello World” der erzeugten DSL enthält.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img alt=&quot;GeneratedProject-1&quot; height=&quot;230&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/GeneratedProject-1.png?t=1522852283713&amp;amp;width=601&amp;amp;height=230&amp;amp;name=GeneratedProject-1.png&quot; style=&quot;width: 601px; margin-top: 0px; margin-bottom: 0px;&quot; width=&quot;601&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Definieren eigener Templates&lt;/span&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Um das “Hello World” an die eigene Sprache anzupassen oder weitere Templates hinzuzufügen, muss der &lt;code&gt;TemplateProvider&lt;/code&gt;, eine Klasse welche &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/wizard/template/IProjectTemplateProvider.java&quot;&gt;&lt;code&gt;IProjectTemplateProvider&lt;/code&gt;&lt;/a&gt; implementiert, angepasst werden. Dieser liefert mit der Methode &lt;/span&gt;&lt;code&gt;getProjectTemplates &lt;/code&gt;eine Liste mit allen verfügbaren Templates für die Sprache zurück. Per default sieht die Implementierung wie folgt aus:&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;class MyDslProjectTemplateProvider implements&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;IProjectTemplateProvider {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    override getProjectTemplates() {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        #[new HelloWorldProject]&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;br /&gt;Das Hinzufügen eines weiteren Templates bedeutet also das Hinzufügen einer neuen Instanz zu dieser Liste. Zum Beispiel:&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;class MyDslProjectTemplateProvider implements&lt;/span&gt; &lt;span style=&quot;font-weight: 400;&quot;&gt;IProjectTemplateProvider {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    override getProjectTemplates() {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        #[new HelloWorldProject, new TestProject]&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Das neue Projekt muss eine Subklasse von &lt;/span&gt;&lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/wizard/template/AbstractProjectTemplate.java&quot;&gt;&lt;code&gt;AbstractProjectTemplate&lt;/code&gt;&lt;/a&gt; sein. Am einfachsten lässt sich eine solche durch die Nutzung der Active Annotation &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/wizard/template/ProjectTemplate.xtend&quot;&gt;&lt;code&gt;ProjectTemplate&lt;/code&gt;&lt;/a&gt; erzeugen. Diese Annotation bietet die Möglichkeit, den Namen, ein Icon sowie einen Beschreibungstext für das Template festzulegen. Diese regeln die Darstellung des Templates in der Liste der verfügbaren Templates im Wizard.&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Man würde also in etwa so beginnen:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;@ProjectTemplate(label=&quot;Test&quot;, icon=&quot;project_template.png&quot;,&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    description=&quot;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Test&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This is a test project.&amp;lt;/p&amp;gt;&quot;)&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;final class HelloWorldProject {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Hier ist zumindest die Methode &lt;/span&gt;&lt;code&gt;generateProjects(IProjectGenerator)&lt;/code&gt; zu implementieren. Der übergebene &lt;code&gt;IProjectGenerator&lt;/code&gt; enthält dabei eine einzelne Methode &lt;code&gt;generate(ProjectFactory)&lt;/code&gt;, welche man nun beliebig oft aufrufen kann, um beim Beenden des Wizards Eclipse-Projekte anzulegen. Dabei liefert Xtext bereits verschiedene Implementierungen der &lt;code&gt;ProjectFactory&lt;/code&gt; mit, um &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/util/JavaProjectFactory.java&quot;&gt;Java&lt;/a&gt;-, &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/util/PluginProjectFactory.java&quot;&gt;Plugin&lt;/a&gt;- oder &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/util/FeatureProjectFactory.xtend&quot;&gt;Featureprojekte&lt;/a&gt; zu erzeugen. Eigene Implementierungen sind hier natürlich denkbar.&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ein Aufruf, um ein einfaches Pluginprojekt mit einer Datei zu erzeugen, kann dann zum Beispiel so aussehen:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; generator.generate(new PluginProjectFactory =&amp;gt; [&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    projectName = projectInfo.projectName&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    location = projectInfo.locationPath&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    projectNatures += #[JavaCore.NATURE_ID, &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                        &quot;org.eclipse.pde.PluginNature&quot;, &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                        XtextProjectHelper.NATURE_ID]&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    builderIds += JavaCore.BUILDER_ID&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    folders += &quot;src&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    addFile('''src/Model.mydsl''', '''&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        Hello World!&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    ''')&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;])&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Zusätzliche Aufrufe von &lt;/span&gt;&lt;code&gt;generate &lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;erzeugen weitere Projekte, während weitere Aufrufe von &lt;/span&gt;&lt;code&gt;addFile &lt;/code&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;zusätzliche Dateien in den Projekten erzeugen.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;UI zur Parametrisierung&lt;/span&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Um nicht nur komplett statische Templates zu liefern, ist es möglich, mit der API ein einfaches UI zu definieren. Dieses bekommt der Nutzer präsentiert und kann so Parameter des Templates festlegen.&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die API bietet dabei per default die Möglichkeit, Checkboxen, Textfelder und Comboboxen zu definieren. Um Übersicht zu schaffen, können diese noch mit Group-Elementen gruppiert werden. &lt;/span&gt;&lt;/p&gt; Die Klasse 
-&lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/wizard/template/AbstractProjectTemplate.java&quot;&gt;&lt;code&gt;AbstractProjectTemplate&lt;/code&gt;&lt;/a&gt; liefert hierfür entsprechende Methoden, mit denen das Interface definiert werden kann. Eine Checkbox wird durch den Aufruf von 
-&lt;code&gt;check&lt;/code&gt; erzeugt. Wenn diese nun einer Instanzvariablen zugewiesen wird, kann diese in der 
-&lt;code&gt;generateprojects&lt;/code&gt;-Methode genutzt werden, um den vom Benutzer ausgewählten Wert zu ermitteln. Zum Beispiel könnte mit folgendem Code eine Checkbox erzeugt werden, welche die Generierung eine Projektes nach Auswahl des Users unterdrückt:
-&lt;br /&gt;
-&lt;br /&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;@ProjectTemplate(label=&quot;Test&quot;, icon=&quot;project_template.png&quot;,&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    description=&quot;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;Test&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;This is a test project.&amp;lt;/p&amp;gt;&quot;)&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;final class TestProject {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    val generateHello = check(&quot;Generate Hello&quot;, true)&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    override generateProjects(IProjectGenerator generator) {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        if (generateHello.value) {&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;            generator.generate(new PluginProjectFactory =&amp;gt; [&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                projectName = projectInfo.projectName&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                location = projectInfo.locationPath&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                projectNatures += #[JavaCore.NATURE_ID,&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                                    &quot;org.eclipse.pde.PluginNature&quot;,&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                                    XtextProjectHelper.NATURE_ID]&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                builderIds += JavaCore.BUILDER_ID&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                folders += &quot;src&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                addFile('''src/Model.mydsl''', '''&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                    Hello World!&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;                ''')&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;            ])&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;        }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;    }&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;}&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Textfelder und Comboboxen lassen sich mit den Methoden &lt;/span&gt;&lt;code&gt;text&lt;/code&gt;und &lt;code&gt;combo&lt;/code&gt; analog anlegen und verwenden.&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Sollte ein noch ausgefeilterer Wizard benötigt werden, können die Methoden &lt;/span&gt;&lt;code&gt;updateVariables&lt;/code&gt; und &lt;code&gt;validate&lt;/code&gt; wie im &quot;Hello World&quot;-Beispiel überschrieben werden. Diese werden nach jeder User-Interaktion mit dem UI aufgerufen.&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;code&gt;updateVariables&lt;/code&gt; kann verwendet werden, um Widgets zu manipulieren – zum Beispiel um bestimmte Element zu aktivieren oder deaktivieren, wenn der Benutzer einen Wert im Wizard verändert.&lt;/span&gt;&lt;/p&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;code&gt;validate&lt;/code&gt; hingegen kann einen Status zurückliefern, um Eingabefehler vom User im Wizard als Fehlermeldung zu melden.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;h2&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Templates per Plugin beisteuern&lt;/span&gt;&lt;/h2&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die Project Templates werden über einen Extension Point registriert. Zunächst einmal bekommt man als DSL-Entwickler davon nichts mit. Interessant wird dies erst, wenn das eigene Plugin durch Dritte erweitert wird. Diese können dann einfach weitere Implementierungen von &lt;a href=&quot;https://github.com/eclipse/xtext-eclipse/blob/master/org.eclipse.xtext.ui/src/org/eclipse/xtext/ui/wizard/template/IProjectTemplateProvider.java&quot;&gt;&lt;code&gt;IProjectTemplateProvider&lt;/code&gt;&lt;/a&gt; beisteuern. Hier ist es nötig, die implementierende Klasse zu referenzieren und den Grammatiknamen, zu dem man contributet, anzugeben. Über diesen Namen wird entschieden, in welchem Wizard die Templates angezeigt werden. Das von Xtext generierte Beispiel sieht in der &lt;code&gt;plugin.xml&lt;/code&gt; dann wie folgt aus.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt; 
-&lt;pre class=&quot;prettyprint&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;lt;extension point=&quot;org.eclipse.xtext.ui.projectTemplate&quot;&amp;gt;&lt;br /&gt;    &amp;lt;projectTemplateProvider&lt;br /&gt;            class=&quot;org.xtext.example.mydsl.ui.wizard.MyDslProjectTemplateProvider&quot;&lt;br /&gt;            grammarName=&quot;org.xtext.example.mydsl.MyDsl&quot;&amp;gt;&lt;br /&gt;    &amp;lt;/projectTemplateProvider&amp;gt;&lt;br /&gt;&amp;lt;/extension&amp;gt;&lt;br /&gt;&lt;/span&gt;&lt;/pre&gt; 
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;Wer jetzt nicht mehr auf Eclipse Photon warten kann, dem sei die nächtliche Update-Site &lt;code&gt;http://download.eclipse.org/modeling/tmf/xtext/updates/composite/latest/&lt;/code&gt; ans Herz gelegt. Einfach das neueste und heißeste Xtext installieren und loslegen!&lt;/span&gt;&lt;/p&gt;  
-&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Fnew-project-wizard-einfach-mit-xtext-2-14-generieren&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 04 Apr 2018 14:20:00 +0000</pubDate>
-	<author>adeutsch@itemis.de (Arne Deutsch)</author>
-</item>
-<item>
-	<title>Eclipse Announcements: Winners of Open IoT Challenge 4.0 Demonstrate How Open Source Accelerates Innovation</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/hn6I6OZ6roc/20180404_iotchallenge_winners2018.php</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/hn6I6OZ6roc/20180404_iotchallenge_winners2018.php</link>
-	<description>Eclipse IoT is pleased to announce the winners of the fourth annual Open IoT Challenge!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/hn6I6OZ6roc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 04 Apr 2018 14:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: EclipseCon France 2018 Program Announced</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/MU3P8PQbswc/accepted</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/MU3P8PQbswc/accepted</link>
-	<description>See the list of accepted sessions, and register now for the lowest price. We'll see you June 13 - 14 in Toulouse.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/MU3P8PQbswc&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 03 Apr 2018 14:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Voting for the Jakarta EE logo is now open!</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/c7bkDM79IuE/viewform</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/c7bkDM79IuE/viewform</link>
-	<description>Voting will be conducted using a ranked poll. To vote, simply rank the final shortlist of logos in order of preference.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/c7bkDM79IuE&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Thu, 29 Mar 2018 22:45:00 +0000</pubDate>
-</item>
-<item>
-	<title>JBoss Tools Team: JBoss Tools 4.5.3.AM3 for Eclipse Oxygen.3</title>
-	<guid isPermaLink="true">https://tools.jboss.org/blog/4.5.3.am3-for-oxygen.3.html</guid>
-	<link>https://tools.jboss.org/blog/4.5.3.am3-for-oxygen.3.html</link>
-	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Happy to announce 4.5.3.AM3 (Developer Milestone 3) build for Eclipse Oxygen.3.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.3.AM3.html&quot;&gt;JBoss Tools 4.5.3 AM3&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect1&quot;&gt;
-      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
-      &lt;div class=&quot;sectionbody&quot;&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.3.AM3.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;openshift&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift&quot;&gt;&lt;/a&gt;OpenShift&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;/a&gt;CDK and Minishift Server Adapter runtime download&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When working with both CDK and upstream Minishift, you needed to have previously downloaded the CDK
-      or Minishift binary. It is now possible to download the runtime to a specific folder when you create
-      the server adapter.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Let’s see an example with the CDK server adapter.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;From the &lt;strong&gt;Servers&lt;/strong&gt; view, select the new Server menu item and enter cdk in the filter:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Select Red Hat Container Development Kit 3.2+&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard1.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard3.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;In order to download the runtime, click the &lt;strong&gt;Download and install runtime…​&lt;/strong&gt; link:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard4.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Select the version of the runtime you want to download&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard5&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard5.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard6&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard6.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You need an account to download the CDK. If you already had configured credentials, select the one you
-      want to use. If you didn’t, click the &lt;strong&gt;Add&lt;/strong&gt; button to add your credentials.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard7&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard7.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button. Your credentials will be validated, and upon success, you must accept
-      the license agreement:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard8&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard8.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Accept the license agreement and click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard9&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard9.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;You can choose the folder where you want the runtime to be installed. Once you’ve set it,
-      click the &lt;strong&gt;Finish&lt;/strong&gt; button:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The download of the runtime will be started and you should see the progression on the server adapter
-      wizard:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard10&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard10.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Once the download is completed, you will notice that the &lt;strong&gt;Minishift Binary&lt;/strong&gt; and &lt;strong&gt;Username&lt;/strong&gt; fields have been filled:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard11&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard11.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Click the &lt;strong&gt;Finish&lt;/strong&gt; button to create the server adapter.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Please note that if it’s the first time you install CDK, you must perform an initialization. In the &lt;strong&gt;Servers&lt;/strong&gt; view, right click
-      the server and select the &lt;strong&gt;Setup CDK&lt;/strong&gt; menu item:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard12&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard12.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;cdk server adapter wizard13&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard13.png&quot; width=&quot;600&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;hibernate-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-tools&quot;&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;hibernate-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;new-hibernate-5-3-runtime-provider&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-hibernate-5-3-runtime-provider&quot;&gt;&lt;/a&gt;New Hibernate 5.3 Runtime Provider&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;With beta releases available in the Hibernate 5.3 stream, the time was right to make available a corresponding Hibernate 5.3 runtime provider. This runtime provider incorporates Hibernate Core version 5.3.0.Beta2 and Hibernate Tools version 5.3.0.Beta1.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;hibernate 5 3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/hibernate/images/4.5.3.AM3/hibernate_5_3.png&quot; width=&quot;381&quot; /&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;title&quot;&gt;Figure 1. Hibernate 5.3 is available&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect4&quot;&gt;
-      &lt;h5 id=&quot;other-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#other-runtime-provider-updates&quot;&gt;&lt;/a&gt;Other Runtime Provider Updates&lt;/h5&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.6.Final.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.12.Final and Hibernate Tools version 5.1.7.Final.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.15.Final and Hibernate Tools version 5.2.10.Final.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect2&quot;&gt;
-      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;fuse-ignite-technical-extension-templates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-ignite-technical-extension-templates&quot;&gt;&lt;/a&gt;Fuse Ignite Technical Extension templates&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The existing template for &quot;Custom step using a Camel Route&quot; has been updated to work with Fuse 7 Tech Preview 4.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Two new templates have been added:
-      - Custom step using Java Bean
-      - Custom connector&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;New Fuse Ignite wizard with 3 options&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionWizard10.3.0.AM3.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;/a&gt;Improvements of the wizard to create a Fuse Integration project&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;The creation wizard provides better guidance for the targeted deployment environment:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;New Fuse Integration Project wizard page to select environment&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-environment.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;More place is available to choose the templates and they are now filtered based on the targeted environment:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;New Fuse Integration Project wizard page to select templates&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-templates.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;It also points out to other places to find different examples for advanced users (see the link at the bottom of the previous screenshot).&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;/a&gt;Camel Rest DSL editor (Technical preview)&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Camel is providing a Rest DSL to help the integration through Rest endpoints. Fuse Tooling is now providing a new tab in read-only mode to visualize the Rest endpoints defined.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;imageblock&quot;&gt;
-      &lt;div class=&quot;content&quot;&gt;
-      &lt;img alt=&quot;Rest DSL editor tab in read-only mode&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/restViewer.png&quot; /&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;It is currently in Tech Preview and needs to be activated in Window → Preferences → Fuse Tooling → Editor → Enable Read Only Tech preview REST DSL tab.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Work is still ongoing and feedback is very welcome on this new feature, you can comment on &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS-1287&quot;&gt;this JIRA epic&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;sect3&quot;&gt;
-      &lt;h4 id=&quot;dozer-upgrade-and-migration&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#dozer-upgrade-and-migration&quot;&gt;&lt;/a&gt;Dozer upgrade and migration&lt;/h4&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;When upgrading from Camel &amp;lt; 2.20 to Camel &amp;gt; 2.20, the Dozer dependency has been upgraded to a version not backward-compatible
-      If you open a Data transformation based on Dozer in Fuse Tooling, it will propose to migrate the file used for the transformation (technically changing the namespace). It allow to continue to use the Data Transformation editor and have - in most cases - the Data Transformation working at runtime with Camel &amp;gt; 2.20.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Enjoy!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;paragraph&quot;&gt;
-      &lt;p&gt;Jeff Maury&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 28 Mar 2018 15:15:31 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Three days left to complete the Jakarta EE Survey!</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/Nw4e_8orxX0/jakartaec</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/Nw4e_8orxX0/jakartaec</link>
-	<description>One week left to share your insights on Java EE and help shape the future of Jakarta EE.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/Nw4e_8orxX0&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 27 Mar 2018 12:10:00 +0000</pubDate>
 </item>
 
 </channel>

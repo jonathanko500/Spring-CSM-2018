@@ -2,15 +2,16 @@ import java.io.*;
 import java.util.*;
 
 public class Hangman {
-	private static String word;
-	private static String blank;
+	//private static String word;
+	//private static String blank;
 	private static int count=0;
 	public static void main(String[] args) 
 	{
+		String word,blank;
 		ArrayList<String> dic = new ArrayList<String>();
 		word = getWord(dic);
 		blank=blankWord(getWord(dic));
-		hang();
+		hang(word,blank);
 	}
 	public static String getWord(ArrayList list) 
 	{//start method
@@ -49,11 +50,11 @@ public class Hangman {
 		}
 		return x;
 	}
-	public static void hang()
+	public static void hang(String word,String blank)
 	{//start
 		Scanner input = new Scanner(System.in);
 		String letter;
-		System.out.println(word);
+		
 		System.out.println("You need to guess this word: "+blank);
 		System.out.println("You have 7 tries to guess the word.");
 		while(count<7)
@@ -62,11 +63,11 @@ public class Hangman {
 			System.out.println(blank);
 			System.out.print("What is your guess: ");
 			letter=input.nextLine();
-			attempt(letter);
+			attempt(letter,word,blank);
 			
 		}
 	}//end
-	public static void attempt(String guess)
+	public static void attempt(String guess,String word,String blank)
 	{//start
 		String noBlank="";
 		guess.toLowerCase();
@@ -97,7 +98,6 @@ public class Hangman {
 		if(blank.equals(word))
 		{
 			System.out.println("You guess correctly. The word is indeed "+word+"!");
-			count=8;
 		}
 	}//end
 }

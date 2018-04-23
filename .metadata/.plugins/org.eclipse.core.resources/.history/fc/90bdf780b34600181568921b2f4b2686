@@ -7,6 +7,7 @@ public class Hangman {
 	private static int count=0;
 	public static void main(String[] args) 
 	{
+		
 		ArrayList<String> dic = new ArrayList<String>();
 		word = getWord(dic);
 		blank=blankWord(getWord(dic));
@@ -56,7 +57,7 @@ public class Hangman {
 		System.out.println(word);
 		System.out.println("You need to guess this word: "+blank);
 		System.out.println("You have 7 tries to guess the word.");
-		while(count<7)
+		while(count<7&&blank.contains("*"))
 		{
 			
 			System.out.println(blank);
@@ -97,7 +98,6 @@ public class Hangman {
 		if(blank.equals(word))
 		{
 			System.out.println("You guess correctly. The word is indeed "+word+"!");
-			count=8;
 		}
 	}//end
 }

@@ -2,17 +2,18 @@ import java.io.*;
 import java.util.*;
 
 public class Hangman {
-
-	public static void main(String[] args)// throws FileNotFoundException 
+	private static String Word;
+	private static String blank;
+	public static void main(String[] args) 
 	{
 		
 		ArrayList<String> word = new ArrayList<String>();
-		System.out.println(readDic(word));
-		String blank = new String(new char[readDic(word).length()]).replace("\0", "-");
-		guessWord(readDic(word),blank);
-
+		Word = getWord(word);
+		blank=blankWord(getWord(word));
+		System.out.println(Word);
+		System.out.println(blank);
 	}
-	public static String readDic(ArrayList list) 
+	public static String getWord(ArrayList list) 
 	{//start method
 		Scanner fileScan = null;
 		String x;
@@ -39,42 +40,15 @@ public class Hangman {
 		z=rand.nextInt(list.size());
 		return (String) list.get(z);
 	}//end method
-	public static void guessWord(String word,String blank)
-	{//method
-		Scanner input = new Scanner(System.in);
-		int count=1;
-		String guess,newWord;
-		System.out.println("This is your word: "+blank);
-		System.out.println("You have 7 seven tires to guess the word.");
-		while(count<=7)
-		{//loop
-			System.out.print("Your guess is: ");
-			guess=input.nextLine();
-			newWord=newWord(guess,word,blank);
-			if(word.equals(newWord))
-			{
-				count++;
-			}
-			else
-			{
-				blank=newWord;
-			}
-			if(blank.equals(word))
-			{
-				System.out.println("Correct! You win! The word was " + word);
-			}
-		}//loop
-	}//method
-	public static String newWord(String guess,String word,String blank)
+	public static String blankWord(String word)
 	{
-		String x = null;
-		for(int i =0;i<word.length();i++)
+		int length=word.length();
+		String x = "";
+		for(int i=0;i<length;i++)
 		{
-			if(word.charAt(i)==guess.charAt(0))
-			{
-				
-			}
+			x+="*";
 		}
 		return x;
 	}
+	
 }

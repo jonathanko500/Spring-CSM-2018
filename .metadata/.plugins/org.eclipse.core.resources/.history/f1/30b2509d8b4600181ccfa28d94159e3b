@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+public class Hangman {
+
+	public static void main(String[] args)// throws FileNotFoundException 
+	{
+		
+		ArrayList<String> word = new ArrayList<String>();
+		System.out.println(readDic(word));
+		
+
+	}
+	public static String readDic(ArrayList list) 
+	{//start method
+		Scanner fileScan = null;
+		String x;
+		try
+		{
+			fileScan = new Scanner(new FileReader(new File("words.txt")));
+		} 
+		catch (FileNotFoundException e)
+		{
+			e.printStackTrace();
+			System.out.println("There is not file.");
+		}
+		finally
+		{
+			String word;
+			while(fileScan.hasNext())
+			{
+				word=fileScan.nextLine();
+				list.add(word);
+			}
+		}
+		int z;
+		Random rand = new Random();
+		z=rand.nextInt(list.size());
+		return (String) list.get(z);
+	}//end method
+	
+}

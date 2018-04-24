@@ -17,7 +17,7 @@ public class Hangman {
 		String x;
 		try
 		{
-			fileScan = new Scanner(new FileReader(new File("words.txt")));
+			fileScan = new Scanner(new FileReader(new File("word.txt")));
 		} 
 		catch (FileNotFoundException e)
 		{

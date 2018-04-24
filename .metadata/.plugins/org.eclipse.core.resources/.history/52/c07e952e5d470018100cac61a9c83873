@@ -2,14 +2,13 @@ import java.io.*;
 import java.util.*;
 
 public class Hangman {
-	private static String Word;
+	private static String word;
 	private static String blank;
+	private static int count=0;
 	public static void main(String[] args) 
 	{
-		
-		ArrayList<String> word = new ArrayList<String>();
-		Word = getWord(word);
-		blank=blankWord(getWord(word));
+		ArrayList<String> dic = new ArrayList<String>();
+		word = getWord(dic);
 		hang();
 	}
 	public static String getWord(ArrayList list) 
@@ -23,7 +22,7 @@ public class Hangman {
 		catch (FileNotFoundException e)
 		{
 			e.printStackTrace();
-			System.out.println("There is not file.");
+			System.out.println("There is no file.");
 		}
 		finally
 		{
@@ -50,44 +49,59 @@ public class Hangman {
 		return x;
 	}
 	public static void hang()
-	{//start 
+	{//start
 		Scanner input = new Scanner(System.in);
-		String guess;
-		int count=0;
-		System.out.println(Word);
-		System.out.println("This is your word: "+blank);
-		System.out.println("You have 7 tries to guess th word.");
-		System.out.print("What is your guess: ");
-		guess=input.nextLine();
+		String letter;
+		blank=blankWord(word);
+		System.out.println("You need to guess this word: "+blankWord(word));
+		System.out.println("You have 7 tries to guess the word.");
 		while(count<7)
 		{
-			System.out.println(guesses(guess));
+			System.out.println("");
+			System.out.println("This is your progress: "+blank);
 			System.out.print("What is your guess: ");
-			guess=input.nextLine();
-			count++;
+			letter=input.nextLine();
+			attempt(letter);
+		}
+		if(blank.contains("*"))
+		{
+			System.out.println("");
+			System.out.println("The word is "+word);
 		}
 	}//end
-	public static String guesses(String guess)
-	{//start 
-		guess.toLowerCase();
+	public static void attempt(String guess)
+	{//start
 		String noBlank="";
-		for(int i=0;i<Word.length();i++)
-		{
-			if(blank.charAt(i)==guess.charAt(0))
-			{//letter in word
+		guess.toLowerCase();
+		for(int i=0;i<word.length();i++)
+		{//loop
+			if(word.charAt(i) == guess.charAt(i))
+			{
 				noBlank+=guess.charAt(0);
 			}
-			/*
-			else if(blank.charAt(i)!='*')
-			{//blank already has the letter in spaces
+			else if(blank.charAt(i) != '*')
+			{
 				noBlank+=word.charAt(i);
 			}
-			*/
 			else
 			{
 				noBlank+="*";
 			}
+		}//loop
+		if(blank.equals(noBlank))
+		{
+			count++;
+			System.out.println("That was guess number "+count);
 		}
-		return noBlank;
+		else
+		{
+			blank=noBlank;
+		}
+		if(blank.equals(word))
+		{
+			System.out.println("You guess correctly. The word is indeed "+word+"!");
+			count=8;
+		}
+		
 	}//end
 }

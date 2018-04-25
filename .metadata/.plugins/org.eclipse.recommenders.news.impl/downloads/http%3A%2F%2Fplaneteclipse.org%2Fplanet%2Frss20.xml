@@ -8,6 +8,673 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: Survey of 1800+ developers now released on new Jakarta EE website</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/chHefpYH1Hk/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/chHefpYH1Hk/</link>
+	<description>Survey of 1,800+ Java developers reveals &quot;cloud native&quot; top requirement in platform's evolution.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/chHefpYH1Hk&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio for Eclipse Oxygen.3a</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/11.3.0.ga-for-oxygen.3a.html</guid>
+	<link>https://tools.jboss.org/blog/11.3.0.ga-for-oxygen.3a.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/oxygen/4.5.3.Final.html&quot;&gt;JBoss Tools 4.5.3&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/oxygen/11.3.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 11.3&lt;/a&gt; for Eclipse Oxygen.3a are here waiting for you. Check it out!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio11&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio11.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.7 (Oxygen) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3a&quot;&gt;Eclipse 4.7.3a Oxygen JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/oxygen/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Our main focus for this release was on adoption of Java10, improvements for container based development and bug fixing.
+      Eclipse Oxygen itself has &lt;a href=&quot;https://www.youtube.com/playlist?list=PLy7t4z5SYNaTM66CahSlkMh5YkndYXMUq&quot;&gt;a lot of new cool stuff&lt;/a&gt; but let me highlight just a few updates in both Eclipse Oxygen and JBoss Tools plugins that I think are worth mentioning.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;cdk-and-minishift-server-adapter-better-developer-experience&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-and-minishift-server-adapter-better-developer-experience&quot;&gt;&lt;/a&gt;CDK and Minishift Server Adapter better developer experience&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;minishift_home-setting&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#minishift_home-setting&quot;&gt;&lt;/a&gt;MINISHIFT_HOME setting&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When working with both CDK and upstream Minishift, it is recommanded to distinguish environments through the MINISHIFT_HOME variable.
+      It was possible before to use this parameter but it requires a two steps process:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;first create the server adapter (through the wizard)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;then change the MINISHIFT_HOME in the server adapter editor&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is now possible to set this parameter from the server adapter wizard. So now, everything is correctly setup when you create the
+      server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s see an example with the CDK server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the &lt;strong&gt;Servers&lt;/strong&gt; view, select the new Server menu item and enter cdk in the filter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select Red Hat Container Development Kit 3.2+&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The MINISHIFT_HOME parameter can be set here and is defaulted.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#cdk-and-minishift-server-adapter-runtime-download&quot;&gt;&lt;/a&gt;CDK and Minishift Server Adapter runtime download&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When working with both CDK and upstream Minishift, you needed to have previously downloaded the CDK
+      or Minishift binary. It is now possible to download the runtime to a specific folder when you create
+      the server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let’s see an example with the CDK server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the &lt;strong&gt;Servers&lt;/strong&gt; view, select the new Server menu item and enter cdk in the filter:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select Red Hat Container Development Kit 3.2+&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In order to download the runtime, click the &lt;strong&gt;Download and install runtime…​&lt;/strong&gt; link:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select the version of the runtime you want to download&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard5&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard5.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard6&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard6.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You need an account to download the CDK. If you already had configured credentials, select the one you
+      want to use. If you didn’t, click the &lt;strong&gt;Add&lt;/strong&gt; button to add your credentials.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard7&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard7.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button. Your credentials will be validated, and upon success, you must accept
+      the license agreement:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard8&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard8.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Accept the license agreement and click the &lt;strong&gt;Next&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard9&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard9.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can choose the folder where you want the runtime to be installed. Once you’ve set it,
+      click the &lt;strong&gt;Finish&lt;/strong&gt; button:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The download of the runtime will be started and you should see the progression on the server adapter
+      wizard:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard10&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard10.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the download is completed, you will notice that the &lt;strong&gt;Minishift Binary&lt;/strong&gt; and &lt;strong&gt;Username&lt;/strong&gt; fields have been filled:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard11&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard11.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Click the &lt;strong&gt;Finish&lt;/strong&gt; button to create the server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Please note that if it’s the first time you install CDK, you must perform an initialization. In the &lt;strong&gt;Servers&lt;/strong&gt; view, right click
+      the server and select the &lt;strong&gt;Setup CDK&lt;/strong&gt; menu item:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard12&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard12.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;cdk server adapter wizard13&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/cdk-server-adapter-wizard13.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Please note that the &lt;strong&gt;setup-cdk&lt;/strong&gt; command will also be automatically run when you start the CDK server adapter if the
+      MINISHIFT_HOME environment is detected uninitialized after user approval.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;minishift-server-adapter&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#minishift-server-adapter&quot;&gt;&lt;/a&gt;Minishift Server Adapter&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A new server adapter has been added to support upstream Minishift.
+      While the server adapter itself has limited functionality, it is able to start and stop the Minishift virtual machine via its minishift binary.
+      From the Servers view, click &lt;strong&gt;New&lt;/strong&gt; and then type minishift, that will bring up a command to setup and/or launch the Minishift server adapter.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All you have to do is set the location of the minishift binary file, the type of virtualization hypervisor
+      and an optional Minishift profile name.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter1&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter1.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you’re finished, a new Minishift Server adapter will then be created and visible in the Servers view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter2&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter2.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once the server is started, Docker and OpenShift connections should appear in their respective views, allowing the user to quickly create a new Openshift application and begin developing their AwesomeApp in a highly-replicatable environment.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter3.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;minishift server adapter4&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/minishift-server-adapter4.png&quot; width=&quot;600&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The credentials framework still supports the JBoss.org credentials in case other services / components require or use this credentials domain.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-shortcuts-in-fuse-integration-perspective&quot;&gt;&lt;/a&gt;New shortcuts in Fuse Integration perspective&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Shortcuts for the Java, Launch, and Debug perspectives and basic navigation operations are now provided within the Fuse Integration perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The result is a set of buttons in the Toolbar:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Toolbar action&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newToolbarAction.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;All of the associated keyboard shortcuts are also available, such as Ctrl+Shift+T to open a Java Type.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#performance-improvement-loading-advanced-tab-for-camel-endpoints&quot;&gt;&lt;/a&gt;Performance improvement: Loading Advanced tab for Camel Endpoints&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The loading time of the &quot;Advanced&quot; tab in the Properties view for Camel Endpoints is greatly improved.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Advanced Tab in Properties view&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/advancedTab.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Previously, in the case of Camel Components that have a lot of parameters, it took several seconds to load the Advanced tab. For example, for the File component, it would take ~3.5s. It now takes ~350ms. The load time has been reduced by a factor of 10. (See this interesting &lt;a href=&quot;https://www.nngroup.com/articles/response-times-3-important-limits/&quot;&gt;article on response time&lt;/a&gt;)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you notice other places showing slow performance, you can file a report by using the &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS&quot;&gt;Fuse Tooling issue tracker&lt;/a&gt;. The Fuse Tooling team really appreciates your help. Your feedback contributes to our development priorities and improves the Fuse Tooling user experience.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;display-fuse-version-corresponding-to-camel-version-proposed&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#display-fuse-version-corresponding-to-camel-version-proposed&quot;&gt;&lt;/a&gt;Display Fuse version corresponding to Camel version proposed&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you create a new project, you select the Camel version from a list. Now, the list of Camel versions includes the Fuse version to help you choose the version that corresponds to your production version.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Version also displayed in drop-down list close to Camel version&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/listOfFuseVersion.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;update-validation-for-similar-ids-between-a-component-and-its-definition&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#update-validation-for-similar-ids-between-a-component-and-its-definition&quot;&gt;&lt;/a&gt;Update validation for similar IDs between a component and its definition&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Starting with Camel 2.20, you can use similar IDs for the component name and its definition unless the specific property &quot;registerEndpointIdsFromRoute&quot; is provided.
+      The validation process checks the Camel version and the value of the &quot;registerEndpointIdsFromRoute&quot; property.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For example:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&amp;lt;from id=&quot;timer&quot; uri=&quot;timer:timerName&quot;/&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improved-guidance-in-method-selection-for-factory-methods-on-global-bean&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improved-guidance-in-method-selection-for-factory-methods-on-global-bean&quot;&gt;&lt;/a&gt;Improved guidance in method selection for factory methods on Global Bean&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When selecting factory method on a Global bean, a lot of possibilities were proposed in the user interface. The list of factory methods for a global bean is now limited to only those methods that match the constraints of the bean’s global definition type (bean or bean factory).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;customize-eip-labels-in-the-diagram&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#customize-eip-labels-in-the-diagram&quot;&gt;&lt;/a&gt;Customize EIP labels in the diagram&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Fuse Tooling preferences page for the Editor view includes a new &quot;Preferred Labels&quot; option.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fuse Tooling editor preference page&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/prefEIPLabels.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Use this option to define the label of EIP components (except endpoints) shown in the Editor’s Design view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Dialog for defining the display text for an EIP&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/prefEIPLabelsResult.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;fuse-ignite-technical-extension-templates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-ignite-technical-extension-templates&quot;&gt;&lt;/a&gt;Fuse Ignite Technical Extension templates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The existing template for &quot;Custom step using a Camel Route&quot; has been updated to work with Fuse 7 Tech Preview 4.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Two new templates have been added:
+      - Custom step using Java Bean
+      - Custom connector&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Ignite wizard with 3 options&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/igniteExtensionWizard10.3.0.AM3.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#improvements-of-the-wizard-to-create-a-fuse-integration-project&quot;&gt;&lt;/a&gt;Improvements of the wizard to create a Fuse Integration project&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The creation wizard provides better guidance for the targeted deployment environment:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Integration Project wizard page to select environment&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-environment.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;More place is available to choose the templates and they are now filtered based on the targeted environment:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;New Fuse Integration Project wizard page to select templates&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/newFuseIntegrationWizard-templates.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It also points out to other places to find different examples for advanced users (see the link at the bottom of the previous screenshot).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#camel-rest-dsl-editor-technical-preview&quot;&gt;&lt;/a&gt;Camel Rest DSL editor (Technical preview)&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Camel is providing a Rest DSL to help the integration through Rest endpoints. Fuse Tooling is now providing a new tab in read-only mode to visualize the Rest endpoints defined.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Rest DSL editor tab in read-only mode&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/restViewer.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;It is currently in Tech Preview and needs to be activated in Window → Preferences → Fuse Tooling → Editor → Enable Read Only Tech preview REST DSL tab.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Work is still ongoing and feedback is very welcome on this new feature, you can comment on &lt;a href=&quot;https://issues.jboss.org/browse/FUSETOOLS-1287&quot;&gt;this JIRA epic&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;dozer-upgrade-and-migration&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#dozer-upgrade-and-migration&quot;&gt;&lt;/a&gt;Dozer upgrade and migration&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When upgrading from Camel &amp;lt; 2.20 to Camel &amp;gt; 2.20, the Dozer dependency has been upgraded to a version not backward-compatible
+      If you open a Data transformation based on Dozer in Fuse Tooling, it will propose to migrate the file used for the transformation (technically changing the namespace). It allow to continue to use the Data Transformation editor and have - in most cases - the Data Transformation working at runtime with Camel &amp;gt; 2.20.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;hibernate-tools&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-tools&quot;&gt;&lt;/a&gt;Hibernate Tools&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;hibernate-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#hibernate-runtime-provider-updates&quot;&gt;&lt;/a&gt;Hibernate Runtime Provider Updates&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;A number of additions and updates have been performed on the available Hibernate runtime  providers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;new-hibernate-5-3-runtime-provider&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#new-hibernate-5-3-runtime-provider&quot;&gt;&lt;/a&gt;New Hibernate 5.3 Runtime Provider&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With beta releases available in the Hibernate 5.3 stream, the time was right to make available a corresponding Hibernate 5.3 runtime provider. This runtime provider incorporates Hibernate Core version 5.3.0.Beta2 and Hibernate Tools version 5.3.0.Beta1.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot; style=&quot;text-align: center;&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;hibernate 5 3&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/hibernate/images/4.5.3.AM3/hibernate_5_3.png&quot; width=&quot;381&quot; /&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;title&quot;&gt;Figure 1. Hibernate 5.3 is available&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;other-runtime-provider-updates&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#other-runtime-provider-updates&quot;&gt;&lt;/a&gt;Other Runtime Provider Updates&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.0 runtime provider now incorporates Hibernate Core version 5.0.12.Final and Hibernate Tools version 5.0.6.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.1 runtime provider now incorporates Hibernate Core version 5.1.12.Final and Hibernate Tools version 5.1.7.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Hibernate 5.2 runtime provider now incorporates Hibernate Core version 5.2.15.Final and Hibernate Tools version 5.2.10.Final.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;java-developement-tools-jdt&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#java-developement-tools-jdt&quot;&gt;&lt;/a&gt;Java Developement Tools (JDT)&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;support-for-java-10&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#support-for-java-10&quot;&gt;&lt;/a&gt;Support for Java™ 10&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The biggest part is the support for local variable type inference.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;add-java-10-jre&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#add-java-10-jre&quot;&gt;&lt;/a&gt;Add Java 10 JRE&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Basic necessity of recognizing a Java 10 for launching&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;j10&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/j10.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;And the compiler compliance option of 10&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;j10.compliance&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/j10.compliance.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;jep-286-var-compilation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jep-286-var-compilation&quot;&gt;&lt;/a&gt;JEP 286 var - compilation&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Support for compilation of var as shown below&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.compile&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.compile.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Flagging of the compiler errors as expected, shown below&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.nocompile&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.nocompile.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Completion at places var is allowed&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.complete&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.complete.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Completion not offered at places var is not allowed&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.nocomplete&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.nocomplete.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Hover to reveal the javadoc&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.hover&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.hover.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Convert from var to the appropriate type using quick assist&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.vartotype&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.vartotype.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Convert from type to var using quick assist&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;var.typetovar&quot; src=&quot;https://www.eclipse.org/eclipse/news/4.7.3a/images/var.typetovar.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;general&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#general&quot;&gt;&lt;/a&gt;General&lt;/h3&gt;
+      
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;credentials-framework&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#credentials-framework&quot;&gt;&lt;/a&gt;Credentials Framework&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;sunsetting-jboss-org-credentials&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#sunsetting-jboss-org-credentials&quot;&gt;&lt;/a&gt;Sunsetting jboss.org credentials&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;code&gt;Download Runtimes&lt;/code&gt; and &lt;code&gt;CDK Server Adapter&lt;/code&gt; used the credentials framework to manage credentials. However, the JBoss.org credentials cannot be used any more
+      as the underlying service used by these components does not support these credentials.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;aerogear&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#aerogear&quot;&gt;&lt;/a&gt;Aerogear&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;aerogear-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#aerogear-component-deprecation&quot;&gt;&lt;/a&gt;Aerogear component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Aerogear component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;arquillian&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#arquillian&quot;&gt;&lt;/a&gt;Arquillian&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;arquillian-component-removal&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#arquillian-component-removal&quot;&gt;&lt;/a&gt;Arquillian component removal&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Arquillian component has been removed from Red Hat Central as it has been deprecated since July 2017.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The last available update site release is here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/jbosstools/oxygen/stable/updates/core/arquillian/&quot;&gt;Arquillian 1.2.601.v20171220-1317&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;browsersim&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#browsersim&quot;&gt;&lt;/a&gt;BrowserSim&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;browsersim-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#browsersim-component-deprecation&quot;&gt;&lt;/a&gt;BrowserSim component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The BrowserSim component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;freemarker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker&quot;&gt;&lt;/a&gt;Freemarker&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;freemarker-component-removal&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#freemarker-component-removal&quot;&gt;&lt;/a&gt;Freemarker component removal&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The Freemarker component has been removed from Red Hat Central as it has been deprecated since July 2017.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The last available update site release is here:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://download.jboss.org/jbosstools/oxygen/stable/updates/core/freemarker/&quot;&gt;Freemarker 1.5.302.v20171212-1534&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;livereload&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#livereload&quot;&gt;&lt;/a&gt;LiveReload&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;livereload-component-deprecation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#livereload-component-deprecation&quot;&gt;&lt;/a&gt;LiveReload component deprecation&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The LiveReload component has been marked deprecated as there is no more maintenance on the source code. It is still available in Red Hat Central
+      and may be removed in the future.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;and-more&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#and-more&quot;&gt;&lt;/a&gt;And more…​&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can find more noteworthy updates in on &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.5.3.Final.html&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is next?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.5.3 and Developer Studio 11.3 out we are already working on the next release for Eclipse Photon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 12:56:09 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: ECF Photon adds Gogo Commands</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-1866288943800996883</guid>
+	<link>http://eclipseecf.blogspot.com/2018/04/ecf-photon-adds-gogo-commands.html</link>
+	<description>A &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/04/ecf-photon-supports-bndtools.html&quot;&gt;third&lt;/a&gt; major enhancement for &lt;a href=&quot;http://www.eclipse.org/ecf&quot;&gt;ECF&lt;/a&gt;'s implementation of &lt;a href=&quot;https://wiki.eclipse.org/Eclipse_Communication_Framework_Project#OSGi_Remote_Services&quot;&gt;OSGi Remote Services&lt;/a&gt; is the addition of Apache Gogo console commands for examining the existing state of remote services, and the ability to export a service and import an endpoint from the OSGi console.&lt;br /&gt;&lt;br /&gt;See this &lt;a href=&quot;https://wiki.eclipse.org/Gogo_Commands_for_Remote_Services_Development&quot;&gt;wiki page describing the new commands and their usage&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Tue, 24 Apr 2018 01:34:59 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
 	<title>EclipseCon France 2018: Interview: Making EMF Intelligent with AI</title>
 	<guid isPermaLink="false">https://www.eclipsecon.org/france2018/news/3881 at https://www.eclipsecon.org/france2018</guid>
 	<link>https://www.eclipsecon.org/france2018/news/interview-making-emf-intelligent-ai</link>
@@ -30,7 +697,7 @@
 	<title>Donald Raab: EC by Example: FlatCollect</title>
 	<guid isPermaLink="false">https://medium.com/p/3efe24e43da2</guid>
 	<link>https://medium.com/@donraab/ec-by-example-flatcollect-3efe24e43da2?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;Learn how to flatten a collection of collections into a single collection using the &lt;em&gt;flatCollect&lt;/em&gt; method in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*D0U-Qv3YU3K3eg7uIQN-3g.png&quot; /&gt;Organize a collection of collections into a single collection&lt;/figure&gt;&lt;h3&gt;What is FlatCollect?&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;flatCollect&lt;/em&gt; is a special form of &lt;em&gt;collect&lt;/em&gt;, where the output of the &lt;em&gt;Function&lt;/em&gt; provided to the method must always be some &lt;em&gt;Iterable&lt;/em&gt; type. The purpose of flatCollect is to provide a transformation by flattening a collection of collections. This method is similar in function to &lt;em&gt;flatMap&lt;/em&gt; in Java Streams. The primary difference is that the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatCollect&lt;/em&gt; must return an &lt;em&gt;Iterable&lt;/em&gt;, while the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatMap&lt;/em&gt; must return a &lt;em&gt;Stream&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/640/1*borarfXLzhw3z0qJdYYhaw.png&quot; /&gt;Creating Intervals from Integers and flattening them to a List&lt;/figure&gt;&lt;h3&gt;FlatCollecting a List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(5, 4, 3, 2, 1);&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; result = list.&lt;strong&gt;flatCollect&lt;/strong&gt;(Interval::&lt;em&gt;oneTo&lt;/em&gt;);&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; expected = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            1, 2, 3, 4, 5,&lt;br /&gt;            1, 2, 3, 4,&lt;br /&gt;            1, 2, 3,&lt;br /&gt;            1, 2,&lt;br /&gt;            1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collection Pipelines&lt;/h3&gt;&lt;p&gt;Martin Fowler describes the Collection Pipeline pattern &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/&quot;&gt;here&lt;/a&gt;. Here is an example of &lt;em&gt;flatCollect&lt;/em&gt; used in a collection pipeline to find all of the methods that contain “flat” in their name for a List of classes. Here I used a overloaded form of &lt;em&gt;flatCollect&lt;/em&gt; which takes a target collection as an argument.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; result = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; expected =&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;The method &lt;em&gt;getMethods&lt;/em&gt; on class returns an array, so in the Function I pass to flatCollect, I convert the array to a &lt;em&gt;List&lt;/em&gt;. If &lt;em&gt;getMethods&lt;/em&gt; had returned a List or some other Iterable type, I could have simply used &lt;em&gt;flatCollect&lt;/em&gt; passing Class::&lt;em&gt;getMethods&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Here’s the same example using Java 10 with Local-variable Type Inference.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava10()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    var resultSet = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    var expected =&lt;br /&gt;            Sets.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, resultSet);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;&lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; Strikes Again&lt;/h3&gt;&lt;p&gt;While there exists a method named &lt;em&gt;collectWith&lt;/em&gt; which is a form of &lt;em&gt;collect&lt;/em&gt; that takes a &lt;em&gt;Function2&lt;/em&gt;, there currently is no method named &lt;em&gt;flatCollectWith&lt;/em&gt; which also takes a &lt;em&gt;Function2&lt;/em&gt;. I discovered the lack of flatCollectWith (again) this week. I have submitted an &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues/504&quot;&gt;issue&lt;/a&gt; for this feature and began working on it over the weekend. I expect to have the &lt;em&gt;flatCollectWith&lt;/em&gt; implementation tested and completed over the next week or two.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#flatCollect-org.eclipse.collections.api.block.function.Function-&quot;&gt;flatCollect&lt;/a&gt;— transforms elements of a source collection to a new collection by flattening collections in the source collection to a single collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mSet--&quot;&gt;mSet&lt;/a&gt; — creates a MutableSet&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/list/Interval.html#oneTo-int-&quot;&gt;Interval.oneTo(int)&lt;/a&gt; — creates an Interval starting from 1 to the specified value&lt;/li&gt;&lt;li&gt;var — Local variable Type Inference included in Java 10 (&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;JEP 286&lt;/a&gt;)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Refer to my previous blogs in the EC by Example series for examples of &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-collect-262a46030c49&quot;&gt;collect&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-filtering-4f14b906f718&quot;&gt;select&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=3efe24e43da2&quot; width=&quot;1&quot; /&gt;</description>
+	<description>&lt;p&gt;Learn how to flatten a collection of collections into a single collection using the &lt;em&gt;flatCollect&lt;/em&gt; method in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*D0U-Qv3YU3K3eg7uIQN-3g.png&quot; /&gt;Organize a collection of collections into a single collection&lt;/figure&gt;&lt;h3&gt;What is FlatCollect?&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;flatCollect&lt;/em&gt; is a special form of &lt;em&gt;collect&lt;/em&gt;, where the output of the &lt;em&gt;Function&lt;/em&gt; provided to the method must always be some &lt;em&gt;Iterable&lt;/em&gt; type. The purpose of flatCollect is to provide a transformation that flattens a collection of collections. This method is similar in function to &lt;em&gt;flatMap&lt;/em&gt; in Java Streams. The primary difference is that the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatCollect&lt;/em&gt; must return an &lt;em&gt;Iterable&lt;/em&gt;, while the &lt;em&gt;Function&lt;/em&gt; for &lt;em&gt;flatMap&lt;/em&gt; must return a &lt;em&gt;Stream&lt;/em&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/640/1*borarfXLzhw3z0qJdYYhaw.png&quot; /&gt;Creating Intervals from Integers and flattening them to a List&lt;/figure&gt;&lt;h3&gt;FlatCollecting a List (Java 8)&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(5, 4, 3, 2, 1);&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; result = list.&lt;strong&gt;flatCollect&lt;/strong&gt;(Interval::&lt;em&gt;oneTo&lt;/em&gt;);&lt;br /&gt;&lt;br /&gt;    MutableList&amp;lt;Integer&amp;gt; expected = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            1, 2, 3, 4, 5,&lt;br /&gt;            1, 2, 3, 4,&lt;br /&gt;            1, 2, 3,&lt;br /&gt;            1, 2,&lt;br /&gt;            1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Collection Pipelines&lt;/h3&gt;&lt;p&gt;Martin Fowler describes the Collection Pipeline pattern &lt;a href=&quot;https://martinfowler.com/articles/collection-pipeline/&quot;&gt;here&lt;/a&gt;. Here is an example of &lt;em&gt;flatCollect&lt;/em&gt; used in a collection pipeline to find all of the methods that contain “flat” in their name for a List of classes. Here I used a overloaded form of &lt;em&gt;flatCollect&lt;/em&gt; which takes a target collection as an argument.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava8()&lt;br /&gt;{&lt;br /&gt;    MutableList&amp;lt;Class&amp;lt;?&amp;gt;&amp;gt; list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; result = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    MutableSet&amp;lt;String&amp;gt; expected = mSet(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, result);&lt;br /&gt;}&lt;/pre&gt;&lt;p&gt;The method &lt;em&gt;getMethods&lt;/em&gt; on class returns an array, so in the Function I pass to flatCollect, I convert the array to a &lt;em&gt;List&lt;/em&gt;. If &lt;em&gt;getMethods&lt;/em&gt; had returned a List or some other Iterable type, I could have simply used &lt;em&gt;flatCollect&lt;/em&gt; passing Class::&lt;em&gt;getMethods&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Here’s the same example using Java 10 with Local-variable Type Inference.&lt;/p&gt;&lt;pre&gt;@Test&lt;br /&gt;public void flatCollectingAListOfMethodsToASetJava10()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;br /&gt;            ListIterable.class,&lt;br /&gt;            MutableList.class,&lt;br /&gt;            ImmutableList.class);&lt;br /&gt;    var resultSet = list&lt;br /&gt;            .collect(Class::getMethods)&lt;br /&gt;            .&lt;strong&gt;flatCollect&lt;/strong&gt;(Lists.&lt;strong&gt;&lt;em&gt;fixedSize&lt;/em&gt;&lt;/strong&gt;::with, &lt;em&gt;mSet&lt;/em&gt;())&lt;br /&gt;            .collect(Method::getName)&lt;br /&gt;            .select(each -&amp;gt; each.toLowerCase().contains(&lt;strong&gt;&quot;flat&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;    var expected = mSet(&lt;strong&gt;&quot;flatCollect&quot;&lt;/strong&gt;);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(expected, resultSet);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;&lt;a href=&quot;https://medium.com/@donraab/symmetric-sympathy-2c59d4541d60&quot;&gt;Symmetric Sympathy&lt;/a&gt; Strikes Again&lt;/h3&gt;&lt;p&gt;While there exists a method named &lt;em&gt;collectWith&lt;/em&gt; which is a form of &lt;em&gt;collect&lt;/em&gt; that takes a &lt;em&gt;Function2&lt;/em&gt;, there currently is no method named &lt;em&gt;flatCollectWith&lt;/em&gt; which also takes a &lt;em&gt;Function2&lt;/em&gt;. I discovered the lack of flatCollectWith (again) this week. I have submitted an &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/issues/504&quot;&gt;issue&lt;/a&gt; for this feature and began working on it over the weekend. I expect to have the &lt;em&gt;flatCollectWith&lt;/em&gt; implementation tested and completed over the next week or two.&lt;/p&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/list/MutableList.html#flatCollect-org.eclipse.collections.api.block.function.Function-&quot;&gt;flatCollect&lt;/a&gt;— transforms elements of a source collection to a new collection by flattening collections in the source collection to a single collection&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mList-T...-&quot;&gt;mList&lt;/a&gt; — creates a MutableList&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/factory/Iterables.html#mSet--&quot;&gt;mSet&lt;/a&gt; — creates a MutableSet&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/impl/list/Interval.html#oneTo-int-&quot;&gt;Interval.oneTo(int)&lt;/a&gt; — creates an Interval starting from 1 to the specified value&lt;/li&gt;&lt;li&gt;var — Local variable Type Inference included in Java 10 (&lt;a href=&quot;http://openjdk.java.net/jeps/286&quot;&gt;JEP 286&lt;/a&gt;)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Refer to my previous blogs in the EC by Example series for examples of &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-collect-262a46030c49&quot;&gt;collect&lt;/a&gt; and &lt;a href=&quot;https://medium.com/@donraab/ec-by-example-filtering-4f14b906f718&quot;&gt;select&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=3efe24e43da2&quot; width=&quot;1&quot; /&gt;</description>
 	<pubDate>Mon, 23 Apr 2018 05:08:51 +0000</pubDate>
 </item>
 <item>
@@ -333,71 +1000,6 @@ We hope you will be the next one!&lt;/p&gt;
       Release 3.9.4 &lt;a href=&quot;https://www.eclipse.org/webtools/releases/3.9.4/&quot;&gt;fixes&lt;/a&gt; issues that occur in prior releases or have been reported since 3.9's release. WTP 3.9.4 is included in Oxygen.3a
           &lt;a href=&quot;https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3a&quot;&gt;Eclipse IDE for Java EE Developers&lt;/a&gt;, with selected portions also included in &lt;a href=&quot;http://www.eclipse.org/downloads/compare.php&quot;&gt;other packages&lt;/a&gt;.  Adopters can download &lt;a href=&quot;http://download.eclipse.org/webtools/downloads/&quot;&gt;the R3.9.4 build itself&lt;/a&gt; directly.&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://www.eclipse.org/webtools/news.php#permalink182&quot;&gt;More news&lt;/a&gt;&lt;/p&gt;</description>
 	<pubDate>Wed, 11 Apr 2018 10:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mike Milinkovich: A New Logo for the Eclipse Foundation</title>
-	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1446</guid>
-	<link>https://mmilinkov.wordpress.com/2018/04/10/eclipse-foundation-new-logo/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Since the beginning of the Eclipse Foundation in 2004 we have had two corporate logos, both of which happened to be the same logo as used by the Eclipse IDE. For a long time that was a good idea, as the Eclipse IDE was definitely our flagship project.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;However, as the role of our Foundation has changed, that has made less and less sense. With exciting new technologies such as Jakarta EE, IoT, machine learning, quantum computing, etc., tying our identity to just one of our 350 projects makes it a lot more difficult to explain.  Our visual identity needs to line up with our role as a platform and environment for developers and organizations to collaborate.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To that end, we are going to soon be rolling out a new logo and website look-and-feel for the Eclipse Foundation. Our web team lead Christopher Guindon &lt;a href=&quot;https://www.chrisguindon.com/post/quicksilver-eclipse-org-redesign/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;has blogged&lt;/a&gt;&lt;/span&gt;&lt;b&gt;&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; about what the new website look-and-feel will be like. It includes both a refresh in the look and feel, while still making it simple for developers to get to their favorite projects and downloads. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;But first, I get the exciting job of sharing our new logo with the world. We really like it, and hope you do too!&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;eclipsefoundationlogo_4&quot; class=&quot;alignnone size-full wp-image-1447&quot; src=&quot;https://mmilinkov.files.wordpress.com/2018/04/eclipsefoundationlogo_4.jpg?w=700&quot; /&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 10 Apr 2018 12:00:29 +0000</pubDate>
-</item>
-<item>
-	<title>Christopher Guindon: Quicksilver: eclipse.org new look and feel</title>
-	<guid isPermaLink="true">https://www.chrisguindon.com/post/quicksilver-eclipse-org-redesign/</guid>
-	<link>https://www.chrisguindon.com/post/quicksilver-eclipse-org-redesign/</link>
-	<description>&lt;p&gt;&lt;img alt=&quot;Eclipse.org new home page&quot; src=&quot;https://www.chrisguindon.com/images/05-quicksilver/eclipse-org-homepage.jpg&quot; title=&quot;Eclipse.org new home page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am pleased to announce a new look and feel for &lt;a href=&quot;https://www.eclipse.org&quot;&gt;www.eclipse.org&lt;/a&gt;, codenamed &lt;strong&gt;Quicksilver&lt;/strong&gt;, and a new logo for the Eclipse Foundation which Mike Milinkovich, the Executive Director of the Eclipse Foundation, has &lt;a href=&quot;https://mmilinkov.wordpress.com/2018/04/10/eclipse-foundation-new-logo/&quot;&gt;blogged&lt;/a&gt; about.&lt;/p&gt;
-
-&lt;p&gt;The main goal of the redesign is to highlight the Eclipse Foundation as more than just the IDE it started with. We want the site to reflect the fact that the Foundation now represents a collection of working groups, open source projects, vendors and individual committers all collaborating in the same space to create innovative technologies.&lt;/p&gt;
-
-&lt;p&gt;We hope we have the balance right, making sure it remains easy for the millions of developers who visit our site to get to their desired downloads easily and quickly.&lt;/p&gt;
-
-&lt;p&gt;A Quicksilver prototype is available now via our &lt;a href=&quot;https://staging.eclipse.org&quot;&gt;public staging server&lt;/a&gt;. This server is protected with basic access authentication. The username is &lt;strong&gt;testuser&lt;/strong&gt; and &lt;strong&gt;plaintext&lt;/strong&gt; is the password.&lt;/p&gt;
-
-&lt;p&gt;The main focus of this redesign was on the following pages:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://staging.eclipse.org&quot;&gt;Eclipse Foundation Homepage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://staging.eclipse.org/org/workinggroups/&quot;&gt;Eclipse Working Groups&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://staging.eclipse.org/org/value/&quot;&gt;Business Value&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://staging.eclipse.org/org/&quot;&gt;Content pages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can participate and contribute to this project by submitting feedback on &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=533394&quot;&gt;Bug 533394 - Quicksilver: eclipse.org new look and feel&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Quicksilver is going to be available on &lt;strong&gt;April 19th, 2018&lt;/strong&gt; for &lt;a href=&quot;https://www.eclipse.org&quot;&gt;www.eclipse.org&lt;/a&gt; only. We will continue the rollout across our broader web properties over the coming weeks.&lt;/p&gt;
-
-&lt;p&gt;Technology-wise, Quicksilver is an extension of Solstice. Since this is not a complete overhaul of our existing codebase, we’re expecting the transition from Solstice to Quicksilver to be fairly straightforward. Website maintainers for Eclipse projects and working groups should know that the colors are going to change but we don’t expect to break any existing Eclipse project websites.&lt;/p&gt;
-
-&lt;h2 id=&quot;future-plans&quot;&gt;Future plans&lt;/h2&gt;
-
-&lt;p&gt;We plan on changing our look and feel gradually. The following tasks are going to get done after the initial release of Quicksilver:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Drupal themes for &lt;a href=&quot;https://marketplace.eclipse.org&quot;&gt;Eclipse Marketplace&lt;/a&gt;, &lt;a href=&quot;https://projects.eclipse.org&quot;&gt;Eclipse PMI&lt;/a&gt; and &lt;a href=&quot;https://accounts.eclipse.org&quot;&gt;Eclipse User Profiles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New Hugo theme for static websites&lt;/li&gt;
-&lt;li&gt;Mediawiki theme for &lt;a href=&quot;https://wiki.eclipse.org&quot;&gt;Eclipsepedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New theme for &lt;a href=&quot;http://planeteclipse.org/planet/&quot;&gt;Planet Eclipse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updated header and footer for &lt;a href=&quot;https://bugs.eclipse.org/bugs/&quot;&gt;Eclipse Bugzilla&lt;/a&gt;, &lt;a href=&quot;https://git.eclipse.org/r/&quot;&gt;Gerrit&lt;/a&gt;, &lt;a href=&quot;https://ci.eclipse.org/&quot;&gt;Eclipse CI&lt;/a&gt; and &lt;a href=&quot;https://git.eclipse.org/c/&quot;&gt;Eclipse Git repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New FUDforum theme for the &lt;a href=&quot;https://eclipse.org/forums/&quot;&gt;Eclipse Community Forums&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A lot of work needs to get done before this becomes available but I am very proud of the work we did so far for this project.&lt;/p&gt;
-
-&lt;p&gt;A huge thank you to Eric Poirier, Stephanie Swart, Thabang Mashologu, and the entire Eclipse Foundation staff!&lt;/p&gt;</description>
-	<pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Donald Raab: EC by Example: Short-circuiting methods</title>
-	<guid isPermaLink="false">https://medium.com/p/e60121bc5a</guid>
-	<link>https://medium.com/@donraab/ec-by-example-short-circuiting-methods-e60121bc5a?source=rss-df39b86e9f04------2</link>
-	<description>&lt;p&gt;Learn the methods in &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt; that short-circuit and return a result as soon as a condition is met.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*8p2hKb-HxKcpR_2ZPMw2Gw.png&quot; /&gt;Short-circuiting methods won’t leave you stuck in a loop for longer than necessary&lt;/figure&gt;&lt;h3&gt;What are the short-circuiting methods?&lt;/h3&gt;&lt;p&gt;The short-circuiting methods in &lt;a href=&quot;https://www.eclipse.org/collections/&quot;&gt;Eclipse Collections&lt;/a&gt; all take a &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/block/predicate/Predicate.html&quot;&gt;Predicate&lt;/a&gt; or &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/block/predicate/Predicate2.html&quot;&gt;Predicate2&lt;/a&gt; as a parameter. We refer to them as short-circuiting methods because as soon as the condition is met for a particular algorithm, the loop is broken out of and a result is immediately returned.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/760/1*5DauoMhyfI_SN2G1A1WJhw.png&quot; /&gt;“the”::equals is the method reference equivalent of string -&amp;gt; “the”.equals(string)&lt;/figure&gt;&lt;p&gt;The &lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/docs/guide.md#-short-circuit-patterns&quot;&gt;short-circuiting methods in Eclipse Collections&lt;/a&gt; are:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detect-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detect&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWith&lt;/a&gt; — returns the first object that the predicate matches or null if none match&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectIfNone-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectIfNone&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWithIfNone-org.eclipse.collections.api.block.predicate.Predicate2-P-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectWithIfNone&lt;/a&gt; — returns the first object that the predicate matches or returns the result of evaluating the Function0&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectOptional-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectOptional&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#detectWithOptional-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWithOptional&lt;/a&gt; — returns an Optional with the first object that the predicate matches or Optional.empty()&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/ordered/OrderedIterable.html#detectIndex-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectIndex&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/ordered/ReversibleIterable.html#detectLastIndex-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectLastIndex&lt;/a&gt; (Ordered Only) — returns the index of the first or last object that the predicate matches or -1 if none match&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#anySatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;anySatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#anySatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;anySatisfyWith&lt;/a&gt; — returns true if the predicate matches any object&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#allSatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;allSatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#allSatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;allSatisfyWith&lt;/a&gt; — returns true if the predicate matches all of the objects&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#noneSatisfy-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;noneSatisfy&lt;/a&gt; / &lt;a href=&quot;https://www.eclipse.org/collections/javadoc/9.1.0/org/eclipse/collections/api/RichIterable.html#noneSatisfyWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;noneSatisfyWith&lt;/a&gt; — returns true if the predicate doesn’t match any of the objects&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The methods that include the suffix “With” all take Predicate2, while the other methods take a Predicate.&lt;/p&gt;&lt;p&gt;All of the examples in this blog are written using the Java 10 Local-Variable Type Inference feature (aka var).&lt;/p&gt;&lt;h3&gt;A few forms of detect&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void detect()&lt;br /&gt;{&lt;br /&gt;    var mutableList = &lt;br /&gt;        &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;);&lt;br /&gt;    var immutableList = &lt;br /&gt;        &lt;em&gt;iList&lt;/em&gt;(&lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    var the1 =&lt;br /&gt;        mutableList.detect(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var the2 =&lt;br /&gt;        immutableList.detectIfNone(&lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;::equals, () -&amp;gt; &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the1, the2);&lt;br /&gt;&lt;br /&gt;    var the3 =&lt;br /&gt;        mutableList.detectWith(Object::equals, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;    var the4 =&lt;br /&gt;        immutableList.detectWithIfNone(Object::equals, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;br /&gt;            () -&amp;gt; &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the3, the4);&lt;br /&gt;&lt;br /&gt;    var the5 =&lt;br /&gt;        mutableList.detectOptional(s -&amp;gt; s.endsWith(&lt;strong&gt;&quot;e&quot;&lt;/strong&gt;));&lt;br /&gt;    var the6 =&lt;br /&gt;        immutableList.detectWithOptional(String::startsWith, &lt;strong&gt;&quot;t&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(the5.get(), the6.get());&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Detecting the first and last index&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void detectIndex()&lt;br /&gt;{&lt;br /&gt;    var mutableList = &lt;br /&gt;        &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;jumps&quot;&lt;/strong&gt;);&lt;br /&gt;    var immutableList = &lt;br /&gt;        &lt;em&gt;iList&lt;/em&gt;(&lt;strong&gt;&quot;over&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;lazy&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    var the1 = mutableList.detectIndex(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var the2 = immutableList.detectIndex(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(0, the1);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(1, the2);&lt;br /&gt;&lt;br /&gt;    var fox = mutableList.detectLastIndex(&lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    var dog = immutableList.detectLastIndex(&lt;strong&gt;&quot;dog&quot;&lt;/strong&gt;::equals);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(3, fox);&lt;br /&gt;    Assert.&lt;em&gt;assertEquals&lt;/em&gt;(3, dog);&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Examples of Any/All/NoneSatisfy&lt;/h3&gt;&lt;pre&gt;@Test&lt;br /&gt;public void anyAllNoneSatisfy()&lt;br /&gt;{&lt;br /&gt;    var list = &lt;em&gt;mList&lt;/em&gt;(&lt;strong&gt;&quot;the&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;quick&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;brown&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;fox&quot;&lt;/strong&gt;);&lt;br /&gt;&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.anySatisfy(s -&amp;gt; s.endsWith(&lt;strong&gt;&quot;e&quot;&lt;/strong&gt;)));&lt;br /&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.anySatisfyWith(String::endsWith, &lt;strong&gt;&quot;z&quot;&lt;/strong&gt;));&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.allSatisfyWith(String::endsWith, &lt;strong&gt;&quot;e&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.allSatisfy(s -&amp;gt; !s.isEmpty()));&lt;/pre&gt;&lt;pre&gt;    Assert.&lt;em&gt;assertFalse&lt;/em&gt;(list.noneSatisfyWith(String::endsWith, &lt;strong&gt;&quot;x&quot;&lt;/strong&gt;));&lt;br /&gt;    Assert.&lt;em&gt;assertTrue&lt;/em&gt;(list.noneSatisfy(String::isEmpty));&lt;br /&gt;}&lt;/pre&gt;&lt;h3&gt;Try out short-circuiting methods in the EC Katas&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections-kata&quot;&gt;eclipse/eclipse-collections-kata&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Here’s a few solutions demonstrating short-circuiting methods in Exercise #2 of the Eclipse Collections Pet Kata.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*7F1YTGDrtu4Z5hNMzieVyw.png&quot; /&gt;Examples of anySatisfyWith, allSatisfy and detectWith from the Pet Kata&lt;/figure&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API. There is also a &lt;a href=&quot;https://www.youtube.com/watch?v=Xrx_407Dt-I&quot;&gt;video&lt;/a&gt; covering the slides that was recorded at an Eclipse Community Virtual Meet-up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=e60121bc5a&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Mon, 09 Apr 2018 05:54:49 +0000</pubDate>
 </item>
 
 </channel>

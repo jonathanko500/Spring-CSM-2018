@@ -54,7 +54,6 @@ public class Hangman {
 		String letter;
 		blank=blankWord(word);
 		System.out.println("You need to guess this word: "+blankWord(word));
-		System.out.println("Your word is "+word.length()+" letter(s) long.");
 		System.out.println("You have 7 tries to guess the word.");
 		while(count<7)
 		{
@@ -94,6 +93,10 @@ public class Hangman {
 			if(word.charAt(i) == guess.charAt(0))
 			{
 				noBlank+=guess.charAt(0);
+				if(count>0)
+				{
+					count--;
+				}
 			}
 			else if(blank.charAt(i) != '*')
 			{

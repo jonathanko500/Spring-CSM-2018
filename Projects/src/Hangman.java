@@ -75,7 +75,7 @@ public class Hangman {
 		guess.toLowerCase();
 		for(int i=0;i<word.length();i++)
 		{//loop
-			if(word.charAt(i) == guess.charAt(0))//try-catch
+			if(word.charAt(i) == guess.charAt(0))
 			{
 				noBlank+=guess.charAt(0);
 			}

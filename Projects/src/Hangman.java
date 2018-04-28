@@ -8,36 +8,56 @@ public class Hangman {
 	public static void main(String[] args) 
 	{
 		ArrayList<String> dic = new ArrayList<String>();
-		word = getWord(dic);
-		hang();
-	}
-	public static String getWord(ArrayList list) 
-	{//start method
-		Scanner fileScan = null;
-		String x;
+		word=getWord(dic);
 		try
 		{
-			fileScan = new Scanner(new FileReader(new File("words.txt")));
-		} 
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-			System.out.println("There is no file.");
+			hang();
 		}
-		finally
+		catch(NullPointerException x)
 		{
+			System.out.println("No game avaliable.");
+		}
+	}
+	public static void makeDic(ArrayList list) 
+	{//start method
+		Scanner fileScan = null;
+		Scanner input= new Scanner(System.in);
+		String x,file;
+		System.out.print("Enter text file to use: ");
+		file=input.nextLine();
+		try
+		{
+			System.out.println("----------------");
+			fileScan = new Scanner(new FileReader(new File(file)));
 			String word;
 			while(fileScan.hasNext())
 			{
 				word=fileScan.nextLine();
 				list.add(word);
 			}
+		} 
+		catch (NullPointerException | FileNotFoundException e)
+		{
+			System.out.println("There is no file.");
 		}
-		int z;
-		Random rand = new Random();
-		z=rand.nextInt(list.size());
-		return (String) list.get(z);
 	}//end method
+	public static String getWord(ArrayList list)
+	{
+		makeDic(list);
+		int z=0; 
+		try
+		{
+			Random rand = new Random();
+			z=rand.nextInt(list.size());
+			String game=(String) list.get(z);
+			return game;
+		}
+		catch(IllegalArgumentException x)
+		{
+			System.out.println("No word avaliable.");
+		}
+		return null;
+	}
 	public static String blankWord(String word)
 	{
 		int length=word.length();

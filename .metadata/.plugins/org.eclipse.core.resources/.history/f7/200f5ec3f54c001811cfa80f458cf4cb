@@ -1,0 +1,35 @@
+
+public class M13Teest {
+
+	public static void main(String[] args) 
+	{
+		int[] a = {10, 3, 6, 2, 1, 4};
+		printMultiples(a,2);
+		
+	}
+	//25
+	public static void printMultiples(int[] nums, int multi)
+	{
+		
+		int place=0;
+		while(place<nums.length)
+		{
+			if(nums[place]%multi==0)
+			{
+				System.out.println(nums[place]);
+				place++;
+			}
+			else
+			{
+				printMultiples(nums,multi);
+				
+			}
+			place++;
+		}
+		
+	}
+	//26
+	
+	//27
+	
+}

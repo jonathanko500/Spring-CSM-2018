@@ -1,0 +1,32 @@
+
+public class M13Teest {
+
+	public static void main(String[] args) 
+	{
+		System.out.println(method1(2));
+		System.out.println(method2(2));
+
+	}
+	public static int method1(int x) {
+
+		if (x > 0)
+
+		return method1(x-1) + 1;
+
+		else
+
+		return 0;
+
+		}
+	public static int method2(int x) {
+
+		if (x > 0)
+
+		return 1 + method2(x - 1);
+
+		else
+
+		return 0;
+
+		}
+}

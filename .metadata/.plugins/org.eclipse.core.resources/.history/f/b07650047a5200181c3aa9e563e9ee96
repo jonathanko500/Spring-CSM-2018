@@ -1,0 +1,33 @@
+
+public class M14Test
+{
+
+	public static void main(String[] args) 
+	{
+		Comparable[] a ={2, 3, 7, 8, 10};
+		System.out.println(binarySearch(a,3));
+	}
+	public static int binarySearch(Comparable[] objects, Comparable target)
+	{
+		
+		int first=0,last=objects.length-1;
+		boolean found=false;
+		int loc=binarySearchH(objects,target,first,last,found);
+		return loc;
+		
+		
+		
+	}
+	public static int binarySearchH(Comparable[] objects, Comparable target,int first,int last,boolean find)
+	{
+		int mid=(first+last)/2;
+		if(objects[mid].equals(target))
+		{
+			return mid;
+		}
+		else
+		{
+			return binarySearchH(objects,target,first+mid,last,find);
+		}
+	}
+}

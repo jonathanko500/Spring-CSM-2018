@@ -1,0 +1,38 @@
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.input.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.shape.*;
+import javafx.stage.*;
+
+public class Project6 extends Application{
+	
+	private Line line;
+	public void start(Stage primaryStage)
+	{//start
+		Pane pane = new Pane();
+		pane.setOnMouseClicked(this::handleMouseClick);
+		pane.setOnMouseMoved(this::handleMouseMvt);
+		//make line
+		line = new Line(0,0,0,0);
+		line.setStrokeWidth(7);
+		pane.getChildren().add(line);
+		//display everything
+		Scene scene = new Scene(pane,700,700,Color.RED);
+		primaryStage.setTitle("Project 6");
+		primaryStage.setScene(scene);
+		primaryStage.show();
+	}//end
+	private void handleMouseClick(MouseEvent event)
+	{
+		
+	}
+	private void handleMouseMvt(MouseEvent event)
+	{
+		
+	}
+	public static void main(String[] args) {
+		launch(args);
+	}
+}

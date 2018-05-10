@@ -11,11 +11,12 @@ import javafx.stage.*;
 
 public class Project6 extends Application{
 	
+	private CheckBox drawing;
 	private Pane pane;
-	private RadioButton  color1,color2,color3,draw,erase;
+	private RadioButton  color1,color2,color3;;
 	private Circle circle;
 	private boolean lineDrawn;
-	private Button clear;
+	private RadioButton clear;
 	private Group group;
 	
 	public void start(Stage primaryStage)
@@ -26,25 +27,14 @@ public class Project6 extends Application{
 		pane.setOnMouseClicked(this::handleMouseClick);
 		pane.setOnMouseMoved(this::handleMouseMvt);
 		group= new Group();
-		
-		//erase,draw,clear
-		ToggleGroup action = new ToggleGroup();
-		draw=new RadioButton("DRAW");
-		draw.setToggleGroup(action);
-		//draw.setSelected(true);
-		draw.setOnAction(this::handleDrawing);
-		
-		erase=new RadioButton("ERASE");
-		erase.setToggleGroup(action);
-		
-		clear=new Button("CLEAR");
+		//clear
+		clear=new RadioButton("Clear GUI");
 		clear.setOnAction(this::handleClear);
+		clear.setAlignment(Pos.BOTTOM_CENTER);
+		pane.getChildren().add(clear);
 		
-		HBox tools =new HBox(draw,erase,clear);
-		pane.getChildren().add(tools);
-		pane.getChildren().add(group);
 		/*
-		//colors
+		//radiobutton
 		ToggleGroup group = new ToggleGroup();
 		//color1
 		color1=new RadioButton("Color 1");
@@ -69,7 +59,7 @@ public class Project6 extends Application{
 		primaryStage.show();
 	}//end
 	
-	//draw/clear
+	//mouse movement
  	private void handleMouseClick(MouseEvent event)
 	{//start
 		if(!lineDrawn)//lineDrawn is false nothing is being drawn
@@ -96,23 +86,8 @@ public class Project6 extends Application{
 		}
 		
 	}//end
-	private void handleDrawing(ActionEvent event)
-	{
-		if(draw.isSelected())
-		{
-			lineDrawn=true;
-		}
-		else
-		{
-			
-		}
-	}
-	private void handleClear (ActionEvent event)
-	{
-		group.getChildren().clear();
-	}
-	//colors
-	private void handleColorButton(ActionEvent event)
+	//radio buttons
+	private void handleRadioButton(ActionEvent event)
 	{//start
 		if(color1.isSelected())
 		{
@@ -130,8 +105,11 @@ public class Project6 extends Application{
 			pane.getChildren().add(circle);
 		}
 	}//end
-	
-	
+	//clear
+	private void handleClear (ActionEvent button)
+	{
+		group.getChildren().clear();
+	}
 	public static void main(String[] args) {
 		launch(args);
 	}

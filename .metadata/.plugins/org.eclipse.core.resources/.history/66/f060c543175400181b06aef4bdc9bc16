@@ -31,7 +31,7 @@ public class Project6 extends Application{
 		ToggleGroup action = new ToggleGroup();
 		draw=new RadioButton("DRAW");
 		draw.setToggleGroup(action);
-		//draw.setSelected(true);
+		draw.setSelected(true);
 		draw.setOnAction(this::handleDrawing);
 		
 		erase=new RadioButton("ERASE");

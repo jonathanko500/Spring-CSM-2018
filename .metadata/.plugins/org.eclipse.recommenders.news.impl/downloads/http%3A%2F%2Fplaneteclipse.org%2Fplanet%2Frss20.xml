@@ -8,6 +8,13 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Eclipse Announcements: Eclipse Common Build Infrastructure: Upcoming Changes</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/SfssbCaRWqo/watch</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/SfssbCaRWqo/watch</link>
+	<description>Eclipse CBI is undergoing important changes, including Kubernetes/ Docker via Red Hat OpenShift &amp;amp; CloudBees Jenkins Enterprise.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/SfssbCaRWqo&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 10 May 2018 14:00:00 +0000</pubDate>
+</item>
+<item>
 	<title>Scott Lewis: ECF Photon supports OSGi Async Intent</title>
 	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-5680104965640748238</guid>
 	<link>http://eclipseecf.blogspot.com/2018/05/ecf-photon-supports-osgi-async-intent.html</link>
@@ -1702,13 +1709,6 @@ logger.atInfo().with( Throttle::new ).every( 100 )
 &lt;p&gt;&quot;..IoT connectivity is one of the main challenges in building IoT cloud platforms, as having a single broker is not enough anymore. Hono solves scalable messaging problem with adding more specifics to IoT use cases. This means it’s interesting to other companies that want to build their own IoT cloud platforms...&quot;&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/france2018/news/interview-cloud-scale-iot-messaging&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/france2018/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/HonoLogosq.png?itok=cLjSdK-n&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
 	<pubDate>Wed, 25 Apr 2018 16:26:11 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: EclipseCon France 2018: Register Early!</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/JlZYcHvzL3E/registration</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/JlZYcHvzL3E/registration</link>
-	<description>Prices go up after April 30, so register now.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/JlZYcHvzL3E&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Wed, 25 Apr 2018 13:30:00 +0000</pubDate>
 </item>
 
 </channel>

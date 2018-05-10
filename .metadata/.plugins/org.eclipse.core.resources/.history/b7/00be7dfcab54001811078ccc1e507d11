@@ -64,7 +64,7 @@ public class Project6 extends Application{
 
 		HBox tools =new HBox(color1,color2,color3,on,off,clear);
 		tools.setSpacing(10);
-		pane.getChildren().addAll(tools);
+		pane.getChildren().add(tools);
 		pane.getChildren().add(group);
 		
 		//display everything
@@ -77,12 +77,7 @@ public class Project6 extends Application{
 	//mouse mvt
  	private void handleMouseClick(MouseEvent event)
 	{//start
- 		if (draw.isSelected())
-		{
-			lineDrawn=true;
-			color =Color.BLACK;
-		}
- 		else if(!lineDrawn)//lineDrawn is false nothing is being drawn
+		if(!lineDrawn)//lineDrawn is false nothing is being drawn
 		{
 			lineDrawn=true;
 			on.setSelected(true);

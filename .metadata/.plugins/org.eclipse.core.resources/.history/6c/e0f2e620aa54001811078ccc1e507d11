@@ -12,13 +12,13 @@ import javafx.stage.*;
 public class Project6 extends Application{
 	
 	private Pane pane;
-	private RadioButton  color1,color2,color3,on,off,draw;
+	private RadioButton  color1,color2,color3,draw;
 	private Circle circle;
 	private boolean lineDrawn;
 	private Button clear;
 	private Group group;
 	private Color color;
-	private ToggleGroup action,pen;
+	
 	public void start(Stage primaryStage)
 	{//start
 		pane = new Pane();
@@ -26,25 +26,15 @@ public class Project6 extends Application{
 		//mouse mvt
 		pane.setOnMouseClicked(this::handleMouseClick);
 		pane.setOnMouseMoved(this::handleMouseMvt);
-		
 		group= new Group();
-		action = new ToggleGroup();
-		//drawing or not
-		draw = new RadioButton ("Draw");
+		
+		//erase,draw,clear
+		ToggleGroup action = new ToggleGroup();
+		draw=new RadioButton("DRAW");
 		draw.setToggleGroup(action);
 		draw.setSelected(true);
 		draw.setOnAction(this::handleDrawing);
 		
-		pen=new ToggleGroup();
-		
-		on=new RadioButton("ON");
-		on.setToggleGroup(pen);
-		
-		off = new RadioButton ("OFF");
-		off.setToggleGroup(pen);
-		off.setSelected(true);
-		
-		//colors/clear
 		color1= new RadioButton("Color 1");
 		color1.setOnAction(this::handleDrawing);
 		color1.setToggleGroup(action);
@@ -60,15 +50,12 @@ public class Project6 extends Application{
 		clear=new Button("CLEAR");
 		clear.setOnAction(this::handleClear);
 		
-		
-
-		HBox tools =new HBox(color1,color2,color3,on,off,clear);
-		tools.setSpacing(10);
-		pane.getChildren().addAll(tools);
+		HBox tools =new HBox(draw,clear,color1,color2,color3);
+		pane.getChildren().add(tools);
 		pane.getChildren().add(group);
 		
 		//display everything
-		Scene scene = new Scene(pane,700,700,Color.WHITE);
+		Scene scene = new Scene(pane,700,700);
 		primaryStage.setTitle("Project 6");
 		primaryStage.setScene(scene);
 		primaryStage.show();
@@ -77,15 +64,9 @@ public class Project6 extends Application{
 	//mouse mvt
  	private void handleMouseClick(MouseEvent event)
 	{//start
- 		if (draw.isSelected())
+		if(!lineDrawn)//lineDrawn is false nothing is being drawn
 		{
 			lineDrawn=true;
-			color =Color.BLACK;
-		}
- 		else if(!lineDrawn)//lineDrawn is false nothing is being drawn
-		{
-			lineDrawn=true;
-			on.setSelected(true);
 			double x=event.getX();
 			double y=event.getY();
 			
@@ -93,7 +74,6 @@ public class Project6 extends Application{
 		else//lineDrawn is true something is being drawn
 		{
 			lineDrawn=false;
-			off.setSelected(false);
 		}
 	}//end
 	private void handleMouseMvt(MouseEvent event)
@@ -111,7 +91,12 @@ public class Project6 extends Application{
 	//colors
 	private void handleDrawing(ActionEvent event)
 	{
-		if(color1.isSelected())
+		if(draw.isSelected())
+		{
+			lineDrawn=true;
+			color=Color.BLACK;
+		}
+		else if(color1.isSelected())
 		{
 			color = Color.BLUE;
 

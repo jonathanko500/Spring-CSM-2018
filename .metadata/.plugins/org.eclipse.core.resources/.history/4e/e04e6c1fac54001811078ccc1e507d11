@@ -77,12 +77,7 @@ public class Project6 extends Application{
 	//mouse mvt
  	private void handleMouseClick(MouseEvent event)
 	{//start
- 		if (draw.isSelected())
-		{
-			lineDrawn=true;
-			color =Color.BLACK;
-		}
- 		else if(!lineDrawn)//lineDrawn is false nothing is being drawn
+		if(!lineDrawn)//lineDrawn is false nothing is being drawn
 		{
 			lineDrawn=true;
 			on.setSelected(true);

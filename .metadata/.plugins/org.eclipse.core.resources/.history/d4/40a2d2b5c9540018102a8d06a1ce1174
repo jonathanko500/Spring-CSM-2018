@@ -67,7 +67,7 @@ public class Project6 extends Application{
 		pane.getChildren().add(group);
 		
 		//display everything
-		Scene scene = new Scene(pane,700,700,Color.BLACK);
+		Scene scene = new Scene(pane,700,700,Color.WHITE);
 		primaryStage.setTitle("Project 6");
 		primaryStage.setScene(scene);
 		primaryStage.show();

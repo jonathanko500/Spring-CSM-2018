@@ -60,14 +60,15 @@ public class Project6 extends Application{
 		clear=new Button("CLEAR");
 		clear.setOnAction(this::handleClear);
 		
-		//everything
+		
+
 		HBox tools =new HBox(color1,color2,color3,on,off,clear);
 		tools.setSpacing(10);
 		pane.getChildren().addAll(tools);
 		pane.getChildren().add(group);
 		
 		//display everything
-		Scene scene = new Scene(pane,700,700,Color.BLACK);
+		Scene scene = new Scene(pane,700,700,Color.WHITE);
 		primaryStage.setTitle("Project 6");
 		primaryStage.setScene(scene);
 		primaryStage.show();

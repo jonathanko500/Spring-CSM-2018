@@ -12,7 +12,7 @@ import javafx.stage.*;
 public class Project6 extends Application{
 	
 	private Pane pane;
-	private RadioButton  color1,color2,color3,on,off;
+	private RadioButton  color1,color2,color3,on,off,draw;
 	private Circle circle;
 	private boolean lineDrawn;
 	private Button clear;
@@ -30,6 +30,11 @@ public class Project6 extends Application{
 		group= new Group();
 		action = new ToggleGroup();
 		//drawing or not
+		draw = new RadioButton ("Draw");
+		draw.setToggleGroup(action);
+		draw.setSelected(true);
+		draw.setOnAction(this::handleDrawing);
+		
 		pen=new ToggleGroup();
 		
 		on=new RadioButton("ON");
@@ -97,10 +102,17 @@ public class Project6 extends Application{
 		}
 		
 	}//end
-	
 	//colors
 	private void handleDrawing(ActionEvent event)
 	{
+		/*
+		if (draw.isSelected())
+		{
+			lineDrawn=true;
+			color =Color.BLACK;
+		}
+		else
+		*/
 		if(color1.isSelected())
 		{
 			color = Color.BLUE;

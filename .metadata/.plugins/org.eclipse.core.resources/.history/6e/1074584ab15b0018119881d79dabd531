@@ -1,0 +1,20 @@
+
+public class M16Prac 
+{
+	public static void main(String[] args)
+	{
+		Movie[] list = null;
+		list[0]=new Movie("Frozen",2015);
+		list[1]=new Documentary("World War 2",1942,"Histroy");
+		list[2]=new Movie("Moana",2017);
+		list[3]=new Documentary("Life of a Cell",2017,"Science");
+		list[4]=new Movie("Cars 3",2017);
+		list[5]=new Movie("Avengers: Inginisty War",2018);
+		list[6]=new Documentary("How To Aadd",2015,"Math");
+		for(int i=0;i<list.length;i++)
+		{
+			System.out.println(list[i].toString());
+		}
+		
+	}
+}

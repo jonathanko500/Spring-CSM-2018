@@ -1,0 +1,110 @@
+//movie class
+public class Movie implements Comparable
+{//start
+	private String name;
+	private int year;
+	private final static int DEFAULT_YEAR = 2017;
+	private final static String DEFAULT_NAME = "N/A";
+	//constructors
+	public Movie()
+	{
+		this.name=DEFAULT_NAME;
+		this.year=DEFAULT_YEAR;
+	}
+	public Movie(String title,int release)
+	{
+		this.name=title;
+		this.year=release;
+	}
+	//setter
+	public void setName(String title)
+	{
+		this.name=title;
+	}
+	public void setYear(int release)
+	{
+		this.year=release;
+	}
+	//getter
+	public String getName()
+	{
+		return name;
+	}
+	public int getYear()
+	{
+		return year;
+	}
+	//overrides
+	@Override
+	public String toString()
+	{
+		String x="";
+		if(name.equals(DEFAULT_NAME))
+		{
+			x+="There is no movie but it was probably released in "+year+".";
+		}
+		else
+		{
+			x+="The name of the movie is \""+name+"\" and released in "+year;
+		}
+		return x;
+	}
+	@Override
+	public boolean equals(Object obj)
+	{//start
+		if(obj instanceof Movie)
+		{//compare if obj is same
+			Movie show=(Movie) obj;
+			boolean sameName,sameYear;
+			//compare 
+			if(getName().equalsIgnoreCase(show.getName()))
+			{//compare name
+				sameName=true;
+			}
+			else
+			{
+				sameName=false;
+			}
+			if(year==show.getYear())
+			{//compare year
+				sameYear=true;
+			}
+			else
+			{
+				sameYear=false;
+			}
+			return sameName&&sameYear;
+		}
+		else
+		{
+			return false;
+		}
+	}//end
+	@Override
+	public int compareTo(Object x) 
+	{//start
+		if(x instanceof Movie)
+		{//check if obj==movie
+			Movie newMovie=(Movie) x;
+			if(year>newMovie.year)
+			{//compare year
+				if(name.equalsIgnoreCase(newMovie.name))
+				{//compare name
+					return 1;
+				}
+				else
+				{
+					return -1;
+				}
+			}//compare year
+			else
+			{
+				return -1;
+			}
+		}
+		else
+		{//check
+			return -1;
+		}
+	}//end
+}//end

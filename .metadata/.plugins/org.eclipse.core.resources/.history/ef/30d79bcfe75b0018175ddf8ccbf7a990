@@ -1,0 +1,78 @@
+import java.util.*;
+/*
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+*/
+public class Final  //extends Application
+{//start class
+	/*
+	private TextField numberInputField; 
+	private Text resultOutputText; 
+	
+	public void start(Stage primStage)
+	{//start
+		Pane pane = new FlowPane();
+		
+		Scene scene = new Scene(pane, 500,500,Color.WHITE);
+		//text
+		resultOutputText=new Text("There is no number");
+		pane.getChildren().add(resultOutputText);
+		//textfield
+		numberInputField=new TextField();
+		numberInputField.setOnAction(this::respondToTextField);
+		pane.getChildren().add(numberInputField);
+		//display
+		primStage.setTitle("Title");
+		primStage.setScene(scene);
+		primStage.show();
+	}//end
+	private void respondToTextField(ActionEvent e)
+	{//start
+		String ans=numberInputField.getText();
+		int numb = Integer.parseInt(ans);
+		if((numb%2)==0)
+		{
+			ans="even";
+		}
+		else
+		{
+			ans="odd";
+		}
+		resultOutputText.setText("Number is "+ans);
+	}//end
+	*/
+	public static void main(String[] args) 
+	{
+		int[] arr = {3, 2, 4, 6, 1, 5, 2, 3, 1};
+		System.out.println(doSomething(4, 4));
+	}
+	 public static int myMethod (int[] array, int x, int y) {
+
+		 if (x <= y)
+
+		 return array[x] + myMethod (array, x+1, y);
+
+		 else
+
+		 return 0;
+
+		 }
+	 public static int doSomething(int x, int y){
+
+		 if (x == y)
+
+		 return 0;
+
+		 else
+
+		 return 2 + doSomething(x-1, y);
+
+		 } 
+
+}//end class

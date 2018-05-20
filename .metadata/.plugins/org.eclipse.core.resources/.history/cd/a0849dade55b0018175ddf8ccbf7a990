@@ -1,0 +1,98 @@
+import java.util.*;
+/*
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+*/
+public class Final  //extends Application
+{//start class
+	/*
+	private TextField numberInputField; 
+	private Text resultOutputText; 
+	
+	public void start(Stage primStage)
+	{//start
+		Pane pane = new FlowPane();
+		
+		Scene scene = new Scene(pane, 500,500,Color.WHITE);
+		//text
+		resultOutputText=new Text("There is no number");
+		pane.getChildren().add(resultOutputText);
+		//textfield
+		numberInputField=new TextField();
+		numberInputField.setOnAction(this::respondToTextField);
+		pane.getChildren().add(numberInputField);
+		//display
+		primStage.setTitle("Title");
+		primStage.setScene(scene);
+		primStage.show();
+	}//end
+	private void respondToTextField(ActionEvent e)
+	{//start
+		String ans=numberInputField.getText();
+		int numb = Integer.parseInt(ans);
+		if((numb%2)==0)
+		{
+			ans="even";
+		}
+		else
+		{
+			ans="odd";
+		}
+		resultOutputText.setText("Number is "+ans);
+	}//end
+	*/
+	public static void main(String[] args) 
+	{
+		LinkedList<Integer> list = new LinkedList<Integer>();
+
+		list.add(4);
+
+		list.add(3);
+
+		list.add(2);
+
+		list.add(1);
+
+		list.add(6);
+
+		list.remove();  // line 1- what is removed?
+		
+		list.add(5);
+
+		list.get(3);   // line 2- what is returned?
+
+		list.add(9);
+
+		list.add(8);
+
+		list.remove();   // line 3- what is removed?
+
+		list.remove();   // line 4- what is removed?
+
+		list.add(1, 7);
+
+		System.out.println(list.remove());   // line 5- what is removed?
+
+		System.out.println(list.remove());   // line 6- what is removed?
+
+		System.out.println(list.get(2));  // line 7- what is returned?
+
+		list.remove();
+
+		list.size();    // line 8- what is returned?
+		/*
+		for(int i=0;i<list.size();i++)
+		{
+			System.out.println(list.get(i));
+		}
+		*/
+	}
+	
+
+}//end class

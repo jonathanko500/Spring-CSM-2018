@@ -1,0 +1,38 @@
+import javafx.application.*;
+import javafx.stage.*;
+
+public class Final 
+{//start class extends Application
+	/*
+	public void start(Stage arg0)
+	{
+		
+	}
+	*/
+	public static void main(String[] args) 
+	{
+		int value = 800;
+
+		try {
+
+		System.out.print("A");
+
+		if(value < 500) {
+
+		throw new Exception("B");
+
+		}
+
+		System.out.print("C");
+
+		} catch(Exception ex) {
+
+		System.out.print(ex.getMessage());
+
+		}
+
+		System.out.print("D");
+	}
+
+
+}//end class

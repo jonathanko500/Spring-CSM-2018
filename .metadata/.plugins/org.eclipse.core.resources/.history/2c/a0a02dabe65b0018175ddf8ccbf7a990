@@ -1,0 +1,90 @@
+import java.util.*;
+/*
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+*/
+public class Final  //extends Application
+{//start class
+	/*
+	private TextField numberInputField; 
+	private Text resultOutputText; 
+	
+	public void start(Stage primStage)
+	{//start
+		Pane pane = new FlowPane();
+		
+		Scene scene = new Scene(pane, 500,500,Color.WHITE);
+		//text
+		resultOutputText=new Text("There is no number");
+		pane.getChildren().add(resultOutputText);
+		//textfield
+		numberInputField=new TextField();
+		numberInputField.setOnAction(this::respondToTextField);
+		pane.getChildren().add(numberInputField);
+		//display
+		primStage.setTitle("Title");
+		primStage.setScene(scene);
+		primStage.show();
+	}//end
+	private void respondToTextField(ActionEvent e)
+	{//start
+		String ans=numberInputField.getText();
+		int numb = Integer.parseInt(ans);
+		if((numb%2)==0)
+		{
+			ans="even";
+		}
+		else
+		{
+			ans="odd";
+		}
+		resultOutputText.setText("Number is "+ans);
+	}//end
+	*/
+	public static void main(String[] args) 
+	{
+		LinkedList<Integer> q = new LinkedList<Integer>();
+
+		q.offer(4);
+
+		q.offer(1);
+
+		System.out.println(q.poll());   // line 1- what is dequeued?
+
+		q.offer(2);
+
+		q.offer(3);
+
+		q.offer(5);
+
+		q.offer(8);
+
+		System.out.println(q.poll());   // line 2- what is dequeued?
+
+		System.out.println(q.poll());   // line 3- what is dequeued?
+
+		System.out.println(q.poll());   // line 4- what is dequeued?
+
+		q.offer(6);
+
+		q.offer(7);
+
+		System.out.println(q.poll());   // line 5- what is dequeued?
+
+		q.offer(q.poll());           
+
+		System.out.println(q.poll());;   // line 6- what is dequeued?
+
+		System.out.println(q.poll());   // line 7- what is dequeued?
+
+		System.out.println(q.poll());;   // line 8- what is dequeued?
+	}
+	
+
+}//end class

@@ -1,0 +1,27 @@
+import javafx.application.*;
+import javafx.scene.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.stage.*;
+
+public class Final  extends Application
+{//start class
+	
+	public void start(Stage primStage)
+	{
+		Pane pane = new Pane();
+		
+		Scene scene = new Scene(pane, 500,500,Color.AQUA);
+		
+		primStage.setTitle("Title");
+		primStage.setScene(scene);
+		primStage.show();
+	}
+	
+	public static void main(String[] args) 
+	{
+		launch(args);
+	}
+	
+
+}//end class

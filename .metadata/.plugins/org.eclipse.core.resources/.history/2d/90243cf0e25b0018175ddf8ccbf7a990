@@ -1,0 +1,40 @@
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.scene.paint.*;
+import javafx.scene.text.*;
+import javafx.stage.*;
+
+public class Final  extends Application
+{//start class
+	
+	private TextField numberInputField; 
+	private Text resultOutputText; 
+	
+	public void start(Stage primStage)
+	{
+		Pane pane = new Pane();
+		
+		Scene scene = new Scene(pane, 500,500,Color.AQUA);
+		
+		numberInputField.setOnAction(this::respondToTextField);
+		pane.getChildren().add(numberInputField);
+		
+		primStage.setTitle("Title");
+		primStage.setScene(scene);
+		primStage.show();
+	}
+	private void respondToTextField(ActionEvent e) {
+
+		// YOUR CODE HERE
+
+	}
+	public static void main(String[] args) 
+	{
+		launch(args);
+	}
+	
+
+}//end class

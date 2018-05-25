@@ -60,7 +60,7 @@ public class RockPaperScissorsFXGUI extends Application
 		buttonBox.setAlignment(Pos.CENTER);
 		
 		/* the game statistics */
-		/*
+		
 		cWinsText = new Text("Computer Wins: " +game.getCWin());
 		cWinsText.setFont(Font.font("Helvetica", 16));
 		cWinsText.setFill(Color.BLUE);
@@ -73,7 +73,7 @@ public class RockPaperScissorsFXGUI extends Application
 		HBox statsBox = new HBox(cWinsText, uWinsText, tieText);
 		statsBox.setSpacing(10);
 		statsBox.setAlignment(Pos.CENTER);
-		*/
+		
 		VBox pane = new VBox(imageBox, labelBox, matchOutcomeText, buttonBox);//, statsBox
 		pane.setAlignment(Pos.CENTER);
 		pane.setSpacing(20);

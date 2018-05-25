@@ -61,13 +61,13 @@ public class RockPaperScissorsFXGUI extends Application
 		
 		/* the game statistics */
 		/*
-		cWinsText = new Text("Computer Wins: " +game.getCWin());
+		cWinsText = new Text("Computer Wins: " + game.getCWins());
 		cWinsText.setFont(Font.font("Helvetica", 16));
 		cWinsText.setFill(Color.BLUE);
-		uWinsText = new Text("User Wins: " + game.getUWin());
+		uWinsText = new Text("User Wins: " + game.getUWins());
 		uWinsText.setFont(Font.font("Helvetica", 16));
 		uWinsText.setFill(Color.BLUE);
-		tieText = new Text("Ties: " + game.getTie());
+		tieText = new Text("Ties: " + game.getTies());
 		tieText.setFont(Font.font("Helvetica", 16));
 		tieText.setFill(Color.BLUE);
 		HBox statsBox = new HBox(cWinsText, uWinsText, tieText);

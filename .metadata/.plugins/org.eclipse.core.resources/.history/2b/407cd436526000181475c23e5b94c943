@@ -12,7 +12,7 @@ import javafx.stage.*;
 public class RockPaperScissorsFXGUI extends Application
 {//start class
 	private ImageView computerMoveImageView, userMoveImageView;
-	private Image rockImage, paperImage, scissorsImage,compPic;
+	private Image rockImage, paperImage, scissorsImage;
 	private Text matchOutcomeText, cWinsText, uWinsText, tieText;
 	private Button rockButton, paperButton, scissorsButton;
 	private HBox labelBox;
@@ -85,42 +85,17 @@ public class RockPaperScissorsFXGUI extends Application
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}//end
-	
-	
-	private void handleUserPlay(ActionEvent event)
-	{//START
+
+	private void handleUserPlay(ActionEvent event) {
 		// to make all aspects of the display visible
-		if(event.getSource()==paperButton)
-		{
-			userMoveImageView.setImage(paperImage);
-		}
-		else if(event.getSource()==scissorsButton)
-		{
-			userMoveImageView.setImage(scissorsImage);
-		}
-		else
-		{
-			userMoveImageView.setImage(rockImage);
-		}
-		//make comp pic
-		RPS.Moves compPick = game.generateCompuetrPlay();
-		if(compPick==RPS.Moves.ROCK)
-		{
-			compPic=rockImage;
-		}
-		else if(compPick==RPS.Moves.PAPER)
-		{
-			compPic=paperImage;
-		}
-		if(compPick==RPS.Moves.SCISSORS)
-		{
-			compPic=scissorsImage;
-		}
-		computerMoveImageView.setImage(compPic);
+		
 		userMoveImageView.setVisible(true);
 		computerMoveImageView.setVisible(true);
 		labelBox.setVisible(true);
-	}//END
+		
+		// YOUR CODE HERE
+
+	}
 
 	public static void main(String[] args) {
 		launch(args);

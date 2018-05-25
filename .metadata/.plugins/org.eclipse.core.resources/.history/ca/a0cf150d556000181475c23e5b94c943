@@ -86,7 +86,11 @@ public class RockPaperScissorsFXGUI extends Application
 		primaryStage.show();
 	}//end
 	
-	
+	//moves
+	static enum Moves
+	{
+		ROCK,PAPER,SCISSORS;
+	}
 	private void handleUserPlay(ActionEvent event)
 	{//START
 		// to make all aspects of the display visible
@@ -102,21 +106,8 @@ public class RockPaperScissorsFXGUI extends Application
 		{
 			userMoveImageView.setImage(rockImage);
 		}
-		//make comp pic
-		RPS.Moves compPick = game.generateCompuetrPlay();
-		if(compPick==RPS.Moves.ROCK)
-		{
-			compPic=rockImage;
-		}
-		else if(compPick==RPS.Moves.PAPER)
-		{
-			compPic=paperImage;
-		}
-		if(compPick==RPS.Moves.SCISSORS)
-		{
-			compPic=scissorsImage;
-		}
-		computerMoveImageView.setImage(compPic);
+		
+		//computerMoveImageView.setImage(value);
 		userMoveImageView.setVisible(true);
 		computerMoveImageView.setVisible(true);
 		labelBox.setVisible(true);

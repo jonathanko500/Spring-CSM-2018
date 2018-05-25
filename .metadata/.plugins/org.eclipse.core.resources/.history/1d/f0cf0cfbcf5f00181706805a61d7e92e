@@ -1,11 +1,8 @@
 
-
 public class RPS
 {//start
 	private int UWin, CWin, Tie;
 	private final static int DEFAULT_NUMB = 0;
-	
-	
 	//constructor
 	public RPS()
 	{
@@ -39,5 +36,5 @@ public class RPS
 	{
 		return Tie;
 	}
-	
+	//
 }//end

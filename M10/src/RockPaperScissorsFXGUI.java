@@ -12,12 +12,14 @@ import javafx.stage.*;
 public class RockPaperScissorsFXGUI extends Application
 {//start class
 	private ImageView computerMoveImageView, userMoveImageView;
-	private Image rockImage, paperImage, scissorsImage,compPic;
+	private Image rockImage, paperImage, scissorsImage,compPicture;
 	private Text matchOutcomeText, cWinsText, uWinsText, tieText;
 	private Button rockButton, paperButton, scissorsButton;
 	private HBox labelBox;
+	private RPS.Moves CompPick,UserPick;
+	private RPS.Outcome end;
 
-	private RPS game;
+	private RPS game= new RPS();
 	
 	public void start(Stage primaryStage)
 	{//start
@@ -42,12 +44,12 @@ public class RockPaperScissorsFXGUI extends Application
 		labelBox.setAlignment(Pos.CENTER);
 		labelBox.setSpacing(30);
 		labelBox.setVisible(false);
-
+		
 		/* the results of each match */
 		matchOutcomeText = new Text();
 		matchOutcomeText.setFill(Color.GREEN);
 		matchOutcomeText.setFont(Font.font("Helvetica", 20));
-
+		
 		/* the buttons for the user's play */
 		rockButton = new Button("Play Rock");
 		rockButton.setOnAction(this::handleUserPlay);
@@ -59,8 +61,9 @@ public class RockPaperScissorsFXGUI extends Application
 		buttonBox.setSpacing(10);
 		buttonBox.setAlignment(Pos.CENTER);
 		
+		
+		
 		/* the game statistics */
-		/*
 		cWinsText = new Text("Computer Wins: " +game.getCWin());
 		cWinsText.setFont(Font.font("Helvetica", 16));
 		cWinsText.setFill(Color.BLUE);
@@ -73,12 +76,12 @@ public class RockPaperScissorsFXGUI extends Application
 		HBox statsBox = new HBox(cWinsText, uWinsText, tieText);
 		statsBox.setSpacing(10);
 		statsBox.setAlignment(Pos.CENTER);
-		*/
-		VBox pane = new VBox(imageBox, labelBox, matchOutcomeText, buttonBox);//, statsBox
+		
+		VBox pane = new VBox(imageBox, labelBox, matchOutcomeText, buttonBox,statsBox);//statsBox
 		pane.setAlignment(Pos.CENTER);
 		pane.setSpacing(20);
 		pane.setStyle("-fx-background-color: white");
-
+		
 		Scene scene = new Scene(pane, 400, 400, Color.TRANSPARENT);
 		primaryStage.setTitle("Rock, Paper, Scissors, Go!");
 		primaryStage.setResizable(false);
@@ -86,42 +89,67 @@ public class RockPaperScissorsFXGUI extends Application
 		primaryStage.show();
 	}//end
 	
-	
 	private void handleUserPlay(ActionEvent event)
 	{//START
 		// to make all aspects of the display visible
 		if(event.getSource()==paperButton)
 		{
 			userMoveImageView.setImage(paperImage);
+			UserPick=RPS.Moves.PAPER;
+			
 		}
 		else if(event.getSource()==scissorsButton)
 		{
 			userMoveImageView.setImage(scissorsImage);
+			UserPick=RPS.Moves.SCISSORS;
 		}
 		else
 		{
 			userMoveImageView.setImage(rockImage);
+			UserPick=RPS.Moves.ROCK;
 		}
-		//make comp pic
-		RPS.Moves compPick = game.generateCompuetrPlay();
-		if(compPick==RPS.Moves.ROCK)
+		
+		//make comp picture
+		CompPick = game.generateCompuetrPlay();
+		if(CompPick==RPS.Moves.ROCK)
 		{
-			compPic=rockImage;
+			compPicture=rockImage;
 		}
-		else if(compPick==RPS.Moves.PAPER)
+		else if(CompPick==RPS.Moves.PAPER)
 		{
-			compPic=paperImage;
+			compPicture=paperImage;
 		}
-		if(compPick==RPS.Moves.SCISSORS)
+		else if(CompPick==RPS.Moves.SCISSORS)
 		{
-			compPic=scissorsImage;
+			compPicture=scissorsImage;
 		}
-		computerMoveImageView.setImage(compPic);
+		
+		//determine winner
+		end=game.findWinner(UserPick, CompPick);
+		if(end==RPS.Outcome.COMP_WIN)
+		{
+			matchOutcomeText.setText("Computer Wins!");
+		}
+		else if(end==RPS.Outcome.USER_WIN)
+		{
+			matchOutcomeText.setText("You Wins!");
+		}
+		else if(end==RPS.Outcome.TIE)
+		{
+			matchOutcomeText.setText("It is a tie!");
+		}
+		
+		//update score
+		cWinsText.setText("Computer score: "+game.getCWin());
+		uWinsText.setText("Your score: "+game.getUWin());
+		tieText.setText("Number of ties: "+game.getTie());
+		
+		//display everything
+		computerMoveImageView.setImage(compPicture);
 		userMoveImageView.setVisible(true);
 		computerMoveImageView.setVisible(true);
 		labelBox.setVisible(true);
 	}//END
-
 	public static void main(String[] args) {
 		launch(args);
 	}

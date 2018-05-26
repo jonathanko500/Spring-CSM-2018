@@ -1,0 +1,94 @@
+import java.util.*;
+
+
+public class RPS 
+{//start
+	private int UWin, CWin, Tie;
+	private final static int DEFAULT_NUMB = 0;
+	private Moves CompChoice;
+	//constructor
+	public RPS()
+	{
+		UWin=DEFAULT_NUMB;
+		CWin=DEFAULT_NUMB;
+		Tie=DEFAULT_NUMB;
+	}
+	//setter
+	public void setUWin(int x)
+	{
+		UWin=x;
+	}
+	public void setCWin(int x)
+	{
+		CWin=x;
+	}
+	public void setTie(int x)
+	{
+		Tie=x;
+	}
+	//getter
+	public int getUWin()
+	{
+		return UWin;
+	}
+	public int getCWin()
+	{
+		return CWin;
+	}
+	public int getTie()
+	{
+		return Tie;
+	}
+	//outcomes/moves
+	static enum Moves
+	{
+		ROCK,PAPER,SCISSORS;
+	}
+	static enum Outcome
+	{
+		COMP_WIN,USER_WIN,TIE;
+	}
+	//methods
+	public Moves generateCompuetrPlay()
+	{
+		Random rand = new Random();
+		Moves CompMove = Moves.values()[rand.nextInt(Moves.values().length)];
+		return CompMove;
+	}
+	public Outcome findWinner(Moves user, Moves compChoice)
+	{//START
+		
+		//TIE
+		if(user==compChoice)
+		{
+			return Outcome.TIE;
+		}
+		//USER ROCK
+		else if(user==Moves.ROCK&&compChoice==Moves.PAPER)
+		{//USER=ROCK COMP=PAPER
+			return Outcome.COMP_WIN;
+		}
+		else if(user==Moves.ROCK&&compChoice==Moves.SCISSORS)
+		{//USER=ROCK COMP=SCISSOR
+			return Outcome.USER_WIN;
+		}
+		//USER PAPER
+		else if(user==Moves.PAPER&&compChoice==Moves.SCISSORS)
+		{//USER=PAPER COMP=SCISSORS
+			return Outcome.COMP_WIN;
+		}
+		else if(user==Moves.PAPER&&compChoice==Moves.ROCK)
+		{//USER = PAPER COMP=ROCK
+			return Outcome.USER_WIN;
+		}
+		//SCISSORS
+		else if(user==Moves.SCISSORS&&compChoice==Moves.PAPER)
+		{//USER=SCISSORS COMP=PAPER
+			return Outcome.USER_WIN;
+		}
+		else
+		{//USER=SCISSORS AND COMP=ROCK
+			return Outcome.COMP_WIN;
+		}
+	}//END	
+}//end

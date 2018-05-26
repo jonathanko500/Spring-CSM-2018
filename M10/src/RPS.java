@@ -4,14 +4,13 @@ import java.util.*;
 public class RPS 
 {//start
 	private int UWin, CWin, Tie;
-	private final static int DEFAULT_NUMB = 0;
 	private Moves CompChoice;
 	//constructor
 	public RPS()
 	{
-		UWin=DEFAULT_NUMB;
-		CWin=DEFAULT_NUMB;
-		Tie=DEFAULT_NUMB;
+		UWin=0;
+		CWin=0;
+		Tie=0;
 	}
 	//setter
 	public void setUWin(int x)
@@ -49,55 +48,52 @@ public class RPS
 		COMP_WIN,USER_WIN,TIE;
 	}
 	//methods
-	public static Moves generateCompuetrPlay()
+	public Moves generateCompuetrPlay()
 	{
 		Random rand = new Random();
 		Moves CompMove = Moves.values()[rand.nextInt(Moves.values().length)];
 		return CompMove;
 	}
-	public static Outcome findWinner(Moves x, Moves y)
+	public Outcome findWinner(Moves user, Moves compChoice)
 	{//START
-		Random rand = new Random();
-		Moves user,compChoice;
-		user=Moves.values()[rand.nextInt(Moves.values().length)];
-		compChoice=generateCompuetrPlay();
-		//USER ROCK
-		if(user==Moves.ROCK&&compChoice==Moves.ROCK)
+		
+		//TIE
+		if(user==compChoice)
 		{
+			Tie++;
 			return Outcome.TIE;
 		}
+		//USER ROCK
 		else if(user==Moves.ROCK&&compChoice==Moves.PAPER)
-		{
+		{//USER=ROCK COMP=PAPER
+			CWin++;
 			return Outcome.COMP_WIN;
 		}
 		else if(user==Moves.ROCK&&compChoice==Moves.SCISSORS)
-		{
+		{//USER=ROCK COMP=SCISSOR
+			UWin++;
 			return Outcome.USER_WIN;
 		}
 		//USER PAPER
 		else if(user==Moves.PAPER&&compChoice==Moves.SCISSORS)
-		{
+		{//USER=PAPER COMP=SCISSORS
+			CWin++;
 			return Outcome.COMP_WIN;
 		}
 		else if(user==Moves.PAPER&&compChoice==Moves.ROCK)
-		{
+		{//USER = PAPER COMP=ROCK
+			UWin++;
 			return Outcome.USER_WIN;
 		}
-		else if(user==Moves.PAPER&&compChoice==Moves.PAPER)
-		{
-			return Outcome.TIE;
-		}
-		//USER SCISSORS
-		else if(user==Moves.SCISSORS&&compChoice==Moves.SCISSORS)
-		{
-			return Outcome.TIE;
-		}
+		//SCISSORS
 		else if(user==Moves.SCISSORS&&compChoice==Moves.PAPER)
-		{
+		{//USER=SCISSORS COMP=PAPER
+			UWin++;
 			return Outcome.USER_WIN;
 		}
-		else//USER=SCISSORS AND COMP=ROCK
-		{
+		else
+		{//USER=SCISSORS AND COMP=ROCK
+			CWin++;
 			return Outcome.COMP_WIN;
 		}
 	}//END	
